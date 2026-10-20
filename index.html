@@ -335,6 +335,17 @@ footer{position:relative;overflow:hidden;border-top:0;background:linear-gradient
   .hero h1.big{margin-top:auto}
   .hero-grid{margin-bottom:auto}
 }
+/* Petite voiture du pied de page, pot d'échappement qui fume */
+.minicar{width:clamp(190px,18vw,260px);flex:none;margin-left:auto;margin-right:56px}
+.minicar .car{position:static;width:100%;display:block;animation:bob .5s ease-in-out infinite alternate}
+.minicar .car .arch{fill:color-mix(in srgb,var(--accent) 7%,var(--bg))}
+.minicar .pipe{fill:#8d8b88}
+.minicar .puff{fill:var(--muted);opacity:0;transform-box:fill-box;transform-origin:center;animation:puff 1.5s ease-out infinite}
+.minicar .puff:nth-child(2){animation-delay:.4s}.minicar .puff:nth-child(3){animation-delay:.8s}.minicar .puff:nth-child(4){animation-delay:1.2s}
+.minicar .puff{animation-duration:1.6s}
+@keyframes puff{0%{opacity:.6;transform:translate(0,0) scale(.45)}100%{opacity:0;transform:translate(-62px,-14px) scale(2.3)}}
+@media (max-width:560px){.minicar{margin-left:0;margin-right:0}}
+@media (prefers-reduced-motion:reduce){.minicar .car,.minicar .puff{animation:none}.minicar .puff{opacity:.25}}
 </style>
 </head>
 <body>
@@ -401,6 +412,25 @@ footer{position:relative;overflow:hidden;border-top:0;background:linear-gradient
 <footer><div class="bigmark gutter" aria-hidden="true"><span class="logo"><span class="s">Signal</span><span class="r">r<span>o</span><span class="o2">o</span><span class="o3">o</span>m<span class="trail"><i></i><i></i><i></i><i></i></span></span></span></div><div class="foot gutter">
   <a class="logo" href="#top"><span class="s">Signal</span><span class="r">r<span>o</span><span class="o2">o</span><span class="o3">o</span>m</span></a>
   <span>Généré chaque matin de semaine à partir de sources publiques. Montants tels qu'annoncés.</span>
+  <div class="minicar" aria-hidden="true">
+    <svg class="car" viewBox="-40 0 340 110">
+      <defs><clipPath id="cbody2"><path d="M30 78C30 70 36 66 46 65L86 62C98 46 118 38 146 37L170 37C186 37 198 45 208 55L250 61C264 63 272 69 272 78L272 82L30 82Z"/></clipPath></defs>
+      <g class="puffs"><circle class="puff" cx="14" cy="80" r="8"/><circle class="puff" cx="14" cy="80" r="8"/><circle class="puff" cx="14" cy="80" r="8"/><circle class="puff" cx="14" cy="80" r="8"/></g>
+      <rect class="pipe" x="14" y="76.5" width="20" height="6" rx="3"/>
+      <ellipse class="shadow" cx="152" cy="100" rx="128" ry="5"/>
+      <path class="ink" d="M20 54H48L51 60H24Z"/><rect class="ink" x="33" y="59" width="3" height="8"/>
+      <path class="body" d="M30 78C30 70 36 66 46 65L86 62C98 46 118 38 146 37L170 37C186 37 198 45 208 55L250 61C264 63 272 69 272 78L272 82L30 82Z"/>
+      <g clip-path="url(#cbody2)"><rect class="blue" x="0" y="66" width="300" height="6"/><rect class="orng" x="0" y="74" width="300" height="2"/></g>
+      <path class="glass" d="M100 61C110 50 126 44 146 44L168 44C180 44 190 50 197 58L197 61Z"/>
+      <circle class="orngf" cx="166" cy="69" r="9"/><text x="166" y="72.6" text-anchor="middle" class="num">07</text>
+      <path class="lemon" d="M262 66l9 3-1.5 3-9-2z"/>
+      <circle class="arch" cx="82" cy="82" r="21"/><circle class="arch" cx="232" cy="82" r="21"/>
+      <path class="archl" d="M61 82A21 21 0 0 1 103 82M211 82A21 21 0 0 1 253 82"/>
+      <g transform="translate(82 82)"><circle class="tyre" r="16.5"/><g class="spin"><circle class="rim" r="9"/><path class="spoke" d="M0-9V9M-9 0H9M-6.4-6.4l12.8 12.8M-6.4 6.4l12.8-12.8"/></g><circle class="orngf" r="2.6"/></g>
+      <g transform="translate(232 82)"><circle class="tyre" r="16.5"/><g class="spin"><circle class="rim" r="9"/><path class="spoke" d="M0-9V9M-9 0H9M-6.4-6.4l12.8 12.8M-6.4 6.4l12.8-12.8"/></g><circle class="orngf" r="2.6"/></g>
+      <line class="road" x1="-40" y1="99.5" x2="300" y2="99.5"/>
+    </svg>
+  </div>
 </div></footer>
 
 <button class="top" id="toTop" type="button" aria-label="Revenir en haut" hidden><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M8 14V3M3 7.5 8 2.5l5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
