@@ -294,6 +294,9 @@ footer{position:relative;overflow:hidden;border-top:0;background:linear-gradient
   .tag{font-size:clamp(40px,2.6vw,52px)}
   .hero .sub{font-size:21px}
 }
+.ticker-track{animation:none!important;padding-left:max(20px,env(safe-area-inset-left,0px))}
+.ticker{overflow-x:auto;scrollbar-width:none}
+.ticker::-webkit-scrollbar{display:none}
 </style>
 </head>
 <body>
@@ -391,7 +394,7 @@ function renderHero(){
   const deals=[];sections().filter(s=>s.key==="eu"||s.key==="us").forEach(s=>(s.items||[]).forEach(it=>{if(it.amount)deals.push(it)}));
   const tr=$("#ticker");tr.replaceChildren();
   const build=()=>{const sp=el("span");deals.forEach((it,i)=>{sp.append(el("b",null,it.title));sp.append(el("i",null,it.amount));sp.append(document.createTextNode(it.stage||it.country||""));sp.append(el("span","sep","/"))});return sp};
-  if(deals.length){tr.append(build(),build());tr.parentElement.hidden=false}else tr.parentElement.hidden=true;
+  if(deals.length){tr.append(build());tr.parentElement.hidden=false}else tr.parentElement.hidden=true;
 }
 function renderBar(){
   const sel=$("#date");sel.replaceChildren();
