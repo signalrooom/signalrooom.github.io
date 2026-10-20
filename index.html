@@ -397,7 +397,7 @@ function renderBar(){
   const sel=$("#date");sel.replaceChildren();
   state.dates.forEach((id,i)=>{const o=el("option",null,cap(shortDate(id))+(i===0?" · dernière":""));o.value=id;o.selected=id===state.cur;sel.append(o)});
   const j=$("#jumps");j.replaceChildren();
-  sections().forEach(s=>{const n=(s.items||[]).filter(matches).length;if(!n)return;const a=el("a","jump",SEC[s.key].label);a.style.setProperty("--c",SEC[s.key].c);a.href="#sec-"+s.key;a.append(el("sup",null,String(n)));j.append(a)});
+  sections().forEach(s=>{const n=(s.items||[]).filter(matches).length;if(!n)return;const a=el("a","jump",SEC[s.key].label);a.style.setProperty("--c",SEC[s.key].c);a.href="#sec-"+s.key;j.append(a)});
 }
 function item(it){
   const r=el("article","item");const t=el("h4","item-t");const u=safeUrl(it.url);
