@@ -350,6 +350,22 @@ footer{position:relative;overflow:hidden;border-top:0;background:linear-gradient
 .ride .puff{fill:var(--muted);opacity:0;transform-box:fill-box;transform-origin:center;animation:puff 1.6s ease-out infinite}
 .ride .puff:nth-child(2){animation-delay:.4s}.ride .puff:nth-child(3){animation-delay:.8s}.ride .puff:nth-child(4){animation-delay:1.2s}
 @media (prefers-reduced-motion:reduce){.ride .puff{animation:none;opacity:.25}}
+/* Grand écran : même composition que sur laptop, mise à l'échelle */
+@media (min-width:1600px){
+  .hero .wrap{max-width:1120px}
+  .hero h1.big{font-size:194px}
+  .tag{font-size:42px}
+  .hero .sub{font-size:20px}
+  .hero-grid{grid-template-columns:minmax(0,1fr) minmax(0,1.05fr)}
+  .hero-grid .right{width:auto;justify-self:stretch;margin:0 -116px 0 33px}
+  .hero-main>.wrap{zoom:1.1}
+}
+@media (min-width:1750px){.hero-main>.wrap{zoom:1.2}}
+@media (min-width:1950px){.hero-main>.wrap{zoom:1.32}}
+@media (min-width:2200px){.hero-main>.wrap{zoom:1.48}}
+@media (min-width:2450px){.hero-main>.wrap{zoom:1.62}}
+@media (min-width:1750px){.ticker-track span{font-size:15px;padding:15px 0}}
+@media (min-width:2200px){.ticker-track span{font-size:17px;padding:18px 0}}
 </style>
 </head>
 <body>
