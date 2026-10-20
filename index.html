@@ -269,19 +269,14 @@ footer{position:relative;overflow:hidden;border-top:0;background:linear-gradient
 .trail i:nth-child(4){width:48%;background:linear-gradient(90deg,transparent,var(--lemon));animation-delay:.45s;margin-right:12%}
 @keyframes trail{0%{transform:scaleX(.35);opacity:.35}45%{transform:scaleX(1);opacity:1}100%{transform:scaleX(.35);opacity:.35}}
 @media (prefers-reduced-motion:reduce){.trail i{animation:none}}
+.hero-main{padding-top:calc(clamp(56px,9vh,96px) + env(safe-area-inset-top,0px))}
 </style>
 </head>
 <body>
 
 <header class="hero" id="top">
   <div class="glow" aria-hidden="true"></div>
-  <nav class="nav gutter"><div class="wrap nav-in">
-    <a class="logo" href="#top" aria-label="Signal Rooom"><span class="s">Signal</span><span class="r">r<span>o</span><span class="o2">o</span><span class="o3">o</span>m</span></a>
-    <div class="nav-links">
-      <a class="pill" href="#archives">Archives</a>
-      <a class="pill dark" href="#news">Lire l'édition <span class="arr">→</span></a>
-    </div>
-  </div></nav>
+  
 
   <div class="hero-main gutter"><div class="wrap" style="display:flex;flex-direction:column;gap:28px">
     <span class="label" id="kicker">Le brief VC du matin</span>
