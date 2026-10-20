@@ -257,6 +257,18 @@ footer{position:relative;overflow:hidden;border-top:0;background:linear-gradient
 .hero-grid .ride{position:relative;right:auto;top:auto;width:100%;margin:0}
 @media (max-width:860px){.hero-grid{grid-template-columns:minmax(0,1fr);gap:8px}.hero-grid .ride{width:min(100%,460px);margin:4px 0 0 auto}}
 @media (max-width:420px){.hero h1.big{font-size:clamp(54px,17vw,72px)}}
+
+/* ---------- Traînées de vitesse sous "rooom" (pied de page) ---------- */
+.bigmark{padding-bottom:clamp(40px,6vw,72px)}
+.bigmark .r{position:relative;display:inline-block;transform:skewX(-6deg)}
+.trail{position:absolute;right:.04em;top:96%;width:135%;height:.32em;display:flex;flex-direction:column;justify-content:space-between;align-items:flex-end;pointer-events:none}
+.trail i{display:block;height:max(3px,.035em);border-radius:999px;transform-origin:right center;animation:trail 2.4s cubic-bezier(.3,.6,.2,1) infinite}
+.trail i:nth-child(1){width:100%;background:linear-gradient(90deg,transparent,var(--accent));animation-delay:0s}
+.trail i:nth-child(2){width:72%;background:linear-gradient(90deg,transparent,var(--orange));animation-delay:.15s;margin-right:6%}
+.trail i:nth-child(3){width:86%;background:linear-gradient(90deg,transparent,var(--c-ai));animation-delay:.3s;margin-right:2%}
+.trail i:nth-child(4){width:48%;background:linear-gradient(90deg,transparent,var(--lemon));animation-delay:.45s;margin-right:12%}
+@keyframes trail{0%{transform:scaleX(.35);opacity:.35}45%{transform:scaleX(1);opacity:1}100%{transform:scaleX(.35);opacity:.35}}
+@media (prefers-reduced-motion:reduce){.trail i{animation:none}}
 </style>
 </head>
 <body>
@@ -326,7 +338,7 @@ footer{position:relative;overflow:hidden;border-top:0;background:linear-gradient
   <div class="feed gutter" id="feed"><div class="empty">Chargement…</div></div>
 </main>
 
-<footer><div class="bigmark gutter" aria-hidden="true"><span class="logo"><span class="s">Signal</span><span class="r">r<span>o</span><span class="o2">o</span><span class="o3">o</span>m</span></span></div><div class="foot gutter">
+<footer><div class="bigmark gutter" aria-hidden="true"><span class="logo"><span class="s">Signal</span><span class="r">r<span>o</span><span class="o2">o</span><span class="o3">o</span>m<span class="trail"><i></i><i></i><i></i><i></i></span></span></span></div><div class="foot gutter">
   <a class="logo" href="#top"><span class="s">Signal</span><span class="r">r<span>o</span><span class="o2">o</span><span class="o3">o</span>m</span></a>
   <span>Généré chaque matin de semaine à partir de sources publiques. Montants tels qu'annoncés.</span>
 </div></footer>
