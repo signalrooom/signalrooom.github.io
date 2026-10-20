@@ -329,6 +329,12 @@ footer{position:relative;overflow:hidden;border-top:0;background:linear-gradient
   .pill.go .lbl{background-image:linear-gradient(90deg,#f4f2ff 0%,#f4f2ff 38%,#9aa8ff 46%,#ff9fd0 52%,#ffc98a 56%,#f4f2ff 64%,#f4f2ff 100%)}
   .pill.go::after{background:linear-gradient(100deg,transparent 25%,rgba(255,255,255,.08) 42%,rgba(190,205,255,.12) 50%,rgba(255,200,230,.08) 58%,transparent 75%)}}
 @media (prefers-reduced-motion:reduce){.pill.go,.pill.go::before,.pill.go::after,.pill.go .lbl,.pill.go .arr{animation:none}}
+@media (min-width:1600px){
+  .hero-main{justify-content:flex-start;padding-top:calc(44px + env(safe-area-inset-top,0px))}
+  .hero-main>.wrap{flex:1}
+  .hero h1.big{margin-top:auto}
+  .hero-grid{margin-bottom:auto}
+}
 </style>
 </head>
 <body>
@@ -338,7 +344,7 @@ footer{position:relative;overflow:hidden;border-top:0;background:linear-gradient
   
 
   <div class="hero-main gutter"><div class="wrap" style="display:flex;flex-direction:column;gap:28px">
-    <span class="label" id="kicker">Le brief VC du matin</span>
+    <span class="label" id="kicker">Le brief de shark du VC du matin</span>
     <h1 class="big"><span class="s">Signal</span> <span class="r">r<span>o</span><span class="o2">o</span><span class="o3">o</span>m<span class="trail" aria-hidden="true"><i></i><i></i><i></i><i></i></span></span></h1>
     <div class="hero-grid">
       <div class="copy">
@@ -419,7 +425,7 @@ const count=k=>(sections().find(s=>s.key===k)?.items||[]).length;
 
 function renderHero(){
   const b=state.data;if(!b)return;const latest=state.cur===state.dates[0];
-  $("#kicker").textContent=latest?"Le brief VC du matin":"Archive du "+longDate(b.date);
+  $("#kicker").textContent=latest?"Le brief de shark du VC du matin":"Archive du "+longDate(b.date);
   const t=$("#today");t.replaceChildren();
   
   [["eu","levées Europe"],["us","levées US"],["ai","news IA"]].forEach(([k,lab])=>{const n=count(k);const a=el("a");a.href="#sec-"+k;a.style.setProperty("--c",SEC[k].c);a.append(el("span","num",String(n)),el("span","label",lab));const w=el("div");w.append(a);t.append(w)});
