@@ -297,9 +297,10 @@ footer{position:relative;overflow:hidden;border-top:0;background:linear-gradient
 .ticker-track{animation:none!important;margin:0 auto;padding-inline:max(20px,env(safe-area-inset-left,0px))}
 .ticker{overflow-x:auto;scrollbar-width:none}
 .ticker::-webkit-scrollbar{display:none}
-.today{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+.today{grid-template-columns:minmax(0,1.4fr) repeat(3,minmax(0,.6fr))!important}
 .today>div{padding:22px 24px 4px 24px!important;border-left:1px solid var(--line)!important;border-top:0!important;grid-column:auto!important}
-.today>div:first-child{padding-left:0!important;border-left:0!important}
+.today>div:first-child{grid-column:2!important}
+@media (max-width:820px){.today{grid-template-columns:repeat(3,minmax(0,1fr))!important}.today>div:first-child{grid-column:1!important;padding-left:0!important;border-left:0!important}}
 @media (max-width:560px){.today>div{padding-left:14px!important;padding-right:8px!important}}
 </style>
 </head>
