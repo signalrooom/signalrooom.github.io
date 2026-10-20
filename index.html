@@ -302,6 +302,18 @@ footer{position:relative;overflow:hidden;border-top:0;background:linear-gradient
 .today>div:first-child{grid-column:2!important}
 @media (max-width:820px){.today{grid-template-columns:repeat(3,minmax(0,1fr))!important}.today>div:first-child{grid-column:1!important;padding-left:0!important;border-left:0!important}}
 @media (max-width:560px){.today>div{padding-left:14px!important;padding-right:8px!important}}
+/* Bouton principal coloré et animé */
+.pill.go{position:relative;overflow:hidden;isolation:isolate;color:#fff;border:0;padding:12px 22px;font-weight:600;
+  background:linear-gradient(100deg,var(--accent) 0%,#7a4dff 40%,var(--c-ai) 75%,var(--orange) 100%);background-size:220% 100%;
+  box-shadow:0 10px 28px -12px var(--accent),0 4px 14px -8px var(--c-ai);animation:flow 5s ease-in-out infinite alternate}
+.pill.go::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(105deg,transparent 30%,rgba(255,255,255,.45) 50%,transparent 70%);transform:translateX(-120%);animation:shine 3.2s ease-in-out infinite}
+.pill.go .arr{display:inline-block;animation:nudge 1.6s ease-in-out infinite}
+.pill.go:hover{transform:translateY(-1px);box-shadow:0 14px 32px -12px var(--accent),0 6px 18px -8px var(--c-ai)}
+.pill.go:hover .arr{animation-duration:.6s}
+@keyframes flow{to{background-position:100% 0}}
+@keyframes shine{0%,55%{transform:translateX(-120%)}100%{transform:translateX(120%)}}
+@keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(4px)}}
+@media (prefers-reduced-motion:reduce){.pill.go,.pill.go::after,.pill.go .arr{animation:none}}
 </style>
 </head>
 <body>
@@ -318,7 +330,7 @@ footer{position:relative;overflow:hidden;border-top:0;background:linear-gradient
         <p class="tag">Tout ce qui bouge dans la tech, <em>chaque matin</em><span class="dot">.</span></p>
         <p class="sub">Levées européennes et US, IA, software B2B et lectures de fond. <b>Trié et résumé avant 8h</b>, du lundi au vendredi.</p>
         <div class="cta">
-      <a class="pill dark" href="#news">Lire l'édition du jour <span class="arr">→</span></a>
+      <a class="pill go" href="#news">Lire l'édition du jour <span class="arr">→</span></a>
       <a class="pill" href="#archives">Éditions précédentes</a>
     </div>
       </div>
