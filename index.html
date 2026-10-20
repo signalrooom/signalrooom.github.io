@@ -375,6 +375,10 @@ footer{position:relative;overflow:hidden;border-top:0;background:linear-gradient
 }
 .minicar .puff,.ride .puff{animation:none!important;opacity:initial}
 @media (min-width:1600px){.hero-grid .right{transform:translateX(clamp(0px,calc((100vw - 1600px) * .3),190px))}}
+.pill.go .arr{animation:nudgedown 1.8s ease-in-out infinite!important}
+.pill.go:hover .arr{transform:none}
+@keyframes nudgedown{0%,100%{transform:translateY(-1px)}50%{transform:translateY(3px)}}
+@media (prefers-reduced-motion:reduce){.pill.go .arr{animation:none!important}}
 </style>
 </head>
 <body>
@@ -391,7 +395,7 @@ footer{position:relative;overflow:hidden;border-top:0;background:linear-gradient
         <p class="tag">Tout ce qui bouge dans la tech, <em>chaque matin</em><span class="dot">.</span></p>
         <p class="sub">Levées européennes et US, IA, software B2B et lectures de fond. <b>Trié et résumé avant 8h</b>, du lundi au vendredi.</p>
         <div class="cta">
-      <a class="pill go" href="#news"><span class="lbl">Lire l'édition du jour</span> <span class="arr">→</span></a>
+      <a class="pill go" href="#news"><span class="lbl">Lire l'édition du jour</span> <span class="arr">↓</span></a>
       <a class="pill" href="#archives">Éditions précédentes</a>
     </div>
       </div>
