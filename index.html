@@ -344,7 +344,7 @@ footer{position:relative;overflow:hidden;border-top:0;background:linear-gradient
   
 
   <div class="hero-main gutter"><div class="wrap" style="display:flex;flex-direction:column;gap:28px">
-    <span class="label" id="kicker">Le brief de shark du VC du matin</span>
+    <span class="label" id="kicker">Le brief matinal des sharks du VC</span>
     <h1 class="big"><span class="s">Signal</span> <span class="r">r<span>o</span><span class="o2">o</span><span class="o3">o</span>m<span class="trail" aria-hidden="true"><i></i><i></i><i></i><i></i></span></span></h1>
     <div class="hero-grid">
       <div class="copy">
@@ -425,7 +425,7 @@ const count=k=>(sections().find(s=>s.key===k)?.items||[]).length;
 
 function renderHero(){
   const b=state.data;if(!b)return;const latest=state.cur===state.dates[0];
-  $("#kicker").textContent=latest?"Le brief de shark du VC du matin":"Archive du "+longDate(b.date);
+  $("#kicker").textContent=latest?"Le brief matinal des sharks du VC":"Archive du "+longDate(b.date);
   const t=$("#today");t.replaceChildren();
   
   [["eu","levées Europe"],["us","levées US"],["ai","news IA"]].forEach(([k,lab])=>{const n=count(k);const a=el("a");a.href="#sec-"+k;a.style.setProperty("--c",SEC[k].c);a.append(el("span","num",String(n)),el("span","label",lab));const w=el("div");w.append(a);t.append(w)});
