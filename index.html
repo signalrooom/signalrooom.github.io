@@ -294,7 +294,7 @@ footer{position:relative;overflow:hidden;border-top:0;background:linear-gradient
   .tag{font-size:clamp(40px,2.6vw,52px)}
   .hero .sub{font-size:21px}
 }
-.ticker-track{animation:none!important;padding-left:max(20px,env(safe-area-inset-left,0px))}
+.ticker-track{animation:none!important;margin:0 auto;padding-inline:max(20px,env(safe-area-inset-left,0px))}
 .ticker{overflow-x:auto;scrollbar-width:none}
 .ticker::-webkit-scrollbar{display:none}
 .today{grid-template-columns:repeat(3,minmax(0,1fr))!important}
@@ -394,9 +394,9 @@ function renderHero(){
   const t=$("#today");t.replaceChildren();
   
   [["eu","levées Europe"],["us","levées US"],["ai","news IA"]].forEach(([k,lab])=>{const n=count(k);const a=el("a");a.href="#sec-"+k;a.style.setProperty("--c",SEC[k].c);a.append(el("span","num",String(n)),el("span","label",lab));const w=el("div");w.append(a);t.append(w)});
-  const deals=[];sections().filter(s=>s.key==="eu"||s.key==="us").forEach(s=>(s.items||[]).forEach(it=>{if(it.amount)deals.push(it)}));
+  const deals=[],seen=new Set();sections().filter(s=>s.key==="eu"||s.key==="us").forEach(s=>(s.items||[]).forEach(it=>{const k=norm(it.title).trim();if(it.amount&&!seen.has(k)){seen.add(k);deals.push(it)}}));
   const tr=$("#ticker");tr.replaceChildren();
-  const build=()=>{const sp=el("span");deals.forEach((it,i)=>{sp.append(el("b",null,it.title));sp.append(el("i",null,it.amount));sp.append(document.createTextNode(it.stage||it.country||""));sp.append(el("span","sep","/"))});return sp};
+  const build=()=>{const sp=el("span");deals.forEach((it,i)=>{sp.append(el("b",null,it.title));sp.append(el("i",null,it.amount));sp.append(document.createTextNode(it.stage||it.country||""));if(i<deals.length-1)sp.append(el("span","sep","/"))});return sp};
   if(deals.length){tr.append(build());tr.parentElement.hidden=false}else tr.parentElement.hidden=true;
 }
 function renderBar(){
