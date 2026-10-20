@@ -468,7 +468,7 @@ footer{position:relative;overflow:hidden;border-top:0;background:linear-gradient
 <button class="top" id="toTop" type="button" aria-label="Revenir en haut" hidden><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M8 14V3M3 7.5 8 2.5l5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
 
 <script>
-const SEC={eu:{label:"Europe",c:"var(--c-eu)",title:["Levées","Europe"]},us:{label:"US",c:"var(--c-us)",title:["Grosses levées","US"]},vc:{label:"VC",c:"var(--c-vc)",title:["VC &","écosystème"]},ai:{label:"IA",c:"var(--c-ai)",title:["IA &","software"]},read:{label:"À lire",c:"var(--c-read)",title:["À lire,","à écouter"]}};
+const SEC={signals:{label:"Signaux",c:"var(--accent)",title:["Ce qui","se dessine"]},eu:{label:"Europe",c:"var(--c-eu)",title:["Levées","Europe"]},us:{label:"US",c:"var(--c-us)",title:["Grosses levées","US"]},vc:{label:"VC",c:"var(--c-vc)",title:["VC &","écosystème"]},ai:{label:"IA",c:"var(--c-ai)",title:["IA &","software"]},read:{label:"À lire",c:"var(--c-read)",title:["À lire,","à écouter"]}};
 const $=s=>document.querySelector(s);
 const cache={};const state={dates:[],cur:null,data:null,q:"",pick:false};
 function el(t,c,x){const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
