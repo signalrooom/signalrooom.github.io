@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Signal Room</title>
+<meta name="description" content="Veille quotidienne VC et software B2B : levées Europe et US, IA, écosystème, lectures.">
+<meta property="og:title" content="Signal Room">
+<meta property="og:description" content="Levées, IA et software B2B, chaque matin de semaine.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f4fd6'/%3E%3Cpath d='M6 20h4l3-9 4 13 3-8h6' fill='none' stroke='white' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<style>
+/* Layout: colonne de lecture unique, en-tête avec archives en ruban, rubriques empilées */
+:root{
+  --bg:#f3f5f8; --surface:#ffffff; --ink:#141a24; --muted:#5b6575; --line:#dde2ea;
+  --accent:#1f4fd6; --accent-soft:#e6ecfc; --fit:#0f7a55; --fit-soft:#e2f4ec; --us:#a14a12; --us-soft:#fbeee3;
+  --display:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;
+  --body:"IBM Plex Sans","Helvetica Neue",Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#0f131a; --surface:#171d27; --ink:#e8ecf3; --muted:#9aa4b5; --line:#2a3240;
+  --accent:#7ea2ff; --accent-soft:#1d2a4d; --fit:#4fd1a0; --fit-soft:#12352a; --us:#f0a46a; --us-soft:#3a2516; color-scheme:dark}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55}
+.wrap{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 64px;display:flex;flex-direction:column;gap:28px}
+header{display:flex;flex-direction:column;gap:10px}
+.brand{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:700;font-size:15px;letter-spacing:.02em;color:var(--accent)}
+.brand svg{width:24px;height:24px;flex:none}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(26px,5.5vw,38px);line-height:1.12;margin:0;text-wrap:balance}
+.lede{color:var(--muted);margin:0;max-width:62ch}
+.archive{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;scrollbar-width:thin}
+.archive a{flex:none;font:500 13px var(--body);border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:6px 12px;text-decoration:none;font-variant-numeric:tabular-nums}
+.archive a[aria-current="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.edition{display:flex;flex-direction:column;gap:34px}
+.summary{margin:0;color:var(--muted);max-width:65ch}
+section{display:flex;flex-direction:column;gap:12px}
+section h2{display:flex;align-items:baseline;gap:10px;font-family:var(--display);font-weight:700;font-size:21px;margin:0;padding-bottom:8px;border-bottom:2px solid var(--ink)}
+section h2 .count{font-family:var(--mono);font-size:12px;font-weight:500;color:var(--muted)}
+section .intro{margin:0;color:var(--muted);font-size:14px}
+.items{display:flex;flex-direction:column}
+.item{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 16px;padding:14px 0;border-bottom:1px solid var(--line)}
+.item .t{font-weight:600;margin:0;min-width:0}
+.item .t a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line)}
+.item .t a:hover{border-bottom-color:var(--accent)}
+.item .amt{font-family:var(--mono);font-size:14px;color:var(--accent);text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.item .b{grid-column:1/-1;margin:0;min-width:0}
+.meta{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:6px;margin-top:2px}
+.chip{font:500 12px var(--body);padding:2px 8px;border-radius:4px;background:var(--accent-soft);color:var(--accent)}
+.chip.fit{background:var(--fit-soft);color:var(--fit)}
+.chip.us{background:var(--us-soft);color:var(--us)}
+.chip.plain{background:transparent;color:var(--muted);padding-left:0}
+.sources{font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:4px;margin:0;padding-left:18px}
+.sources a{color:var(--muted);overflow-wrap:anywhere}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:10px;padding:24px;color:var(--muted)}
+footer{font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px}
+@media (prefers-reduced-motion:no-preference){.edition{animation:in .25s ease-out}@keyframes in{from{opacity:.4;transform:translateY(4px)}to{opacity:1;transform:none}}}
+@media (max-width:480px){.item{grid-template-columns:minmax(0,1fr)}.item .amt{text-align:left}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="currentColor"/><path d="M6 20h4l3-9 4 13 3-8h6" fill="none" stroke="var(--surface)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Signal Room</div>
+    <span class="eyebrow" id="eyebrow">Veille VC &amp; software B2B</span>
+    <h1 id="headline">Levées, IA et software B2B, chaque matin de semaine.</h1>
+    <nav class="archive" id="archive" aria-label="Éditions"></nav>
+  </header>
+  <main class="edition" id="edition">
+    <div class="empty">Chargement de l'édition…</div>
+  </main>
+  <footer>Brief généré chaque matin de semaine à partir de sources publiques, liens en fin d'édition. Montants tels qu'annoncés par les sources.</footer>
+</div>
+<script>
+const $=s=>document.querySelector(s);
+const cache={};let dates=[];
+function el(tag,cls,text){const e=document.createElement(tag);if(cls)e.className=cls;if(text!=null)e.textContent=text;return e}
+function safeUrl(u){try{const x=new URL(u);return x.protocol==="https:"||x.protocol==="http:"?x.href:null}catch{return null}}
+function d8(id){return new Date(id+"T08:00:00")}
+function fmtDate(id){const d=d8(id);return isNaN(d)?id:d.toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"})}
+function shortDate(id){const d=d8(id);return isNaN(d)?id:d.toLocaleDateString("fr-FR",{weekday:"short",day:"numeric",month:"short"})}
+function link(text,url){const u=safeUrl(url||"");if(!u)return document.createTextNode(text||"");const a=el("a",null,text||"");a.href=u;a.target="_blank";a.rel="noopener";return a}
+
+function renderArchive(current){
+  const nav=$("#archive");nav.replaceChildren();
+  dates.forEach(id=>{const a=el("a",null,shortDate(id));a.href="#"+id;a.setAttribute("aria-current",id===current?"true":"false");nav.append(a)});
+  const cur=nav.querySelector('[aria-current="true"]');if(cur)cur.scrollIntoView({block:"nearest",inline:"nearest"});
+}
+function renderItem(key,it){
+  const row=el("div","item");const t=el("p","t");t.append(link(it.title,it.url));row.append(t);
+  row.append(el("span","amt",it.amount||""));
+  if(it.body)row.append(el("p","b",it.body));
+  const meta=el("div","meta");
+  if(it.fit)meta.append(el("span","chip fit","Top pick"));
+  if(it.country)meta.append(el("span","chip"+(key==="us"?" us":""),it.country));
+  if(it.stage)meta.append(el("span","chip",it.stage));
+  if(it.investors)meta.append(el("span","chip plain",it.investors));
+  if(it.source)meta.append(el("span","chip plain",it.source));
+  if(meta.childElementCount)row.append(meta);
+  return row;
+}
+function render(b){
+  renderArchive(b.date);
+  document.title="Signal Room · "+shortDate(b.date);
+  $("#eyebrow").textContent="Édition du "+fmtDate(b.date);
+  $("#headline").textContent=b.headline||"";
+  const main=$("#edition");main.replaceChildren();
+  if(b.summary)main.append(el("p","summary",b.summary));
+  (b.sections||[]).filter(s=>s.key!=="share").forEach(sec=>{
+    const s=el("section");const h=el("h2",null,sec.title||"");const n=(sec.items||[]).length;
+    if(n)h.append(el("span","count",String(n)));s.append(h);
+    if(sec.intro)s.append(el("p","intro",sec.intro));
+    const list=el("div","items");(sec.items||[]).forEach(it=>list.append(renderItem(sec.key,it)));s.append(list);
+    main.append(s);
+  });
+  const src=(b.sources||[]).filter(x=>safeUrl(x.url||""));
+  if(src.length){const s=el("section");s.append(el("h2",null,"Sources"));const ol=el("ol","sources");
+    src.forEach(x=>{const li=el("li");li.append(link(x.title||x.url,x.url));ol.append(li)});s.append(ol);main.append(s)}
+}
+async function load(id){
+  if(!cache[id]){const r=await fetch("data/"+id+".json",{cache:"no-cache"});if(!r.ok)throw new Error(r.status);cache[id]=await r.json()}
+  return cache[id];
+}
+async function route(){
+  const want=location.hash.slice(1);const id=dates.includes(want)?want:dates[0];
+  if(!id){$("#edition").replaceChildren(el("div","empty","Aucune édition pour l'instant."));return}
+  try{render(await load(id));window.scrollTo(0,0)}catch{$("#edition").replaceChildren(el("div","empty","Impossible de charger cette édition. Recharge la page."))}
+}
+(async()=>{
+  try{const r=await fetch("data/index.json",{cache:"no-cache"});dates=((await r.json()).dates||[]).sort().reverse()}catch{dates=[]}
+  window.addEventListener("hashchange",route);route();
+})();
+</script>
+</body>
+</html>

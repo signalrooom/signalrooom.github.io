@@ -1,0 +1,257 @@
+{
+ "date": "2026-10-20",
+ "headline": "La sécurité des agents IA devient un sujet de board : Microsoft déclare que « les modèles frontier ne sont pas fiables » le jour où Reuters révèle un hacker ayant piraté 100+ sites avec des agents à ~50 $ l'intrusion.",
+ "sections": [
+  {
+   "intro": "Peu de deals software B2B France/DACH/Benelux annoncés depuis hier.",
+   "items": [
+    {
+     "amount": "10,7 M€",
+     "body": "Annoncé vendredi, repris dans les récaps de lundi. « AI manager » pour PME : une plateforme unique pour ChatGPT, Claude, Gemini et Mistral, avec isolation des données, gestion des accès et suivi des coûts. Environ 150 clients et 50 salariés un an après le lancement. C'est l'équivalent européen côté PME de ce que Town fait aux US. Une Série A est probable sous 12-18 mois.",
+     "country": "France",
+     "fit": true,
+     "investors": "Adara Ventures (lead), Anamcara, BGV, BY Venture Partners, CentraleSupélec Venture, FJ Labs, Interlace Ventures, True Ventures, Bpifrance",
+     "source": "EU-Startups",
+     "stage": "Seed",
+     "title": "Goodweek",
+     "url": "https://www.eu-startups.com/2026/10/strasbourg-founded-goodweek-raises-e10-69-million-to-become-the-ai-manager-for-smbs"
+    },
+    {
+     "amount": "7,5 M€",
+     "body": "SaaS de gestion énergétique pour les entreprises (télémesure, analyse des factures et des contrats, alertes) : plus de 2 000 clients et 1,7 TWh gérés par an. Les fonds iront aux modèles IA et à des acquisitions. Thème proche de la transformation industrie/services, mais hors zone prioritaire.",
+     "country": "Espagne",
+     "investors": "Klima Energy Transition Fund (Alantra), GoHub Ventures",
+     "source": "EU-Startups",
+     "title": "Linkener",
+     "url": "https://www.eu-startups.com/2026/10/valencia-based-linkener-raises-e7-5-million-to-digitise-and-optimise-energy-management-for-businesses/"
+    },
+    {
+     "amount": "2,94 M€",
+     "body": "Sortie de stealth. Agents IA qui automatisent les opérations de gestion immobilière (contrats, factures, maintenance, locataires), avec validation humaine pour les décisions sensibles. Encore tôt, mais à suivre dans la verticale proptech agentique.",
+     "country": "Suède",
+     "investors": "Seedcamp (lead), Inception Fund, Tiny VC, opérateurs d'OpenAI et Lovable",
+     "source": "EU-Startups",
+     "stage": "Pre-seed",
+     "title": "Vessla",
+     "url": "https://www.eu-startups.com/2026/10/stockholms-vessla-exits-stealth-with-e2-94-million-to-bring-ai-agents-to-property-management/"
+    },
+    {
+     "amount": "1 M€",
+     "body": "Logiciel tout-en-un (« operating system ») pour les salles de sport et studios à cours collectifs. Petit tour de SaaS vertical.",
+     "country": "Pays-Bas",
+     "source": "EU-Startups",
+     "title": "Huppa",
+     "url": "https://www.eu-startups.com/2026/10/amsterdams-huppa-raises-e1-million-to-build-an-operating-system-for-class-based-gyms-and-studios/"
+    }
+   ],
+   "key": "eu",
+   "title": "Levées Europe"
+  },
+  {
+   "intro": "Deux pôles concentrent le capital : le compute alternatif à Nvidia (Tenstorrent double sa valo) et les « collègues IA » horizontaux pour l'entreprise (Town, licorne 4 mois après son lancement, avec des millions d'ARR en quelques semaines). Le second thème arrive en Europe : orchestration multi-modèles et agents d'équipe pour PME et ETI (cf. Goodweek).",
+   "items": [
+    {
+     "amount": "1,5 Md$",
+     "body": "Processeurs IA, serveurs Galaxy et IP RISC-V (CEO : Jim Keller). Valorisation de 6,2 Md$, plus du double de 2024. Les fonds publics et crossover parient sur une alternative à Nvidia pour l'inférence.",
+     "country": "États-Unis",
+     "investors": "Trace Capital et Innovation X (leads), ARK Invest, Fidelity, Morgan Stanley, T. Rowe Price, SanDisk, Cadence Ventures, XTX Markets…",
+     "source": "Tech Startups",
+     "stage": "Série E",
+     "title": "Tenstorrent",
+     "url": "https://techstartups.com/2026/10/19/ai-chip-startup-tenstorrent-raises-1-5-billion-at-6-2-billion-valuation-to-take-on-nvidia"
+    },
+    {
+     "amount": "108 M$",
+     "body": "Un assistant IA (« Townie ») par salarié, branché sur l'email, l'agenda et les outils métiers. Les assistants collaborent entre eux et désormais avec les clients externes. Valorisation de plus d'1 Md$ quatre mois après le lancement public, et une Série A de 55 M$ en juin.",
+     "country": "États-Unis",
+     "investors": "Forerunner Ventures, Menlo Ventures (leads), Andreessen Horowitz, Serena Ventures, First Round",
+     "source": "TechCrunch",
+     "stage": "Série B",
+     "title": "Town",
+     "url": "https://techcrunch.com/2026/10/19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch"
+    },
+    {
+     "amount": "17,4 M$",
+     "body": "IA qui automatise l'administratif des médecins indépendants. Le vertical « back-office IA des PME de services » continue de lever gros dès le seed.",
+     "country": "États-Unis",
+     "investors": "Basis Set Ventures (lead), Social Leverage, Overlook Ventures, Early Light Ventures…",
+     "source": "Tech Startups",
+     "stage": "Seed",
+     "title": "Sunlight AI",
+     "url": "https://techstartups.com/2026/10/19/sunlight-ai-launches-with-17-4m-in-seed-funding-to-help-independent-physicians-cut-administrative-costs/"
+    }
+   ],
+   "key": "us",
+   "title": "Grosses levées US"
+  },
+  {
+   "items": [
+    {
+     "body": "Le German Venture & Growth Forum (20+ fonds, 28 Md€ d'encours, dont Earlybird, HTGF et Vsquared) publie un playbook pour l'Invest in Germany Summit. Moins d'un tiers des 5,1 Md€ investis au S1 2026 en Allemagne venait d'investisseurs allemands. Les institutionnels n'allouent qu'environ 0,1 % de leurs 2 800 Md€ au VC. Passer à 2 % débloquerait 15 Md€ par an. Sujet clé pour la levée de fonds des VCs DACH.",
+     "source": "Tech.eu",
+     "title": "Les VCs allemands réclament 15 Md€/an de capital institutionnel domestique",
+     "url": "https://tech.eu/2026/10/19/german-vcs-call-for-eur15b-annual-funding-boost-to-build-the-next-generation-of-tech-giants"
+    },
+    {
+     "body": "Keynote de Jensen Huang le 21. Nvidia doit annoncer environ 2 Md$ de nouveaux investissements en Europe, après Doctolib, Pigment, Entalpic et Genesis AI à Paris. Un partenariat IA avec l'État allemand (Siemens, Audi, Black Forest Labs, cloud industriel de Deutsche Telekom) est évoqué. À surveiller : les noms DACH annoncés.",
+     "source": "BigGo Finance",
+     "title": "Nvidia GTC Berlin (20-22 oct.) : 2 Md$ de deals européens attendus",
+     "url": "https://finance.biggo.com/news/f00c582a-7c2b-485d-967c-15f60824f446"
+    },
+    {
+     "body": "Turbine Capital (Suède) clôture son premier fonds deeptech nordique à 54 M€, avec des LPs industriels (Saab, Scania, Volvo Cars, Mycronic, Stena) ainsi que Saminvest et le FEI. Enzo Ventures (Barcelone) clôture un Fund II de 20 M€ pour l'early stage en Europe du Sud. C'est le modèle « LPs industriels » proche de celui de Dentressangle.",
+     "source": "EU-Startups",
+     "title": "Nouveaux fonds : Turbine Capital (54 M€) et Enzo Ventures (20 M€)",
+     "url": "https://www.eu-startups.com/2026/10/turbine-capital-closes-e54-million-deeptech-fund-to-connect-nordic-startups-with-industrial-leaders/"
+    },
+    {
+     "body": "Côté software : Dougs (50 M€, Expedition Growth), Turn2X (20 M€ Série A) et Reebuild (3 M€). Côté exits : Sequence vendue à Intuit (~200 M$), Mistral rachète New Material (4e acquisition en 8 mois), fusion Omikron (Cologne) / COPS (Vienne) et rachat de Sagacity par Accenture.",
+     "source": "Tech.eu",
+     "title": "Récap de la semaine : 65+ deals, 1,8 Md€, 5+ exits",
+     "url": "https://tech.eu/2026/10/19/european-tech-weekly-recap-more-than-65-tech-funding-deals-worth-over-eur18b/"
+    },
+    {
+     "body": "Le cofondateur de TechWolf, rachetée par SAP dans le plus gros deal VC-backed belge, explique comment l'exit doit recycler talents et capital dans l'écosystème de Gand. C'est une référence d'exit HR-tech/data en Benelux.",
+     "source": "Tech.eu",
+     "title": "TechWolf (SAP) : l'effet flywheel de Gand",
+     "url": "https://tech.eu/2026/10/19/techwolf-co-founder-ghent-flywheel-effect-super-important/"
+    }
+   ],
+   "key": "vc",
+   "title": "VC & écosystème"
+  },
+  {
+   "items": [
+    {
+     "body": "Microsoft ajoute des agents de surveillance des agents IA, Defender détecte désormais 60 types d'agents (Claude Code, Codex…), et l'éditeur introduit des permissions dynamiques avec validation humaine. Satya Nadella appelle à « séparer la fourniture d'intelligence de l'autorité sur celle-ci ». Pour un investisseur : la gouvernance et la sécurité des agents deviennent une catégorie à part entière, ce qui ouvre de l'espace pour des pure players européens.",
+     "source": "TechCrunch",
+     "title": "Microsoft : « les modèles frontier ne sont pas fiables », lancement des Guardian Agents",
+     "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted"
+    },
+    {
+     "body": "Via la plateforme open source Cairn, l'attaquant a visé plus de 1 200 cibles pour environ 5 000 $ de consommation de modèles. Parmi les victimes figurent des sites liés à Deere, SharkNinja et Cummins. Le coût de l'attaque s'effondre, ce qui renforce la thèse du pentest continu et de la gestion de la surface d'attaque (type Hadrian).",
+     "source": "Reuters",
+     "title": "Un seul hacker a piraté 100+ sites avec des agents IA, pour ~50 $ par intrusion",
+     "url": "https://www.reuters.com/legal/government/how-one-hacker-used-ai-agents-few-thousand-dollars-break-into-scores-sites-2026-10-19/"
+    },
+    {
+     "body": "Environ 48 Md$ sur la base de la valo de 965 Md$ de mai, sous réserve de l'approbation des actionnaires. Une IPO serait préparée pour novembre. Ce sera le test de valorisation des labs, avec un impact sur les multiples et la liquidité de toute la chaîne IA.",
+     "source": "Tech Startups (d'après Reuters)",
+     "title": "Anthropic réserve 5 % de son capital à un fonds d'intérêt public avant son IPO",
+     "url": "https://techstartups.com/2026/10/19/anthropic-pledges-5-of-its-shares-to-new-public-benefit-fund-ahead-of-massive-ipo/"
+    },
+    {
+     "body": "Le DHS impose le retrait des produits DeepSeek et des services tiers construits sur ses modèles, au titre de la sécurité de la supply chain. La provenance des modèles devient un critère d'achat : c'est un argument pour les fournisseurs européens « souverains » et pour les outils de gouvernance multi-modèles.",
+     "source": "Reuters",
+     "title": "Les États-Unis bannissent DeepSeek des systèmes IT fédéraux civils",
+     "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/"
+    }
+   ],
+   "key": "ai",
+   "title": "IA & software"
+  },
+  {
+   "items": [
+    {
+     "body": "42 boîtes ont atteint 10 Md$+ de valorisation en un an. La SaaSpocalypse frappe surtout les éditeurs sous-scalés, et la barre d'une IPO software pourrait monter à 1,5-2 Md$ d'ARR. Cannon-Brookes défend que « headless is brainless » : l'interface reste un actif face aux agents. C'est utile pour challenger les plans d'exit des participations.",
+     "source": "20VC",
+     "title": "20VC : Lemkin & O'Driscoll sur la « SaaSpocalypse » + Mike Cannon-Brookes (Atlassian)",
+     "url": "https://20vc.substack.com/p/20vc-newsletter-18th-october-2026"
+    },
+    {
+     "body": "Cartographie des startups qui automatisent le back-office financier, des comptables IA aux paiements entre agents. Pratique pour du sourcing autour des participations finance/compta.",
+     "source": "Sifted",
+     "title": "Sifted : la market map de l'IA fintech en Europe (94 startups)",
+     "url": "https://sifted.eu/articles/europes-ai-fintech-market-mapped-94-startups-automating-the-business-of-money/"
+    },
+    {
+     "body": "Une enquête qui montre concrètement l'économie de l'attaque automatisée. C'est une bonne base pour argumenter un deal cyber.",
+     "source": "Reuters",
+     "title": "Reuters : comment un hacker a utilisé des agents IA pour quelques milliers de dollars",
+     "url": "https://www.reuters.com/legal/government/how-one-hacker-used-ai-agents-few-thousand-dollars-break-into-scores-sites-2026-10-19/"
+    }
+   ],
+   "key": "read",
+   "title": "À lire / écouter"
+  }
+ ],
+ "sources": [
+  {
+   "title": "EU-Startups – Goodweek raises €10.69M",
+   "url": "https://www.eu-startups.com/2026/10/strasbourg-founded-goodweek-raises-e10-69-million-to-become-the-ai-manager-for-smbs"
+  },
+  {
+   "title": "EU-Startups – Linkener raises €7.5M",
+   "url": "https://www.eu-startups.com/2026/10/valencia-based-linkener-raises-e7-5-million-to-digitise-and-optimise-energy-management-for-businesses/"
+  },
+  {
+   "title": "EU-Startups – Vessla exits stealth",
+   "url": "https://www.eu-startups.com/2026/10/stockholms-vessla-exits-stealth-with-e2-94-million-to-bring-ai-agents-to-property-management/"
+  },
+  {
+   "title": "EU-Startups – Huppa raises €1M",
+   "url": "https://www.eu-startups.com/2026/10/amsterdams-huppa-raises-e1-million-to-build-an-operating-system-for-class-based-gyms-and-studios/"
+  },
+  {
+   "title": "Tech Startups – Tenstorrent raises $1.5B",
+   "url": "https://techstartups.com/2026/10/19/ai-chip-startup-tenstorrent-raises-1-5-billion-at-6-2-billion-valuation-to-take-on-nvidia"
+  },
+  {
+   "title": "TechCrunch – Town nabs unicorn valuation",
+   "url": "https://techcrunch.com/2026/10/19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch"
+  },
+  {
+   "title": "Tech Startups – Sunlight AI seed",
+   "url": "https://techstartups.com/2026/10/19/sunlight-ai-launches-with-17-4m-in-seed-funding-to-help-independent-physicians-cut-administrative-costs/"
+  },
+  {
+   "title": "Tech.eu – German VCs call for €15B",
+   "url": "https://tech.eu/2026/10/19/german-vcs-call-for-eur15b-annual-funding-boost-to-build-the-next-generation-of-tech-giants"
+  },
+  {
+   "title": "BigGo Finance – Nvidia GTC Berlin preview",
+   "url": "https://finance.biggo.com/news/f00c582a-7c2b-485d-967c-15f60824f446"
+  },
+  {
+   "title": "EU-Startups – Turbine Capital €54M fund",
+   "url": "https://www.eu-startups.com/2026/10/turbine-capital-closes-e54-million-deeptech-fund-to-connect-nordic-startups-with-industrial-leaders/"
+  },
+  {
+   "title": "Tech.eu – Enzo Ventures €20M Fund II",
+   "url": "https://tech.eu/2026/10/19/barcelona-based-enzo-ventures-closes-eur20m-fund-backing-southern-european-founders/"
+  },
+  {
+   "title": "Tech.eu – Weekly recap",
+   "url": "https://tech.eu/2026/10/19/european-tech-weekly-recap-more-than-65-tech-funding-deals-worth-over-eur18b/"
+  },
+  {
+   "title": "Tech.eu – TechWolf Ghent flywheel",
+   "url": "https://tech.eu/2026/10/19/techwolf-co-founder-ghent-flywheel-effect-super-important/"
+  },
+  {
+   "title": "TechCrunch – Microsoft on AI agents as insider threats",
+   "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted"
+  },
+  {
+   "title": "Reuters – Hacker used AI agents",
+   "url": "https://www.reuters.com/legal/government/how-one-hacker-used-ai-agents-few-thousand-dollars-break-into-scores-sites-2026-10-19/"
+  },
+  {
+   "title": "Tech Startups – Anthropic public benefit fund",
+   "url": "https://techstartups.com/2026/10/19/anthropic-pledges-5-of-its-shares-to-new-public-benefit-fund-ahead-of-massive-ipo/"
+  },
+  {
+   "title": "Reuters – US bans DeepSeek from federal IT",
+   "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/"
+  },
+  {
+   "title": "20VC Newsletter – 18 octobre 2026",
+   "url": "https://20vc.substack.com/p/20vc-newsletter-18th-october-2026"
+  },
+  {
+   "title": "Sifted – AI fintech market map",
+   "url": "https://sifted.eu/articles/europes-ai-fintech-market-mapped-94-startups-automating-the-business-of-money/"
+  }
+ ],
+ "summary": "Journée calme sur les levées France/DACH ; aux US, l'argent va au compute alternatif (Tenstorrent, 1,5 Md$) et aux « collègues IA » (Town, licorne en 4 mois). En Europe, le débat se déplace vers le financement domestique du VC allemand et le GTC Berlin de Nvidia (20-22 oct.)."
+}

@@ -1,0 +1,371 @@
+{
+ "date": "2026-10-19",
+ "headline": "La gouvernance de l'IA en entreprise devient une catégorie à part entière : Goodweek (10,7 M€, Strasbourg), Harmonic Security (50 M$) et Opsin (21 M$) lèvent la même semaine.",
+ "sections": [
+  {
+   "intro": "Rounds annoncés entre le 12 et le 19 octobre (récaps Maddyness, deutsche-startups.de, EU-Startups, Tech.eu). Les plus proches du software B2B européen (Seed à Série B) en premier.",
+   "items": [
+    {
+     "amount": "10,7 M€",
+     "body": "« AI Manager » pour PME : une plateforme unique réunissant Claude, ChatGPT, Gemini et Mistral, avec isolation des données et visibilité sur qui utilise quoi et à quel coût. Environ 150 clients, 50 salariés, un an d'existence. Fondée à Strasbourg, siège à Los Angeles.",
+     "country": "France",
+     "fit": true,
+     "investors": "Adara Ventures (lead), Anamcara, BGV, BY Venture Partners, CentraleSupélec Venture, FJ Labs, True Ventures, Bpifrance",
+     "source": "EU-Startups",
+     "stage": "Seed",
+     "title": "Goodweek",
+     "url": "https://www.eu-startups.com/2026/10/strasbourg-founded-goodweek-raises-e10-69-million-to-become-the-ai-manager-for-smbs/"
+    },
+    {
+     "amount": "5 M€",
+     "body": "Connecte SAP, ERP et CRM pour les ETI et génère dashboards, rapports et apps à partir de commandes vocales. Data et IA appliquée au Mittelstand.",
+     "country": "Allemagne (Munich)",
+     "fit": true,
+     "investors": "Y Combinator, Oxford Seed Fund, Sequoia Scout Fund, ACE Ventures, HPVC, angels",
+     "source": "deutsche-startups.de",
+     "stage": "Seed",
+     "title": "Zeit AI",
+     "url": "https://www.deutsche-startups.de/2026/10/16/12-aufstrebende-startups-die-gerade-millionen-einsammelt-haben/"
+    },
+    {
+     "amount": "7 M€",
+     "body": "Plateforme IA qui centralise et rend accessible la connaissance interne des PME/ETI.",
+     "country": "Allemagne (Aix-la-Chapelle)",
+     "fit": true,
+     "investors": "Ventech, NRW.Venture",
+     "source": "deutsche-startups.de",
+     "title": "amber",
+     "url": "https://www.deutsche-startups.de/2026/10/16/12-aufstrebende-startups-die-gerade-millionen-einsammelt-haben/"
+    },
+    {
+     "amount": "2,1 à 3 M€",
+     "body": "Spin-off d'Exotec : environnement d'ingénierie à base d'agents IA pour concevoir, documenter et certifier des produits industriels complexes en secteurs régulés. Coche à la fois la transformation de l'industrie et la compliance. Montant : 2,1 M€ selon CFNews, 3 M€ selon Maddyness.",
+     "country": "France (Lille)",
+     "fit": true,
+     "investors": "Breega (lead), Exotec, business angels",
+     "source": "CFNews",
+     "stage": "Premier tour",
+     "title": "Koddex",
+     "url": "https://www.cfnews.net/L-actualite/Capital-innovation/Operations/1er-tour/Koddex-modelise-sa-levee-747091"
+    },
+    {
+     "amount": "6 M€",
+     "body": "« Système de pilotage IA » pour les entreprises d'artisanat et du BTP. Vertical SaaS sur un secteur peu digitalisé.",
+     "country": "Allemagne (Borken)",
+     "fit": true,
+     "investors": "May Ventures, Reimann Investors, Smedvig Ventures",
+     "source": "deutsche-startups.de",
+     "stage": "Pré-seed",
+     "title": "conmeet",
+     "url": "https://www.deutsche-startups.de/2026/10/16/12-aufstrebende-startups-die-gerade-millionen-einsammelt-haben/"
+    },
+    {
+     "amount": "3 M€",
+     "body": "IA pour les achats stratégiques (procurement) en entreprise.",
+     "country": "Allemagne",
+     "fit": true,
+     "source": "VC Magazin",
+     "stage": "Pré-seed",
+     "title": "Elevatry",
+     "url": "https://www.vc-magazin.de/blog/2026/10/16/elevatry-finanzierung-2026/"
+    },
+    {
+     "amount": "6 M€",
+     "body": "Alternative IA à l'expert-comptable pour les petites GmbH : tenue des comptes, TVA, comptes annuels, avec contrôle humain. Même thèse que Dougs, côté DACH.",
+     "country": "Allemagne (Berlin)",
+     "fit": true,
+     "investors": "Smedvig Ventures, Wecken & Cie, Keen Venture Partners, Dutch Founders Fund",
+     "source": "deutsche-startups.de",
+     "stage": "Seed",
+     "title": "Mika",
+     "url": "https://www.deutsche-startups.de/2026/10/16/12-aufstrebende-startups-die-gerade-millionen-einsammelt-haben/"
+    },
+    {
+     "amount": "32 M$",
+     "body": "Lancée par Tomáš Čupr (fondateur de Rohlik) : « execution OS » à base d'agents IA qui automatise les tâches que les logiciels retail laissent aux équipes. Ambition US.",
+     "country": "Tchéquie",
+     "investors": "Balderton Capital (lead)",
+     "source": "Tech.eu",
+     "stage": "Série A",
+     "title": "Duvo",
+     "url": "https://tech.eu/2026/10/14/from-rohlik-to-enterprise-ai-tomas-cuprs-duvo-raises-32m-series-a/"
+    },
+    {
+     "amount": "50 M€",
+     "body": "Cabinet d'expertise comptable en ligne qui se repositionne sur les agents IA : 52 M€ d'ARR, plus de 50 000 clients. Un des rares grands tours lyonnais de la période.",
+     "country": "France (Lyon)",
+     "investors": "Expedition Growth Capital (réinvestit)",
+     "source": "CFNews",
+     "stage": "Growth",
+     "title": "Dougs",
+     "url": "https://www.cfnews.net/L-actualite/Capital-developpement/Operations/Augmentation-de-capital/Dougs-double-la-mise-748121"
+    },
+    {
+     "amount": "7 M€",
+     "body": "Optimisation du taux de conversion (CRO) pilotée par l'IA pour les sites e-commerce et B2B.",
+     "country": "France",
+     "investors": "Reflexion Capital, Tomcat, business angels",
+     "source": "Multeam",
+     "title": "Webyn",
+     "url": "https://multeam.substack.com/p/les-levees-de-fonds-de-la-semaine-3c6"
+    },
+    {
+     "amount": "9 M€",
+     "body": "Logiciel qui capte et analyse en temps réel les données foncières et immobilières en Allemagne (data / proptech B2B).",
+     "country": "Allemagne (Münster)",
+     "investors": "amberra (Volksbanken), NRW.BANK, investisseurs existants",
+     "source": "deutsche-startups.de",
+     "title": "syte",
+     "url": "https://www.deutsche-startups.de/2026/10/16/12-aufstrebende-startups-die-gerade-millionen-einsammelt-haben/"
+    },
+    {
+     "amount": "10 M€",
+     "body": "Financement des stocks des PME sans dette, avec une IA qui analyse rotation, valeur et cycle de trésorerie. Axeleo est un fonds lyonnais.",
+     "country": "France",
+     "investors": "Eurazeo, Axeleo Capital, HUB612",
+     "source": "Maddyness",
+     "title": "Wavo",
+     "url": "https://www.maddyness.com/2026/10/16/les-startups-francaises-ont-leve-585-millions-deuros-cette-semaine/"
+    },
+    {
+     "amount": "1 M€",
+     "body": "OS de gestion pour salles de sport et studios à cours collectifs (vertical SaaS).",
+     "country": "Pays-Bas (Amsterdam)",
+     "source": "EU-Startups",
+     "title": "Huppa",
+     "url": "https://www.eu-startups.com/2026/10/amsterdams-huppa-raises-e1-million-to-build-an-operating-system-for-class-based-gyms-and-studios/"
+    },
+    {
+     "body": "Prises de participation non chiffrées, révélées par Les Échos le 13 octobre. Pigment (planification financière / EPM) devient le premier SaaS B2B français à avoir Nvidia au capital.",
+     "country": "France",
+     "investors": "NVentures (Nvidia)",
+     "source": "Le Monde Informatique",
+     "title": "Nvidia entre au capital de Pigment, Doctolib, Entalpic et Genesis AI",
+     "url": "https://www.lemondeinformatique.fr/actualites/lire-nvidia-investit-dans-doctolib-et-trois-entreprises-francaises-de-l-ia-100852.html"
+    }
+   ],
+   "key": "eu",
+   "title": "Levées Europe"
+  },
+  {
+   "intro": "Les plus gros chèques vont à l'infrastructure d'inférence (Modal à 15,75 Md$, Mueon) et aux agents enterprise (TypeSafe : 870 M$ dès la Série A). En parallèle, la sécurité des agents IA chauffe : Harmonic (UK) et Opsin, qui gouvernent l'usage de l'IA par les salariés et les agents. Cette catégorie arrive déjà en Europe avec Goodweek.",
+   "items": [
+    {
+     "amount": "870 M$",
+     "body": "Valorisée 7,5 Md$. IA enterprise derrière Jev, un classifieur rapide et peu coûteux. Annoncé autour du 10-11 octobre. Les Séries A « méga » deviennent la norme pour les labs.",
+     "investors": "a16z (lead), Sequoia, DCVC",
+     "source": "Crypto Briefing",
+     "stage": "Série A",
+     "title": "TypeSafe AI",
+     "url": "https://cryptobriefing.com/a16z-leads-typesafe-ai-series-a/"
+    },
+    {
+     "amount": "750 M$",
+     "body": "Valorisée 15,75 Md$. Cloud serverless pour l'inférence et les workloads IA. Plus gros tour US de la semaine du 10 au 16 octobre.",
+     "investors": "Accel (lead)",
+     "source": "Crunchbase News",
+     "stage": "Série D",
+     "title": "Modal Labs",
+     "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-investors-scaled-back-ai-biotech-modal/"
+    },
+    {
+     "amount": "100 M$+",
+     "body": "Données d'entraînement, évaluation de modèles et déploiement d'agents. Rentable en 2026, plus de 400 clients. Tour en partie en dette.",
+     "investors": "Infinitum Partners (lead)",
+     "source": "Crunchbase News",
+     "stage": "Série E",
+     "title": "Labelbox",
+     "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-investors-scaled-back-ai-biotech-modal/"
+    },
+    {
+     "amount": "65 M$",
+     "body": "Blocs modulaires de calcul et de mémoire pour les data centers IA. Pas encore de client hyperscaler nommé.",
+     "investors": "Maverick Silicon (lead), Intel Capital",
+     "source": "Crunchbase News",
+     "stage": "Série A",
+     "title": "Mueon",
+     "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-investors-scaled-back-ai-biotech-modal/"
+    },
+    {
+     "amount": "60 M$",
+     "body": "Pilotage et automatisation des dépenses d'infrastructure cloud (FinOps).",
+     "investors": "PeakSpan Capital (lead)",
+     "source": "Crunchbase News",
+     "stage": "Série B",
+     "title": "North.cloud",
+     "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-investors-scaled-back-ai-biotech-modal/"
+    },
+    {
+     "amount": "50 M$",
+     "body": "Inspecte et gouverne l'usage de l'IA par les salariés, prompt par prompt. 76 M$ levés au total. Basée au Royaume-Uni avec une forte présence US, c'est le comparable direct de la catégorie.",
+     "investors": "Crosspoint Capital (lead)",
+     "source": "AI Weekly",
+     "stage": "Série B",
+     "title": "Harmonic Security",
+     "url": "https://aiweekly.co/alerts/harmonic-security-raises-50m-series-b-led-by-crosspoint-to-govern-enterprise-ai"
+    },
+    {
+     "amount": "21 M$",
+     "body": "Gouvernance des agents IA en entreprise (Copilot, Claude Enterprise, ChatGPT Enterprise, Gemini) : posture, comportement à l'exécution, mise en quarantaine des agents qui enfreignent les règles. Annoncé le 19 octobre.",
+     "investors": "SYN Ventures, Race Capital (co-leads)",
+     "source": "FinTech Global",
+     "title": "Opsin",
+     "url": "https://fintech.global/2026/10/19/opsin-raises-21m-as-ai-agents-outpace-legacy-security/"
+    }
+   ],
+   "key": "us",
+   "title": "Grosses levées US"
+  },
+  {
+   "items": [
+    {
+     "body": "Méga-rounds en hausse, DACH, nordiques et UK en tête, investisseurs US plus présents. Les exits se font surtout par M&A. La levée de fonds repart, portée par EQT (record à 5 Md€) et Scaleup Europe, mais reste tendue hors mégafonds.",
+     "source": "PitchBook",
+     "title": "PitchBook Q3 2026 : environ 2/3 du VC européen part dans l'IA",
+     "url": "https://pitchbook.com/news/reports/q3-2026-european-venture-report"
+    },
+    {
+     "body": "L'équipe devient « Solutions Design », chargée de co-construire des outils avec les clients. Après Koyeb, Emmi AI et Pimento, les labs remontent vers l'application et le service, ce qui met la pression sur les startups « wrapper » et les intégrateurs.",
+     "source": "FrenchWeb",
+     "title": "Mistral rachète le studio New Material (4e acquisition en 2026)",
+     "url": "https://www.frenchweb.fr/avec-new-material-mistral-veut-maitriser-le-passage-du-modele-au-produit/463955"
+    },
+    {
+     "body": "Objectif de 150 à 200 M€, avec le British Business Bank en anchor. Nauta est un VC B2B software Seed/Série A (Barcelone, Londres, Munich).",
+     "source": "AltAssets",
+     "title": "Nauta Capital : first close à 60 M€ pour son 6e fonds",
+     "url": "https://www.altassets.net/private-equity-news/by-region/europe-by-region/western-europe-europe-by-region/united-kingdom-western-europe-europe-by-region/nauta-capital-secures-e60m-first-close-for-sixth-fund-with-british-business-bank-anchoring-raise.html"
+    },
+    {
+     "body": "S'y ajoutent 6 M€ via un véhicule de co-investissement.",
+     "source": "EU-Startups",
+     "title": "Gaius Capital clôture son premier fonds à 50 M€",
+     "url": "https://www.eu-startups.com/2026/10/gaius-capital-closes-debut-fund-at-e50-million-raises-another-e6-million-via-co-investment-vehicle/"
+    },
+    {
+     "body": "Intuit rachète Sequence (UK, fintech soutenue par a16z) pour environ 200 M$. Accenture acquiert Sagacity (data/IA, UK). Omikron (Cologne) et COPS (Vienne) fusionnent. Rappel : PTC sera racheté par Schneider Electric (22,6 Md$, annoncé le 5 octobre) et SAP a racheté TechWolf (record belge).",
+     "source": "Tech.eu",
+     "title": "M&A software de la semaine",
+     "url": "https://tech.eu/2026/10/19/european-tech-weekly-recap-more-than-65-tech-funding-deals-worth-over-eur18b"
+    }
+   ],
+   "key": "vc",
+   "title": "VC & écosystème"
+  },
+  {
+   "items": [
+    {
+     "body": "Après Mistral et New Material, la tendance se confirme : OpenAI (Tomoro) et Anthropic (Fractional AI) ont aussi racheté des équipes de déploiement. Pour un investisseur B2B : l'avantage défendable se déplace vers l'intégration métier, la donnée propriétaire et la distribution, pas vers la couche d'interface.",
+     "source": "FrenchWeb",
+     "title": "Les labs descendent dans les services",
+     "url": "https://www.frenchweb.fr/avec-new-material-mistral-veut-maitriser-le-passage-du-modele-au-produit/463955"
+    },
+    {
+     "body": "Le CERT-In indien rapporte que, lors de tests, des agents de plusieurs fournisseurs ont atteint des systèmes en production via des identifiants exposés. C'est l'argument commercial des Harmonic, Opsin et Goodweek : la sécurité et la gouvernance des agents deviennent un budget à part.",
+     "source": "Implicator",
+     "title": "Agents IA : le risque sécurité devient concret",
+     "url": "https://www.implicator.ai/anthropic-5-percent-fund-microsoft-nscale/"
+    },
+    {
+     "body": "DeepSeek publie V4.1-Flash en open weights : 77 % sur DeepSWE pour moins de 0,20 $ par tâche. Replit passe son agent par défaut sur ChatGPT. Les marges des apps IA dépendent de leur capacité à arbitrer entre modèles, d'où l'intérêt des couches multi-modèles.",
+     "source": "Implicator",
+     "title": "Inférence : la guerre des prix continue",
+     "url": "https://www.implicator.ai/anthropic-5-percent-fund-microsoft-nscale/"
+    },
+    {
+     "body": "Microsoft était le seul client public de ce site prévu pour 23 040 GPU GB300. Nscale prépare une IPO US à environ 30 Md$, mais seuls 2,6 Md$ de ses 103 Md$ de contrats sont actifs. À surveiller pour la valorisation de l'infra IA européenne.",
+     "source": "Implicator",
+     "title": "Le data center européen vacille : Microsoft se retire du site Nscale dans l'Essex",
+     "url": "https://www.implicator.ai/anthropic-5-percent-fund-microsoft-nscale/"
+    },
+    {
+     "body": "Selon lui, agents horizontaux, agents verticaux et interfaces existantes vont coexister. Il ne croit pas à un agent unique qui fait tout et anticipe une forte baisse du coût d'inférence. Un contrepoint utile au narratif « SaaS is dead ».",
+     "source": "20VC",
+     "title": "Mike Cannon-Brookes (Atlassian) : l'UI ne meurt pas avec les agents",
+     "url": "https://20vc.substack.com/p/20vc-newsletter-18th-october-2026"
+    }
+   ],
+   "key": "ai",
+   "title": "IA & software"
+  },
+  {
+   "items": [
+    {
+     "body": "Au menu : la multiplication des boîtes tech à plus de 10 Md$, et pourquoi des tokens moins chers n'ont pas fait baisser la facture IA (l'usage croît plus vite). Le ralentissement du software frappe surtout les éditeurs sous-scale, un point clé pour les Séries A/B européennes.",
+     "source": "20VC",
+     "title": "20VC : Rory O'Driscoll x Jason Lemkin, et Harrison Chase (LangChain)",
+     "url": "https://20vc.substack.com/p/20vc-newsletter-18th-october-2026"
+    },
+    {
+     "body": "Le rapport de référence du trimestre : part de l'IA, rôle des LPs US, venture debt, exits.",
+     "source": "PitchBook",
+     "title": "PitchBook – Q3 2026 European Venture Report",
+     "url": "https://pitchbook.com/news/reports/q3-2026-european-venture-report"
+    },
+    {
+     "body": "La thèse de Lemkin sur la correction du SaaS en 2026 et sur qui la traverse. Utile pour challenger les dossiers SaaS « pré-IA ».",
+     "source": "SaaStr",
+     "title": "SaaStr – The 2026 SaaS Crash: It's Not What You Think",
+     "url": "https://www.saastr.com/the-2026-saas-crash-its-not-what-you-think/"
+    }
+   ],
+   "key": "read",
+   "title": "À lire / écouter"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Tech.eu – European tech weekly recap (19/10/2026)",
+   "url": "https://tech.eu/2026/10/19/european-tech-weekly-recap-more-than-65-tech-funding-deals-worth-over-eur18b"
+  },
+  {
+   "title": "Maddyness – Les startups françaises ont levé 58,5 M€ cette semaine",
+   "url": "https://www.maddyness.com/2026/10/16/les-startups-francaises-ont-leve-585-millions-deuros-cette-semaine/"
+  },
+  {
+   "title": "deutsche-startups.de – 12 Startups, die gerade Millionen eingesammelt haben",
+   "url": "https://www.deutsche-startups.de/2026/10/16/12-aufstrebende-startups-die-gerade-millionen-einsammelt-haben/"
+  },
+  {
+   "title": "EU-Startups – Goodweek raises €10.69M",
+   "url": "https://www.eu-startups.com/2026/10/strasbourg-founded-goodweek-raises-e10-69-million-to-become-the-ai-manager-for-smbs/"
+  },
+  {
+   "title": "Multeam – Les levées de fonds de la semaine (S42 2026)",
+   "url": "https://multeam.substack.com/p/les-levees-de-fonds-de-la-semaine-3c6"
+  },
+  {
+   "title": "CFNews – Dougs double la mise",
+   "url": "https://www.cfnews.net/L-actualite/Capital-developpement/Operations/Augmentation-de-capital/Dougs-double-la-mise-748121"
+  },
+  {
+   "title": "CFNews – Koddex modélise sa levée",
+   "url": "https://www.cfnews.net/L-actualite/Capital-innovation/Operations/1er-tour/Koddex-modelise-sa-levee-747091"
+  },
+  {
+   "title": "Crunchbase News – The Week's 10 Biggest Funding Rounds (16/10/2026)",
+   "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-investors-scaled-back-ai-biotech-modal/"
+  },
+  {
+   "title": "FinTech Global – Opsin raises $21M",
+   "url": "https://fintech.global/2026/10/19/opsin-raises-21m-as-ai-agents-outpace-legacy-security/"
+  },
+  {
+   "title": "FrenchWeb – Avec New Material, Mistral veut maîtriser le passage du modèle au produit",
+   "url": "https://www.frenchweb.fr/avec-new-material-mistral-veut-maitriser-le-passage-du-modele-au-produit/463955"
+  },
+  {
+   "title": "PitchBook – Q3 2026 European Venture Report",
+   "url": "https://pitchbook.com/news/reports/q3-2026-european-venture-report"
+  },
+  {
+   "title": "Implicator – Morning briefing 19/10/2026",
+   "url": "https://www.implicator.ai/anthropic-5-percent-fund-microsoft-nscale/"
+  },
+  {
+   "title": "20VC Newsletter – 18 octobre 2026",
+   "url": "https://20vc.substack.com/p/20vc-newsletter-18th-october-2026"
+  }
+ ],
+ "summary": "Semaine dense côté DACH (Zeit AI, amber, Mika, conmeet, Elevatry) et France (Goodweek, Dougs, Koddex, Webyn). Côté US, les gros chèques vont à l'infra d'inférence (Modal à 15,75 Md$) et aux agents enterprise (TypeSafe), tandis que Mistral fait sa 4e acquisition de l'année et que PitchBook confirme qu'environ 2/3 du VC européen part dans l'IA."
+}
