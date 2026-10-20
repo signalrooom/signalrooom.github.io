@@ -170,6 +170,47 @@ footer{border-top:1px solid var(--line)}
   .amt{grid-row:auto;grid-column:1;text-align:left;color:var(--accent)}
   .ednav{grid-template-columns:1fr}.ednav .next{grid-column:1;text-align:left}
 }
+
+/* ---------- Identité couleur ---------- */
+:root{--c-eu:#e8551c;--c-us:#2b47ff;--c-vc:#0e9f6e;--c-ai:#d6336c;--c-read:#b7791f;--orange:#ff6a2b;--lemon:#ffd23f;
+  --glow1:rgba(43,71,255,.34);--glow2:rgba(255,106,43,.30);--glow3:rgba(255,79,163,.20)}
+@media (prefers-color-scheme:dark){:root{--c-eu:#ff8a5c;--c-us:#8c9bff;--c-vc:#3ddc97;--c-ai:#ff73a6;--c-read:#ffc94a;--orange:#ff8a5c;
+  --glow1:rgba(110,130,255,.30);--glow2:rgba(255,120,70,.20);--glow3:rgba(255,79,163,.14)}}
+.logo .r{color:var(--accent)}
+.hero h1 em{color:var(--accent)}
+.hero h1 .dot{color:var(--orange)}
+.hero::before{content:"";position:absolute;z-index:0;pointer-events:none;width:min(560px,70vw);height:min(560px,70vw);left:38%;top:30%;border-radius:50%;background:radial-gradient(circle,var(--glow3),transparent 65%);filter:blur(70px)}
+.hero::after{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.12;mix-blend-mode:multiply;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+@media (prefers-color-scheme:dark){.hero::after{mix-blend-mode:overlay;opacity:.25}}
+.nav,.hero-main,.ticker{z-index:2}
+.today .num{color:var(--c,var(--ink))}
+.today .num::after{content:"";display:inline-block;width:.16em;height:.16em;border-radius:50%;background:var(--c,var(--ink));margin-left:.08em}
+.ticker{background:var(--accent);border:0}
+.ticker-track span{color:rgba(255,255,255,.78)}
+.ticker-track b{color:#fff}
+.ticker-track i{color:var(--lemon)}
+.ticker-track .sep{color:rgba(255,255,255,.45)}
+@media (prefers-color-scheme:dark){.ticker{background:#2b47ff}}
+.jump::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--c);margin-right:7px;vertical-align:1px}
+.toggle[aria-pressed="true"]{background:var(--orange);border-color:var(--orange);color:#fff}
+.sec-head{border-bottom-color:var(--c)}
+.sec-head h3::before{content:"";display:inline-block;width:11px;height:11px;border-radius:50%;background:var(--c);margin-right:14px;vertical-align:.12em}
+.sec-head h3 em{color:var(--c)}
+.sec-head .n{color:var(--c)}
+.sec-intro{padding-left:14px;border-left:2px solid var(--c)}
+.amt{color:var(--c)}
+.item-t a:hover .arr{color:var(--c)}
+.meta .pick{color:var(--orange)}
+.meta .pick::before{background:var(--orange)}
+.meta .geo{color:var(--c)}
+mark{background:color-mix(in srgb,var(--lemon) 45%,transparent)}
+.ed-head .label{color:var(--accent)}
+.ednav a{border-top-color:var(--accent)}
+footer{position:relative;overflow:hidden;border-top:0;background:linear-gradient(180deg,var(--bg),color-mix(in srgb,var(--accent) 10%,var(--bg)))}
+.bigmark{max-width:1120px;margin:0 auto;padding-block:64px 0}
+.bigmark .logo{font-size:clamp(58px,15vw,200px);letter-spacing:-.04em;gap:.18em}
+.bigmark .logo .s{font-weight:300}
+@media (max-width:560px){.amt{color:var(--c)}}
 </style>
 </head>
 <body>
@@ -186,7 +227,7 @@ footer{border-top:1px solid var(--line)}
 
   <div class="hero-main gutter"><div class="wrap" style="display:flex;flex-direction:column;gap:28px">
     <span class="label" id="kicker">Le brief VC du matin</span>
-    <h1>Tout ce qui bouge dans la tech, <em>chaque matin.</em></h1>
+    <h1>Tout ce qui bouge dans la tech, <em>chaque matin</em><span class="dot">.</span></h1>
     <p class="sub">Levées européennes et US, IA, software B2B et lectures de fond. <b>Trié et résumé avant 8h</b>, du lundi au vendredi.</p>
     <div class="cta">
       <a class="pill dark" href="#news">Lire l'édition du jour <span class="arr">→</span></a>
@@ -215,7 +256,7 @@ footer{border-top:1px solid var(--line)}
   <div class="feed gutter" id="feed"><div class="empty">Chargement…</div></div>
 </main>
 
-<footer><div class="foot gutter">
+<footer><div class="bigmark gutter" aria-hidden="true"><span class="logo"><span class="s">Signal</span><span class="r">r<span>o</span><span class="o2">o</span><span class="o3">o</span>m</span></span></div><div class="foot gutter">
   <a class="logo" href="#top"><span class="s">Signal</span><span class="r">r<span>o</span><span class="o2">o</span><span class="o3">o</span>m</span></a>
   <span>Généré chaque matin de semaine à partir de sources publiques. Montants tels qu'annoncés.</span>
 </div></footer>
@@ -223,7 +264,7 @@ footer{border-top:1px solid var(--line)}
 <button class="top" id="toTop" type="button" aria-label="Revenir en haut" hidden><svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M8 14V3M3 7.5 8 2.5l5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
 
 <script>
-const SEC={eu:{label:"Europe",title:["Levées","Europe"]},us:{label:"US",title:["Grosses levées","US"]},vc:{label:"VC",title:["VC &","écosystème"]},ai:{label:"IA",title:["IA &","software"]},read:{label:"À lire",title:["À lire,","à écouter"]}};
+const SEC={eu:{label:"Europe",c:"var(--c-eu)",title:["Levées","Europe"]},us:{label:"US",c:"var(--c-us)",title:["Grosses levées","US"]},vc:{label:"VC",c:"var(--c-vc)",title:["VC &","écosystème"]},ai:{label:"IA",c:"var(--c-ai)",title:["IA &","software"]},read:{label:"À lire",c:"var(--c-read)",title:["À lire,","à écouter"]}};
 const $=s=>document.querySelector(s);
 const cache={};const state={dates:[],cur:null,data:null,q:"",pick:false};
 function el(t,c,x){const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
@@ -245,7 +286,7 @@ function renderHero(){
   $("#kicker").textContent=latest?"Le brief VC du matin":"Archive du "+longDate(b.date);
   const t=$("#today");t.replaceChildren();
   const d=el("div");d.append(el("span","label",(latest?"Aujourd'hui · ":"")+cap(longDate(b.date))));d.append(el("p","hl",b.headline||""));t.append(d);
-  [["eu","levées Europe"],["us","levées US"],["ai","news IA"]].forEach(([k,lab])=>{const n=count(k);const a=el("a");a.href="#sec-"+k;a.append(el("span","num",String(n)),el("span","label",lab));const w=el("div");w.append(a);t.append(w)});
+  [["eu","levées Europe"],["us","levées US"],["ai","news IA"]].forEach(([k,lab])=>{const n=count(k);const a=el("a");a.href="#sec-"+k;a.style.setProperty("--c",SEC[k].c);a.append(el("span","num",String(n)),el("span","label",lab));const w=el("div");w.append(a);t.append(w)});
   const deals=[];sections().filter(s=>s.key==="eu"||s.key==="us").forEach(s=>(s.items||[]).forEach(it=>{if(it.amount)deals.push(it)}));
   const tr=$("#ticker");tr.replaceChildren();
   const build=()=>{const sp=el("span");deals.forEach((it,i)=>{sp.append(el("b",null,it.title));sp.append(el("i",null,it.amount));sp.append(document.createTextNode(it.stage||it.country||""));sp.append(el("span","sep","/"))});return sp};
@@ -255,7 +296,7 @@ function renderBar(){
   const sel=$("#date");sel.replaceChildren();
   state.dates.forEach((id,i)=>{const o=el("option",null,cap(shortDate(id))+(i===0?" · dernière":""));o.value=id;o.selected=id===state.cur;sel.append(o)});
   const j=$("#jumps");j.replaceChildren();
-  sections().forEach(s=>{const n=(s.items||[]).filter(matches).length;if(!n)return;const a=el("a","jump",SEC[s.key].label);a.href="#sec-"+s.key;a.append(el("sup",null,String(n)));j.append(a)});
+  sections().forEach(s=>{const n=(s.items||[]).filter(matches).length;if(!n)return;const a=el("a","jump",SEC[s.key].label);a.style.setProperty("--c",SEC[s.key].c);a.href="#sec-"+s.key;a.append(el("sup",null,String(n)));j.append(a)});
 }
 function item(it){
   const r=el("article","item");const t=el("h4","item-t");const u=safeUrl(it.url);
@@ -274,7 +315,7 @@ function renderFeed(){
   const h=el("div","ed-head");h.append(el("span","label",cap(longDate(b.date))));h.append(el("h2",null,b.headline||""));if(b.summary)h.append(el("p",null,b.summary));f.append(h);
   let total=0;
   sections().forEach(s=>{const items=(s.items||[]).filter(matches);if(!items.length)return;total+=items.length;
-    const sec=el("section","sec");sec.id="sec-"+s.key;const hd=el("div","sec-head");const h3=el("h3");
+    const sec=el("section","sec");sec.id="sec-"+s.key;sec.style.setProperty("--c",SEC[s.key].c);const hd=el("div","sec-head");const h3=el("h3");
     h3.append(SEC[s.key].title[0]+" ");h3.append(el("em",null,SEC[s.key].title[1]));hd.append(h3);hd.append(el("span","n",String(items.length).padStart(2,"0")));sec.append(hd);
     if(s.intro&&!state.q&&!state.pick)sec.append(el("p","sec-intro",s.intro));
     items.forEach(it=>sec.append(item(it)));f.append(sec)});
