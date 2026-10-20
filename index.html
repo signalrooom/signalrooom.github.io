@@ -284,6 +284,16 @@ footer{position:relative;overflow:hidden;border-top:0;background:linear-gradient
 .hero h1.big .trail i:nth-child(3){animation-delay:.5s}
 .hero h1.big .trail i:nth-child(4){display:none}
 @media (min-width:1240px){.hero-grid .ride{width:auto;justify-self:stretch;margin-left:clamp(0px,calc((100vw - 1240px) / 6),90px);margin-right:calc(-1 * clamp(0px,calc((100vw - 1160px) / 2 - 24px),220px))}}
+/* Grand écran : plus large, voiture à droite, accueil plein écran */
+@media (min-width:1600px){
+  .hero{min-height:100vh;min-height:100svh}
+  .hero .wrap{max-width:min(1900px,90vw)}
+  .hero h1.big{font-size:clamp(196px,12.5vw,250px)}
+  .hero-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .hero-grid .ride{width:min(100%,680px);justify-self:end;margin-left:0;margin-right:0}
+  .tag{font-size:clamp(40px,2.6vw,52px)}
+  .hero .sub{font-size:21px}
+}
 </style>
 </head>
 <body>
