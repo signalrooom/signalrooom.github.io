@@ -297,6 +297,10 @@ footer{position:relative;overflow:hidden;border-top:0;background:linear-gradient
 .ticker-track{animation:none!important;padding-left:max(20px,env(safe-area-inset-left,0px))}
 .ticker{overflow-x:auto;scrollbar-width:none}
 .ticker::-webkit-scrollbar{display:none}
+.today{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+.today>div{padding:22px 24px 4px 24px!important;border-left:1px solid var(--line)!important;border-top:0!important;grid-column:auto!important}
+.today>div:first-child{padding-left:0!important;border-left:0!important}
+@media (max-width:560px){.today>div{padding-left:14px!important;padding-right:8px!important}}
 </style>
 </head>
 <body>
@@ -338,7 +342,6 @@ footer{position:relative;overflow:hidden;border-top:0;background:linear-gradient
     </div>
     </div>
     <div class="today" id="today" aria-label="Édition du jour">
-      <div><span class="label" id="t-date">Aujourd'hui</span><p class="hl" id="t-head">Chargement…</p></div>
     </div>
   </div></div>
 
@@ -389,7 +392,7 @@ function renderHero(){
   const b=state.data;if(!b)return;const latest=state.cur===state.dates[0];
   $("#kicker").textContent=latest?"Le brief VC du matin":"Archive du "+longDate(b.date);
   const t=$("#today");t.replaceChildren();
-  const d=el("div");d.append(el("span","label",(latest?"Aujourd'hui · ":"")+cap(longDate(b.date))));d.append(el("p","hl",b.headline||""));t.append(d);
+  
   [["eu","levées Europe"],["us","levées US"],["ai","news IA"]].forEach(([k,lab])=>{const n=count(k);const a=el("a");a.href="#sec-"+k;a.style.setProperty("--c",SEC[k].c);a.append(el("span","num",String(n)),el("span","label",lab));const w=el("div");w.append(a);t.append(w)});
   const deals=[];sections().filter(s=>s.key==="eu"||s.key==="us").forEach(s=>(s.items||[]).forEach(it=>{if(it.amount)deals.push(it)}));
   const tr=$("#ticker");tr.replaceChildren();
