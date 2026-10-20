@@ -379,6 +379,9 @@ footer{position:relative;overflow:hidden;border-top:0;background:linear-gradient
 .pill.go:hover .arr{transform:none}
 @keyframes nudgedown{0%,100%{transform:translateY(-1px)}50%{transform:translateY(3px)}}
 @media (prefers-reduced-motion:reduce){.pill.go .arr{animation:none!important}}
+.credits{display:flex;flex-direction:column;gap:4px}
+.credits .by{color:var(--ink);font-size:14px}
+.credits .by b{font-family:var(--serif);font-style:italic;font-weight:400;font-size:1.2em;color:var(--accent)}
 </style>
 </head>
 <body>
@@ -446,7 +449,7 @@ footer{position:relative;overflow:hidden;border-top:0;background:linear-gradient
 
 <footer><div class="bigmark gutter" aria-hidden="true"><span class="logo"><span class="s">Signal</span><span class="r">r<span>o</span><span class="o2">o</span><span class="o3">o</span>m<span class="trail"><i></i><i></i><i></i><i></i></span></span></span></div><div class="foot gutter">
   <a class="logo" href="#top"><span class="s">Signal</span><span class="r">r<span>o</span><span class="o2">o</span><span class="o3">o</span>m</span></a>
-  <span>Généré chaque matin de semaine à partir de sources publiques. Montants tels qu'annoncés.</span>
+  <span class="credits"><span class="by">Créé par <b>Juliette Hombert</b></span><span>Généré chaque matin de semaine à partir de sources publiques. Montants tels qu'annoncés.</span></span>
   <div class="minicar" aria-hidden="true">
     <svg class="car" viewBox="-40 0 340 110">
         <defs><clipPath id="cbody2"><path d="M30 78C30 70 36 66 46 65L86 62C98 46 118 38 146 37L170 37C186 37 198 45 208 55L250 61C264 63 272 69 272 78L272 82L30 82Z"/></clipPath></defs>
