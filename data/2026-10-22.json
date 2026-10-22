@@ -1,0 +1,355 @@
+{
+  "date": "2026-10-22",
+  "headline": "Legora (550 M$ à 8,8 Md$) et Pigment (250 M$ à 2,3 Md$) lèvent le même jour, pendant que Nvidia détaille à Berlin près de 10 Md$ engagés en Europe et sa propre couche d'exécution pour agents.",
+  "summary": "Journée dominée par deux Séries E de champions SaaS IA européens et par la keynote GTC Berlin. Côté early stage, le deal à regarder est YGO (8 M€, Série A, Berlin, Ventech lead), qui rend l'inventaire voyage réservable par des agents IA.",
+  "sections": [
+    {
+      "key": "signals",
+      "title": "Ce qui se dessine",
+      "items": [
+        {
+          "title": "Services professionnels automatisés : le plafond monte à 8,8 Md$",
+          "body": "Le 21 octobre, Legora lève 550 M$ à 8,8 Md$ (ARR passé de 100 M$ à plus de 200 M$ en moins de six mois) ; le même jour, Rulen (Italie, 1,8 M€) automatise les workflows fiscaux et comptables et EstateMin (1 M€) les dossiers de successions pour cabinets d'avocats. Ils suivent Dougs (50 M€) et Mika (6 M€) sur la compta IA mi-octobre, puis Plinto (2,9 M€, 20 octobre) sur le contrôle financier. À creuser : les niches où la réglementation locale protège des généralistes (fiscalité DACH, notariat, paie, social en France) et les éditeurs Seed qui y ont déjà des intégrations profondes (DATEV, impots.gouv, URSSAF)."
+        },
+        {
+          "title": "La couche « agent-ready » : rendre les systèmes existants utilisables par des agents",
+          "body": "Le 21 octobre, YGO (Berlin, 8 M€) connecte les systèmes de réservation des compagnies et hôtels aux assistants IA, et Nvidia présente à Berlin OpenShell (runtime sécurisé open source pour agents) et Sentry (surveillance isolée au niveau matériel), avec un partenariat Anthropic pour y faire tourner des agents Claude. La veille, Daytona était valorisé 1 Md$ pour ses sandboxes d'agents. À creuser : les connecteurs agent-ready par verticale (assurance, distribution B2B, logistique, à la manière de Procuros sur l'EDI) et la question de qui capte la valeur si Nvidia offre le runtime gratuitement."
+        },
+        {
+          "title": "Agents opérationnels pour le retail et les marques CPG",
+          "body": "Le 21 octobre, Opply (Londres, 7,5 M$) lance des agents qui gèrent sourcing, achats, financement et supply chain des marques CPG, et Jenz (Oslo, 540 k€) un agent qui analyse ventes et stocks des retailers. Une semaine plus tôt (14 octobre), Duvo levait 32 M$ sur un « execution OS » agentique pour le retail. À creuser : le même modèle pour les PME agroalimentaires et la distribution spécialisée en France et en DACH, où les ERP sont vieillissants."
+        },
+        {
+          "title": "Le capital growth européen se structure autour de l'IA",
+          "body": "Pigment (21 octobre) lève 250 M$ en tour mené par le Scaleup Europe Fund géré par EQT, avec Nvidia, une semaine après la révélation de la prise de participation de Nvidia (13 octobre). Le même jour, Tech.eu chiffre le T3 à 27,8 Md€ (+32 % sur un an), porté par des tours géants. Pour les investisseurs Seed à Série B, cela signifie plus de relais en Série C/D en Europe. À creuser : quelles scale-ups européennes en Série B pourraient entrer dans la cible du Scaleup Europe Fund (30 à 40 sociétés visées)."
+        }
+      ]
+    },
+    {
+      "key": "eu",
+      "title": "Levées Europe",
+      "intro": "Fenêtre du 21 au 22 octobre : peu de tours dans le cœur de cible, dominés par deux Séries E. Specter n'affiche pas encore de tour daté dans la fenêtre (données arrêtées au 20 octobre).",
+      "items": [
+        {
+          "title": "YGO",
+          "amount": "8 M€",
+          "stage": "Série A",
+          "country": "Allemagne (Berlin)",
+          "investors": "Ventech (lead), Sake Bosch, Caesar Capital, business angels",
+          "body": "Infrastructure qui connecte les systèmes de réservation des compagnies aériennes, hôtels et voyagistes aux applications IA, pour que des assistants puissent chercher, comparer et réserver des offres combinées. Clients : Condor, Bentour, GetAway Group. Lien : Ventech enchaîne en DACH après amber (7 M€, Aix-la-Chapelle, mi-octobre). Fit : très bon, software B2B européen en Série A, siège DACH, infrastructure IA, lead par un VC franco-allemand.",
+          "fit": true,
+          "url": "https://www.eu-startups.com/2026/10/berlin-based-ygo-raises-e8-million-to-make-travel-inventory-bookable-through-ai-agents/",
+          "source": "EU-Startups",
+          "announced": "2026-10-21"
+        },
+        {
+          "title": "Opply",
+          "amount": "7,5 M$",
+          "stage": "Seed / Série A (non précisé)",
+          "country": "Royaume-Uni (Londres)",
+          "investors": "Chalfen Ventures (lead), Index Ventures, Anthemis, Entrepreneurs First, In This Together, Ventures Together",
+          "body": "Plateforme d'opérations agentique pour les marques de produits de grande consommation : sourcing, achats, financement, stocks, coordination de production et livraisons. Lien : même logique que Duvo (32 M$, 14 octobre) côté retail. Fit : bon, software B2B IA appliquée à la digitalisation de l'industrie, montant dans la cible, mais siège hors France/DACH/Benelux.",
+          "fit": true,
+          "url": "https://tech.eu/2026/10/21/opply-raises-75m-to-expand-its-agentic-ai-platform-for-cpg-brands/",
+          "source": "Tech.eu",
+          "announced": "2026-10-21"
+        },
+        {
+          "title": "Rulen (ex LexSA)",
+          "amount": "1,8 M€",
+          "stage": "Premier tour (pre-seed / seed)",
+          "country": "Italie",
+          "investors": "VC Partners (lead), Growth Engine, AME Ventures, Zest (Magic Mind), Alpha Venture, business angels",
+          "body": "Plateforme IA qui automatise les workflows fiscaux et comptables, de la collecte de données à la production des documents, intégrée aux registres de l'administration fiscale italienne. Lien : Dougs, Mika, Plinto, voir signal. Fit : compliance et IA appliquée, mais tour très early, hors France/DACH/Benelux.",
+          "url": "https://tech.eu/2026/10/21/rulen-secures-eur18m-to-turn-tax-rules-into-action-with-ai/",
+          "source": "Tech.eu",
+          "announced": "2026-10-21"
+        },
+        {
+          "title": "EstateMin",
+          "amount": "1 M€",
+          "stage": "Pre-seed",
+          "country": "Irlande (fondée), siège à Brooklyn",
+          "investors": "NDRC, First Port Syndicate, Enterprise Ireland, business angels irlandais",
+          "body": "Plateforme IA pour cabinets d'avocats spécialisés en successions : intake client, extraction de documents, préparation de formulaires, revue automatique des incohérences, intégrée à Clio. Lien : écho direct à Legora le même jour. Fit : faible, très early et orienté marché US.",
+          "url": "https://www.eu-startups.com/2026/10/former-international-boxers-legaltech-startup-estatemin-raises-e1-million-to-scale-in-the-us/",
+          "source": "EU-Startups",
+          "announced": "2026-10-21"
+        },
+        {
+          "title": "Jenz",
+          "amount": "540 k€ (+ 92 k€ de subvention)",
+          "stage": "Pre-seed",
+          "country": "Norvège (Oslo)",
+          "investors": "Antler, Ada Ventures, Innovation Norway (subvention)",
+          "body": "Couche de données unifiée pour retailers et agent IA qui analyse ventes et stocks, prévoit la demande et automatise les tâches routinières. Lien : signal agents retail avec Opply et Duvo. Fit : faible, trop tôt et hors zone.",
+          "url": "https://tech.eu/2026/10/21/jenz-lands-eur540k-four-months-after-hackathon-win-to-streamline-retail-operations/",
+          "source": "Tech.eu",
+          "announced": "2026-10-21"
+        },
+        {
+          "title": "Pigment",
+          "amount": "250 M$",
+          "stage": "Série E",
+          "country": "France (Paris)",
+          "investors": "Scaleup Europe Fund géré par EQT (lead), WIL, Greenoaks, Iconic, IVP, Meritech, Nvidia",
+          "body": "Planification financière et d'entreprise (EPM) pilotée par l'IA, avec des agents qui analysent les données financières et simulent des scénarios. Valorisation 2,3 Md$ (x2), ARR de plus de 100 M$ (+100 % sur un an), 60 % aux États-Unis. Lien : participation Nvidia révélée le 13 octobre. Fit : hors stade (Série E), mais référence pour la catégorie et signal fort sur le capital growth européen.",
+          "url": "https://www.maddyness.com/2026/10/21/pigment-leve-250-millions-de-dollars-avec-nvidia-au-tour-de-table/",
+          "source": "Maddyness",
+          "announced": "2026-10-21"
+        },
+        {
+          "title": "Legora",
+          "amount": "550 M$",
+          "stage": "Série E",
+          "country": "Suède (Stockholm)",
+          "investors": "Atreides Management (lead), Baron Capital, Fidelity, Glade Brook, J.P. Morgan ; Accel, Benchmark, Bessemer, General Catalyst, ICONIQ, Insight, Redpoint, Salesforce Ventures, Capital Group, Sands Capital",
+          "body": "Plateforme IA agentique pour le travail juridique (Legora aOS) : 140 000 juristes, 2 400 cabinets et directions juridiques, plus de la moitié de l'AmLaw 50. Valorisation 8,8 Md$ (contre 5,6 Md$), ARR revendiqué au-delà de 200 M$. Fit : hors stade et hors ticket, mais c'est la boussole de valorisation pour toute la legaltech et la « compliance IA ».",
+          "url": "https://techcrunch.com/2026/10/21/legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation/",
+          "source": "TechCrunch",
+          "announced": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "key": "us",
+      "title": "Grosses levées US",
+      "intro": "Les montants restent extrêmes en amont (un labo d'un an lève 1 Md$ en Série A), et Bloomberg (22 octobre) décrit des tours « en deux temps » ou par tranches qui gonflent les valorisations affichées. À lire avec prudence quand ces valorisations servent de comparables pour des boîtes européennes. Côté applicatif, l'IA verticale pour l'ingénierie et les outils développeurs continue de lever.",
+      "items": [
+        {
+          "title": "Flapping Airplanes",
+          "amount": "1 Md$",
+          "stage": "Série A",
+          "country": "États-Unis",
+          "investors": "Index et Lux (co-leads), Sequoia, GV, Kleiner Perkins, Valor, Atreides, A*, Nvidia",
+          "body": "Labo IA d'un an qui veut entraîner des modèles performants avec beaucoup moins de données, autour d'un framework GPU « megakernel » mêlant entraînement et inférence. Valorisation d'environ 6 Md$, x4 en neuf mois après un seed de 180 M$. Tendance : l'efficacité de l'entraînement devient un thème d'investissement à part entière.",
+          "url": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/",
+          "source": "TechCrunch",
+          "announced": "2026-10-21"
+        },
+        {
+          "title": "Blacksmith",
+          "amount": "Non communiqué (valorisation 1 Md$+)",
+          "stage": "Série C",
+          "country": "États-Unis",
+          "investors": "Sequoia (lead)",
+          "body": "Infrastructure CI accélérée pour GitHub Actions, devenue licorne. Tendance : avec la génération de code par agents, le volume de builds et de tests explose et l'infrastructure développeur se revalorise.",
+          "url": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
+          "source": "TechCrunch",
+          "announced": "2026-10-21"
+        },
+        {
+          "title": "Mach9",
+          "amount": "34 M$",
+          "stage": "Série A",
+          "country": "États-Unis",
+          "investors": "First Round Capital et Bessemer (co-leads), Prudence, Quiet Capital",
+          "body": "Ancien Mach9 Robotics, pivoté vers un logiciel de CAO IA pour géomètres et génie civil : transforme scans laser et imagerie en premier plan, environ 10 fois plus vite. Près de 100 clients en bêta, 2 500 projets. Tendance : l'IA verticale pour les métiers de l'ingénierie et du BTP, un thème transposable en Europe (voir conmeet ou Kuro en Allemagne).",
+          "url": "https://techcrunch.com/2026/10/21/mach9-raises-34m-after-pivoting-to-ai-cad-software/",
+          "source": "TechCrunch",
+          "announced": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "key": "vc",
+      "title": "VC & écosystème",
+      "items": [
+        {
+          "title": "Tech.eu : 27,8 Md€ investis en Europe au T3 2026",
+          "body": "732 deals, +32 % sur un an. Cinq tours au-delà du milliard (Mistral, Nscale, Helsing, Quantum Systems). Royaume-Uni 12 Md€, Allemagne 4,9 Md€, France 4,0 Md€. IA et cloud captent environ 47 % du total. Cohérent avec PitchBook (2/3 du VC européen vers l'IA, brief du 19 octobre).",
+          "url": "https://tech.eu/2026/10/21/europes-tech-funding-rebounds-to-eur278b-fuelled-by-billion-euro-mega-rounds/",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "GTC Berlin : Nvidia revendique près de 10 Md$ engagés en Europe",
+          "body": "Keynote du 21 octobre : 14 investissements startups annoncés lors des étapes en France, au Royaume-Uni, en Suède et en Allemagne (dont Pigment, Doctolib, Legora, Lovable, Riverlane), cloud industriel souverain avec Deutsche Telekom. Trending Topics estime que Nvidia pèserait 7 à 16 % du VC européen en 2026.",
+          "url": "https://www.trendingtopics.eu/nvidia-buys-into-europes-a-i-scene-accounting-for-more-than-10-of-start-up-investments-in-2026/",
+          "source": "Trending Topics"
+        },
+        {
+          "title": "Nouveaux fonds : BackingMinds, Vintage, Inspired Capital",
+          "body": "BackingMinds (Suède) annonce un first close de plus de 50 M€ pour son troisième fonds early stage, avec le FEI en anchor. Vintage Investment Partners lève 920 M$ en fonds de fonds et secondaires. Inspired Capital (New York) clôture un Fonds IV de 450 M$.",
+          "url": "https://fundmomentum.vc/blog/backingminds-invest-iii-56m-first-close-nordic-2026",
+          "source": "Fund Momentum"
+        },
+        {
+          "title": "M&A : Salesforce rachète Braze pour 5,66 Md$",
+          "body": "Annoncé le 20 octobre (absent de l'édition d'hier) : 47,50 $ par action en cash. Braze (engagement client, 910 M$ de revenu, +26 %) rejoint Salesforce : les grands éditeurs consolident la couche marketing et données client avant la vague des agents.",
+          "url": "https://www.saastr.com/5-interesting-learnings-from-braze-at-910-million-in-revenue-a-5-66b-sale-to-salesforce-26-growth-and-operating-expenses-up-just-6/",
+          "source": "SaaStr"
+        },
+        {
+          "title": "OpenAI recrute Laureline Serieys (ex Uber) pour diriger la France et l'Europe du Sud",
+          "body": "Le 21 octobre. Signe que la bataille commerciale entreprise se joue désormais pays par pays en Europe, face à Mistral et Anthropic.",
+          "url": "https://www.maddyness.com/2026/10/21/laureline-serieys-ex-uber-rejoint-openai-pour-diriger-la-france/",
+          "source": "Maddyness"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "IA & software",
+      "items": [
+        {
+          "title": "Les modèles OpenAI arrivent sur Google Cloud",
+          "body": "Annoncé le 21 octobre : GPT-6 Astra, Sol et Luna disponibles dans Model Garden d'ici quelques semaines, puis dans Confidential Compute et Gemini Agent. Les clients peuvent payer avec leurs engagements Google Cloud existants. Pourquoi ça compte : les trois grands clouds distribuent désormais tous les modèles frontier, ce qui banalise l'accès au modèle et déplace la valeur vers les données, les workflows et la distribution, le terrain des éditeurs B2B.",
+          "url": "https://siliconangle.com/2026/10/21/openai-to-make-its-most-advanced-ai-models-available-in-google-cloud/",
+          "source": "SiliconANGLE"
+        },
+        {
+          "title": "Nvidia OpenShell et Sentry : la sécurité des agents descend dans l'infrastructure",
+          "body": "À Berlin, Huang définit un agent comme modèle + harness + sandbox + connaissance + outils, et présente OpenShell (runtime open source Apache 2.0 qui applique des politiques d'accès) et Sentry (surveillance isolée sur BlueField-4, capable de mettre un agent en quarantaine), avec Anthropic comme partenaire. Pourquoi ça compte : pression sur les startups de sandbox et de sécurité des agents, qui doivent se différencier par la gouvernance métier et la conformité plutôt que par l'isolation brute.",
+          "url": "https://www.investing.com/news/transcripts/nvidia-at-gtc-berlin-2026-keynote-europes-ai-buildout-93CH-4962500",
+          "source": "Investing.com (transcript)"
+        },
+        {
+          "title": "Tours par tranches : des valorisations IA à lire entre les lignes",
+          "body": "Bloomberg (22 octobre) décrit des tours en deux temps où une partie du capital entre à un prix plus élevé pour afficher une valorisation de tête. Pourquoi ça compte : les comparables US utilisés en due diligence peuvent surestimer la valeur réelle ; mieux vaut regarder le prix moyen pondéré et les préférences de liquidation.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-22/venture-capitalists-push-up-ai-startup-valuations-with-tranched-two-step-rounds",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "Le pricing SaaS bascule vers le résultat",
+          "body": "Tribune du CFO de Ringover (21 octobre) : l'IA pousse le SaaS du prix par siège vers un prix au résultat. Pourquoi ça compte : en due diligence, la qualité de l'ARR (usage, marge brute après coûts d'inférence) devient aussi importante que sa croissance.",
+          "url": "https://www.maddyness.com/2026/10/21/saaspocalypse-le-modele-tarifaire-du-saas-a-t-il-vecu/",
+          "source": "Maddyness"
+        }
+      ]
+    },
+    {
+      "key": "read",
+      "title": "À lire / écouter",
+      "items": [
+        {
+          "title": "20VC : Sameer Dholakia (Bessemer) sur le seed, les marges et le pricing des boîtes IA",
+          "body": "Épisode du 20 octobre environ : besoins en capital au seed, avenir du venture et qualité des marges IA. Utile pour challenger un business plan IA appliquée.",
+          "url": "https://podcasts.apple.com/us/podcast/the-twenty-minute-vc-20vc-venture-capital-startup/id958230465",
+          "source": "20VC"
+        },
+        {
+          "title": "Silicon Carne : « OpenAI vs Anthropic, la guerre des chiffres »",
+          "body": "Avec Raphaëlle d'Ornano et Fred Benqué, épisode du 21 octobre environ : lecture des revenus et coûts de compute des deux labs, en plein contexte d'IPO d'Anthropic.",
+          "url": "https://podcasts.apple.com/fr/podcast/silicon-carne-un-peu-de-picante-dans-un-monde-de-tech/id1485527777",
+          "source": "Silicon Carne"
+        },
+        {
+          "title": "SaaStr : 5 leçons du rachat de Braze à 5,66 Md$",
+          "body": "20 octobre : multiples comparés des éditeurs go-to-market, croissance de 26 % avec des opex en hausse de seulement 6 %. Bonne grille pour benchmarker une sortie SaaS.",
+          "url": "https://www.saastr.com/5-interesting-learnings-from-braze-at-910-million-in-revenue-a-5-66b-sale-to-salesforce-26-growth-and-operating-expenses-up-just-6/",
+          "source": "SaaStr"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "EU-Startups : YGO lève 8 M€",
+      "url": "https://www.eu-startups.com/2026/10/berlin-based-ygo-raises-e8-million-to-make-travel-inventory-bookable-through-ai-agents/"
+    },
+    {
+      "title": "Startbase : YGO sichert sich 8 Millionen Euro",
+      "url": "https://startbase.de/news/ygo-sichert-sich-8-millionen-euro-fuer-ki-infrastruktur-in-der-reisebranche"
+    },
+    {
+      "title": "Tech.eu : Opply raises $7.5M",
+      "url": "https://tech.eu/2026/10/21/opply-raises-75m-to-expand-its-agentic-ai-platform-for-cpg-brands/"
+    },
+    {
+      "title": "Tech.eu : Rulen secures €1.8M",
+      "url": "https://tech.eu/2026/10/21/rulen-secures-eur18m-to-turn-tax-rules-into-action-with-ai/"
+    },
+    {
+      "title": "Tech.eu : Jenz lands €540K",
+      "url": "https://tech.eu/2026/10/21/jenz-lands-eur540k-four-months-after-hackathon-win-to-streamline-retail-operations/"
+    },
+    {
+      "title": "EU-Startups : EstateMin raises €1M",
+      "url": "https://www.eu-startups.com/2026/10/former-international-boxers-legaltech-startup-estatemin-raises-e1-million-to-scale-in-the-us/"
+    },
+    {
+      "title": "Maddyness : Pigment lève 250 M$",
+      "url": "https://www.maddyness.com/2026/10/21/pigment-leve-250-millions-de-dollars-avec-nvidia-au-tour-de-table/"
+    },
+    {
+      "title": "Tech.eu : Scaleup Europe Fund leads Pigment round",
+      "url": "https://tech.eu/2026/10/21/scaleup-europe-fund-leads-ps250m-funding-round-in-pigment"
+    },
+    {
+      "title": "TechCrunch : Legora raises $550M",
+      "url": "https://techcrunch.com/2026/10/21/legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation/"
+    },
+    {
+      "title": "TechCrunch : Flapping Airplanes raises $1B",
+      "url": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/"
+    },
+    {
+      "title": "TechCrunch : Mach9 raises $34M",
+      "url": "https://techcrunch.com/2026/10/21/mach9-raises-34m-after-pivoting-to-ai-cad-software/"
+    },
+    {
+      "title": "TechCrunch : Blacksmith hits unicorn valuation",
+      "url": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/"
+    },
+    {
+      "title": "Bloomberg : tranched two-step rounds",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/venture-capitalists-push-up-ai-startup-valuations-with-tranched-two-step-rounds"
+    },
+    {
+      "title": "Tech.eu : Europe's tech funding rebounds to €27.8B",
+      "url": "https://tech.eu/2026/10/21/europes-tech-funding-rebounds-to-eur278b-fuelled-by-billion-euro-mega-rounds/"
+    },
+    {
+      "title": "Trending Topics : Nvidia buys into Europe's AI scene",
+      "url": "https://www.trendingtopics.eu/nvidia-buys-into-europes-a-i-scene-accounting-for-more-than-10-of-start-up-investments-in-2026/"
+    },
+    {
+      "title": "StorageNewsletter : Nvidia GTC Berlin 2026",
+      "url": "https://www.storagenewsletter.com/2026/10/21/nvidia-gtc-berlin-2026-nvidia-lands-in-europe-to-expand-its-investment-footprint/"
+    },
+    {
+      "title": "Investing.com : transcript keynote GTC Berlin",
+      "url": "https://www.investing.com/news/transcripts/nvidia-at-gtc-berlin-2026-keynote-europes-ai-buildout-93CH-4962500"
+    },
+    {
+      "title": "SiliconANGLE : OpenAI models in Google Cloud",
+      "url": "https://siliconangle.com/2026/10/21/openai-to-make-its-most-advanced-ai-models-available-in-google-cloud/"
+    },
+    {
+      "title": "Fund Momentum : BackingMinds Invest III",
+      "url": "https://fundmomentum.vc/blog/backingminds-invest-iii-56m-first-close-nordic-2026"
+    },
+    {
+      "title": "Fund Momentum : Vintage Investment Partners",
+      "url": "https://fundmomentum.vc/blog/vintage-investment-partners-920m-fund-of-funds-2026"
+    },
+    {
+      "title": "Fund Momentum : Inspired Capital Fund IV",
+      "url": "https://fundmomentum.vc/blog/inspired-capital-450m-fund-iv-ny-early-stage-2026"
+    },
+    {
+      "title": "SEC : Braze 8-K (acquisition par Salesforce)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001676238/000095010326015850/dp254600_ex9902.htm"
+    },
+    {
+      "title": "SaaStr : learnings from Braze",
+      "url": "https://www.saastr.com/5-interesting-learnings-from-braze-at-910-million-in-revenue-a-5-66b-sale-to-salesforce-26-growth-and-operating-expenses-up-just-6/"
+    },
+    {
+      "title": "Maddyness : Laureline Serieys rejoint OpenAI",
+      "url": "https://www.maddyness.com/2026/10/21/laureline-serieys-ex-uber-rejoint-openai-pour-diriger-la-france/"
+    },
+    {
+      "title": "Maddyness : SaaSpocalypse, le modèle tarifaire du SaaS a-t-il vécu ?",
+      "url": "https://www.maddyness.com/2026/10/21/saaspocalypse-le-modele-tarifaire-du-saas-a-t-il-vecu/"
+    },
+    {
+      "title": "20VC (Apple Podcasts)",
+      "url": "https://podcasts.apple.com/us/podcast/the-twenty-minute-vc-20vc-venture-capital-startup/id958230465"
+    },
+    {
+      "title": "Silicon Carne (Apple Podcasts)",
+      "url": "https://podcasts.apple.com/fr/podcast/silicon-carne-un-peu-de-picante-dans-un-monde-de-tech/id1485527777"
+    }
+  ]
+}
