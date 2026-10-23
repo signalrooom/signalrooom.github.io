@@ -1,0 +1,338 @@
+{
+  "date": "2026-10-23",
+  "headline": "La sécurité à l'ère des agents passe en mode deals : Mave (28 M$), Indurex (7 M€) et Cygrid (2,66 M€) lèvent le 22 octobre, au lendemain d'une attaque étatique menée avec un framework d'agents et de failles PHP trouvées par l'IA.",
+  "summary": "Journée légère en Europe (Specter ne remonte encore aucun tour après le 21 octobre) mais très cohérente : cybersécurité des agents et des systèmes industriels, couche data du physical AI, et outils qui rendent l'IA moins chère ou le web lisible par les agents. Côté capital, Seaya clôture 600 M€ pour des Séries B à D et OpenAI négocie 30 Md$.",
+  "sections": [
+    {
+      "key": "signals",
+      "title": "Ce qui se dessine",
+      "items": [
+        {
+          "title": "Sécurité des agents : quatrième jour d'affilée, et maintenant des levées",
+          "body": "Le 21 octobre, Microsoft attribue à Storm-0940 une attaque via ConnectWise menée avec ARTEX, un framework open source de pentest autonome, contre des centaines d'organisations ; le même jour, deux failles critiques de PHP trouvées notamment par Codex Security (OpenAI) sont divulguées, et sont déjà massivement exploitées le 22. Le 22, Mave (Israël) lève 28 M$ pour un SOC agentique, Cygrid (Berlin) 2,66 M€ pour contrôler les identités des humains, machines et agents, et Indurex (Amsterdam) 7 M€ pour la sécurité des systèmes cyber-physiques. Cela prolonge les Guardian Agents de Microsoft (20 octobre) et les incidents d'agents rapportés par OpenAI (brief du 21). À creuser : identité et permissions des agents (IAM agentique) en France et DACH, et sécurité OT pour le Mittelstand et l'industrie française, où les budgets suivent la directive NIS2."
+        },
+        {
+          "title": "Physical AI : la valeur se loge dans la data et l'orchestration",
+          "body": "Le 22 octobre, Maxinsights (US) lève un seed de 30 M$ pour produire des données d'entraînement de robots filmées par plus de 5 000 contractuels, Enact (Suisse) sort de stealth avec 30 M$ de pré-seed, Körber entre au capital de NAiSE (logiciel qui pilote des flottes mixtes de robots en entrepôt) et Mistral s'allie à Nvidia pour l'ingénierie industrielle (simulation, CAO, conception de puces). Cela suit Eka Robotics (150 M$, 20 octobre). À creuser : les briques software B2B autour du robot plutôt que le robot lui-même (orchestration de flottes multi-constructeurs, données et QA de données, simulation), un terrain naturel en Allemagne et à Lyon."
+        },
+        {
+          "title": "Le web se recâble pour les agents, et le commerce suit",
+          "body": "Le 21 octobre, Walmart ouvre un serveur MCP qui laisse des agents approuvés chercher et acheter, avec plafonds de dépense ; le 22, Meta annonce que son agent Muse dépasse 10 millions d'utilisateurs dont plus de 25 % achètent, et Reduck (franco-américaine, Station F) lève 3 M$ pour rendre l'automatisation web plus rapide et reproductible pour les agents. Cela fait écho à YGO (Berlin, 8 M€, 21 octobre) qui rend l'inventaire voyage réservable par des agents. À creuser : connecteurs « agent-ready » pour les verticales B2B européennes (distribution, pièces industrielles, voyage d'affaires), et paiement ou autorisation des achats par agent."
+        },
+        {
+          "title": "Faire baisser la facture IA devient une catégorie",
+          "body": "Le 22 octobre, Weflayr (Paris, ex-CEO de Mangopay) lève 2,5 M$ pour une passerelle qui route chaque requête vers le modèle le plus adapté, avec plus de 55 % d'économies annoncées sur un premier déploiement. Cela rejoint le routeur de Notion qui divise les coûts par environ 10 (brief du 21) et North.cloud, 60 M$ en Série B sur le FinOps cloud et IA (16 octobre). À creuser : FinOps IA, routage et évaluation de modèles sur données client ; question à poser : la valeur tient-elle si les labs intègrent eux-mêmes le routage ?"
+        }
+      ]
+    },
+    {
+      "key": "eu",
+      "title": "Levées Europe",
+      "intro": "Peu de tours frais : Specter ne remonte encore rien après le 21 octobre et la presse du 23 au matin est vide ; les tours ci-dessous sont annoncés le 22 octobre. Enact (Suisse, 30 M$ pré-seed) est écarté de la liste car c'est du full stack robotique (matériel et modèles), pas du software B2B.",
+      "items": [
+        {
+          "title": "Indurex",
+          "amount": "7 M€",
+          "stage": "Non précisé (premier tour institutionnel)",
+          "country": "Pays-Bas (Amsterdam)",
+          "investors": "Contrarian Ventures (lead), Axeleo Capital, Curiosity",
+          "body": "Plateforme de sécurité « AI-native » pour les systèmes cyber-physiques (énergie, utilities, industrie, data centers) : elle ingère les données des automates, systèmes de sûreté, historians et outils IT, et des agents relient chaque alerte cyber au process physique concerné ; reporting de conformité IEC 62443 et NIST CSF automatisé. Sortie de stealth en janvier 2026, clients ETI énergie et industrie. Lien : signal sécurité des agents. Fit : très bon, cybersécurité et digitalisation de l'industrie, Benelux, ticket de 7 M€, Axeleo (Lyon) au tour.",
+          "fit": true,
+          "url": "https://www.eu-startups.com/2026/10/amsterdams-indurex-raises-e7-million-to-strengthen-cybersecurity-and-safety-across-cyber-physical-systems/",
+          "source": "EU-Startups",
+          "announced": "2026-10-22"
+        },
+        {
+          "title": "Cygrid",
+          "amount": "2,66 M€",
+          "stage": "Pré-seed",
+          "country": "Allemagne (Berlin)",
+          "investors": "Atlantic, D11Z.Ventures (groupe Schwarz)",
+          "body": "Plateforme d'« identity enforcement » qui relie les identités des personnes, des machines et des agents IA, analyse comportement et contexte, et bloque ou limite les actions risquées (tokens oubliés, commandes dangereuses d'agents). Lien : signal sécurité des agents, même jour que Mave. Fit : bon sur le fond (cybersécurité, DACH, problème qui monte), stade pré-seed.",
+          "fit": true,
+          "url": "https://startupvalley.news/de/cygrid-ki-agenten-identitaet-cybersicherheit/",
+          "source": "Startup Valley News",
+          "announced": "2026-10-22"
+        },
+        {
+          "title": "Weflayr",
+          "amount": "2,5 M$",
+          "stage": "Pré-seed",
+          "country": "France (Paris, Station F)",
+          "investors": "13books Capital (lead), Founders Future, Kima Ventures, Plug and Play, Station F Venture, Roxanne Varza et business angels",
+          "body": "Passerelle entre les applications d'une entreprise et les modèles d'IA, qui route chaque requête vers le modèle le plus adapté après tests sur les données du client ; plus de 55 % de coûts IA en moins à qualité égale sur un premier déploiement. Fondée par Romain Mazeries (ex-CEO de Mangopay) et Noé Achache (ex-Theodo Data & AI). Lien : signal coût de l'IA (routeur Notion, North.cloud). Fit : moyen, infrastructure IA en France mais très tôt et sur une couche que les labs pourraient absorber.",
+          "url": "https://maddyness.com/2026/10/22/lancien-patron-de-mangopay-lance-sa-nouvelle-startup-dans-lia",
+          "source": "Maddyness",
+          "announced": "2026-10-22"
+        },
+        {
+          "title": "Reduck",
+          "amount": "3 M$",
+          "stage": "Pré-seed",
+          "country": "France / États-Unis (Station F)",
+          "investors": "Non communiqués en détail",
+          "body": "Logiciel qui permet aux agents IA de créer et d'exécuter des scripts web reproductibles, pour automatiser des tâches en ligne plus vite et à moindre coût qu'une navigation pas à pas. Lien : signal web agent-ready (Walmart, YGO). Fit : moyen, infrastructure agentique pertinente mais pré-seed et siège en partie aux US.",
+          "url": "https://tech.eu/2026/10/22/reduck-secures-3m-to-make-web-automation-faster-for-ai-agents/",
+          "source": "Tech.eu",
+          "announced": "2026-10-22"
+        },
+        {
+          "title": "RhymeQ",
+          "amount": "2,2 M$",
+          "stage": "Pré-seed",
+          "country": "Allemagne",
+          "investors": "Ground State Ventures, Vanagon Ventures, Plug and Play",
+          "body": "Sort de stealth avec un logiciel qui simplifie la programmation des ordinateurs quantiques. Fit : faible, software B2B en DACH mais marché encore très amont et hors secteurs cœur.",
+          "url": "https://tech.eu/2026/10/22/rhymeq-emerges-from-stealth-with-22m-to-simplify-quantum-programming/",
+          "source": "Tech.eu",
+          "announced": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "key": "us",
+      "title": "Grosses levées US",
+      "intro": "Le capital se concentre aux deux extrémités : les labs (OpenAI négocie 30 Md$, DeepSeek environ 15 Md$ en Chine) et des premiers tours énormes sur l'IA appliquée à la science et au physique (215 M$ pour Warp Sciences, 30 M$ de seed pour Maxinsights). Thème qui va arriver en Europe : la sécurité opérée par agents (Mave), après une semaine d'attaques pilotées par IA.",
+      "items": [
+        {
+          "title": "OpenAI",
+          "amount": "Jusqu'à 30 Md$ (en négociation)",
+          "stage": "Tour privé pré-IPO",
+          "country": "États-Unis",
+          "investors": "Coatue (lead pressenti), investisseurs des Émirats",
+          "body": "Valorisation discutée de 1 250 Md$ pre-money, contre 852 Md$ post-money en mars ; l'apport émirati pourrait être lié à de la capacité de calcul. Termes non finalisés. En face, Anthropic vise une IPO dès mi-novembre (roadshow attendu le 9 novembre).",
+          "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+          "source": "TechCrunch",
+          "announced": "2026-10-22"
+        },
+        {
+          "title": "Warp Sciences",
+          "amount": "215 M$",
+          "stage": "Premier tour (sortie de stealth)",
+          "country": "États-Unis",
+          "investors": "Lightspeed Venture Partners (lead), IVP, Lux",
+          "body": "Startup de découverte de médicaments fondée par Kevin Weil, ex-responsable science (et ex-CPO) d'OpenAI. Les anciens d'OpenAI lèvent des montants de Série C dès le premier tour sur « l'IA pour la science ».",
+          "url": "https://dealroom.co/news/165174-ex-openai-science-head-kevin-weil-raises-215m-for-drug-discovery-startup/",
+          "source": "Dealroom",
+          "announced": "2026-10-22"
+        },
+        {
+          "title": "Mave",
+          "amount": "28 M$",
+          "stage": "Série A",
+          "country": "Israël",
+          "investors": "Red Dot Capital Partners (lead), Lumir Growth Partners ; seed de 6 M$ co-mené par Dell Technologies Capital et Emerge",
+          "body": "Plateforme SecOps agentique qui interroge les outils de sécurité existants là où ils sont (sans data lake central) pour traiter une menace de l'alerte à la réponse. Fondée en 2025, 34 M$ levés au total. Pas US mais même marché cible : c'est le comparable direct des SOC agentiques européens.",
+          "url": "https://siliconangle.com/2026/10/22/mave-raises-34m-to-pull-existing-security-tools-into-one-agentic-system/",
+          "source": "SiliconANGLE",
+          "announced": "2026-10-22"
+        },
+        {
+          "title": "Maxinsights",
+          "amount": "30 M$",
+          "stage": "Seed",
+          "country": "États-Unis",
+          "investors": "Peak XV (lead), Tola Capital, South Park Commons, INCE Capital, Alumni Ventures",
+          "body": "Couche data du physical AI : données d'entraînement pour robots issues de vidéos à la première personne filmées par plus de 5 000 contractuels, plus des outils de contrôle qualité et des données tactiles. Équipe issue de Waymo, Google et Microsoft. Lien : signal physical AI.",
+          "url": "https://pulse2.com/maxinsights-raises-30-million-in-seed-funding-led-by-peak-xv-to-build-physical-ai-data-platform-for-robotics/",
+          "source": "Pulse 2.0",
+          "announced": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "key": "vc",
+      "title": "VC & écosystème",
+      "items": [
+        {
+          "title": "Seaya clôture Seaya Nova à 600 M€ et ouvre Londres",
+          "body": "First close atteint en six mois (22 octobre) pour mener ou co-mener des Séries B à D européennes, tickets de 20 à 50 M€, avec le FEI via l'European Tech Champions Initiative. Vinoth Jayakumar rejoint comme managing partner. Pourquoi ça compte : un nouveau relais growth pour les startups européennes qui arrivent en Série B ou C.",
+          "url": "https://www.eu-startups.com/2026/10/spanish-vc-seaya-closes-new-fund-at-e600-million-in-just-six-months/",
+          "source": "EU-Startups"
+        },
+        {
+          "title": "Autres fonds : Masia (18 M€) et FSE Group (70 M£+)",
+          "body": "Le 22 octobre, Masia (Barcelone) clôture un premier fonds de 18 M€ et ouvre un lieu pour fondateurs deeptech ; FSE Group lance un fonds de plus de 70 M£ de dette de croissance pour des scale-ups londoniennes mal servies.",
+          "url": "https://tech.eu/2026/10/22/barcelonas-masia-closes-eur18m-debut-fund-and-opens-new-home-for-frontier-tech-founders/",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "Concentration des fonds : 6 % des véhicules captent 78 % du capital",
+          "body": "Selon FrenchWeb (22 octobre), les fonds d'au moins 445 M€ ont capté 78,1 % du capital levé tout en ne représentant que 6 % des fonds clôturés. Les gros véhicules (EQT, Seaya Nova) dominent, et les fonds de taille intermédiaire doivent se différencier par la spécialisation sectorielle ou géographique.",
+          "url": "https://frenchweb.fr/legora-nabla-abridge-les-ressorts-de-lhypercroissance-dune-nouvelle-generation-de-startups/464040",
+          "source": "FrenchWeb"
+        },
+        {
+          "title": "Corporate : Körber entre au capital de NAiSE",
+          "body": "Annoncé le 22 octobre : Körber prend une participation (non chiffrée) dans NAiSE, éditeur allemand bootstrappé qui orchestre des flottes mixtes d'AGV, de robots mobiles et de chariots de plusieurs constructeurs. Körber veut une couche neutre à coupler à ses solutions d'entrepôt, y compris pour des cas d'usage humanoïdes. Signe que les industriels achètent la couche logicielle d'orchestration.",
+          "url": "https://tech.eu/2026/10/22/korber-takes-stake-in-bootstrapped-german-robotics-startup-naise/",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "DeepSeek proche d'un tour d'environ 15 Md$",
+          "body": "Selon Bloomberg (22 octobre), environ 100 Md de yuans avec CATL, Tencent, Meituan ou Geely parmi les investisseurs évoqués, à environ 75 Md$ pre-money, deux jours après son bannissement des systèmes fédéraux américains. Une IPO en Chine est envisagée dès l'an prochain.",
+          "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+          "source": "TechCrunch"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "IA & software",
+      "items": [
+        {
+          "title": "PHP2Shell : des failles trouvées par IA, exploitées à grande échelle",
+          "body": "Deux failles critiques (CVSS 9,2) du moteur PHP, divulguées le 21 octobre et créditées notamment à Codex Security d'OpenAI et à Wiz, touchent des versions remontant à PHP 5.4 (WordPress, Drupal). Selon AWS, des tentatives d'exploitation ont commencé dès le 17 octobre ; Cloudflare est passé de milliers à des millions de tentatives après la divulgation. Pourquoi ça compte : l'IA accélère à la fois la découverte et l'exploitation, ce qui renforce la demande en gestion des vulnérabilités, patch du legacy et surface d'attaque.",
+          "url": "https://cryptobriefing.com/openai-codex-critical-php-vulnerabilities/",
+          "source": "Crypto Briefing / Techmeme"
+        },
+        {
+          "title": "Storm-0940 : une attaque étatique pilotée par un framework d'agents",
+          "body": "Microsoft attribue (21 octobre) à un groupe aligné sur la Chine la compromission de ConnectWise Cloud Backup, avec ARTEX, un framework open source de pentest qui fait tourner n'importe quel modèle pour la reconnaissance et l'exfiltration ; des centaines d'organisations visées (défense, énergie, finance, administrations). Pourquoi ça compte : les MSP et la chaîne logicielle deviennent la porte d'entrée des attaques par agents, un marché pour la détection et la sécurité des prestataires IT.",
+          "url": "https://kfgo.com/2026/10/21/chinese-linked-hackers-compromise-connectwise-target-hundreds-in-global-attack-microsoft-says/",
+          "source": "Reuters (via KFGO)"
+        },
+        {
+          "title": "Meta : l'agent Muse fait acheter, la capex grimpe",
+          "body": "Résultats T3 (22 octobre) : Muse dépasse 10 millions d'utilisateurs, plus de 25 % font des achats, panier moyen au-delà de 200 $ ; capex 2026 relevée à 135-145 Md$. Pourquoi ça compte : le commerce par agent sort de la démo, et les marchands B2B vont devoir exposer catalogues, prix et stocks aux agents.",
+          "url": "https://techstartups.com/2026/10/22/tech-news-today-october-22-2026-barclays-deepseek-ibm-meta-nokia-palantir-tesla-more/",
+          "source": "Tech Startups"
+        },
+        {
+          "title": "Mistral et Nvidia s'attaquent à l'ingénierie industrielle",
+          "body": "Annonce du 22 octobre : modèles Mistral connectés aux outils de simulation Nvidia, avec jeux de données et benchmarks publics pour des agents en ingénierie assistée par ordinateur et conception de puces. Pourquoi ça compte : les labs visent l'ingénierie industrielle, terrain de startups comme Koddex (Lille, brief du 19 octobre) ; leur défense sera la donnée métier et la certification.",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-october-22-2026/",
+          "source": "The Neuron"
+        },
+        {
+          "title": "Claude Duet : l'assistant devient proactif",
+          "body": "Anthropic ouvre (22 octobre) une liste d'attente US pour Duet, un agent qui fait un point chaque matin, signale ce qui demande attention et demande avant d'agir. Pourquoi ça compte : les labs attaquent directement la catégorie des assistants de productivité (Town, 108 M$ le 19 octobre) ; les startups devront se différencier par l'intégration métier.",
+          "url": "https://aiweekly.co/ai-news-today/edition/2026-10-22",
+          "source": "AI Weekly"
+        }
+      ]
+    },
+    {
+      "key": "read",
+      "title": "À lire / écouter",
+      "items": [
+        {
+          "title": "Legora, Nabla, Abridge : les ressorts de l'hypercroissance d'une nouvelle génération de startups (FrenchWeb)",
+          "body": "Décryptage du 22 octobre : premier cas d'usage évident, expansion dans les comptes, produit qui avale de nouvelles tâches et gros tours ; la durabilité se jouera sur la rétention et le coût de service. Utile pour structurer une grille de due diligence sur les apps IA verticales.",
+          "url": "https://frenchweb.fr/legora-nabla-abridge-les-ressorts-de-lhypercroissance-dune-nouvelle-generation-de-startups/464040",
+          "source": "FrenchWeb"
+        },
+        {
+          "title": "Why Anthropic Is Racing to IPO While OpenAI Waits Until 2027 (Motley Fool)",
+          "body": "Calendrier (S-1 public attendu vers le 25 octobre pour tenir un roadshow le 9 novembre), chiffres d'Anthropic (16,8 Md$ de revenu au T3, marge de calcul au-delà de 40 %) et pertes d'OpenAI. La référence qui fixera les multiples de toute la chaîne IA.",
+          "url": "https://www.fool.com/investing/2026/10/22/why-anthropic-is-racing-to-ipo-while-openai-waits/",
+          "source": "Motley Fool"
+        },
+        {
+          "title": "Cloud : les 6 sociétés européennes les plus financées au S1 2026 (Tech.eu)",
+          "body": "Panorama du 22 octobre sur l'infrastructure cloud européenne, utile pour situer les acteurs souverains et IA face aux hyperscalers.",
+          "url": "https://tech.eu/2026/10/22/cloud-europes-6-most-funded-companies-in-h1-2026/",
+          "source": "Tech.eu"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "EU-Startups : Indurex lève 7 M€",
+      "url": "https://www.eu-startups.com/2026/10/amsterdams-indurex-raises-e7-million-to-strengthen-cybersecurity-and-safety-across-cyber-physical-systems/"
+    },
+    {
+      "title": "Tech.eu : Indurex raises €7M",
+      "url": "https://tech.eu/2026/10/22/indurex-raises-eur7m-to-strengthen-cybersecurity-across-critical-infrastructure/"
+    },
+    {
+      "title": "Startup Valley News : Cygrid",
+      "url": "https://startupvalley.news/de/cygrid-ki-agenten-identitaet-cybersicherheit/"
+    },
+    {
+      "title": "Maddyness : Weflayr",
+      "url": "https://maddyness.com/2026/10/22/lancien-patron-de-mangopay-lance-sa-nouvelle-startup-dans-lia"
+    },
+    {
+      "title": "Tech.eu : Reduck",
+      "url": "https://tech.eu/2026/10/22/reduck-secures-3m-to-make-web-automation-faster-for-ai-agents/"
+    },
+    {
+      "title": "Tech.eu : RhymeQ",
+      "url": "https://tech.eu/2026/10/22/rhymeq-emerges-from-stealth-with-22m-to-simplify-quantum-programming/"
+    },
+    {
+      "title": "Tech.eu : Enact",
+      "url": "https://tech.eu/2026/10/22/mistral-boss-and-yann-lecun-back-swiss-robotics-startup-enact-in-30m-pre-seed-round/"
+    },
+    {
+      "title": "Tech.eu : Körber et NAiSE",
+      "url": "https://tech.eu/2026/10/22/korber-takes-stake-in-bootstrapped-german-robotics-startup-naise/"
+    },
+    {
+      "title": "EU-Startups : Seaya Nova 600 M€",
+      "url": "https://www.eu-startups.com/2026/10/spanish-vc-seaya-closes-new-fund-at-e600-million-in-just-six-months/"
+    },
+    {
+      "title": "Tech.eu : Masia",
+      "url": "https://tech.eu/2026/10/22/barcelonas-masia-closes-eur18m-debut-fund-and-opens-new-home-for-frontier-tech-founders/"
+    },
+    {
+      "title": "TechCrunch : OpenAI 30 Md$",
+      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
+    },
+    {
+      "title": "TechCrunch : DeepSeek 15 Md$",
+      "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/"
+    },
+    {
+      "title": "SiliconANGLE : Mave",
+      "url": "https://siliconangle.com/2026/10/22/mave-raises-34m-to-pull-existing-security-tools-into-one-agentic-system/"
+    },
+    {
+      "title": "Pulse 2.0 : Maxinsights",
+      "url": "https://pulse2.com/maxinsights-raises-30-million-in-seed-funding-led-by-peak-xv-to-build-physical-ai-data-platform-for-robotics/"
+    },
+    {
+      "title": "Dealroom : Warp Sciences",
+      "url": "https://dealroom.co/news/165174-ex-openai-science-head-kevin-weil-raises-215m-for-drug-discovery-startup/"
+    },
+    {
+      "title": "Reuters via KFGO : Storm-0940 et ConnectWise",
+      "url": "https://kfgo.com/2026/10/21/chinese-linked-hackers-compromise-connectwise-target-hundreds-in-global-attack-microsoft-says/"
+    },
+    {
+      "title": "Crypto Briefing : failles PHP et Codex Security",
+      "url": "https://cryptobriefing.com/openai-codex-critical-php-vulnerabilities/"
+    },
+    {
+      "title": "TechCrunch : Walmart ouvre son magasin aux agents",
+      "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/"
+    },
+    {
+      "title": "Tech Startups : Tech News Today 22 octobre",
+      "url": "https://techstartups.com/2026/10/22/tech-news-today-october-22-2026-barclays-deepseek-ibm-meta-nokia-palantir-tesla-more/"
+    },
+    {
+      "title": "The Neuron : AI news 22 octobre",
+      "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-october-22-2026/"
+    },
+    {
+      "title": "AI Weekly : édition du 22 octobre",
+      "url": "https://aiweekly.co/ai-news-today/edition/2026-10-22"
+    },
+    {
+      "title": "FrenchWeb : les ressorts de l'hypercroissance",
+      "url": "https://frenchweb.fr/legora-nabla-abridge-les-ressorts-de-lhypercroissance-dune-nouvelle-generation-de-startups/464040"
+    },
+    {
+      "title": "Motley Fool : Anthropic IPO",
+      "url": "https://www.fool.com/investing/2026/10/22/why-anthropic-is-racing-to-ipo-while-openai-waits/"
+    },
+    {
+      "title": "Tech.eu : Cloud, les 6 plus financées",
+      "url": "https://tech.eu/2026/10/22/cloud-europes-6-most-funded-companies-in-h1-2026/"
+    }
+  ]
+}
