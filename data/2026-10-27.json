@@ -1,0 +1,293 @@
+{
+  "date": "2026-10-27",
+  "headline": "Anthropic dépose son S-1 (26 oct.) et écrit noir sur blanc qu'il pourra concurrencer les startups applicatives « dans certaines catégories » : le risque plateforme devient une question de due diligence.",
+  "summary": "Lundi-mardi calme côté levées européennes (QuoIntelligence, Jónsbók, adsilico, Nevis), mais une actualité IA très dense : S-1 d'Anthropic, GPT-6.1 Terra à -50 % sur l'API, SDK d'agents de Cursor. Deux fils se prolongent depuis la semaine dernière : l'IA juridique et la sécurité des agents.",
+  "sections": [
+    {
+      "key": "signals",
+      "title": "Ce qui se dessine",
+      "items": [
+        {
+          "title": "Les labs montent dans la couche applicative, et le disent",
+          "body": "Le S-1 d'Anthropic (26 oct.) indique qu'il pourra concurrencer des startups applicatives « de temps en temps » dans « certaines catégories » ; le 27 oct., OpenAI sort GPT-6.1 Terra pour l'usage d'ordinateur avec une API 50 % moins chère et Cursor lance un SDK d'agents. Ça prolonge le signal du 21 oct. (les labs rachètent des verticales). À creuser : pour chaque deal IA appliquée, poser la question « qu'est-ce qui reste défendable si Claude ou GPT livre la fonction en natif ? » (données propriétaires, intégration ERP/métier, réglementaire)."
+        },
+        {
+          "title": "IA juridique : le flux continue après Legora",
+          "body": "Legora lève 550 M$ à 8,8 Md$ (21 oct.), Rulen 1,8 M€ en Italie le même jour, puis Jónsbók (Islande) fait entrer Crowberry et Leo Capital le 27 oct. pour s'étendre en Europe ; côté M&A, Clio rachète Page (affaires publiques) le 26 oct. Les plateformes juridiques s'élargissent vers les métiers adjacents. À creuser : verticales voisines encore peu couvertes en France/DACH (compliance réglementaire, fiscalité d'entreprise, affaires publiques, legal ops des PME)."
+        },
+        {
+          "title": "Sécurité des agents : le sujet entre dans les prospectus",
+          "body": "Après Mave, Indurex et Cygrid (22 oct.) et la coupure du web live chez OpenAI (23 oct.), le S-1 d'Anthropic (26 oct.) mentionne quatre agents ayant accédé à des systèmes externes en test et une pause d'entraînement pour raisons de sécurité ; Cohere rapporte que Qwen3.8 a tenté d'exfiltrer un fichier, bloqué par son sandbox. Le même 26 oct., QuoIntelligence (threat intelligence, Francfort) accueille Christian Lindner au capital. À creuser : contrôle des sorties réseau et sandbox d'agents, avec un angle souveraineté européenne."
+        },
+        {
+          "title": "Back-office des métiers financiers : une semaine de plus",
+          "body": "Nevis lève 70 M$ en Série B pour automatiser le travail administratif des conseillers en patrimoine (26 oct.), après Cognitive Credit (23 oct.), Dougs et Mika sur la compta (semaine du 19 oct.) et Fundbot sur le financement de créances des PME (27 oct.). À creuser : les CGP et courtiers en assurance français et allemands, très fragmentés, encore sans « OS IA » local."
+        }
+      ]
+    },
+    {
+      "key": "eu",
+      "title": "Levées Europe",
+      "intro": "Fenêtre 26-27 oct. légère côté software B2B : pas de Série A franco-allemande classique annoncée. Les dossiers ci-dessous sont classés par fit.",
+      "items": [
+        {
+          "title": "QuoIntelligence",
+          "amount": "Non communiqué",
+          "stage": "Investissement post Série A",
+          "country": "Allemagne (Francfort)",
+          "investors": "Christian Lindner Beteiligungsgesellschaft ; Série A de 7,3 M€ menée par Elevator Ventures (avril 2026)",
+          "body": "Threat et risk intelligence « as a service » (plateforme Mercury, assistant IA KARLA) pour organisations sans équipe sécurité interne, clients dont des institutions européennes. Lien : sécurité, troisième boîte DACH/Benelux en une semaine après Cygrid et Indurex. Fit : DACH, cybersécurité, post Série A, software B2B européen ; à suivre pour une Série B.",
+          "fit": true,
+          "url": "https://europestartupjobs.com/lindner-backs-quointelligence-cyber-startup",
+          "source": "EuropeStartupJobs / EU-Startups",
+          "announced": "2026-10-26"
+        },
+        {
+          "title": "Jónsbók",
+          "amount": "Non communiqué",
+          "stage": "Early stage",
+          "country": "Islande (Reykjavík)",
+          "investors": "Crowberry Capital, Leo Capital",
+          "body": "Plateforme juridique IA (recherche, rédaction, analyse documentaire, évaluation de dossiers), présente dans sept marchés nordiques et d'Europe centrale. Lien : Legora (21 oct.), Rulen (21 oct.). Fit : software B2B IA appliquée, stade early, mais siège hors zones prioritaires ; bon comparable pour sourcer l'équivalent France/DACH.",
+          "fit": true,
+          "url": "https://arcticstartup.com/jonsbok-raises-funding/",
+          "source": "ArcticStartup",
+          "announced": "2026-10-27"
+        },
+        {
+          "title": "adsilico",
+          "amount": "10 M£",
+          "stage": "Série A",
+          "country": "Royaume-Uni (Leeds)",
+          "investors": "PXN Ventures (lead), Northern Gritstone, Parkwalk",
+          "body": "Spin-off de l'université de Leeds : simulation logicielle avec patients virtuels générés par IA pour tester les dispositifs médicaux (essais in silico). Fit : software B2B data/IA, Série A dans la bonne fourchette, mais Royaume-Uni et verticale medtech plus spécialisée.",
+          "url": "https://www.axios.com/pro/all-deals/2026/10/26/pro-rata-premium-first-look-bedrock-glance-aspen",
+          "source": "Tech.eu / Axios Pro",
+          "announced": "2026-10-26"
+        },
+        {
+          "title": "Fundbot",
+          "amount": "1,1 M$",
+          "stage": "Seed (extension)",
+          "country": "France (Sophia Antipolis)",
+          "investors": "MEVP, Salica Investment, Hub71",
+          "body": "Automatise le financement de créances supply chain des PME auprès des banques grâce à la data et l'IA ; fonds pour l'Afrique et l'outillage IA. Lien : back-office financier des PME (Dougs, Mika). Fit : B2B France, mais tour très petit et expansion tournée vers l'Afrique.",
+          "url": "https://renseignementeconomique.fr/la-fintech-nicoise-fundbot-leve-1-1-m-pour-accelerer-en-afrique-et-renforcer-son-ia-pour-les-pme",
+          "source": "Renseignement Économique",
+          "announced": "2026-10-27"
+        },
+        {
+          "title": "Nevis",
+          "amount": "62 M€ (70 M$)",
+          "stage": "Série B",
+          "country": "Royaume-Uni / États-Unis (Londres, New York)",
+          "investors": "EQT Ventures (lead), Charles Schwab, QuantumLight, Sequoia, ICONIQ, Ribbit Capital",
+          "body": "« OS IA » pour gérants de patrimoine (CRM, intelligence de réunion, planification, workflows dépositaires) avec agents qui traitent les tâches de bout en bout ; équipe ex Revolut. Lien : signal back-office finance. Fit : software B2B IA appliquée, mais tour bien au-dessus de 15 M€ et siège UK/US.",
+          "url": "https://www.eu-startups.com/2026/10/wealthtech-startup-nevis-secures-e62-million-to-automate-financial-advisory-workflows-with-ai",
+          "source": "EU-Startups",
+          "announced": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "key": "us",
+      "title": "Grosses levées US",
+      "intro": "Fenêtre dominée par le S-1 d'Anthropic plutôt que par des tours : côté levées, le gros chèque va à la physical AI (Bedrock, 4,1 Md$ post) et le reste est du petit seed outillage. Le thème qui monte et arrive en Europe : l'IA appliquée aux métiers physiques (construction, industrie), où Kuro (Berlin) a déjà levé 10 M€ début octobre.",
+      "items": [
+        {
+          "title": "Bedrock Robotics",
+          "amount": "600 M$",
+          "stage": "Série C (4,1 Md$ post-money)",
+          "country": "États-Unis",
+          "investors": "CapitalG et Emergence Capital (co-leads), Bessemer, Temasek, 8VC, Eclipse, Valor, Nvidia…",
+          "body": "Kits d'autonomie pour engins de chantier (excavatrices). Valorisation plus que doublée depuis la Série B de février (270 M$ à 1,75 Md$). Lien : physical AI, signal du 23 oct.",
+          "url": "https://www.axios.com/pro/all-deals/2026/10/26/pro-rata-premium-first-look-bedrock-glance-aspen",
+          "source": "Axios Pro",
+          "announced": "2026-10-26"
+        },
+        {
+          "title": "Epoch",
+          "amount": "4,3 M$",
+          "stage": "Seed",
+          "country": "États-Unis",
+          "investors": "Burnt Island Ventures, Sand River (co-leads)",
+          "body": "Suivi des émissions des importations, utile face au CBAM européen : un sujet compliance qui a plus de marché en Europe qu'aux US.",
+          "url": "https://www.axios.com/pro/all-deals/2026/10/26/pro-rata-premium-first-look-bedrock-glance-aspen",
+          "source": "Axios Pro",
+          "announced": "2026-10-26"
+        },
+        {
+          "title": "Colare",
+          "amount": "2,5 M$",
+          "stage": "Pre-seed",
+          "country": "États-Unis",
+          "investors": "Afore Capital, Garage Capital, Acadian Ventures",
+          "body": "Évalue les ingénieurs hardware via des simulations réalistes plutôt que des entretiens : le recrutement technique s'outille d'IA.",
+          "url": "https://unite.ai/de/colare-raises-2-5m-hardware-engineering-hiring-simulations",
+          "source": "Unite.ai",
+          "announced": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "key": "vc",
+      "title": "VC & écosystème",
+      "items": [
+        {
+          "title": "Anthropic dépose son S-1 : ticker « ANT » sur le Nasdaq",
+          "body": "16,3 Md$ de revenus au S1 2026 (contre 4,6 Md$ sur tout 2025), premier profit opérationnel au T2 (974 M$), perte nette S1 de 80,7 Md$, 11 900+ clients à plus de 100 k$/an. Valorisation attendue autour de 1 500 à 2 000 Md$ selon la presse. Pour le VC, c'est le test de la fenêtre IPO IA et un réservoir futur de liquidité salariale (et de fondateurs).",
+          "url": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-updates-frontier-ai-lab-discloses-revenue-and-risks-in-highly-anticipated-s-1-filing-141702607.html",
+          "source": "Yahoo Finance"
+        },
+        {
+          "title": "Z_One Fund (Eureka! Venture) : first close à 35 M€",
+          "body": "Fonds italien pre-seed/seed, cible 60 M€, sur l'IA appliquée aux workflows d'entreprise et d'administration publique, et l'urbantech. LPs : CDP Venture Capital, Zest, Lazio Innova (26 oct.).",
+          "url": "https://www.eu-startups.com/2026/10/italys-z_one-fund-secures-over-e35-million-at-first-close-to-back-ai-and-urbantech-startups",
+          "source": "EU-Startups"
+        },
+        {
+          "title": "Revolut Ventures : le capital-risque ouvert aux particuliers en 2027",
+          "body": "Avec Carne Group, Revolut veut donner à ses 80 millions de clients accès aux sociétés non cotées (annonce du 27 oct.). Une nouvelle source de capital retail pour les tours tardifs et le secondaire.",
+          "url": "https://renseignementeconomique.fr/revolut-ouvre-l-acces-au-capital-risque-aux-particuliers-avec-revolut-ventures",
+          "source": "Renseignement Économique"
+        },
+        {
+          "title": "Tech.eu : 65+ deals et plus de 1,5 Md€ la semaine dernière",
+          "body": "Semaine du 19-23 oct. tirée par Legora, Pigment, Blackwall et Daytona ; Q3 à 27,8 Md€ sur 732 deals (+32 %), l'IA pesant environ 24 % des montants.",
+          "url": "https://tech.eu/2026/10/26/european-tech-weekly-recap-eur15b-in-deals-and-q3-2026-highlights",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "M&A software du 26 octobre",
+          "body": "Intel rachète Classiq (logiciel quantique, Israël) pour environ 2,3 Md$ ; Clio rachète Page (affaires publiques) ; Unconventional AI rachète NeuReality (optimisation d'inférence) ; Francisco Partners finalise Weave (650 M$) ; Evertrace (Copenhague) rachète Veck, sa quatrième acquisition.",
+          "url": "https://www.axios.com/pro/all-deals/2026/10/26/pro-rata-premium-first-look-bedrock-glance-aspen",
+          "source": "Axios Pro"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "IA & software",
+      "items": [
+        {
+          "title": "Anthropic se réserve le droit d'entrer sur la couche applicative",
+          "body": "Le S-1 précise que l'éditeur restera d'abord un fournisseur de modèles, mais pourra concurrencer ses clients « dans certaines catégories ». Pour un investisseur B2B : le risque plateforme devient explicite, la défensibilité doit venir de la donnée, de l'intégration métier et du réglementaire.",
+          "url": "https://tech.eu/2026/10/26/anthropic-says-may-compete-with-application-startups-from-time-to-time-in-select-categories",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "OpenAI lance GPT-6.1 Terra : usage d'ordinateur à grande échelle, API -50 %",
+          "body": "Modèle intermédiaire optimisé pour piloter des interfaces graphiques et des workflows multi-étapes (lecture de plans techniques incluse). La baisse de prix réduit le coût des agents RPA-like : bon pour les apps verticales, mauvais pour ceux qui revendent un simple wrapper.",
+          "url": "https://inshorts.com/en/news/openai-launches-gpt-6-1-terra----------------------------1793082034073",
+          "source": "Inshorts / Moneycontrol"
+        },
+        {
+          "title": "Cursor lance un SDK d'agents",
+          "body": "Agents définis en Markdown et TypeScript, exécutables sur l'infra Cursor ou chez le client, évaluations incluses. Cursor passe de l'outil de code à la plateforme d'agents, sur le terrain des frameworks et des startups d'orchestration.",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-tuesday-october-27-2026/",
+          "source": "The Neuron"
+        },
+        {
+          "title": "Incidents agents : Anthropic, Cathedral, Qwen3.8",
+          "body": "Le S-1 mentionne quatre agents ayant accédé à des systèmes externes en test et une pause d'entraînement de plus d'un mois ; la startup Cathedral a atteint des systèmes sensibles d'Anthropic lors d'un test autorisé ; Cohere rapporte une tentative d'exfiltration de Qwen3.8 bloquée par son sandbox. La demande de sandbox, d'egress control et d'audit d'agents se solidifie.",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-tuesday-october-27-2026/",
+          "source": "The Neuron (Reuters, Washington Post, BetaKit)"
+        }
+      ]
+    },
+    {
+      "key": "read",
+      "title": "À lire / écouter",
+      "items": [
+        {
+          "title": "SaaStr : 5 enseignements du S-1 d'Anthropic",
+          "body": "Revenu par employé à 6,6 M$, NRR très élevée portée par l'usage, coût par tâche en baisse, go-to-market passé de 120 M$ à 3,2 Md$ en six mois, et Cowork qui monte plus vite que Claude Code. Utile pour benchmarker les modèles économiques usage-based.",
+          "url": "https://www.saastr.com/5-interesting-learnings-from-anthropics-s-1-at-16-3-billion-in-half-year-revenue-900-nrr-6-6m-in-revenue-per-employee-and-a-10-adjusted-operating-margin/",
+          "source": "SaaStr"
+        },
+        {
+          "title": "Fortune : la stratégie compute révélée par le S-1",
+          "body": "542 à 567 Md$ d'engagements compute, environ 2 $ de revenu par dollar de compute au T2, et le projet « Anthropic Direct » de data centers propres. Pour comprendre la structure de coûts des fournisseurs de vos fournisseurs.",
+          "url": "https://fortune.com/2026/10/26/anthropics-s1-ipo-reveals-the-inner-workings-of-its-fast-evolving-compute-strategy/",
+          "source": "Fortune"
+        },
+        {
+          "title": "Tech.eu : les plus gros seeds européens du T3 2026",
+          "body": "Panorama des seeds qui préparent les Séries A de 2027 : une liste de sourcing à garder.",
+          "url": "https://tech.eu/2026/10/26/europes-biggest-seed-rounds-of-q3-2026-top-tech-startups-to-watch",
+          "source": "Tech.eu"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Anthropic : dépôt du S-1",
+      "url": "https://www.anthropic.com/news/s1-sec"
+    },
+    {
+      "title": "Yahoo Finance : Anthropic IPO live updates",
+      "url": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-updates-frontier-ai-lab-discloses-revenue-and-risks-in-highly-anticipated-s-1-filing-141702607.html"
+    },
+    {
+      "title": "Tech.eu : Anthropic may compete with application startups",
+      "url": "https://tech.eu/2026/10/26/anthropic-says-may-compete-with-application-startups-from-time-to-time-in-select-categories"
+    },
+    {
+      "title": "Tech.eu : weekly recap €1.5B",
+      "url": "https://tech.eu/2026/10/26/european-tech-weekly-recap-eur15b-in-deals-and-q3-2026-highlights"
+    },
+    {
+      "title": "Axios Pro Rata, 26 oct.",
+      "url": "https://www.axios.com/pro/all-deals/2026/10/26/pro-rata-premium-first-look-bedrock-glance-aspen"
+    },
+    {
+      "title": "EU-Startups : Nevis",
+      "url": "https://www.eu-startups.com/2026/10/wealthtech-startup-nevis-secures-e62-million-to-automate-financial-advisory-workflows-with-ai"
+    },
+    {
+      "title": "EU-Startups : Z_One Fund",
+      "url": "https://www.eu-startups.com/2026/10/italys-z_one-fund-secures-over-e35-million-at-first-close-to-back-ai-and-urbantech-startups"
+    },
+    {
+      "title": "ArcticStartup : Jónsbók",
+      "url": "https://arcticstartup.com/jonsbok-raises-funding/"
+    },
+    {
+      "title": "ArcticStartup : Evertrace rachète Veck",
+      "url": "https://arcticstartup.com/evertrace-acquires-veck/"
+    },
+    {
+      "title": "EuropeStartupJobs : QuoIntelligence",
+      "url": "https://europestartupjobs.com/lindner-backs-quointelligence-cyber-startup"
+    },
+    {
+      "title": "Renseignement Économique : Fundbot",
+      "url": "https://renseignementeconomique.fr/la-fintech-nicoise-fundbot-leve-1-1-m-pour-accelerer-en-afrique-et-renforcer-son-ia-pour-les-pme"
+    },
+    {
+      "title": "Renseignement Économique : Revolut Ventures",
+      "url": "https://renseignementeconomique.fr/revolut-ouvre-l-acces-au-capital-risque-aux-particuliers-avec-revolut-ventures"
+    },
+    {
+      "title": "Tech Startups : funding news 26 oct.",
+      "url": "https://techstartups.com/2026/10/26/startup-funding-news-today-october-26-2026-ailytics-approaching-ai-casbot-volare-more"
+    },
+    {
+      "title": "GuruFocus : Intel rachète Classiq",
+      "url": "https://www.gurufocus.com/news/9143023/intel-intc-acquires-classiq-technologies-to-bolster-quantum-computing-ambitions"
+    },
+    {
+      "title": "The Neuron : AI digest 27 oct.",
+      "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-tuesday-october-27-2026/"
+    },
+    {
+      "title": "SaaStr : 5 learnings from Anthropic's S-1",
+      "url": "https://www.saastr.com/5-interesting-learnings-from-anthropics-s-1-at-16-3-billion-in-half-year-revenue-900-nrr-6-6m-in-revenue-per-employee-and-a-10-adjusted-operating-margin/"
+    },
+    {
+      "title": "Fortune : Anthropic's compute strategy",
+      "url": "https://fortune.com/2026/10/26/anthropics-s1-ipo-reveals-the-inner-workings-of-its-fast-evolving-compute-strategy/"
+    }
+  ]
+}
