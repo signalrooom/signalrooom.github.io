@@ -1,0 +1,354 @@
+{
+  "date": "2026-10-28",
+  "headline": "Les identités et secrets des agents IA deviennent un marché : Infisical lève 40 M$ à 600 M$ de valorisation le jour où IBM lance ses contrôles d'agents, pendant que Tendos (Munich) signe un seed de 12 M€ mené par Insight Partners.",
+  "summary": "Fenêtre du 27 au 28 octobre : peu de tours européens, mais un très bon fit DACH (Tendos, agents commerciaux pour les industriels du bâtiment). Côté US, l'argent va à l'infrastructure des agents (secrets, orchestration de code) et aux agents finance, en écho direct aux deals européens des dix derniers jours.",
+  "sections": [
+    {
+      "key": "signals",
+      "title": "Ce qui se dessine",
+      "items": [
+        {
+          "title": "Identité et secrets des agents : la couche sécurité suivante",
+          "body": "Le 27 octobre, Infisical lève 40 M$ en Série B à 600 M$ de valorisation pour donner aux agents un accès aux outils sans exposer les vrais identifiants, le même jour où IBM lance identités vérifiables, révocation rapide des permissions et extension de HashiCorp Vault aux agents ; un rapport Arrakis publié le même jour estime que 99,4 % des agents activés n'ont pas de DLP sur leurs connexions sensibles. Cela prolonge Cygrid (Berlin, 2,66 M€ le 22 octobre) sur l'identity enforcement humain, machine et agent. À creuser : les identités non humaines (secrets, PAM, droits des agents) chez les éditeurs français et DACH en Seed ou Série A, et la question de savoir si les grands IAM (Okta, IBM, CyberArk) vont tout absorber."
+        },
+        {
+          "title": "Le « cabinet comptable IA natif » se réplique aux US et en Scandinavie",
+          "body": "Le 27 octobre, Hyphenate (New York) lève 45 M$ en Série A pour des agents qui font la tenue de comptes, la facturation et les remboursements, et Warmare (Suède) lève environ 1 M$ auprès d'anges dont un dirigeant d'EQT Digital et l'ex CEO de Fortnox pour bâtir un cabinet comptable IA. Ils suivent Dougs (50 M€, 15 octobre), Mika (6 M€, DACH), Plinto (2,9 M€, 20 octobre) et Nevis (70 M$, 26 octobre). À creuser : le même modèle service plus logiciel sur la paie, la fiscalité des PME et le secrétariat juridique en France et en DACH, et la qualité des marges brutes de ces « cabinets » une fois l'humain dans la boucle."
+        },
+        {
+          "title": "Agents commerciaux pour les industries traditionnelles",
+          "body": "Le 27 octobre, Tendos (Munich) lève 12 M€ pour automatiser appels d'offres, devis et saisie CRM et ERP chez les fabricants de matériaux de construction, et Lette (Royaume-Uni) 6,5 M$ pour des agents qui gèrent location, maintenance et impayés des bailleurs. Ils s'inscrivent après YGO (Berlin, 8 M€, 21 octobre) qui rend les systèmes de réservation exploitables par des agents et Kuro (Berlin, 10 M€, début octobre) pour les entreprises générales du BTP. À creuser : les mêmes workflows « demande, devis, commande » dans d'autres industries B2B fragmentées (chimie, emballage, pièces détachées, distribution professionnelle)."
+        },
+        {
+          "title": "Consolidation : les acheteurs de software restent actifs",
+          "body": "Bending Spoons finalise le 27 octobre le rachat de Miro (1,355 Md$ de valeur d'entreprise, environ 600 M$ d'ARR), un mois après Airtable ; le même jour, Naboo rachète son concurrent britannique Pro-ven. À creuser : quelles scale-ups SaaS matures à croissance ralentie deviennent des cibles naturelles pour ces consolidateurs, et ce que ça dit des multiples de sortie hors IA."
+        }
+      ]
+    },
+    {
+      "key": "eu",
+      "title": "Levées Europe",
+      "intro": "Fenêtre étroite (27 au 28 octobre) et pauvre en tours software B2B en France, DACH et Benelux.",
+      "items": [
+        {
+          "title": "Tendos",
+          "amount": "12 M€",
+          "stage": "Seed",
+          "country": "Allemagne (Munich)",
+          "investors": "Insight Partners (lead), Discovery Ventures, FlixFounders, anges dont Hanno Renner (Personio)",
+          "body": "Agents IA qui automatisent le cycle commercial des fabricants de matériaux de construction : réception des appels d'offres, correspondance produits, devis, synchronisation CRM et ERP. Lien : agents verticaux industriels, après YGO et Kuro. Fit : DACH, digitalisation de l'industrie, IA appliquée, ticket compatible ; le lead US en seed rend la Série A disputée, à suivre dès maintenant.",
+          "fit": true,
+          "url": "https://www.startbase.com/news/tendos-erhaelt-12-millionen-euro-fuer-tendos-zur-ki-automatisierung-in-der-baustoffindustrie",
+          "source": "Startbase / Dealroom",
+          "announced": "2026-10-27"
+        },
+        {
+          "title": "Querio",
+          "amount": "5 M$",
+          "stage": "Seed (non précisé)",
+          "country": "Royaume-Uni (Londres)",
+          "investors": "BMW i Ventures, Haatch, Arāya Ventures, Forum Ventures, Secways",
+          "body": "Plateforme analytics où des agents détectent les incohérences de données et maintiennent définitions et rapports pour que les réponses restent cohérentes entre Claude, ChatGPT et les outils internes. Fit : data et IA appliquée, stade Seed ; moins aligné car hors zone cœur et ticket petit.",
+          "fit": true,
+          "url": "https://tech.eu/2026/10/27/uk-analytics-platform-querio-launches-with-5m-raise/",
+          "source": "Tech.eu",
+          "announced": "2026-10-27"
+        },
+        {
+          "title": "Lette",
+          "amount": "6,5 M$",
+          "stage": "Seed",
+          "country": "Royaume-Uni / Irlande",
+          "investors": "Peak (lead), Heliad, Foreword VC, Pitchdrive, Adeline, Des Traynor (Intercom)",
+          "body": "« OS IA » pour les opérateurs de logement locatif : agents qui traitent demandes de location, communication locataires, maintenance, impayés et conformité, au-dessus du logiciel de gestion existant. Lien : agents verticaux, voir signal. Fit : IA appliquée aux services, mais immobilier résidentiel UK, hors zone.",
+          "url": "https://tech.eu/2026/10/27/lette-raises-65m-to-scale-ai-automation-for-uk-rental-operators/",
+          "source": "Tech.eu",
+          "announced": "2026-10-27"
+        },
+        {
+          "title": "Agora Labs",
+          "amount": "4,3 M€",
+          "stage": "Non précisé",
+          "country": "Italie (Rome)",
+          "investors": "P101 SGR (lead), famille Mussetto (Infinite Five)",
+          "body": "Infrastructure qui standardise et anonymise les données cliniques dans les systèmes des hôpitaux et permet l'IA fédérée multi-sites. Fit : data B2B, mais santé et Italie, ticket petit.",
+          "url": "https://tech.eu/2026/10/27/agora-labs-raises-eur43m-to-expand-clinical-data-infrastructure-for-medical-research/",
+          "source": "Tech.eu",
+          "announced": "2026-10-27"
+        },
+        {
+          "title": "Atlas Bio",
+          "amount": "10 à 12,5 M$",
+          "stage": "Seed",
+          "country": "Suisse",
+          "investors": "Creandum (lead) ; pre-seed par First Momentum Ventures et LEA Partners",
+          "body": "Simulations IA destinées à remplacer une partie des essais de phase II et l'expérimentation animale. Fit : IA appliquée vendue aux pharmas, mais plus proche de la biotech que du software B2B cœur.",
+          "url": "https://tech.eu/2026/10/27/swiss-startup-atlas-bio-secures-125m-to-tackle-drug-developments-70-failure-rate-and-move-beyond-animal-testing/",
+          "source": "Tech.eu / Dealroom",
+          "announced": "2026-10-27"
+        },
+        {
+          "title": "Warmare",
+          "amount": "≈ 1 M$",
+          "stage": "Tour d'anges",
+          "country": "Suède",
+          "investors": "Carl-Magnus Hallberg (EQT Digital), Jens Collskog (ex CEO Fortnox)",
+          "body": "Cabinet comptable « IA natif ». Lien : Dougs, Mika, Plinto, Hyphenate, voir signal. Fit : thème intéressant mais bien trop tôt et hors zone.",
+          "url": "https://dealroom.co/news/167242-swedens-warmare-raises-900k-to-build-an-ai-accounting-firm/",
+          "source": "Dealroom",
+          "announced": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "key": "us",
+      "title": "Grosses levées US",
+      "intro": "Le capital US cible les briques qui rendent les agents déployables en entreprise : gestion des secrets (Infisical à 600 M$ en Série B), orchestration de dizaines d'agents de code (Paradev), et agents finance qui remplacent un service comptable (Hyphenate). Ces trois catégories ont déjà des équivalents européens en Seed, la fenêtre de sourcing est ouverte.",
+      "items": [
+        {
+          "title": "Physical Intelligence",
+          "amount": "Non communiqué (en négociation)",
+          "stage": "Tour privé",
+          "country": "États-Unis (San Francisco)",
+          "investors": "Non communiqués",
+          "body": "Laboratoire de modèles fondation pour la robotique, en discussion pour lever à environ 20 Md$ de valorisation selon Bloomberg. La physical AI reste le segment où les valorisations montent le plus vite.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-27/robotics-lab-physical-intelligence-in-talks-for-a-20-billion-valuation",
+          "source": "Bloomberg",
+          "announced": "2026-10-27"
+        },
+        {
+          "title": "Hyphenate",
+          "amount": "45 M$",
+          "stage": "Série A",
+          "country": "États-Unis (New York)",
+          "investors": "Nexus Venture Partners (lead), B Capital, Foundation Capital, BoldCap",
+          "body": "Agents IA entraînés par apprentissage par renforcement pour la tenue de comptes, la gestion des commandes, la facturation et les remboursements, avec extension prévue vers la comptabilité et la finance stratégique. Lien : signal cabinet comptable IA.",
+          "url": "https://www.thesaasnews.com/news/hyphenate-raises-45m-series-a/",
+          "source": "The SaaS News",
+          "announced": "2026-10-27"
+        },
+        {
+          "title": "Infisical",
+          "amount": "40 M$",
+          "stage": "Série B (600 M$ de valorisation)",
+          "country": "États-Unis (San Francisco)",
+          "investors": "Elad Gil (lead), Gradient, Y Combinator",
+          "body": "Gestion des secrets et accès des agents : l'agent reçoit une fausse clé API, le proxy injecte les vrais identifiants ; secrets dynamiques et OTP éphémères. Plus de 1 300 clients dont Airbus et Volkswagen. Lien : signal identité des agents.",
+          "url": "https://www.forbes.com/sites/rashishrivastava/2026/10/27/this-600-million-startup-is-helping-keep-company-secrets-away-from-ai-agents/",
+          "source": "Forbes",
+          "announced": "2026-10-27"
+        },
+        {
+          "title": "Vera Health",
+          "amount": "28,5 M$",
+          "stage": "Série A",
+          "country": "États-Unis (YC), premier recrutement européen à Berlin",
+          "investors": "Threshold Ventures (lead), Optum Ventures, Mantis VC, SV Angel, Y Combinator, Gradient",
+          "body": "Moteur de recherche clinique IA qui expose les preuves derrière chaque réponse ; gratuit pour les cliniciens, payant pour les hôpitaux qui l'intègrent (800 000 cliniciens utilisateurs revendiqués).",
+          "url": "https://tech.eu/2026/10/27/from-two-doctors-to-800000-clinicians-vera-health-raises-285m/",
+          "source": "Tech.eu",
+          "announced": "2026-10-27"
+        },
+        {
+          "title": "Paradev (ex Superset)",
+          "amount": "11,5 M$",
+          "stage": "Seed",
+          "country": "États-Unis (San Francisco)",
+          "investors": "Union Square Ventures (lead), Y Combinator, BoxGroup, 468 Capital, Pioneer Fund, Paul Graham",
+          "body": "App locale qui fait tourner des dizaines ou centaines d'agents de code (Claude Code, Codex) en parallèle, chacun dans son worktree Git, avec validation humaine de chaque changement.",
+          "url": "https://dealroom.co/news/166945-paradev-raises-11-5m-seed-to-run-coding-agents-by-the-hundreds",
+          "source": "Dealroom",
+          "announced": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "key": "vc",
+      "title": "VC & écosystème",
+      "items": [
+        {
+          "title": "Bending Spoons finalise le rachat de Miro",
+          "body": "Opération tout cash à 1,355 Md$ de valeur d'entreprise (environ 1,79 Md$ avec la trésorerie nette) ; d'anciens actionnaires de Miro réinvestissent environ 295 M$ en actions Bending Spoons. Miro pèse environ 600 M$ d'ARR. Deuxième gros deal « workplace » après Airtable en septembre : le consolidateur milanais devient un acheteur de référence pour le SaaS mature.",
+          "url": "https://dealroom.co/news/167190-bending-spoons-closes-1-355b-miro-buyout-its-second-big-workplace-deal-i/",
+          "source": "Dealroom"
+        },
+        {
+          "title": "Naboo rachète son rival britannique Pro-ven",
+          "body": "La plateforme française de réservation et de gestion d'événements d'entreprise atteint environ 300 M$ de dépenses événementielles gérées, après une levée de 70 M$ début 2026 ; 17 M€ de CA en 2025, objectif 1 Md$ de volume d'affaires en 2027. Exemple de build-up international financé par un tour growth.",
+          "url": "https://www.maddyness.com/2026/10/27/naboo-franchit-un-nouveau-cap-a-linternational-avec-le-rachat-de-son-rival-britannique/",
+          "source": "Maddyness"
+        },
+        {
+          "title": "Dépôts SEC d'octobre : Diffusion ONE à 1,25 Md$ pour un premier fonds IA",
+          "body": "Le fonds de Victor Lazarte (ex Benchmark) dépasse largement les 800 M$ visés ; Trust Ventures (400 M$, fonds V), Interlagos (400 M$), 8VC et des véhicules de partners chez Benchmark complètent la liste. La concentration du capital VC sur quelques gros véhicules IA continue.",
+          "url": "https://techcrunch.com/2026/10/27/from-8vc-to-benchmark-heres-whats-hiding-in-october-sec-filings/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Advent lève environ 27 Md$ pour son fonds phare",
+          "body": "Plus gros fonds de buyout de 2026, plus de 3 Md$ pour un fonds mid-market, et environ 13 Md$ de produits de sortie cette année. Signal utile pour la liquidité : le capital des LBO est là pour racheter des scale-ups software rentables.",
+          "url": "https://jawlah.co/en/67252",
+          "source": "Jawlah"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "IA & software",
+      "items": [
+        {
+          "title": "IBM lance identité et contrôle pour les agents IA",
+          "body": "Identités vérifiables pour les agents, limites d'accès, révocation rapide, découverte des agents déployés, et HashiCorp Vault étendu aux agents (27 octobre). Pourquoi ça compte : les grands IAM entrent sur le marché des identités d'agents ; les startups du segment devront se différencier vite ou viser le rachat.",
+          "url": "https://newsroom.ibm.com/2026-10-27-ibm-introduces-identity-and-control-for-ai-agents%2C-securing-frontier-intelligence-for-the-enterprise",
+          "source": "IBM"
+        },
+        {
+          "title": "Agents en entreprise : beaucoup d'activés, peu de protégés",
+          "body": "Rapport Arrakis (27 octobre) : 76 % des agents activés n'ont pas tourné depuis 60 jours et 99,4 % n'ont pas de DLP sur leurs connexions sensibles ; une autre étude montre qu'un fichier AGENTS.md malveillant détourne Codex dans 90 % des tests. Pourquoi ça compte : l'adoption réelle est plus faible que les annonces, et la surface d'attaque est déjà là ; deux arguments à tester en due diligence (usage réel, sécurité).",
+          "url": "https://aiweekly.co/ai-news-today/edition/2026-10-27",
+          "source": "AI Weekly"
+        },
+        {
+          "title": "OpenAI et Anthropic revendiquent une réfutation de l'Exponential Time Hypothesis",
+          "body": "Les deux labs disent que leurs modèles ont trouvé des algorithmes sous-exponentiels pour une classe de problèmes logiques, ce qui contredirait une hypothèse centrale de la complexité ; résultats non encore vérifiés, aucune faille cryptographique constatée selon OpenAI. Pourquoi ça compte : l'IA comme outil de recherche fondamentale devient un argument commercial des labs, et la crypto post-IA un sujet de veille.",
+          "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Replit bascule plus de 100 M$ de dépenses vers OpenAI contre une remise de plus de 30 %",
+          "body": "Selon The Information, Replit a déplacé l'essentiel de ses dépenses de modèles d'Anthropic vers OpenAI. Pourquoi ça compte : pour une app IA, le coût des modèles se négocie comme un achat de cloud et le changement de fournisseur est rapide ; les marges brutes des startups applicatives dépendent de leur portabilité multi-modèles.",
+          "url": "https://aiweekly.co/alerts/replit-shifts-100m-ai-spend-to-openai-after-30-price-cut",
+          "source": "AI Weekly / The Information"
+        },
+        {
+          "title": "Meta lève 37,5 Md$ en actions et convertibles pour financer sa capex IA",
+          "body": "Offre d'actions portée à 25 Md$ et 12,5 Md$ de préférentielles convertibles obligatoires, pricées le 27 octobre, au lendemain des 40 Md$ de financement GPU de SpaceX avec Apollo. Pourquoi ça compte : la capex IA passe désormais par les marchés de capitaux, ce qui expose la chaîne (cloud, inférence, apps) à un retournement de sentiment.",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-Pricing-of-Offering-of-Depositary-Shares-Representing-Series-A-Mandatory-Convertible-Preferred-Stock-and-Offering-of-Class-A-Common-Stock-in-Connection-with-Forward-Sale-Agreements/default.aspx",
+          "source": "Meta"
+        }
+      ]
+    },
+    {
+      "key": "read",
+      "title": "À lire / écouter",
+      "items": [
+        {
+          "title": "Stratechery : « Anthropic S-1, The Cost of Compute, Who Is Paying? » (27 octobre)",
+          "body": "Lecture du S-1 d'Anthropic sous l'angle du coût du compute et de qui le finance, utile pour comprendre l'économie des labs dont dépendent les startups applicatives.",
+          "url": "https://stratechery.com/2026/anthropic-s-1-the-cost-of-compute-who-is-paying/",
+          "source": "Stratechery"
+        },
+        {
+          "title": "20VC : Rory O'Driscoll (Scale) et Jason Lemkin (SaaStr), et Sameer Dholakia (Bessemer)",
+          "body": "Les VC doivent devenir plateformes globales ou ultra spécialistes ; la revue de code IA comme catégorie qui résiste aux modèles fondation ; Bending Spoons vu comme détenteur long terme de software.",
+          "url": "https://20vc.substack.com/p/20vc-newsletter-25th-october-2026",
+          "source": "20VC"
+        },
+        {
+          "title": "Stratechery : « The End of the Internet » (26 octobre)",
+          "body": "Ben Thompson soutient que les risques de sécurité liés à l'IA transforment l'internet public en espace hostile, au profit de réseaux privés et fermés : une toile de fond pour le signal sécurité des agents.",
+          "url": "https://stratechery.com/2026/the-end-of-the-internet/",
+          "source": "Stratechery"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Startbase : Tendos lève 12 M€",
+      "url": "https://www.startbase.com/news/tendos-erhaelt-12-millionen-euro-fuer-tendos-zur-ki-automatisierung-in-der-baustoffindustrie"
+    },
+    {
+      "title": "Dealroom : Tendos, top 1 % des seeds software allemands",
+      "url": "https://dealroom.co/news/167015-tendos-raises-12m-seed-round-topping-99-of-german-enterprise-software-pe/"
+    },
+    {
+      "title": "Tech.eu : Querio lève 5 M$",
+      "url": "https://tech.eu/2026/10/27/uk-analytics-platform-querio-launches-with-5m-raise/"
+    },
+    {
+      "title": "Tech.eu : Lette lève 6,5 M$",
+      "url": "https://tech.eu/2026/10/27/lette-raises-65m-to-scale-ai-automation-for-uk-rental-operators/"
+    },
+    {
+      "title": "Tech.eu : Agora Labs lève 4,3 M€",
+      "url": "https://tech.eu/2026/10/27/agora-labs-raises-eur43m-to-expand-clinical-data-infrastructure-for-medical-research/"
+    },
+    {
+      "title": "Tech.eu : Atlas Bio",
+      "url": "https://tech.eu/2026/10/27/swiss-startup-atlas-bio-secures-125m-to-tackle-drug-developments-70-failure-rate-and-move-beyond-animal-testing/"
+    },
+    {
+      "title": "Dealroom : Warmare",
+      "url": "https://dealroom.co/news/167242-swedens-warmare-raises-900k-to-build-an-ai-accounting-firm/"
+    },
+    {
+      "title": "Forbes : Infisical lève 40 M$",
+      "url": "https://www.forbes.com/sites/rashishrivastava/2026/10/27/this-600-million-startup-is-helping-keep-company-secrets-away-from-ai-agents/"
+    },
+    {
+      "title": "The SaaS News : Hyphenate lève 45 M$",
+      "url": "https://www.thesaasnews.com/news/hyphenate-raises-45m-series-a/"
+    },
+    {
+      "title": "Bloomberg : Physical Intelligence à 20 Md$",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-27/robotics-lab-physical-intelligence-in-talks-for-a-20-billion-valuation"
+    },
+    {
+      "title": "Tech.eu : Vera Health lève 28,5 M$",
+      "url": "https://tech.eu/2026/10/27/from-two-doctors-to-800000-clinicians-vera-health-raises-285m/"
+    },
+    {
+      "title": "Dealroom : Paradev lève 11,5 M$",
+      "url": "https://dealroom.co/news/166945-paradev-raises-11-5m-seed-to-run-coding-agents-by-the-hundreds"
+    },
+    {
+      "title": "Dealroom : Bending Spoons finalise Miro",
+      "url": "https://dealroom.co/news/167190-bending-spoons-closes-1-355b-miro-buyout-its-second-big-workplace-deal-i/"
+    },
+    {
+      "title": "Maddyness : Naboo rachète Pro-ven",
+      "url": "https://www.maddyness.com/2026/10/27/naboo-franchit-un-nouveau-cap-a-linternational-avec-le-rachat-de-son-rival-britannique/"
+    },
+    {
+      "title": "TechCrunch : dépôts SEC d'octobre",
+      "url": "https://techcrunch.com/2026/10/27/from-8vc-to-benchmark-heres-whats-hiding-in-october-sec-filings/"
+    },
+    {
+      "title": "Jawlah : Advent lève environ 30 Md$",
+      "url": "https://jawlah.co/en/67252"
+    },
+    {
+      "title": "IBM : identité et contrôle des agents IA",
+      "url": "https://newsroom.ibm.com/2026-10-27-ibm-introduces-identity-and-control-for-ai-agents%2C-securing-frontier-intelligence-for-the-enterprise"
+    },
+    {
+      "title": "AI Weekly : édition du 27 octobre",
+      "url": "https://aiweekly.co/ai-news-today/edition/2026-10-27"
+    },
+    {
+      "title": "TechCrunch : réfutation de l'ETH",
+      "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/"
+    },
+    {
+      "title": "AI Weekly : Replit et OpenAI",
+      "url": "https://aiweekly.co/alerts/replit-shifts-100m-ai-spend-to-openai-after-30-price-cut"
+    },
+    {
+      "title": "Meta : pricing des offres d'actions",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-Pricing-of-Offering-of-Depositary-Shares-Representing-Series-A-Mandatory-Convertible-Preferred-Stock-and-Offering-of-Class-A-Common-Stock-in-Connection-with-Forward-Sale-Agreements/default.aspx"
+    },
+    {
+      "title": "Stratechery : Anthropic S-1",
+      "url": "https://stratechery.com/2026/anthropic-s-1-the-cost-of-compute-who-is-paying/"
+    },
+    {
+      "title": "Stratechery : The End of the Internet",
+      "url": "https://stratechery.com/2026/the-end-of-the-internet/"
+    },
+    {
+      "title": "20VC Newsletter du 25 octobre",
+      "url": "https://20vc.substack.com/p/20vc-newsletter-25th-october-2026"
+    }
+  ]
+}
