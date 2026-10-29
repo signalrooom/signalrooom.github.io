@@ -1,0 +1,265 @@
+{
+  "date": "2026-10-29",
+  "headline": "Ravical (Gand) lève 17 M$ en seed pour outiller les cabinets comptables : quatrième levée sur l'expertise comptable automatisée en deux semaines, pendant que la sécurité des agents attire un fonds dédié (Auriga, 80 M€) et un tour à 3,8 Md$ (Upwind).",
+  "summary": "Fenêtre calme côté Europe (Ravical et Braid en Benelux sont les deux deals à retenir), mais deux tendances se confirment : l'IA pour l'expertise comptable et la sécurité à l'ère des agents. Côté macro, Alphabet affiche un cloud à +103 % et un free cash flow négatif, de quoi relancer le débat sur le financement de la vague IA.",
+  "sections": [
+    {
+      "key": "signals",
+      "title": "Ce qui se dessine",
+      "items": [
+        {
+          "title": "Expertise comptable IA : quatrième levée en deux semaines, et deux modèles qui s'opposent",
+          "body": "Ravical (Gand) lève 17 M$ le 29 octobre pour outiller les cabinets existants, après Dougs (50 M€, 15 oct.), Mika (6 M€, 19 oct.), Hyphenate (45 M$, New York, 27 oct.) et Warmare (≈ 1 M$, Suède, 27 oct.). Deux modèles coexistent : le cabinet IA natif qui remplace l'expert (Dougs, Hyphenate, Warmare) et le logiciel qui augmente le cabinet en place (Ravical). À creuser : les métiers réglementés voisins à forte main d'œuvre (gestionnaires de paie, commissaires aux comptes, notaires) en France et en DACH, et la question à poser à chaque deal : qui capte la marge, le cabinet ou l'éditeur ?"
+        },
+        {
+          "title": "Sécurité à l'ère des agents : le capital se spécialise",
+          "body": "Le 28 octobre, Upwind lève 400 M$ à 3,8 Md$ (revenu x4 en 2026) avec des agents qui enquêtent et corrigent les alertes, et TechRadar détaille comment les agents de Cathedral ont pénétré des systèmes RH et commerciaux d'Anthropic en 12 heures via des failles de logiciels métiers tiers. Le 29, Auriga Partners annonce 80 M€ pour un fonds cyber early stage centré sur la sécurité de l'IA et des identités. Cela prolonge Infisical (27 oct.) et Mave, Indurex, Cygrid (22 oct.). À creuser : la sécurité de la chaîne SaaS tierce (le vecteur de l'attaque Cathedral) et le pentest agentique européen, où les seeds d'aujourd'hui seront les Séries A de 2027."
+        },
+        {
+          "title": "Le coût de l'IA devient un sujet de board, côté vendeurs comme côté acheteurs",
+          "body": "Le 28 octobre, Alphabet publie un cloud à +103 % mais un free cash flow négatif (−9,1 Md$) et 51,4 Md$ de capex, l'action recule d'environ 9 % ; le même jour, Anthropic lance dans Claude Enterprise des rapports d'usage, des enquêtes ROI et des budgets d'équipe plafonnés, et accorde 40 % de remise aux administrations américaines. Cela fait écho au routeur de modèles de Weflayr (22 oct.) et au doute d'Apollo sur le ROI (25 oct.). À creuser : FinOps de l'IA et mesure du ROI des agents en entreprise, une couche que les DSI européennes vont acheter dès 2027."
+        },
+        {
+          "title": "Les agents s'installent dans les logiciels verticaux existants",
+          "body": "Easol (Londres) lève 30 M$ le 28 octobre et lance des agents IA dans son logiciel de gestion d'événements, un jour après Tendos (12 M€, matériaux de construction) et Lette (6,5 M$, gestion locative) le 27 octobre. Le même 28 octobre, Oracle ouvre ses applications dans ChatGPT et Apple ajoute MCP à macOS 27. À creuser : les éditeurs verticaux français et DACH rentables qui intègrent des agents, cibles naturelles de Série A ou B, et à l'inverse les verticaux où un entrant agent natif peut déloger l'éditeur historique."
+        }
+      ]
+    },
+    {
+      "key": "eu",
+      "title": "Levées Europe",
+      "intro": "Fenêtre du 28 au 29 octobre : peu de tours software B2B en Europe, Ravical et Braid (Benelux) sont les deux à retenir. Les autres levées de la période (Samplix en biotech, Autofixer en e-commerce, Magic Vision en monitoring grand public) sont hors périmètre.",
+      "items": [
+        {
+          "title": "Ravical",
+          "amount": "17 M$ (≈ 14,6 M€)",
+          "stage": "Seed",
+          "country": "Belgique (Gand)",
+          "investors": "MMC Ventures (lead), Shapers, Lakestar, Pitchdrive",
+          "body": "Plateforme IA qui standardise les workflows des cabinets comptables et fiscaux : le savoir-faire des experts est transformé en processus partagés que l'IA applique à tout le portefeuille clients. Plus de 100 cabinets clients en Europe, 25 M$ levés au total. Lien : quatrième levée sur l'expertise comptable automatisée en deux semaines, après Dougs (15 oct.), Mika (19 oct.) et Hyphenate (27 oct.). Fit : software B2B européen en seed, Benelux, IA appliquée à la digitalisation des services, cap table européenne (Lakestar).",
+          "fit": true,
+          "url": "https://tech.eu/2026/10/29/ravical-raises-17m-to-break-the-link-between-accounting-firms-growth-and-hiring",
+          "source": "Tech.eu",
+          "announced": "2026-10-29"
+        },
+        {
+          "title": "Braid (ex Next Communications)",
+          "amount": "38 M$ (≈ 34 M€)",
+          "stage": "Série A",
+          "country": "Pays-Bas (La Haye)",
+          "investors": "Octopus Ventures (lead), KPN Ventures",
+          "body": "API unique qui permet aux entreprises (voyage, fintech, communautés, télécoms) d'intégrer SIM et eSIM dans leurs apps avec plus de 600 opérateurs dans 200 pays, ou de lancer une boutique de connectivité en marque blanche sans équipe technique. Environ 90 clients entreprises, rentable et cash flow positif selon la société. Fit : software B2B européen en Série A, Benelux, infrastructure, rentabilité rare à ce stade ; segment télécom plus éloigné du pur software.",
+          "fit": true,
+          "url": "https://techfundingnews.com/braid-38m-series-a-octopus-kpn-embedded-connectivity",
+          "source": "Tech Funding News",
+          "announced": "2026-10-29"
+        },
+        {
+          "title": "Easol",
+          "amount": "30 M$ (20 M$ equity + 10 M$ de dette)",
+          "stage": "Extension de Série A",
+          "country": "Royaume-Uni (Londres)",
+          "investors": "Y Combinator, Tiger Global, Foundation Capital ; dette Viola Credit",
+          "body": "Logiciel de gestion et de vente pour les entreprises d'expériences (festivals, événements, voyages) ; lance Teammates, des agents IA intégrés pour la vente, le support et les opérations. Environ 2,8 millions de participants gérés en 2026. Lien : même logique que Tendos et Lette (27 oct.), des agents logés dans un logiciel vertical existant. Fit : moyen, SaaS vertical B2B avec traction, segment loisirs.",
+          "url": "https://www.digitalmusicnews.com/2026/10/28/easol-series-a-extension/",
+          "source": "Digital Music News",
+          "announced": "2026-10-28"
+        },
+        {
+          "title": "Artiso",
+          "amount": "Plus de 3 M€",
+          "stage": "Pré-seed",
+          "country": "Espagne (Barcelone)",
+          "investors": "Non communiqués",
+          "body": "Système d'exploitation IA pour les équipes produit et collection des marques de mode. Fit : faible, pré-seed sur une verticale de niche (mode).",
+          "url": "https://www.eu-startups.com/2026/10/barcelonas-artiso-raises-over-e3-million-to-scale-its-ai-operating-system-for-fashion-teams/",
+          "source": "EU-Startups",
+          "announced": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "key": "us",
+      "title": "Grosses levées US",
+      "intro": "La sécurité cloud et IA reste la catégorie où les valorisations montent le plus vite (Upwind multiplie la sienne par 2,5 en neuf mois), et la fintech « IA contre la fraude » attire des investisseurs stratégiques (Synchrony, Experian). Deux thèmes qui arriveront vite en Europe, où le pentest agentique et l'anti fraude IA en sont encore au seed.",
+      "items": [
+        {
+          "title": "Upwind",
+          "amount": "400 M$",
+          "stage": "Série C",
+          "country": "États-Unis (San Francisco), fondée en Israël",
+          "investors": "Bessemer Venture Partners (lead), Canapi Ventures, Cyberstarts, Greylock, Craft Ventures, Salesforce Ventures, Picture Capital",
+          "body": "Plateforme de sécurité cloud et IA fondée sur les données runtime (workloads, API, agents), avec des agents qui enquêtent sur les alertes et appliquent les correctifs. Valorisation 3,8 Md$ contre 1,5 Md$ en janvier, revenu multiplié par quatre depuis le début de l'année. Une première tranche d'environ 300 M$ avait fuité en septembre ; le tour final est annoncé le 28 octobre.",
+          "url": "https://siliconangle.com/2026/10/28/cloud-security-startup-upwind-raises-400m-at-3-8b-valuation-as-revenue-quadruples/",
+          "source": "SiliconANGLE",
+          "announced": "2026-10-28"
+        },
+        {
+          "title": "Casap",
+          "amount": "56 M$",
+          "stage": "Série B",
+          "country": "États-Unis",
+          "investors": "Base10 Partners (lead), Synchrony, Experian",
+          "body": "Plateforme IA qui aide les banques à instruire les litiges de paiement et la fraude « first party ». Environ 90 M$ levés depuis 2023. La présence de Synchrony et Experian montre l'appétit des acteurs établis pour l'IA appliquée aux opérations bancaires.",
+          "url": "https://techstartups.com/2026/10/28/tech-news-today-october-28-2026-google-openai-oracle-nvidia-scale-ai-sk-hynix-more/",
+          "source": "Tech Startups",
+          "announced": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "key": "vc",
+      "title": "VC & écosystème",
+      "items": [
+        {
+          "title": "Auriga Partners : 80 M€ en closing intermédiaire pour Auriga Cyber Ventures II",
+          "body": "Fonds cyber early stage (pré-seed à Série A, tickets initiaux de 0,5 à 5 M€, la moitié réservée au réinvestissement), cible 100 M€, hard cap 120 M€, une trentaine de startups européennes visées. Thèmes : sécurité de l'IA, protection des identités, sécurité des données. Premières lignes : Finovox, Fleuret (pentest par agents), Mankinds (audit des systèmes IA), Nextident (sécurité des agents). Un acteur français à suivre sur la cyber early stage.",
+          "url": "https://tech.eu/2026/10/29/auriga-partners-announces-eur80m-interim-closing-for-its-second-cybersecurity-fund",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "AP Ventures clôture un troisième fonds à 269,6 M€",
+          "body": "Le VC londonien finance l'industrial tech et l'energy tech en early stage (28 octobre). Les fonds spécialisés industrie continuent de lever malgré la pression sur la climate tech (Gauss Robotics en insolvabilité le même jour selon deutsche-startups).",
+          "url": "https://www.eu-startups.com/2026/10/londons-ap-ventures-closes-e269-million-third-fund-to-back-early-stage-industrial-and-energy-tech-startups/",
+          "source": "EU-Startups"
+        },
+        {
+          "title": "Europe : la taille moyenne des tours late stage a plus que doublé sur neuf mois",
+          "body": "Étude relayée par Silicon Republic (28 octobre) : la taille moyenne des tours late stage a plus que doublé sur les neuf premiers mois de 2026 et le nombre de licornes européennes remonte, porté par l'IA. Cohérent avec les 27,8 Md€ du T3 chiffrés par Tech.eu (21 oct.).",
+          "url": "https://www.siliconrepublic.com/start-ups/late-stage-funding-doubled-europe-across-9-months-2026",
+          "source": "Silicon Republic"
+        },
+        {
+          "title": "Royaume-Uni : le budget crée un « Founders' Relief »",
+          "body": "Le budget du 28 octobre introduit un allègement fiscal pour les fondateurs et d'autres mesures pour inciter à créer et rester au Royaume-Uni, en pleine concurrence avec EU Inc.",
+          "url": "https://tech.eu/2026/10/28/founders-relief-among-string-of-measures-introduced-in-budget-to-encourage-entrepreneurs-to-build-in-britain/",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "M&A : Itaú rachète NeoSpace pour 547 M$",
+          "body": "La banque brésilienne acquiert la startup IA (modèles prédictifs sur données transactionnelles, fondée en 2023, environ 80 chercheurs) dont elle était client et investisseur (28 octobre). Un client qui rachète son fournisseur IA : un schéma de sortie à garder en tête pour les startups d'IA verticale.",
+          "url": "https://thepaypers.com/mergers-aquisitions-and-investments/news/itau-unibanco-to-acquire-ai-startup-neospace-for-usd-547-mln",
+          "source": "The Paypers"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "IA & software",
+      "items": [
+        {
+          "title": "Résultats : Azure +48 %, Google Cloud +103 %, mais Alphabet brûle du cash",
+          "body": "Le 28 octobre, Microsoft publie Azure à 33,2 Md$ (+48 %), un capex de 45,2 Md$ et un free cash flow de 18,6 Md$ ; Alphabet affiche Google Cloud à environ 30,7 Md$ (+103 %), 51,4 Md$ de capex et un free cash flow négatif de 9,1 Md$, l'action perd environ 9 % après Bourse. Pourquoi ça compte : la demande IA est réelle, mais le marché commence à sanctionner le capex non couvert par le cash, ce qui pèsera sur les multiples de toute la chaîne.",
+          "url": "https://www.mitrade.com/insights/shares-analysis/us-stocks/microsoft-alphabet-fcf-test-20261029J1121",
+          "source": "Mitrade"
+        },
+        {
+          "title": "Anthropic pénétré en 12 heures par des agents IA via des logiciels métiers tiers",
+          "body": "La startup Cathedral affirme que ses agents ont accédé en 12 heures à des transcriptions de réunions, données RH et messages Slack d'Anthropic en exploitant des failles de logiciels d'entreprise tiers ; Anthropic confirme un accès à un périmètre limité de systèmes commerciaux, RH et IT, sans code source ni poids des modèles (TechRadar, 28 oct.). Pourquoi ça compte : le maillon faible est la chaîne SaaS ordinaire, un argument commercial direct pour les startups de sécurité SaaS et d'identités.",
+          "url": "https://techradar.com/pro/security/ai-startup-claims-it-hacked-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages",
+          "source": "TechRadar"
+        },
+        {
+          "title": "Claude Enterprise ajoute rapports d'usage, enquêtes ROI et budgets d'équipe",
+          "body": "Lancé le 28 octobre : rapports qui catégorisent les tâches et estiment les coûts, enquêtes internes sur le temps gagné, budgets mensuels partagés avec alertes. Le même jour, Anthropic étend son accord GSA avec 40 % de remise pour les administrations américaines. Pourquoi ça compte : les acheteurs veulent prouver le ROI et maîtriser la dépense ; les startups applicatives devront chiffrer leur valeur face à des modèles qui baissent leurs prix.",
+          "url": "https://cryptonews.net/news/other/33668091/",
+          "source": "Cryptonews"
+        },
+        {
+          "title": "Oracle dans ChatGPT, MCP dans macOS 27 : l'interopérabilité agent devient la norme",
+          "body": "Oracle AI Workspace permet de consulter des données Oracle et d'exécuter des workflows métier depuis ChatGPT, et Apple ajoute le support MCP pour que des agents tiers pilotent Pages, Keynote et Numbers (28 oct.). Pourquoi ça compte : un éditeur B2B sans connecteur agent devient un angle de due diligence, et la distribution via les assistants se rapproche.",
+          "url": "https://openai.com/index/oracle-apps-in-chatgpt/",
+          "source": "OpenAI"
+        },
+        {
+          "title": "Cloudflare : des réponses d'inférence servies au mauvais client",
+          "body": "Un bug SGLang déclenché par une erreur de configuration sur Workers AI a renvoyé à certains clients des données en cache d'autres clients (155 réponses entre le 27 août et le 9 septembre), corrigé depuis. Pourquoi ça compte : l'isolation entre clients dans l'inférence mutualisée devient un point de diligence pour toute startup d'infrastructure IA.",
+          "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+          "source": "Cloudflare"
+        }
+      ]
+    },
+    {
+      "key": "read",
+      "title": "À lire / écouter",
+      "items": [
+        {
+          "title": "Stratechery : « Meta Earnings, Muse and the Frontier, Musebook » (28 octobre)",
+          "body": "Lecture des résultats de Meta et de sa stratégie d'agent grand public, utile pour comprendre comment les plateformes financent la frontière avec la publicité.",
+          "url": "https://stratechery.com/2026/meta-earnings-muse-and-the-frontier-musebook/",
+          "source": "Stratechery"
+        },
+        {
+          "title": "EU-Startups : « Scaling is the real test of Europe's AI boom » (28 octobre)",
+          "body": "Tribune sur le passage à l'échelle des startups IA européennes après la vague de levées, à mettre en regard du doublement des tours late stage.",
+          "url": "https://www.eu-startups.com/2026/10/opinion-scaling-is-the-real-test-of-europes-ai-boom/",
+          "source": "EU-Startups"
+        },
+        {
+          "title": "deutsche-startups : entretien avec Valerie Bures (XAnge), « Wer investieren kann, sollte es tun » (28 octobre)",
+          "body": "Le regard d'une partner d'un VC franco-allemand early stage sur le climat d'investissement en Allemagne et les technologies à venir. Utile pour le pipeline DACH.",
+          "url": "https://www.deutsche-startups.de/2026/10/28/wer-investieren-kann-sollte-es-tun/",
+          "source": "deutsche-startups.de"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tech.eu : Ravical lève 17 M$",
+      "url": "https://tech.eu/2026/10/29/ravical-raises-17m-to-break-the-link-between-accounting-firms-growth-and-hiring"
+    },
+    {
+      "title": "Tech Funding News : Braid lève 38 M$",
+      "url": "https://techfundingnews.com/braid-38m-series-a-octopus-kpn-embedded-connectivity"
+    },
+    {
+      "title": "Digital Music News : Easol lève 30 M$",
+      "url": "https://www.digitalmusicnews.com/2026/10/28/easol-series-a-extension/"
+    },
+    {
+      "title": "EU-Startups : Artiso lève plus de 3 M€",
+      "url": "https://www.eu-startups.com/2026/10/barcelonas-artiso-raises-over-e3-million-to-scale-its-ai-operating-system-for-fashion-teams/"
+    },
+    {
+      "title": "SiliconANGLE : Upwind lève 400 M$",
+      "url": "https://siliconangle.com/2026/10/28/cloud-security-startup-upwind-raises-400m-at-3-8b-valuation-as-revenue-quadruples/"
+    },
+    {
+      "title": "Tech Startups : actualité tech du 28 octobre",
+      "url": "https://techstartups.com/2026/10/28/tech-news-today-october-28-2026-google-openai-oracle-nvidia-scale-ai-sk-hynix-more/"
+    },
+    {
+      "title": "Tech.eu : Auriga Cyber Ventures II",
+      "url": "https://tech.eu/2026/10/29/auriga-partners-announces-eur80m-interim-closing-for-its-second-cybersecurity-fund"
+    },
+    {
+      "title": "EU-Startups : AP Ventures",
+      "url": "https://www.eu-startups.com/2026/10/londons-ap-ventures-closes-e269-million-third-fund-to-back-early-stage-industrial-and-energy-tech-startups/"
+    },
+    {
+      "title": "Silicon Republic : late stage en Europe",
+      "url": "https://www.siliconrepublic.com/start-ups/late-stage-funding-doubled-europe-across-9-months-2026"
+    },
+    {
+      "title": "Mitrade : résultats Microsoft et Alphabet",
+      "url": "https://www.mitrade.com/insights/shares-analysis/us-stocks/microsoft-alphabet-fcf-test-20261029J1121"
+    },
+    {
+      "title": "TechRadar : Cathedral et Anthropic",
+      "url": "https://techradar.com/pro/security/ai-startup-claims-it-hacked-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages"
+    },
+    {
+      "title": "The Neuron : l'IA du 28 octobre",
+      "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-october-28-2026/"
+    },
+    {
+      "title": "Pathfounders : Tech & Venture Briefing du 28 octobre",
+      "url": "https://pathfounders.com/p/tech-venture-briefing-wednesday-28-october-2026"
+    },
+    {
+      "title": "deutsche-startups.de",
+      "url": "https://www.deutsche-startups.de/2026/10/28/pitch-it-climatetech-insight-gauss-robotics-skylance-roadsurfer/"
+    }
+  ]
+}
