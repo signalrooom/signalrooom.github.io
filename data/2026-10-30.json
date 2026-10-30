@@ -1,0 +1,287 @@
+{
+  "date": "2026-10-30",
+  "headline": "Mistral publie les poids de Large 4 (29 oct.) en le positionnant sur la cyberdéfense, le jour où Mintive lève pour l'identité des agents et où i23 lève 5 M£ pour un courtier d'assurance IA natif : le modèle « cabinet remplacé par l'IA » quitte la compta.",
+  "summary": "Journée calme côté levées software B2B européennes (Bleu Robotics, i23, Fronted, Pixel Systems, VUSE XR), mais trois fils se renforcent : l'identité et la sécurité des agents, le métier de service réinventé par l'IA (compta puis assurance, pendant que le private equity consolide les cabinets français) et le logiciel d'apprentissage robotique. Côté US, Serval vaut 3 Md$ et ajoute une division de services.",
+  "sections": [
+    {
+      "key": "signals",
+      "title": "Ce qui se dessine",
+      "items": [
+        {
+          "title": "Après la compta, le courtage d'assurance : le « cabinet IA natif » change de métier",
+          "body": "i23 (Londres) lève près de 5 M£ le 29 octobre pour construire un courtier d'assurance IA natif, dans la lignée de Dougs (15 oct.), Hyphenate (27 oct.) et Ravical (29 oct.) sur l'expertise comptable. Le même 29 octobre, CFNews rapporte trois opérations de private equity sur des cabinets comptables français : prise de contrôle d'Orcom (155 M€ de CA), build-up de Rydge (Towerbrook) dans l'advisory et LBO sponsorless de Tyls Conseil (100 M€ de CA). Les cabinets se consolident pendant que l'IA attaque leurs marges. À creuser : les logiciels vendus aux consolidateurs PE de cabinets (comptables, courtiers, CGP), qui ont un budget de productivité et un besoin d'outils communs, et les courtiers grossistes DACH comme terrain du même modèle."
+        },
+        {
+          "title": "Identité et sécurité des agents : le flux ne s'arrête pas",
+          "body": "Mintive lève 7 M$ en seed le 29 octobre (Cowboy Ventures, avec Coatue, Jeff Dean et Andrej Karpathy en angels) pour gérer identité, accès et supervision des agents en entreprise, deux jours après Infisical (40 M$, 27 oct.) et le jour du fonds cyber d'Auriga (80 M€). Le même jour, CrowdStrike documente Vapor Panda, un groupe qui a ciblé 200+ organisations avec un framework d'agents basé sur DeepSeek, et Mistral publie Large 4 en le présentant comme un outil de cyberdéfense souverain. À creuser : l'IAM pour agents « made in Europe » adossé à des modèles ouverts déployables on-premise, argument de vente fort auprès des industriels et des administrations françaises et allemandes."
+        },
+        {
+          "title": "Apprendre une tâche à un robot en quelques démonstrations",
+          "body": "Bleu Robotics (Paris) lève 5 M€ en seed le 29 octobre pour entraîner des robots humanoïdes et des bras industriels avec moins de démonstrations, deux jours après le seed record de Machenta (40 M$, Londres, 27 oct.) sur l'apprentissage en une démonstration à partir de simulation. En parallèle, Physical Intelligence négocierait plus de 1 Md$ à environ 20 Md$ (28 oct.). La valeur se loge dans la couche logicielle d'apprentissage et de déploiement, pas dans le robot. À creuser : les éditeurs français et allemands qui industrialisent le déploiement (données, simulation, intégration dans les lignes existantes), en écho à NAiSE (Körber, 23 oct.)."
+        },
+        {
+          "title": "Le software IA réembauche des humains pour se déployer",
+          "body": "Serval lève 150 M$ à 3 Md$ le 30 octobre et lance ProServal, une division de 100+ « automation engineers » placés chez les clients. Deux jours plus tôt, Satya Nadella expliquait que l'effet « objet brillant » s'estompe et que la diffusion en entreprise devient le vrai sujet. À creuser : dans les due diligences de Séries A et B, mesurer la part de revenus de services et la marge brute réelle des éditeurs d'agents, et regarder les intégrateurs spécialisés IA comme une catégorie d'investissement à part."
+        }
+      ]
+    },
+    {
+      "key": "eu",
+      "title": "Levées Europe",
+      "intro": "Journée calme sur le software B2B européen dans la fenêtre du 29 au 30 octobre : surtout des seeds et pré-seeds. Ravical (17 M$) et Braid (34 M€), annoncés le 29, étaient déjà dans l'édition d'hier.",
+      "items": [
+        {
+          "title": "Bleu Robotics",
+          "amount": "5 M€",
+          "stage": "Seed",
+          "country": "France (Île-de-France)",
+          "investors": "Non communiqués dans les sources consultées",
+          "body": "Logiciel qui apprend de nouvelles tâches aux bras robotiques et humanoïdes industriels avec moins de démonstrations ; société créée il y a moins d'un an. Lien : deux jours après Machenta (40 M$, Londres) sur le même problème. Fit : bon, France, seed, montant compatible, IA appliquée à l'industrie ; risque deeptech et marché encore précoce.",
+          "fit": true,
+          "url": "https://www.eu-startups.com/2026/10/french-startup-bleu-robotics-secures-e5-million-to-teach-humanoid-robots-new-tasks-with-fewer-demonstrations/",
+          "source": "EU-Startups, CFNews",
+          "announced": "2026-10-29"
+        },
+        {
+          "title": "i23",
+          "amount": "≈ 5 M£ (4,9 M£)",
+          "stage": "Seed",
+          "country": "Royaume-Uni",
+          "investors": "Four Cities Capital et Outward VC (co-leads), Seedcamp, Insiders Ventures",
+          "body": "Courtier d'assurance IA natif cofondé par l'ancien ministre britannique Bim Afolami et Anand Sambasivan, qui automatise l'administratif des courtiers avec un « AI operating model ». Lien : même logique que Dougs et Hyphenate sur la compta. Fit : moyen, IA appliquée aux services financiers et seed compatible, mais Royaume-Uni et modèle de service plus que software pur.",
+          "fit": false,
+          "url": "https://tech.eu/2026/10/29/former-uk-government-minister-afolami-raises-ps5m-for-ai-insurance-broker-startup/",
+          "source": "Tech.eu",
+          "announced": "2026-10-29"
+        },
+        {
+          "title": "Pixel Systems",
+          "amount": "2,7 M€",
+          "stage": "Seed",
+          "country": "Suède",
+          "investors": "Non communiqués dans les sources consultées",
+          "body": "Outil qui identifie les contenus générés par IA (images, documents), utile pour la conformité et la lutte contre la fraude. Fit : moyen, sujet compliance et confiance numérique, mais Nordics et ticket petit.",
+          "fit": false,
+          "url": "https://www.eu-startups.com/2026/10/tool-that-identifies-ai-generated-material-helps-pixel-systems-raise-e2-7-million/",
+          "source": "EU-Startups",
+          "announced": "2026-10-29"
+        },
+        {
+          "title": "VUSE XR",
+          "amount": "1,2 M€",
+          "stage": "Pré-seed",
+          "country": "Allemagne (Fribourg-en-Brisgau)",
+          "investors": "IACD (réseau de business angels de Düsseldorf)",
+          "body": "Logiciel de formation en réalité mixte assistée par IA pour l'industrie ; clients ZEISS, Witron, Hologic, Badenova. Fit : DACH et digitalisation de l'industrie, mais trop tôt et ticket trop petit, à suivre pour une Série A.",
+          "fit": false,
+          "url": "https://www.eu-startups.com/2026/10/exclusive-freiburgs-vuse-xr-raises-e1-2-million-to-bring-ai-powered-mixed-reality-training-to-enterprises/",
+          "source": "EU-Startups, deutsche-startups.de",
+          "announced": "2026-10-29"
+        },
+        {
+          "title": "Fronted",
+          "amount": "1,7 M€ (18 M NOK)",
+          "stage": "Seed",
+          "country": "Norvège",
+          "investors": "Non communiqués dans les sources consultées",
+          "body": "Plateforme IA pour embaucher et s'implanter à l'étranger (employeur de référence, conformité). Lien : catégorie dominée par Deel, Remote et Oyster. Fit : faible, Nordics, petit ticket et marché très concurrentiel.",
+          "fit": false,
+          "url": "https://tech.eu/2026/10/29/fronted-raises-eur17m-to-simplify-global-hiring-and-business-expansion/",
+          "source": "Tech.eu",
+          "announced": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "key": "us",
+      "title": "Grosses levées US",
+      "intro": "Peu de méga tours dans la fenêtre côté software : Serval (3 Md$) confirme que l'automatisation IT par agents attaque frontalement ServiceNow, et ajoute des services pour se déployer. Les seeds US restent concentrés sur l'infrastructure des agents (identité avec Mintive, environnements d'entraînement avec Plato), deux catégories qui devraient trouver des équivalents européens en 2027.",
+      "items": [
+        {
+          "title": "Serval",
+          "amount": "150 M$",
+          "stage": "Série C (valorisation 3 Md$)",
+          "country": "États-Unis (San Francisco)",
+          "investors": "Sequoia (lead), Conviction, Headline, General Catalyst, Redpoint, First Round, Elad Gil",
+          "body": "Plateforme d'automatisation IT et de gestion de services par agents, concurrent direct de ServiceNow ; lance ProServal (100+ ingénieurs placés chez les clients). ARR qui double chaque trimestre selon la société, 277 M$ levés au total.",
+          "url": "https://ventureburn.com/serval-raises-150m-enterprise-ai-automation/",
+          "source": "Ventureburn",
+          "announced": "2026-10-30"
+        },
+        {
+          "title": "Bites",
+          "amount": "40 M$",
+          "stage": "Série A",
+          "country": "États-Unis (New York) / Israël",
+          "investors": "PeakSpan Capital (lead), Vertex Ventures, Horizon Capital, Rittenhouse Ventures, Lyra Ventures",
+          "body": "Formation des équipes terrain (retail, restauration) reliée aux indicateurs business comme les ventes et la qualité de service.",
+          "url": "https://finance.yahoo.com/small-business/articles/bites-raises-40m-series-turn-110000565.html",
+          "source": "Yahoo Finance",
+          "announced": "2026-10-29"
+        },
+        {
+          "title": "Plato Technologies",
+          "amount": "16 M$",
+          "stage": "Série A",
+          "country": "États-Unis (San Francisco)",
+          "investors": "Nava Ventures (lead), Gradient Ventures, Transpose Platform, Mustafa Suleyman",
+          "body": "Simule des environnements de travail complets qui servent d'environnements d'apprentissage par renforcement aux labs d'IA.",
+          "url": "https://techstartups.com/2026/10/29/startup-funding-news-today-october-29-2026-braid-casap-furiosaai-upwind-foundry-robotics-plato-more/",
+          "source": "Tech Startups",
+          "announced": "2026-10-29"
+        },
+        {
+          "title": "Mintive",
+          "amount": "7 M$ (11 M$ au total)",
+          "stage": "Seed",
+          "country": "États-Unis",
+          "investors": "Cowboy Ventures (lead), Coatue, Operator Collective, Hustle Fund ; angels Jeff Dean, Andrej Karpathy, Frederic Kerrest",
+          "body": "Gouvernance des agents IA en entreprise : passerelles MCP et LLM, identité et autorisations propres aux agents, supervision ; 50+ clients dont Coursera. Lien : après Infisical (27 oct.).",
+          "url": "https://www.servicesmobiles.fr/mintive-leve-10-millions-deuros-pour-securiser-les-agents-ia-115752",
+          "source": "Services Mobiles",
+          "announced": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "key": "vc",
+      "title": "VC & écosystème",
+      "items": [
+        {
+          "title": "Entourage (Pieterjan Bouten, ex Showpad) clôture un deuxième fonds à 100 M€",
+          "body": "Objectif de 75 M€ dépassé en deux semaines ; le fonds vise l'early stage IA, robotique et deeptech. Un fondateur SaaS belge devenu VC, co-investisseur possible sur le software Benelux.",
+          "url": "https://tech.eu/2026/10/29/entourage-raises-eur100m-for-second-fund-targeting-ai-robotics-and-deeptech/",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "BY Venture Partners : Fund III à 60 M$ et bureau à Lisbonne",
+          "body": "Le fonds early stage basé à Dubaï cible les startups IA natives et renforce sa présence européenne (29 oct.).",
+          "url": "https://tech.eu/2026/10/29/by-venture-partners-closes-60m-fund-iii-and-opens-lisbon-office-to-deepen-european-push/",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "France : le private equity consolide l'expertise comptable",
+          "body": "Le 29 octobre : prise de contrôle d'Orcom (155 M€ de CA, expansion en Auvergne-Rhône-Alpes), Rydge (Towerbrook) se renforce dans l'advisory, Tyls Conseil (100 M€ de CA) passe en LBO sponsorless.",
+          "url": "https://www.cfnews.net/L-actualite/M-A-Corporate/Operations/Majoritaire/Orcom-calcule-son-expansion-vers-la-region-AuRA-757764",
+          "source": "CFNews"
+        },
+        {
+          "title": "M&A software du 29 octobre",
+          "body": "saas.group rachète 3D AI Studio (Cleebronn, 27e acquisition du groupe) ; Deepgram rachète Daily (framework vocal open source Pipecat) ; Digital Science rachète Jenni AI (rédaction académique). Les consolidateurs SaaS restent acheteurs de petites briques IA.",
+          "url": "https://www.deutsche-startups.de/2026/10/29/holidu-companisto-science-fiction-knight-rider-crate-io-distalmotion/",
+          "source": "deutsche-startups.de, Tech.eu"
+        },
+        {
+          "title": "Crate.io (CrateDB) rapatrie son contrôle en Europe",
+          "body": "L'éditeur de base de données d'origine autrichienne, passé aux US en 2016, transfère son contrôle à une holding au Liechtenstein (29 oct.) : la souveraineté devient un argument de structure capitalistique.",
+          "url": "https://www.deutsche-startups.de/2026/10/29/holidu-companisto-science-fiction-knight-rider-crate-io-distalmotion/",
+          "source": "deutsche-startups.de"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "IA & software",
+      "items": [
+        {
+          "title": "Mistral publie les poids de Large 4, un modèle d'environ 1 000 Md de paramètres",
+          "body": "Licence MIT modifiée, API à 0,70 $ / 2,10 $ par million de tokens, positionné sur le code agentique et la cyberdéfense souveraine (29 oct.). Pourquoi ça compte : une startup européenne peut bâtir un produit de sécurité ou un agent déployable on-premise sans dépendre d'un lab américain, argument décisif chez les industriels et le public.",
+          "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Le Canada entre au capital de Cohere pour jusqu'à 1,6 Md$ CA",
+          "body": "Contrepartie : siège au Canada et 1,7 Md$ CA investis dans le calcul local d'ici 2030 (29 oct.). Pourquoi ça compte : les États deviennent actionnaires de leurs champions IA ; un modèle à surveiller pour Mistral et les acteurs allemands.",
+          "url": "https://www.semafor.com/article/10/29/2026/canada-to-take-equity-stake-in-ai-firm",
+          "source": "Semafor"
+        },
+        {
+          "title": "OpenAI détaille sa surveillance des agents, CrowdStrike documente une campagne menée par agents",
+          "body": "OpenAI publie son dispositif de détection des comportements non autorisés de ses modèles (29 oct.) ; CrowdStrike décrit Vapor Panda, qui a visé 200+ organisations avec un framework d'agents. Pourquoi ça compte : la supervision des agents devient une fonction outillée, donc un marché logiciel.",
+          "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment/",
+          "source": "OpenAI, CrowdStrike"
+        },
+        {
+          "title": "Amazon et Reddit ferment la porte aux agents et à la recherche IA",
+          "body": "Andy Jassy juge les agents d'achat tiers « pas encore bons » (Amazon a bloqué Muse de Meta), et Reddit perd plus d'un million de visites hebdomadaires venues de Google et passe en mode connecté (29 oct.). Pourquoi ça compte : la distribution par le web ouvert se dégrade, ce qui pèse sur les outils de marketing et de SEO et favorise les données propriétaires.",
+          "url": "https://fortune.com/2026/10/29/amazon-ceo-says-shopping-agents-like-metas-muse-not-great/",
+          "source": "Fortune, The Verge"
+        }
+      ]
+    },
+    {
+      "key": "read",
+      "title": "À lire / écouter",
+      "items": [
+        {
+          "title": "How we detect frontier model misalignment (OpenAI)",
+          "body": "Description concrète d'une pile de surveillance d'agents en production : utile pour évaluer les startups de sécurité des agents.",
+          "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment/",
+          "source": "OpenAI"
+        },
+        {
+          "title": "From startup nation to scaleup nation: Britain's next big challenge",
+          "body": "Analyse du déficit de capital growth au Royaume-Uni, transposable au débat français et allemand sur le financement des Séries B et C.",
+          "url": "https://tech.eu/2026/10/29/from-startup-nation-to-scaleup-nation-britains-next-big-challenge/",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "EU-Startups Podcast : Jack Mardack, cofondateur d'Oyster",
+          "body": "Le marché de l'emploi international (EOR) vu par un acteur installé, utile pour juger des entrants comme Fronted.",
+          "url": "https://www.eu-startups.com/2026/10/the-eu-startups-podcast-interview-with-jack-mardack-co-founder-of-oyster/",
+          "source": "EU-Startups"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tech.eu, page d'accueil et articles du 29 octobre",
+      "url": "https://tech.eu/"
+    },
+    {
+      "title": "EU-Startups, articles du 29 octobre",
+      "url": "https://www.eu-startups.com/"
+    },
+    {
+      "title": "deutsche-startups.de, ticker du 29 octobre",
+      "url": "https://www.deutsche-startups.de/2026/10/29/holidu-companisto-science-fiction-knight-rider-crate-io-distalmotion/"
+    },
+    {
+      "title": "CFNews, capital innovation et M&A",
+      "url": "https://www.cfnews.net/TECH"
+    },
+    {
+      "title": "Ventureburn : Serval lève 150 M$",
+      "url": "https://ventureburn.com/serval-raises-150m-enterprise-ai-automation/"
+    },
+    {
+      "title": "Yahoo Finance : Bites lève 40 M$",
+      "url": "https://finance.yahoo.com/small-business/articles/bites-raises-40m-series-turn-110000565.html"
+    },
+    {
+      "title": "Services Mobiles : Mintive",
+      "url": "https://www.servicesmobiles.fr/mintive-leve-10-millions-deuros-pour-securiser-les-agents-ia-115752"
+    },
+    {
+      "title": "TechCrunch : Mistral Large 4",
+      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"
+    },
+    {
+      "title": "The Neuron : tout ce qui s'est passé en IA le 30 octobre",
+      "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-october-30-2026/"
+    },
+    {
+      "title": "AI Weekly : news du jour",
+      "url": "https://aiweekly.co/ai-news-today"
+    },
+    {
+      "title": "Hervé Cuviliez : Market News du 29 octobre",
+      "url": "https://hervecuviliez.substack.com/p/market-news-thursday-29-october-2026"
+    },
+    {
+      "title": "Semafor : le Canada entre au capital de Cohere",
+      "url": "https://www.semafor.com/article/10/29/2026/canada-to-take-equity-stake-in-ai-firm"
+    }
+  ]
+}
