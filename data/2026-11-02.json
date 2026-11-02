@@ -1,0 +1,228 @@
+{
+  "date": "2026-11-02",
+  "headline": "ServiceNow perd 26,9 % pendant que Sierra passe 400 M$ d'ARR, et OpenAI ne réunit qu'environ 11 Md$ sur 30 : le week-end confirme la bascule du siège vers le résultat, et un capital IA qui se tend.",
+  "summary": "Fenêtre du 30 octobre au 2 novembre très pauvre en levées vérifiées : trois tours européens seulement, dont Ares Intelligence (Creandum, Lakestar) qui transforme l'adoption de l'IA en produit mesurable. L'essentiel se joue ailleurs : pricing du software, financement des labs et firmes IA natives qui s'attaquent aux acteurs établis.",
+  "sections": [
+    {
+      "key": "signals",
+      "title": "Ce qui se dessine",
+      "items": [
+        {
+          "title": "Du siège au résultat : le marché tranche sur le software",
+          "body": "ServiceNow chute de 26,9 % le 29 octobre (backlog attendu à +18,5 % contre +21 %, marge opérationnelle à 9,4 %), et SaaStr oppose le 31 octobre ce recul à Sierra, passé à plus de 400 M$ d'ARR avec un pricing au résultat. Serval, concurrent direct de ServiceNow, venait de lever 150 M$ à 3 Md$ (brief du 30 octobre) et Lumaril facture la production supplémentaire de ses usines clientes (27 octobre). À creuser : quelle part de l'ARR des SaaS européens reste indexée sur les effectifs, et quels challengers européens vendent déjà au résultat sur l'ITSM et le support."
+        },
+        {
+          "title": "Le ROI de l'IA devient un produit",
+          "body": "Ares Intelligence lève le 30 octobre auprès de Creandum et Lakestar pour une plateforme de transformation IA fondée sur des preuves, deux jours après l'ajout des rapports d'usage et enquêtes ROI dans Claude Enterprise (28 octobre) et une semaine après le constat d'Apollo sur l'absence de gain financier pour la plupart des entreprises (25 octobre). Le besoin semble venir des directions financières autant que des équipes IA. À creuser : les acteurs français et DACH de la mesure d'adoption, et si ce budget se rattache aux RH, à la DSI ou à la finance."
+        },
+        {
+          "title": "Les firmes IA natives visent les actifs des acteurs établis",
+          "body": "Crosby, cabinet d'avocats IA natif, enchérit le 30 octobre sur la marque et certaines données de Weil Gotshal, qui doit voter sa dissolution, et cherche à recruter ses avocats. Bageera (Varsity, Eurazeo, Frst, Banyan) suit la même logique en rachetant CSM Groupe dans le génie électrique (CFNews, 20 octobre ; 10 M€ repris par Maddyness le 30 octobre), après i23 sur le courtage (29 octobre) et Dougs sur la compta (15 octobre). À creuser : ces roll-ups IA sont-ils finançables en venture, et dans quels services européens (CVC, maintenance, juridique) les marques et les données valent-elles plus que le logiciel."
+        },
+        {
+          "title": "Le capital IA se tend en amont",
+          "body": "Le WSJ rapporte le 31 octobre qu'OpenAI n'a réuni qu'environ 11 Md$ sur 30 à 1 250 Md$ de valorisation, au lieu des 1 400 Md$ visés, et le FT prévoit le 30 octobre une notation spéculative BB pour Anthropic après son IPO. Cela prolonge le free cash flow négatif d'Alphabet (28 octobre) et les routeurs multi modèles comme Weflayr (22 octobre) et GitHub Copilot Fusion (28 octobre). À creuser : en due diligence, tester la dépendance de la marge brute à un seul fournisseur de modèles et le plan si les prix d'API remontent."
+        }
+      ]
+    },
+    {
+      "key": "eu",
+      "title": "Levées Europe",
+      "intro": "Fenêtre courte et maigre : trois tours software B2B datés du 30 octobre au 2 novembre, aucun en France, DACH ou Benelux. Couverture limitée : plusieurs médias illisibles ce matin et les annonces de lundi ne sont pas encore sorties. Exclus car antérieurs : Hex, Collective, Bageera, AQQI, Wormsensing (hardware).",
+      "items": [
+        {
+          "title": "Ares Intelligence",
+          "amount": "2,6 à 2,9 M€ (sources divergentes)",
+          "stage": "Non précisé",
+          "country": "Royaume-Uni",
+          "investors": "Creandum, Lakestar, anges liés à Google DeepMind",
+          "body": "Plateforme de transformation IA qui part des retours des salariés pour bâtir des plans d'adoption, avec un produit de workforce intelligence pour l'Europe et les US. Lien : Claude Enterprise et ses enquêtes ROI (28 octobre). Fit : meilleur du jour mais partiel, software B2B early stage et investisseurs européens de premier plan, siège au Royaume-Uni et petit tour.",
+          "fit": true,
+          "url": "https://www.thesaasnews.com/news/ares-intelligence-raises-2-6m-other/",
+          "source": "The SaaS News, EU-Startups",
+          "announced": "2026-10-30"
+        },
+        {
+          "title": "Talky",
+          "amount": "1,5 M€",
+          "stage": "Non précisé",
+          "country": "Espagne",
+          "investors": "Non vérifiés",
+          "body": "IA qui apprend les règles non écrites de la comptabilité (détails limités au titre d'EU-Startups, article illisible). Lien : suite de Dougs, Mika, Hyphenate et Ravical sur la compta (15 au 29 octobre). Fit : verticale chaude, mais tour modeste.",
+          "url": "https://www.eu-startups.com/2026/10/madrids-talky-raises-e1-5-million-to-teach-ai-the-unwritten-rules-of-accounting/",
+          "source": "EU-Startups",
+          "announced": "2026-10-30"
+        },
+        {
+          "title": "Zerow",
+          "amount": "≈ 1 M€",
+          "stage": "Seed",
+          "country": "Italie",
+          "investors": "Bridge privé de 400 k€ (anges et fonds non nommés), Smart&Start Italia, Région Toscane",
+          "body": "Plateforme B2B de gestion des invendus de luxe, portée par la réglementation européenne, avec logiciels d'inventaire et de conformité. Fit : angle compliance intéressant, mais très early stage.",
+          "url": "https://dealroom.co/news/168677-zerow-raises-1m-to-help-luxury-brands-manage-unsold-stock-under-new-eu-r/",
+          "source": "Dealroom",
+          "announced": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "key": "us",
+      "title": "Grosses levées US",
+      "intro": "Aucun gros tour software ou IA US vérifié dans la fenêtre : les tours de la semaine datent tous d'avant le 30 octobre (Re:Build et General Compute le 27-28, Hex, Kalshi, Collective et Dulo le 29), et Serval figurait déjà dans le brief précédent. Lecture de tendance sur la semaine, selon Crunchbase : physical AI et usines autonomes en tête, inférence hors Nvidia chez General Compute (800 M$ post-money), et analytics refondu pour les agents chez Hex (1,2 Md$). L'usine pilotée par IA est le thème à surveiller pour l'industrie européenne.",
+      "items": []
+    },
+    {
+      "key": "vc",
+      "title": "VC & écosystème",
+      "items": [
+        {
+          "title": "OpenAI : environ 11 Md$ réunis sur 30 Md$ visés",
+          "body": "Le tour se fait à 1 250 Md$ au lieu de 1 400 Md$, selon le WSJ. OpenAI compte chercher jusqu'à 20 Md$ auprès de family offices et de particuliers fortunés, et viserait une IPO début 2027.",
+          "url": "https://the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite/",
+          "source": "The Decoder"
+        },
+        {
+          "title": "Anthropic : notation BB attendue après l'IPO",
+          "body": "Blackstone table désormais sur un double B, contre un investment grade espéré avant 2027, selon le FT. Une prévision, pas une décision d'agence ; elle renchérirait le financement du compute. Une lettre de marché cite IFR : roadshow la semaine du 9 novembre et cotation vers le 20 novembre, à confirmer.",
+          "url": "https://www.winzheng.com/en/article/anthropic-ipo-junk-credit-rating",
+          "source": "Winzheng, d'après le FT"
+        },
+        {
+          "title": "Semaine européenne : 60+ deals et plus de 1,3 Md€, French Tech à 41 M€",
+          "body": "Tech.eu compte aussi plus de 10 exits et opérations de M&A. En France, Maddyness recense 8 tours pour 41,2 M€, dont 91,5 % pour six startups IA, avec un ticket moyen de 5,2 M€ : une semaine creuse après Pigment.",
+          "url": "https://www.maddyness.com/2026/10/30/french-tech-lia-concentre-plus-de-90-des-41-millions-deuros-leves-cette-semaine/",
+          "source": "Maddyness, Tech.eu"
+        },
+        {
+          "title": "Fractile : 577 M£ de Série C révélés par Companies House",
+          "body": "Le fabricant britannique de puces d'inférence a émis ces actions entre le 9 septembre et le 23 octobre. Hors software, mais c'est un signal d'appétit pour l'inférence européenne ; une valorisation de 6,5 Md$ avait été évoquée, sans confirmation.",
+          "url": "https://techfundingnews.com/fractile-577m-series-c-nvidia-ai-chips/",
+          "source": "Tech Funding News"
+        },
+        {
+          "title": "Crosby enchérit sur des actifs de Weil Gotshal",
+          "body": "La firme IA native (environ 85 M$ levés) vise la marque et certaines données d'un cabinet d'environ 1 200 avocats. Aucune garantie de succès, et ni Crosby ni Weil n'ont commenté.",
+          "url": "https://fourweekmba.com/ai-sequoia-backed-crosby-bids-for-weil-gotshals-brand-and-data/",
+          "source": "FourWeekMBA, d'après TechCrunch"
+        },
+        {
+          "title": "M&A et sorties en Europe",
+          "body": "Wolters Kluwer cède Steuertipps à Buhl pour 40 M€, TIM boucle 70 % de VoiSmart, Svea Bank rachète Lisa&, Greentech Alliance rachète Intermobility (30 octobre). Côté échecs, Flawless (doublage IA) passe en administration et l'éditeur suédois Pickit fait faillite.",
+          "url": "https://dealroom.co/news/",
+          "source": "Dealroom, Swedish Tech Weekly, Tech.eu"
+        },
+        {
+          "title": "Liquidité : iwoca et Lovable",
+          "body": "Le CEO d'iwoca juge « quite likely » de trouver de la liquidité pour ses VCs historiques, après des rumeurs de vente au-dessus de 1 Md£. Lovable laisserait ses salariés céder 80 M$ d'actions à la valorisation de 13,3 Md$.",
+          "url": "https://tech.eu/2026/10/30/iwoca-ceo-talks-15-years-running-a-fintech-sme-financing-and-possible-sale/",
+          "source": "Tech.eu, Swedish Tech Weekly"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "IA & software",
+      "items": [
+        {
+          "title": "ServiceNow contre Sierra : le budget B2B se re-répartit",
+          "body": "Sur des résultats à peine manqués (BPA de 1,00 $ contre 1,02 $), ServiceNow perd 26,9 % le 29 octobre, pendant que ses pairs reculent de 2,8 à 7,3 %. Pour un investisseur, le multiple d'un SaaS dépend désormais de la trajectoire de son backlog et de son pricing, plus que de sa croissance passée.",
+          "url": "https://www.trefis.com/stock/now/articles/621573/what-is-behind-the-move-in-servicenow-stock/2026-10-30",
+          "source": "Trefis"
+        },
+        {
+          "title": "Le crédit des hyperscalers sous pression",
+          "body": "Les protections contre le défaut d'Amazon, Alphabet, Microsoft, Meta et Oracle sont au plus large depuis 2021, et Amazon a dépensé 77,3 Md$ de capex pour 42,4 Md$ de cash opérationnel. Chiffres compilés par FourWeekMBA. Pourquoi ça compte : un coût du compute qui remonte toucherait d'abord les marges des applicatifs IA.",
+          "url": "https://fourweekmba.com/ai-weekly-roundup-1-nov-2026-capex-outran-cash-off-book-4t/",
+          "source": "FourWeekMBA"
+        },
+        {
+          "title": "Un modèle open weight transforme des correctifs en exploits Firefox",
+          "body": "Epoch AI montre que GLM 5.3 convertit des correctifs publiés mais pas encore livrés en exploits en un clic, pour environ 1 000 $ par attaque (29 octobre). Le délai entre correctif et déploiement devient un risque chiffrable : demande directe pour le patching accéléré et la sécurité logicielle.",
+          "url": "https://epoch.ai/publications/open-weight-models-patch-gap",
+          "source": "Epoch AI"
+        },
+        {
+          "title": "Apple refuse « l'IA pour l'IA »",
+          "body": "Le CEO John Ternus doute que les agents remplacent les apps (31 octobre). Face aux labs qui veulent capter l'interface, le plus gros distributeur mobile défend l'application : un point d'appui pour les éditeurs qui misent sur leur UX.",
+          "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+          "source": "TechCrunch"
+        }
+      ]
+    },
+    {
+      "key": "read",
+      "title": "À lire / écouter",
+      "items": [
+        {
+          "title": "SaaStr : SaaS Isn't Dead. Old SaaS Is Dead (31 octobre)",
+          "body": "La meilleure lecture du jour : chiffres ServiceNow, Sierra et Gartner, et règles pour vendre un budget existant plutôt qu'un budget nouveau.",
+          "url": "https://www.saastr.com/saas-isnt-dead-old-saas-is-dead-sierra-adds-150m-arr-in-one-quarter-while-servicenow-drops-27-in-a-day/",
+          "source": "SaaStr"
+        },
+        {
+          "title": "20VC : David Tisch (BoxGroup), avec M.G. Siegler (31 octobre)",
+          "body": "Concentration de l'ownership, limites du lean startup et état du seed, utile pour lire le début de cycle.",
+          "url": "https://www.podengine.ai/podcasts/the-twenty-minute-vc-20vc-venture-capital-startup-funding-the-pitch",
+          "source": "20VC"
+        },
+        {
+          "title": "Stratechery : entretien avec Shyam Sankar, CTO de Palantir (29 octobre)",
+          "body": "Le déploiement de l'IA en entreprise vu par l'éditeur qui a popularisé les ingénieurs chez le client, à relire avec ProServal.",
+          "url": "https://stratechery.com/2026/an-interview-with-palantir-cto-shyam-sankar-about-the-ai-religious-war/",
+          "source": "Stratechery"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Maddyness : l'IA concentre plus de 90 % des 41 M€ levés",
+      "url": "https://www.maddyness.com/2026/10/30/french-tech-lia-concentre-plus-de-90-des-41-millions-deuros-leves-cette-semaine/"
+    },
+    {
+      "title": "Tech.eu : récap de la semaine du 30 octobre",
+      "url": "https://tech.eu/2026/10/30/startups-respond-to-britain-s-budget-greentech-alliance-acquires-intermobility-and-europe-s-biggest-seed-rounds-of-q3/"
+    },
+    {
+      "title": "Crunchbase News : The Week's 10 Biggest Funding Rounds",
+      "url": "https://news.crunchbase.com/venture/biggest-rounds-startups-physical-ai-predictions-robotics-rebuild/"
+    },
+    {
+      "title": "AlleyWatch : Weekly Notable Startup Funding Report 11/2/26",
+      "url": "https://alleywatch.com/2026/11/the-weekly-notable-startup-funding-report-11-2-26"
+    },
+    {
+      "title": "TechStartups : Startup Funding News, 30 octobre",
+      "url": "https://techstartups.com/2026/10/30/startup-funding-news-today-october-30-2026-kalshi-cohere-bites-dulo-opentrons-firehawk-defense-more/"
+    },
+    {
+      "title": "SaaStr : SaaS Isn't Dead. Old SaaS Is Dead",
+      "url": "https://www.saastr.com/saas-isnt-dead-old-saas-is-dead-sierra-adds-150m-arr-in-one-quarter-while-servicenow-drops-27-in-a-day/"
+    },
+    {
+      "title": "Trefis : What Is Behind The Move In ServiceNow Stock?",
+      "url": "https://www.trefis.com/stock/now/articles/621573/what-is-behind-the-move-in-servicenow-stock/2026-10-30"
+    },
+    {
+      "title": "The Decoder : OpenAI raises just $11 billion of its $30 billion target",
+      "url": "https://the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite/"
+    },
+    {
+      "title": "Swedish Tech Weekly #378",
+      "url": "https://swedishtechnews.com/swedish-tech-weekly-378"
+    },
+    {
+      "title": "Market News, 2 novembre 2026",
+      "url": "https://hervecuviliez.substack.com/p/market-news-monday-2-november-2026"
+    },
+    {
+      "title": "Tech Insights 2026 Week 45",
+      "url": "https://www.techbyjohan.com/tech-insights-2026-week-45/"
+    },
+    {
+      "title": "CFNews : Bageera bondit sur une première acquisition",
+      "url": "https://www.cfnews.net/L-actualite/M-A-Corporate/Operations/Majoritaire/Bageera-bondit-sur-une-premiere-acquisition-748499"
+    }
+  ]
+}
