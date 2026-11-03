@@ -1,0 +1,294 @@
+{
+  "date": "2026-11-03",
+  "headline": "Anthropic affiche 17 Md$ de revenus trimestriels et 895 Md$ d'engagements le jour où Palantir pulvérise les attentes, pendant que Creandum boucle 750 M$ et que Marble (Munich) lève pour des agents qui apprennent en observant.",
+  "summary": "Lundi riche en chiffres IA mais pauvre en levées software européennes : un seul vrai fit (Marble), la défense occupe l'essentiel du flux. Le fil du jour : les revenus IA sont réels, la facture aussi, et la valeur se déplace vers le contexte propre à chaque entreprise.",
+  "sections": [
+    {
+      "key": "signals",
+      "title": "Ce qui se dessine",
+      "items": [
+        {
+          "title": "Revenus IA records, facture encore plus grosse",
+          "body": "L'amendement au S-1 d'Anthropic (2 novembre) montre environ 17 Md$ de revenus au T3, mais 895,4 Md$ d'engagements d'achat et de location. Le même jour, Oracle, Alphabet et Meta préparent au moins 36,7 Md$ d'émissions, des obligations CoreWeave se traitent autour de 80 cents et le Nasdaq 100 est 10,4 % sous son record du 6 octobre, après les 11 Md$ réunis par OpenAI sur 30 (31 octobre). À creuser : quelle part de la marge brute des SaaS IA européens dépend d'un seul fournisseur de modèles, et qui vend le routage multi-modèles (Weflayr, 22 octobre) comme assurance contre une hausse de prix."
+        },
+        {
+          "title": "La valeur va au contexte propre à chaque entreprise",
+          "body": "Trajectory lève 45 M$ à 300 M$ de valorisation (2 novembre) pour réentraîner des modèles ouverts sur les retours métier, et Marble lève le même jour pour cartographier les processus en observant les postes de travail avant de les automatiser. Satya Nadella défend la même idée sur 20VC (newsletter du 1er novembre) : la valeur restera dans les poids, le contexte et les evals privées de chaque entreprise. À creuser : les équivalents européens du post-training pour l'industrie et les services, et le risque de vie privée salariale en Allemagne et en France sur la capture de bureau."
+        },
+        {
+          "title": "Défense : trois tours européens le même lundi, et la couche logicielle reste à prendre",
+          "body": "Hypersonica (environ 100 M€, Série B), Gallium Defense (7,1 M€, seed) et Pelagon (Bpifrance, Hexa, Seedcamp, montant non communiqué) sont tous datés du 2 novembre, tous sur du matériel ou des systèmes. Côté logiciel, Salesforce signe l'achat de Rune (logistique militaire, 30 octobre, environ 375 M$ selon TNW). À creuser : qui construit en Europe l'équivalent logiciel (logistique, maintenance, données de terrain) en dual use, donc vendable aussi à l'industrie."
+        },
+        {
+          "title": "Après la compta et le courtage : l'audit, puis le logiciel d'assurance",
+          "body": "Clark (New York) lève 11 M$ en seed pour l'audit IA (2 novembre, Specter), après Ravical sur les cabinets comptables (29 octobre) et i23 sur le courtage (29 octobre). Guidewire s'offre dans le même temps l'assurtech britannique Hyperexponential pour 1,7 Md$ selon Tech.eu, signe que les plateformes verticales paient cher la couche décision. À creuser : l'audit légal européen, où le cadre des commissaires aux comptes limite l'automatisation, et les verticales réglementées voisines."
+        }
+      ]
+    },
+    {
+      "key": "eu",
+      "title": "Levées Europe",
+      "intro": "Fenêtre maigre : une seule levée clairement alignée, aucune en France en software B2B vérifiée (Gallium Defense et Pelagon sont du matériel de défense, donc exclus, voir le signal dédié). Aucune news notable côté fonds français ce matin. Limite : deutsche-startups et FrenchWeb n'étaient pas lisibles, la couverture DACH et France repose sur Tech.eu, EU-Startups, Multeam et Specter.",
+      "items": [
+        {
+          "title": "Marble Cognition",
+          "amount": "3,75 M$ (≈ 3,35 M€)",
+          "stage": "Pré-seed",
+          "country": "Allemagne (Munich)",
+          "investors": "Heartcore et Seedcamp (co-leads), anges dont un fondateur de Personio et un administrateur de Datadog",
+          "body": "Observe les postes de travail, en tire des cartes de processus, puis déploie des « coworkers » IA avec validation humaine. Clients cités : EGYM, Mutares, Enam. Lien : Ares Intelligence (30 octobre) et Trajectory (2 novembre). Fit : software B2B européen, DACH, productivité et IA appliquée, clients mid-market et LBO, encore très tôt.",
+          "fit": true,
+          "url": "https://tech.eu/2026/11/02/marble-raises-375m-to-build-ai-coworkers-that-learn-by-watching/",
+          "source": "Tech.eu, EU-Startups",
+          "announced": "2026-11-02"
+        },
+        {
+          "title": "Roleo",
+          "amount": "2,9 M€",
+          "stage": "Non précisé",
+          "country": "Estonie",
+          "investors": "Practica Capital (lead), Inventure, Markus Villig, Sergei Anikin, Henrik Bohman, Kristina Lilleõis, Lemonade Stand",
+          "body": "Agent de carrière IA gratuit pour les profils tech, qui les met en relation directe avec des recruteurs. Fit : moins aligné, modèle mixte B2C et B2B, hors zone cœur.",
+          "url": "https://tech.eu/2026/11/02/veriff-co-founders-roleo-raises-eur29m-to-expand-ai-career-agent-across-europe/",
+          "source": "Tech.eu",
+          "announced": "2026-11-02"
+        },
+        {
+          "title": "Loc.ai",
+          "amount": "Non communiqué (subvention)",
+          "stage": "Subvention",
+          "country": "Royaume-Uni",
+          "investors": "Non communiqué",
+          "body": "Inférence compatible OpenAI sur les appareils du client, pour garder les données en local. Lien : souveraineté et coût d'inférence, voir le premier signal. Fit : infrastructure intéressante, mais subvention, très tôt et hors zone cœur.",
+          "source": "Specter",
+          "announced": "2026-11-02"
+        },
+        {
+          "title": "LO:TECH",
+          "amount": "12 M$",
+          "stage": "Série A",
+          "country": "Royaume-Uni",
+          "investors": "MMC (lead), Faction, 13 Books Capital, Atka",
+          "body": "Infrastructure de trading en continu sur marchés traditionnels, actifs numériques et marchés de prédiction, pour clients institutionnels. Fit : stade et montant compatibles, mais firme de marchés plus qu'éditeur, hors zone cœur.",
+          "url": "https://tech.eu/2026/11/02/london-based-lotech-lands-12m-series-a-led-by-mmc/",
+          "source": "Tech.eu",
+          "announced": "2026-11-02"
+        },
+        {
+          "title": "Octopath",
+          "amount": "2 M$",
+          "stage": "Seed",
+          "country": "Royaume-Uni",
+          "investors": "Innovate UK, Twin Path Ventures",
+          "body": "SaaS d'aide au diagnostic en pathologie par détection cellulaire. Fit : faible, santé et hors zone cœur.",
+          "source": "Specter",
+          "announced": "2026-11-02"
+        },
+        {
+          "title": "Sortrace",
+          "amount": "≈ 800 k$",
+          "stage": "Pré-seed",
+          "country": "Suède",
+          "investors": "Almi Invest (lead), Antler, Gorilla Capital, anges",
+          "body": "Vision par ordinateur sur camions de collecte pour détecter les erreurs de tri, vendue aux municipalités et opérateurs de déchets. Fit : faible, trop tôt et clients publics.",
+          "url": "https://tech.eu/2026/11/02/sortrace-lands-800k-to-improve-waste-sorting-with-ai-powered-analysis/",
+          "source": "Tech.eu",
+          "announced": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "key": "us",
+      "title": "Grosses levées US",
+      "intro": "Peu de méga-tours software ce lundi : le plus gros de la fenêtre, Northwood Space (375 M$, 2 Md$ de valorisation), relève du spatial. Côté IA, le capital va à l'entraînement sur mesure et aux robots d'entrepôt, plutôt qu'à de nouveaux modèles. Le post-training à 300 M$ de valorisation avec 18 salariés est le thème le plus susceptible d'arriver en Europe.",
+      "items": [
+        {
+          "title": "Tutor Intelligence",
+          "amount": "75 M$",
+          "stage": "Série B",
+          "country": "États-Unis",
+          "investors": "Andreessen Horowitz (lead), Neo, Union Square Ventures",
+          "body": "Robots d'entrepôt pilotés par IA. Lien : physical AI, thème dominant de la semaine dernière.",
+          "url": "https://fourweekmba.com/ai-daily-roundup-2-nov-2026-anthropic-17b-quarter-895b/",
+          "source": "FourWeekMBA, Specter",
+          "announced": "2026-11-02"
+        },
+        {
+          "title": "Trajectory",
+          "amount": "45 M$",
+          "stage": "Série A",
+          "country": "États-Unis",
+          "investors": "Sequoia (lead), Nvidia, Bessemer, Bain Capital Ventures",
+          "body": "Plateforme d'apprentissage continu sur modèles ouverts, avec interface pour non-techniciens. Valorisation 300 M$, clients Harvey, Rogo, Decagon, Mercor. Face à Thinking Machines, Applied Compute et Prime Intellect. Specter classe le tour en Série B, TechCrunch en Série A.",
+          "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+          "source": "TechCrunch",
+          "announced": "2026-11-02"
+        },
+        {
+          "title": "Clark",
+          "amount": "11 M$",
+          "stage": "Seed",
+          "country": "États-Unis",
+          "investors": "Touring Capital (lead)",
+          "body": "Audits IA natifs pour cabinets et agences publiques, 16,1 M$ levés au total. Lien : Ravical (29 octobre).",
+          "source": "Specter",
+          "announced": "2026-11-02"
+        },
+        {
+          "title": "Kodiact",
+          "amount": "2,5 M$",
+          "stage": "Pré-seed",
+          "country": "États-Unis",
+          "investors": "Non précisé (3 investisseurs)",
+          "body": "Gestion par catégorie des achats de matières directes pour l'industrie. Petit tour, cité pour le thème : voir Tendos (Munich, 28 octobre) sur l'autre versant, la vente industrielle.",
+          "source": "Specter",
+          "announced": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "key": "vc",
+      "title": "VC & écosystème",
+      "items": [
+        {
+          "title": "Creandum clôture 750 M$, son plus gros fonds",
+          "body": "Fund VIII (668 M€ selon EU-Startups) pour le seed et la Série A, moitié en nouveaux deals, moitié en réinvestissement, contre 500 M€ pour le précédent. Ouverture d'un nouveau bureau à San Francisco. Creandum note qu'environ la moitié du capital investi dans la tech européenne l'an dernier venait des US. Lien : Seaya (600 M€), Entourage (100 M€) en octobre, et sa participation dans Ares Intelligence (30 octobre).",
+          "url": "https://tech.eu/2026/11/02/lovable-and-black-forest-labs-backer-creandum-closes-750m-fund-had/",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "M&A de la semaine en Europe",
+          "body": "Guidewire rachète Hyperexponential (1,7 Md$), Digital Science rachète Jenni AI, YellowFox rachète peregrine.ai, saas.group rachète 3D AI Studio, Lengow rachète Daily&Co. Destinus prend Perciv AI (Pays-Bas), dans la lignée du flux défense.",
+          "url": "https://tech.eu/2026/11/02/european-tech-weekly-recap-over-eur13b-invested-across-60-deals",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "Anthropic : les institutionnels visent 1,5 à 1,6 T$",
+          "body": "Valorisation rapportée par le WSJ, soit 22 à 24 fois le revenu trimestriel annualisé selon FourWeekMBA. Kroll note BB+. C'est le comparable qui va cadrer les multiples IA des prochains mois.",
+          "url": "https://fourweekmba.com/ai-daily-roundup-2-nov-2026-anthropic-17b-quarter-895b/",
+          "source": "FourWeekMBA (WSJ)"
+        },
+        {
+          "title": "Marvell rachète Lumentum en actions, 115 Md$ de valeur d'entreprise",
+          "body": "Pari sur l'optique des data centers, clôture visée au S1 2028. La consolidation de la chaîne IA continue en amont.",
+          "url": "https://www.cnbc.com/2026/11/02/marvell-to-buy-lumentum-in-115-billion-deal-in-ai-data-center-bet-.html",
+          "source": "CNBC"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "IA & software",
+      "items": [
+        {
+          "title": "S-1 amendé d'Anthropic : 17 Md$ au T3, perte nette de 23,3 Md$",
+          "body": "Revenus +1 127 % sur un an, perte opérationnelle limitée à 567 M$, l'essentiel de la perte nette étant une charge de juste valeur de 21,9 Md$. Pourquoi ça compte : la marge opérationnelle s'approche de l'équilibre, donc les leaders n'ont pas besoin de casser les prix sur le haut de gamme, et un SaaS B2B doit piloter ses coûts en conséquence.",
+          "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+          "source": "CNBC, FourWeekMBA"
+        },
+        {
+          "title": "Palantir : +96 %, le commercial US dépasse le public",
+          "body": "2,3 Md$ de revenus au T3, commercial US +148 % à 984 M$ contre 953 M$ pour le public US, prévision annuelle relevée à environ 8,53 Md$, mais bookings moins dynamiques (contrats de 2,9 Md$, +6 %). Pourquoi ça compte : contraste net avec ServiceNow (-26,9 % le 29 octobre) ; le marché paie la livraison de résultat, et surveille déjà le ralentissement.",
+          "url": "https://fortune.com/2026/11/02/palantir-q3-results-stock-ai-trade-selloff/",
+          "source": "Fortune"
+        },
+        {
+          "title": "Le prix bas de gamme s'effondre : Luna passe de 6 $ à 0,50 $",
+          "body": "Baisse de 92 % du prix de sortie par million de tokens entre GPT-5.6 Luna (9 juillet) et GPT-6 Luna, pendant que Terra coûte 10 % de plus en résidence US sur Bedrock. Pourquoi ça compte : deux marchés se séparent, le commodity et le premium, ce que Nadella anticipe aussi. Le routage devient un sujet de marge.",
+          "url": "https://fourweekmba.com/ai-daily-roundup-2-nov-2026-anthropic-17b-quarter-895b/",
+          "source": "FourWeekMBA"
+        },
+        {
+          "title": "Goldman restreint, SUSE coupe",
+          "body": "Goldman réserve Claude Code et Copilot à ses quelque 12 000 ingénieurs (Bloomberg), et SUSE supprime environ 10 % des postes en invoquant l'automatisation (The Register). Pourquoi ça compte : les budgets IA se rationnent côté grands comptes, ce qui prolonge le sujet coût de l'IA du 29 octobre, et un éditeur européen en tire déjà les conséquences sur ses effectifs.",
+          "url": "https://fourweekmba.com/ai-daily-roundup-2-nov-2026-anthropic-17b-quarter-895b/",
+          "source": "FourWeekMBA"
+        },
+        {
+          "title": "GDPx : les meilleurs modèles plafonnent à 12 %",
+          "body": "Nouveau benchmark de SemiAnalysis sur 11 domaines : Claude Opus 5.5 à 12,0 %, Gemini 4 Carbon à 10,9 %, GPT-6 Astra à 9,6 %. Pourquoi ça compte : sur des tâches économiques complètes, l'autonomie reste faible, ce qui soutient les modèles avec humain dans la boucle comme Marble.",
+          "url": "https://newsletter.semianalysis.com/p/gdpx-measuring-frontier-model-capabilities",
+          "source": "SemiAnalysis"
+        }
+      ]
+    },
+    {
+      "key": "read",
+      "title": "À lire / écouter",
+      "items": [
+        {
+          "title": "20VC : newsletter du 1er novembre (Nadella, O'Driscoll et Lemkin sur le S-1)",
+          "body": "Nadella sur les evals comme propriété intellectuelle, et le débat sur la durée de vie des modèles. Lundi, Erik Bernhardsson (Modal).",
+          "url": "https://20vc.substack.com/p/20vc-newsletter-1st-november-2026",
+          "source": "20VC"
+        },
+        {
+          "title": "Stratechery : « At Long Last… » (30 octobre)",
+          "body": "Synthèse de la semaine : le S-1 d'Anthropic donne enfin de vrais chiffres, un cœur très rentable mais exposé à la concurrence et à la dilution.",
+          "url": "https://stratechery.com/2026/at-long-last/",
+          "source": "Stratechery"
+        },
+        {
+          "title": "The Economist : Hackers are running riot with AI (1er novembre)",
+          "body": "Le marché de la sécurité IA vu par ceux qui vendent à la fois l'attaque et la défense, utile pour cadrer le thème cyber des deux dernières semaines.",
+          "url": "https://www.economist.com/business/2026/11/01/hackers-are-running-riot-with-ai-its-makers-want-to-cash-in",
+          "source": "The Economist"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tech.eu : récap hebdo du 2 novembre",
+      "url": "https://tech.eu/2026/11/02/european-tech-weekly-recap-over-eur13b-invested-across-60-deals"
+    },
+    {
+      "title": "Tech.eu : Marble",
+      "url": "https://tech.eu/2026/11/02/marble-raises-375m-to-build-ai-coworkers-that-learn-by-watching/"
+    },
+    {
+      "title": "Tech.eu : Creandum",
+      "url": "https://tech.eu/2026/11/02/lovable-and-black-forest-labs-backer-creandum-closes-750m-fund-had/"
+    },
+    {
+      "title": "Tech.eu : Gallium Defense",
+      "url": "https://tech.eu/2026/11/02/gallium-defense-raises-eur71m-to-make-drone-detection-cheaper-and-scalable/"
+    },
+    {
+      "title": "EU-Startups : Hypersonica",
+      "url": "https://www.eu-startups.com/2026/11/hypersonica-secures-e100-million-to-boost-sovereign-hypersonic-deep-strike-systems-for-europe-and-its-allies/"
+    },
+    {
+      "title": "Multeam : levées S44",
+      "url": "https://multeam.substack.com/p/les-levees-de-fonds-de-la-semaine-b43"
+    },
+    {
+      "title": "TechCrunch : Trajectory",
+      "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/"
+    },
+    {
+      "title": "TechCrunch : Northwood Space",
+      "url": "https://techcrunch.com/2026/11/02/northwood-space-raises-375m-series-c-at-a-2b-valuation-from-a16z-and-dfj-growth/"
+    },
+    {
+      "title": "FourWeekMBA : AI Daily du 2 novembre",
+      "url": "https://fourweekmba.com/ai-daily-roundup-2-nov-2026-anthropic-17b-quarter-895b/"
+    },
+    {
+      "title": "Fortune : Palantir Q3",
+      "url": "https://fortune.com/2026/11/02/palantir-q3-results-stock-ai-trade-selloff/"
+    },
+    {
+      "title": "Washington Technology : Salesforce et Rune",
+      "url": "https://www.washingtontechnology.com/companies/2026/10/salesforce-pushes-further-defense-tech-rune-acquisition/416943/"
+    },
+    {
+      "title": "The Neuron : digest du 2 novembre",
+      "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-2-2026/"
+    },
+    {
+      "title": "20VC : newsletter du 1er novembre",
+      "url": "https://20vc.substack.com/p/20vc-newsletter-1st-november-2026"
+    }
+  ]
+}
