@@ -1,0 +1,294 @@
+{
+  "date": "2026-11-04",
+  "headline": "Hg et Anthropic financent une société de déploiement IA dédiée à l'Europe (3 nov.), le jour où Traversal passe licorne sur l'agent de production et où Conlio (Berlin) lève 6,4 M€ sur la paperasse du fret.",
+  "summary": "Mardi maigre en levées software en France, rien de notable en Benelux, et un vrai fit à Berlin. Le fil du jour : la valeur se déplace vers ceux qui mettent l'IA en production, côté intégration comme côté exploitation.",
+  "sections": [
+    {
+      "key": "signals",
+      "title": "Ce qui se dessine",
+      "items": [
+        {
+          "title": "Le déploiement de l'IA devient un actif qu'on finance",
+          "body": "Hg (110 Md$ sous gestion) et Anthropic financent le 3 novembre une société indépendante bâtie sur Claude, avec des ingénieurs placés chez les clients européens et un lancement prévu d'ici fin 2026. Serval lançait ProServal le 30 octobre (100+ ingénieurs chez les clients) et Ares Intelligence levait le même jour sur la transformation IA fondée sur des preuves. À creuser : quels intégrateurs IA indépendants en France et DACH ont un produit réutilisable, et qui devient le concurrent de ce nouvel acteur sur le mid-market."
+        },
+        {
+          "title": "Des agents qui agissent en production, et le frein qui va avec",
+          "body": "Traversal lève 120 M$ à 1 Md$ le 3 novembre pour passer de l'enquête sur incident à la correction, CyberKord lève 2,7 M€ le même jour pour simuler puis appliquer des correctifs IT et sécurité avec un niveau d'autonomie réglable. Toujours le 3 novembre, CrowdStrike ajoute un kill switch pour agents et Apple signale dans son rapport annuel qu'ils peuvent outrepasser leurs permissions. À creuser : les éditeurs européens d'ITOps et de SRE assis sur des données de production, et la question à leur poser : qui autorise l'agent à agir, et comment revenir en arrière ?"
+        },
+        {
+          "title": "La voix se consolide vite",
+          "body": "Salesforce signe l'achat de Cresta le 2 novembre (environ 2,7 Md$ selon une source, prix non confirmé), PartnerOne rachète 3CLogic le 3 novembre, et Guava lève 12,5 M$ en seed le même jour sur la voix pour secteurs régulés. Salesforce enchaîne après Braze (relayé le 22 octobre) et Rune (30 octobre). À creuser : les plateformes vocales européennes indépendantes et les verticales où la conformité protège (assurance, santé, banque), avant que les acheteurs ne passent par ici."
+        },
+        {
+          "title": "Les métiers de dossiers tombent l'un après l'autre",
+          "body": "Trois levées le 3 novembre sur le même motif, le contrôle documentaire expert : Conlio (fret), Tallia (fiscalité) et Granter (subventions publiques). Elles suivent Ravical sur les cabinets comptables (29 octobre), i23 sur le courtage (29 octobre) et Clark sur l'audit (2 novembre). À creuser : les verticales voisines encore peu couvertes, comme la douane, la paie ou les sinistres, avec une préférence pour les éditeurs qui ont des corporates du métier au capital."
+        }
+      ]
+    },
+    {
+      "key": "eu",
+      "title": "Levées Europe",
+      "intro": "Peu de deals pertinents dans la fenêtre du 3 novembre au matin du 4 : aucune levée software française ou Benelux repérée (Specter et presse). Écartés car hors software B2B : Quint Computing, Vitroscope, Tumbleweed, 1nhaler, Unitoq. EU-Startups, deutsche-startups et FrenchWeb n'ont pas pu être lus directement ce matin, couverture via Tech.eu, Startbase, Dealroom et Specter.",
+      "items": [
+        {
+          "title": "Conlio",
+          "amount": "6,4 M€",
+          "stage": "Early stage (non précisé)",
+          "country": "Allemagne (Berlin)",
+          "investors": "Piton Capital (lead), Haufe Group Ventures, WaVe-X (Walter Group), F-LOG Ventures (Fiege), System.One, Puzzle Ventures, Booom Ventures, Yellow",
+          "body": "Lit et vérifie les documents du transport routier (lettres de voiture, preuves de livraison, factures) pour automatiser les processus financiers ; revendique plus de 90 % des vérifications automatisées, déployé en Allemagne, Royaume-Uni, Espagne et Danemark. Lien : Tallia et Granter le même jour, Ravical le 29 octobre. Fit : meilleur fit du jour, DACH, digitalisation d'un secteur de services, deux logisticiens au capital ; à suivre pour la Série A.",
+          "fit": true,
+          "url": "https://www.startbase.com/news/conlio-erhaelt-64-millionen-euro-fuer-ki-gestuetzte-finanzprozesse-in-der-logistik/",
+          "source": "Startbase, Dealroom",
+          "announced": "2026-11-03"
+        },
+        {
+          "title": "Enginsight",
+          "amount": "Non communiqué",
+          "stage": "Private equity (selon Specter)",
+          "country": "Allemagne (Iéna)",
+          "investors": "Verdane (lead), SI Ventures, UVC Partners",
+          "body": "Plateforme de pentest automatisé et de surveillance des vulnérabilités, 80 salariés et 1 000+ clients revendiqués, Série A de 6 M€ en 2024. Round vu uniquement dans Specter, à recouper avec la presse. Lien : CyberKord le même jour. Fit : cybersécurité DACH, software B2B européen ; le stade croissance et le montant inconnu restent à vérifier.",
+          "fit": true,
+          "source": "Specter",
+          "announced": "2026-11-03"
+        },
+        {
+          "title": "Tallia",
+          "amount": "4,5 M$ (≈ 4 M€)",
+          "stage": "Seed",
+          "country": "Royaume-Uni (Londres)",
+          "investors": "Outward VC, Expedite Capital, Portfolio Ventures, Paul Forster, Angus Miln",
+          "body": "Recherche et rédaction fiscales par IA pour cabinets, 35+ juridictions, 5 heures gagnées par collaborateur et par semaine revendiquées. Lien : Dougs (15 octobre), Ravical (29 octobre) et Clark (2 novembre). Fit : software B2B et compliance, stade et ticket proches ; moins aligné géographiquement.",
+          "fit": true,
+          "url": "https://www.eu-startups.com/2026/11/london-based-tallia-raises-e4-million-to-bring-ai-powered-research-and-review-to-tax-firms",
+          "source": "EU-Startups, Specter",
+          "announced": "2026-11-03"
+        },
+        {
+          "title": "CyberKord",
+          "amount": "2,7 M€",
+          "stage": "Pré-seed",
+          "country": "Italie (Milan)",
+          "investors": "360 Capital (lead), Plus Partners, Addendum Capital, Vento",
+          "body": "Automatise les opérations IT et sécurité avec un jumeau numérique de l'infrastructure pour simuler puis appliquer les correctifs ; pilotes prévus avec de grands groupes. Lien : Traversal et CrowdStrike le même jour. Fit : cybersécurité B2B et bon sujet, mais très tôt.",
+          "url": "https://tech.eu/2026/11/03/cyberkord-raises-eur27m-to-automate-it-and-cybersecurity-operations-with-ai/",
+          "source": "Tech.eu, Specter",
+          "announced": "2026-11-03"
+        },
+        {
+          "title": "Granter",
+          "amount": "1,6 M€",
+          "stage": "Non précisé",
+          "country": "Portugal",
+          "investors": "3XP Global (lead), Celtis Venture Partners, Gateway Ventures, Deel, Bracken Darrell",
+          "body": "IA qui repère les aides publiques, prépare les dossiers et gère les projets financés ; 140+ entreprises accompagnées, clients dont Galp et Fidelidade ; vise Espagne, Allemagne et Italie. Lien : dossiers experts, avec Conlio et Tallia. Fit : software B2B, mais petit tour orienté PME.",
+          "url": "https://tech.eu/2026/11/03/portuguese-ai-startup-granter-bags-eur16m-to-expand-across-europe/",
+          "source": "Tech.eu",
+          "announced": "2026-11-03"
+        }
+      ]
+    },
+    {
+      "key": "us",
+      "title": "Grosses levées US",
+      "intro": "L'inférence et l'exploitation tirent la journée : Fal double sa valorisation en sept mois environ, Traversal passe licorne avec un ARR multiplié par neuf cette année selon la société. Le thème qui peut traverser l'Atlantique est l'agent de production ; côté inférence, les marges brutes restent fines chez les concurrents de Fal selon TechCrunch.",
+      "items": [
+        {
+          "title": "Fal",
+          "amount": "1,3 Md$",
+          "stage": "Série F (16 Md$ de valorisation)",
+          "country": "États-Unis (San Francisco)",
+          "investors": "Bessemer (lead), Nvidia, Sound Ventures, T. Rowe Price",
+          "body": "Héberge et exécute des modèles vidéo, image et audio ; plus de 800 M$ de revenus annualisés selon Bloomberg, soit environ 20 fois les revenus. Séries E et F annoncées ensemble pour 1,65 Md$. Lien : Revolut bascule vers des modèles ouverts auto-hébergés.",
+          "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+          "source": "TechCrunch, Bloomberg",
+          "announced": "2026-11-03"
+        },
+        {
+          "title": "Traversal",
+          "amount": "120 M$",
+          "stage": "Série B (1 Md$ de valorisation)",
+          "country": "États-Unis",
+          "investors": "Kleiner Perkins, Redpoint, Khosla (co-leads), Sequoia, Battery, Amex Ventures",
+          "body": "Agent SRE qui enquête sur les incidents de production et vise la correction autonome. Investigations mensuelles passées de 513 à près de 73 000 en 2026 ; clients dont Nubank, PepsiCo et Harvey. La performance en autonomie complète reste à prouver. Lien : CyberKord.",
+          "url": "https://www.unite.ai/traversal-raises-120m-series-b-at-1b-valuation-to-expand-ai-sre/",
+          "source": "Unite.AI, Specter",
+          "announced": "2026-11-03"
+        },
+        {
+          "title": "Guava",
+          "amount": "12,5 M$",
+          "stage": "Seed",
+          "country": "États-Unis (Los Angeles)",
+          "investors": "Acrew Capital",
+          "body": "Plateforme vocale pour secteurs régulés, 100+ déploiements revendiqués. Lien : Salesforce et Cresta.",
+          "source": "Specter",
+          "announced": "2026-11-03"
+        },
+        {
+          "title": "ArchiBoost AI",
+          "amount": "6,2 M$",
+          "stage": "Seed",
+          "country": "États-Unis (San Francisco)",
+          "investors": "Marathon Venture Capital (lead), Hanabi Capital, Perceptive Ventures, RXR Arden Digital Ventures, Valley Capital Partners, Scott Belsky",
+          "body": "Contrôle de conformité réglementaire et qualité des plans pour l'architecture et la construction. Lien : dossiers experts, sur une verticale voisine.",
+          "source": "Specter",
+          "announced": "2026-11-03"
+        }
+      ]
+    },
+    {
+      "key": "vc",
+      "title": "VC & écosystème",
+      "items": [
+        {
+          "title": "Hg et Anthropic créent une société de transformation IA pour l'Europe",
+          "body": "Société indépendante bâtie sur Claude, lancement d'ici fin 2026, montant, nom et dirigeants non communiqués. Hg avait déjà engagé Anthropic en septembre sur son incubateur Catalyst et sur son portefeuille. Une partie de la valeur de l'intégration IA pourrait se capter hors des éditeurs.",
+          "url": "https://hgcapital.com/insights/new-ai-transformation-company-raises-funding",
+          "source": "Hg"
+        },
+        {
+          "title": "Salesforce signe l'achat de Cresta",
+          "body": "Accord définitif annoncé le 2 novembre, environ 2,7 Md$ selon une source non confirmée, clôture attendue au T1 de l'exercice 2028. Objectif : relier voix, historique client et résultat dans Service Cloud.",
+          "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/",
+          "source": "Salesforce, Silicon Republic"
+        },
+        {
+          "title": "PartnerOne rachète 3CLogic",
+          "body": "Acquisition annoncée le 3 novembre, conditions non communiquées. Cible : couche vocale au dessus des CRM et de l'ITSM, environ 22 M$ levés selon Dealroom.",
+          "url": "https://pomegra.io/startups/partnerone-buys-3clogic-voice-ai-deal-terms-withheld-2026-11-04",
+          "source": "Pomegra"
+        },
+        {
+          "title": "Deux solo GPs de plus en Europe",
+          "body": "Evertrue Capital (Yvonne Bajela, ex Phoenix Court) lève 17 M$ pour du pré-seed UK et Europe, tickets autour de 350 k£. Robin Capital (Robin Haak, Berlin) boucle un fonds II de 15 M€, tickets de 100 à 600 k€, DACH, IA d'entreprise et dual use. Bon réservoir de deal flow amont.",
+          "url": "https://tech.eu/2026/11/03/i-didnt-become-a-vc-to-be-important-i-became-one-to-be-useful-robin-capital-raises-eur15m-fund-ii/",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "French Tech en octobre : 614,7 M€, mais 44 deals contre 62",
+          "body": "Montant en hausse de 4,3 % sur un an, nombre de deals en baisse d'environ 29 %. Pigment pèse 36,2 % du total et l'IA 70,6 %. Hors Pigment, l'IT ne pèse que 15,6 M€ : le software d'entreprise français a été très peu financé en octobre.",
+          "url": "https://www.maddyness.com/2026/11/03/portee-par-pigment-la-french-tech-leve-6147-millions-deuros-en-octobre/",
+          "source": "Maddyness"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "IA & software",
+      "items": [
+        {
+          "title": "Revolut réduit sa facture de code IA d'environ 90 %",
+          "body": "Modèles ouverts auto-hébergés par défaut (GLM) pour de nombreuses tâches, modèles commerciaux conservés en renfort. Chiffres propres à Revolut, hors cloud et équipes. Pour un investisseur B2B : la marge d'un software IA dépend de moins en moins du seul prix du modèle frontier, et les grands comptes peuvent internaliser.",
+          "url": "https://www.startuphub.ai/ai-news/artificial-intelligence/2026/revolut-says-self-hosted-ai-cut-coding-costs-90",
+          "source": "The Register, StartupHub"
+        },
+        {
+          "title": "OpenAI embauche Cathedral sur sa sécurité, Reuters décrit des alertes internes",
+          "body": "Cathedral avait pénétré des systèmes internes d'Anthropic lors d'un test ; Anthropic en conteste la méthode et dit que poids et conversations n'ont pas été touchés. Reuters rapporte en parallèle des alertes internes anciennes chez OpenAI, que la société conteste. La sécurité offensive par agents devient un poste de dépense chez les labs eux-mêmes.",
+          "url": "https://www.reuters.com/business/openai-employees-warned-about-operational-security-lapses-years-sources-say-2026-11-03/",
+          "source": "Reuters, The Neuron"
+        },
+        {
+          "title": "CrowdStrike lance un kill switch pour agents",
+          "body": "Disponible dans Falcon Guardian : arrêt, blocage du relancement, restriction réseau. Les plateformes installées intègrent la gouvernance d'agents, ce qui réduit l'espace des startups qui ne vendraient que cette fonction.",
+          "url": "https://www.cnbc.com/2026/11/03/crowdstrikes-new-kill-switch-can-stop-rogue-ai-agents-in-their-tracks-ceo-says.html",
+          "source": "CNBC"
+        },
+        {
+          "title": "Apple inscrit le risque agent dans son rapport annuel",
+          "body": "Agents capables de dépasser leurs permissions ou de causer des dommages difficiles à réparer. Après le S-1 d'Anthropic, le sujet devient un risque standard de documentation financière, donc une question de due diligence.",
+          "url": "https://www.cnbc.com/2026/11/03/apple-warns-of-ai-agents-behave-in-unintended-or-unpredictable-ways.html/",
+          "source": "CNBC"
+        }
+      ]
+    },
+    {
+      "key": "read",
+      "title": "À lire / écouter",
+      "items": [
+        {
+          "title": "Artificial Lawyer : Hg et Anthropic, ce que ça change pour Litera",
+          "body": "Lecture utile des scénarios pour un portefeuille software : canal de sourcing ou actif en soi, sans conclure à ce stade (3 novembre).",
+          "url": "https://www.artificiallawyer.com/2026/11/03/litera-owner-hg-anthropic-invest-in-ai-transformation-venture/",
+          "source": "Artificial Lawyer"
+        },
+        {
+          "title": "Stratechery : « Apple Earnings, Memory Problems, The Hardware Company Regression »",
+          "body": "Sur la tension entre pénurie de mémoire, force du hardware et stratégie logicielle (3 novembre, réservé aux abonnés).",
+          "url": "https://stratechery.com/2026/apple-earnings-memory-problems-the-hardware-company-regression",
+          "source": "Stratechery"
+        },
+        {
+          "title": "Maddyness : bilan French Tech d'octobre",
+          "body": "À lire pour les chiffres par stade : 28 seeds, 11 Séries A, 3 Séries B, utile pour situer le marché français.",
+          "url": "https://www.maddyness.com/2026/11/03/portee-par-pigment-la-french-tech-leve-6147-millions-deuros-en-octobre/",
+          "source": "Maddyness"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hg : New AI transformation company raises funding",
+      "url": "https://hgcapital.com/insights/new-ai-transformation-company-raises-funding"
+    },
+    {
+      "title": "Startbase : Conlio",
+      "url": "https://www.startbase.com/news/conlio-erhaelt-64-millionen-euro-fuer-ki-gestuetzte-finanzprozesse-in-der-logistik/"
+    },
+    {
+      "title": "Dealroom : Conlio raises €6.4M",
+      "url": "https://dealroom.co/news/169157-conlio-raises-6-4m-to-automate-freight-paperwork-with-ai/"
+    },
+    {
+      "title": "Tech.eu : CyberKord",
+      "url": "https://tech.eu/2026/11/03/cyberkord-raises-eur27m-to-automate-it-and-cybersecurity-operations-with-ai/"
+    },
+    {
+      "title": "Tech.eu : Granter",
+      "url": "https://tech.eu/2026/11/03/portuguese-ai-startup-granter-bags-eur16m-to-expand-across-europe/"
+    },
+    {
+      "title": "Tech.eu : Robin Capital",
+      "url": "https://tech.eu/2026/11/03/i-didnt-become-a-vc-to-be-important-i-became-one-to-be-useful-robin-capital-raises-eur15m-fund-ii/"
+    },
+    {
+      "title": "Tech.eu : Evertrue Capital",
+      "url": "https://tech.eu/2026/11/03/ex-phoenix-court-partner-launches-17m-debut-solo-fund-to-discover-next-lovable/"
+    },
+    {
+      "title": "EU-Startups : Tallia",
+      "url": "https://www.eu-startups.com/2026/11/london-based-tallia-raises-e4-million-to-bring-ai-powered-research-and-review-to-tax-firms"
+    },
+    {
+      "title": "TechCrunch : Fal",
+      "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/"
+    },
+    {
+      "title": "Unite.AI : Traversal",
+      "url": "https://www.unite.ai/traversal-raises-120m-series-b-at-1b-valuation-to-expand-ai-sre/"
+    },
+    {
+      "title": "Salesforce : accord Cresta",
+      "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/"
+    },
+    {
+      "title": "Silicon Republic : Salesforce et Cresta",
+      "url": "https://www.siliconrepublic.com/business/salesforce-acquire-cresta-deal-reportedly-valued-ai-digital-support"
+    },
+    {
+      "title": "Maddyness : French Tech en octobre",
+      "url": "https://www.maddyness.com/2026/11/03/portee-par-pigment-la-french-tech-leve-6147-millions-deuros-en-octobre/"
+    },
+    {
+      "title": "The Neuron : digest du 4 novembre",
+      "url": "https://theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-4-2026"
+    },
+    {
+      "title": "Artificial Lawyer : Hg et Anthropic",
+      "url": "https://www.artificiallawyer.com/2026/11/03/litera-owner-hg-anthropic-invest-in-ai-transformation-venture/"
+    }
+  ]
+}
