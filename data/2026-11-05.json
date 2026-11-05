@@ -1,0 +1,307 @@
+{
+  "date": "2026-11-05",
+  "headline": "Sequoia ferme Londres et boucle environ 10 Md$ (4 nov.), le jour où Seaya et Speedinvest mènent les 80 M$ de Pliant et où Lakestar met 50 M€ sur T-Unit, la start-up de gestion de crise des fondateurs de Spotify.",
+  "summary": "Journée pauvre en tours Seed à Série B sur le software B2B en France, DACH et Benelux, mais riche en signaux : les fonds européens prennent les grands tours au moment où Sequoia se replie sur la Bay Area, et les agents obtiennent des rails de paiement et une gouvernance des données.",
+  "sections": [
+    {
+      "key": "signals",
+      "title": "Ce qui se dessine",
+      "items": [
+        {
+          "title": "Sequoia quitte Londres, les fonds européens mènent les grands tours",
+          "body": "Sequoia annonce le 4 novembre environ 10 Md$ de nouveaux fonds, la fermeture de Londres, d'Arc et des Scouts, et dit ne plus voir le besoin d'une présence locale. Le même jour, Seaya Nova (fonds clôturé à 600 M€ en octobre) et Speedinvest co-mènent les 80 M$ de Pliant, et Lakestar prend les 50 M€ de T-Unit ; Creandum avait bouclé 750 M$ le 2 novembre en notant qu'environ la moitié du capital investi dans la tech européenne venait des US. À creuser : quels fondateurs européens en phase de Série A perdent un interlocuteur local, et quels syndicats se recomposent sans lui."
+        },
+        {
+          "title": "Les agents reçoivent un portefeuille et un périmètre de données",
+          "body": "Le 4 novembre, Pliant lève 80 M$ en ouvrant ses rails de paiement B2B aux agents via MCP, avec des limites fixées par des humains, et Sentra 150 M$ pour gouverner les données accessibles aux agents. CrowdStrike avait ajouté le 3 novembre un coupe-circuit pour agents, après Infisical (27 oct.) et Mintive (29 oct.) sur l'identité, et le serveur MCP de Walmart (21 oct.) pour l'achat. À creuser : la couche d'autorisation des dépenses, de l'audit et de la conformité pour agents en Europe, où les règles de paiement et le RGPD peuvent créer un avantage local."
+        },
+        {
+          "title": "Défense et résilience : le logiciel arrive enfin",
+          "body": "T-Unit lève 50 M€ le 4 novembre pour une plateforme IA d'aide à la décision en crise, et Lazzaro One (Berlin) un pré-seed le même jour pour repérer les flottes fantômes. Ils répondent au constat du 2 novembre, où Hypersonica, Gallium Defense et Pelagon levaient tous sur du matériel ou des systèmes, et à l'achat de Rune par Salesforce (30 oct.). À creuser : les briques de données et de décision vendables à la fois aux États, aux opérateurs d'énergie et aux assureurs, comme le suggèrent les clients visés par Lazzaro One."
+        },
+        {
+          "title": "Le roll-up IA arrive dans la gestion immobilière",
+          "body": "Supa lève 21 M£ le 4 novembre pour racheter des syndics locaux au Royaume-Uni et automatiser leur administratif, avec dette et equity. C'est la logique déjà vue avec Crosby sur les actifs de Weil Gotshal (30 oct.), Bageera et CSM Groupe dans le génie électrique, et le private equity dans l'expertise comptable, alors que Lette (27 oct.) attaque le même marché en pur logiciel. À creuser : quelles verticales de services fragmentés se prêtent au rachat plutôt qu'à la vente de SaaS, et comment lire les marges et le risque d'intégration en due diligence."
+        }
+      ]
+    },
+    {
+      "key": "eu",
+      "title": "Levées Europe",
+      "intro": "Peu de tours Seed à Série B en France, DACH et Benelux dans la fenêtre : aucune levée B2B française repérée, ni dans Specter ni dans la presse lisible ce matin (Maddyness, FrenchWeb et deutsche-startups.de non consultables pour le 4 et le 5, Silicon Canals sans résultat récent). Les annonces du 5 novembre restent à venir.",
+      "items": [
+        {
+          "title": "AMRAX",
+          "amount": "Non communiqué",
+          "stage": "Non précisé (profil seed, 19 salariés)",
+          "country": "Autriche (Salzbourg)",
+          "investors": "Symbia VC, aws Gründungsfonds",
+          "body": "Metaroom : scan et modélisation 3D de pièces pour produire des plans exploitables en CAO, destinés aux professionnels de l'aménagement ; plus de 10 000 modèles créés, environ 7,5 M levés au total selon Specter. Pas d'article de presse repéré, montant à confirmer. Fit : SaaS B2B en DACH, stade précoce ; à vérifier faute de montant.",
+          "fit": true,
+          "source": "Specter",
+          "announced": "2026-11-05"
+        },
+        {
+          "title": "Pliant",
+          "amount": "80 M$",
+          "stage": "Série C",
+          "country": "Allemagne (Berlin)",
+          "investors": "Seaya Nova et Speedinvest (co-leads), Citi Ventures, Illuminate Financial, Motive Partners, Molten Ventures",
+          "body": "Émission de cartes commerciales et gestion des dépenses, intégrables par banques, fintechs et éditeurs ; plus de 100 M$ d'ARR revendiqués, expansion aux US et au Canada, et accès des agents IA aux paiements via MCP. Lien : Sentra le même jour sur la gouvernance des agents. Fit : software B2B en DACH sur l'infrastructure financière, mais Série C : à lire comme référence de marché.",
+          "url": "https://runtimewire.com/article/pliant-80m-series-c-ai-agents-b2b-payments",
+          "source": "Runtime Wire, Behind Fintech, Specter",
+          "announced": "2026-11-05"
+        },
+        {
+          "title": "T-Unit",
+          "amount": "50 M€",
+          "stage": "Non précisé (premier tour externe)",
+          "country": "Suède (Stockholm)",
+          "investors": "Lakestar ; Daniel Ek et Martin Lorentzon (fondateurs)",
+          "body": "Plateforme IA qui agrège les informations dispersées entre autorités, entreprises et systèmes pour aider les décideurs en situation de crise ; dirigée par Fredrik Torp, ex-officier et ex-VP sécurité de Vattenfall et ABB. Dagens Industri évoque environ 320 M€ de valorisation. Sert la Suède pour l'instant, vise les pays nordiques et baltes. Lien : Hypersonica et Gallium Defense le 2 novembre, sur le matériel. Fit : software IA, mais clientèle publique et ticket hors norme pour un premier tour.",
+          "url": "https://www.swedishtechnews.com/t-unit-the-spotify-founders-new-startup-secures-eur50m-in-funding-from-lakestar-to-make-european-democracies-resilient/",
+          "source": "Swedish Tech News, Specter",
+          "announced": "2026-11-05"
+        },
+        {
+          "title": "Supa",
+          "amount": "21 M£ (equity et dette, répartition non précisée)",
+          "stage": "Seed",
+          "country": "Royaume-Uni",
+          "investors": "2150 et OpenOcean (co-leads), KOMPAS VC, Actia Capital Partners, HEARTFELT, plus une ligne de dette bancaire",
+          "body": "Rachète des syndics de copropriété locaux, garde leur marque et automatise l'administratif (réparations, rapprochement des charges). Lien : Lette (27 oct.) et le roll-up de Crosby. Fit : modèle mixte acquisition et software, intensif en capital.",
+          "url": "https://tech.eu/2026/11/04/supa-raises-ps21m-in-seed-funding-to-transform-uk-residential-block-management/",
+          "source": "Tech.eu",
+          "announced": "2026-11-05"
+        },
+        {
+          "title": "Crediflow AI",
+          "amount": "1,8 M€ (1,5 M selon Specter)",
+          "stage": "Seed",
+          "country": "Royaume-Uni (Manchester)",
+          "investors": "PXN Ventures (lead), Haatch",
+          "body": "Automatise le traitement des dossiers de prêts commerciaux. Article non consultable en entier, activité limitée au titre d'EU-Startups. Lien : le motif des métiers de dossiers (Conlio, Tallia, Granter, 3 nov.). Fit : IA appliquée aux services financiers, stade très précoce.",
+          "url": "https://www.eu-startups.com/2026/11/manchester-based-crediflow-ai-secures-e1-8-million-to-automate-commercial-loan-processing/",
+          "source": "EU-Startups, Specter",
+          "announced": "2026-11-05"
+        },
+        {
+          "title": "Lazzaro One",
+          "amount": "Six chiffres (non communiqué)",
+          "stage": "Pré-seed",
+          "country": "Allemagne (Berlin)",
+          "investors": "B# (fonds pré-seed d'IBB Ventures)",
+          "body": "Plateforme HUAX qui détecte les comportements anormaux de navires, dont les flottes fantômes, pour autorités, armateurs et assureurs. Fit : DACH et données, mais pré-seed : à garder en suivi.",
+          "url": "https://tech.eu/2026/11/04/lazzaro-one-lands-pre-seed-funding-to-advance-maritime-intelligence-technology/",
+          "source": "Tech.eu",
+          "announced": "2026-11-05"
+        },
+        {
+          "title": "Titan OS",
+          "amount": "40 M€",
+          "stage": "Dette (BlackRock selon Specter)",
+          "country": "Espagne (Barcelone)",
+          "investors": "BlackRock",
+          "body": "Système d'exploitation indépendant pour téléviseurs connectés, alternative à Roku et consorts ; 58 M$ de Série A en décembre 2025. Fit : dette, modèle B2B2C média, peu aligné avec le software d'entreprise.",
+          "url": "https://www.eu-startups.com/2026/11/tired-of-roku-and-the-like-spains-titan-os-just-raised-e40-million-to-provide-you-with-an-alternative/",
+          "source": "EU-Startups, Specter",
+          "announced": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "key": "us",
+      "title": "Grosses levées US",
+      "intro": "Pas de mégatour IA le 4 novembre, mais deux mouvements nets : le capital non dilutif de General Catalyst paie la croissance de Nooks, et un acheteur (Capital One) mène le tour de Sentra. La sécurité et la vente par agents restent les catégories qui chauffent, et la première arrive déjà en Europe.",
+      "items": [
+        {
+          "title": "Nooks",
+          "amount": "500 M$",
+          "stage": "Financement non dilutif (Customer Value Fund)",
+          "country": "États-Unis",
+          "investors": "General Catalyst CVF ; Kleiner Perkins et Lachy Groom déjà au capital",
+          "body": "Plateforme d'agents de vente et assistant Node ; croissance x3, 135 % de rétention nette, plus de 2 000 clients selon le communiqué. Le capital finance l'acquisition clients sans dilution. Lien : le financement de la croissance se détache de l'equity.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nooks-secures-500-million-general-140000186.html",
+          "source": "PR Newswire via Yahoo Finance",
+          "announced": "2026-11-05"
+        },
+        {
+          "title": "Sentra",
+          "amount": "150 M$",
+          "stage": "Série C",
+          "country": "Israël / États-Unis",
+          "investors": "Capital One Ventures (lead), Bessemer, Zeev Ventures, Standard Investments, Munich Re Ventures, Key1 Capital",
+          "body": "Gouvernance des données accessibles aux employés, applications et agents IA ; plus de 300 % de croissance annuelle revendiquée, un représentant de Capital One entre au board. Un client-type devient lead du tour.",
+          "url": "https://www.unite.ai/sentra-raises-150m-series-c-to-expand-agentic-data-security-platform/",
+          "source": "Unite.AI, Specter",
+          "announced": "2026-11-05"
+        },
+        {
+          "title": "Finpilot",
+          "amount": "10 M$",
+          "stage": "Série A",
+          "country": "États-Unis (Seattle)",
+          "investors": "Lobby Capital (lead), Madrona",
+          "body": "Modèle maison pour analyser les documents financiers et produire des rapports de diligence, pour conseillers, gérants et fonds de private equity. Lien : Cognitive Credit (23 oct.) et Nevis (26 oct.) sur les métiers financiers.",
+          "url": "https://www.finsmes.com/2026/11/finpilot-raises-10m-in-series-a-funding.html",
+          "source": "FinSMEs, Specter",
+          "announced": "2026-11-05"
+        },
+        {
+          "title": "Phaze",
+          "amount": "8,75 M$",
+          "stage": "Seed",
+          "country": "États-Unis (New York)",
+          "investors": "Andreessen Horowitz (lead), Lerer Hippeau, NextView Ventures, Indie.vc, MAKERS",
+          "body": "Bureau à distance sécurisé et performant pour stations de travail.",
+          "source": "Specter",
+          "announced": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "key": "vc",
+      "title": "VC & écosystème",
+      "items": [
+        {
+          "title": "Sequoia ferme Londres, Arc et les Scouts, et lève environ 10 Md$",
+          "body": "Mémo du 4 novembre : fusion des équipes early et growth, fin de la réunion du lundi, sept general partners dont Alfred Lin et Pat Grady en co-stewards. Luciana Lixandru reste en Europe ; Stephanie Zhan part créer son fonds. Sequoia dit continuer à soutenir l'Europe depuis la Bay Area, après a16z (janvier 2025) et Coatue (janvier 2024) à Londres.",
+          "url": "https://techfundingnews.com/sequoia-closes-london-office-10b-new-funds/",
+          "source": "Tech Funding News"
+        },
+        {
+          "title": "Revolut confirme 115 Md$ de valorisation",
+          "body": "Vente secondaire à environ 2 017 $ par action, sans capital neuf, menée par Glade Brook, Coatue, Durable, T. Rowe Price et Baillie Gifford, contre 75 Md$ l'an dernier. Lien : iwoca et Lovable sur la liquidité (2 nov.).",
+          "url": "https://tech.eu/2026/11/04/revolut-confirms-115bn-valuation-after-completing-secondary-sale/",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "Station F : 2 Md€ levés en 2026, record, et un Future 40 très précoce",
+          "body": "Contre plus de 1,5 Md€ en 2025. Sur 40 boîtes, 31 sont en pré-seed ou seed et deux en Série A, 75 % de fondateurs récidivistes, 14 issues de F/AI. Arlequin AI (28 M€), CURA (10 M$), Cleavr (8 M€), Lemrock (7 M€) et Bleu Robotics à noter pour le sourcing amont.",
+          "url": "https://tech.eu/2026/11/04/station-f-startups-raise-record-2b-as-campus-unveils-2026-future-40/",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "M&A : Conrad Electronic rachète Hivebuy",
+          "body": "L'e-procurement berlinois reste autonome dans le groupe, prix non communiqué (publié le 4 novembre). Un distributeur industriel s'offre le logiciel d'achat de ses clients.",
+          "url": "https://dealorigination.de/en/deals/hivebuy-conrad-electronic-2026-11",
+          "source": "Deal Origination"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "IA & software",
+      "items": [
+        {
+          "title": "OpenAI revendique 948 exploits Linux pour 1,2 M$",
+          "body": "Un pipeline bâti sur un futur modèle cyber aurait produit des preuves de concept pour 948 failles d'élévation de privilèges, pour 1 213 430 $ d'API, soit environ 1 280 $ par exploit, chiffre de l'entreprise. Pourquoi ça compte : le coût de l'offensive s'effondre, ce qui soutient la demande en correction automatisée et en sécurité des agents.",
+          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+          "source": "OpenAI, via AI Weekly"
+        },
+        {
+          "title": "Revolut divise par 10 son coût de code IA en auto-hébergeant GLM",
+          "body": "Le modèle ouvert devient le défaut, les modèles commerciaux restent pour certaines tâches (3 nov.). Pourquoi ça compte : la marge des outils de code n'est pas acquise, et la mesure de la dépense IA se vend, comme le montrent Larridin (30 M$, 2 nov.) et Weflayr (22 oct.).",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345",
+          "source": "The Register, via The Neuron"
+        },
+        {
+          "title": "AMD chiffre Taalas à environ 2,9 Md$",
+          "body": "Dépôt du 4 novembre : 1,4 Md$ du prix est conditionnel. Pourquoi ça compte : l'inférence reste le point de valeur le plus disputé, au lendemain de Fal à 16 Md$ (3 nov.).",
+          "url": "https://www.theglobeandmail.com/business/article-amd-to-pay-29-billion-for-ai-chip-firm-taalas/",
+          "source": "The Globe and Mail, via AI Weekly"
+        },
+        {
+          "title": "Le financement des data centers devient un risque politique",
+          "body": "Google garantit environ 19 Md$ de loyers d'Anthropic sur le campus TeraWulf du Kentucky. Le 4 novembre, Hut 8 perd 23 % après la victoire démocrate au Congrès, Goldman estimant que des moratoires pourraient toucher environ 45 % des extensions prévues. Pourquoi ça compte : le prix du calcul dépend aussi du droit local, ce qui peut servir les capacités européennes.",
+          "url": "https://aiweekly.co/alerts/hut-8-drops-23-as-ai-data-center-stocks-slump-on-democratic-congress-win",
+          "source": "AI Weekly"
+        },
+        {
+          "title": "OpenAI veut fusionner Chat et Work",
+          "body": "1,2 milliard d'utilisateurs hebdomadaires selon l'entreprise, et une recherche estimée à environ 20 % du volume de Google, chiffre interne non audité. Pourquoi ça compte : l'interface unique se rapproche des usages professionnels, pression directe sur les assistants métier sans données propres.",
+          "url": "https://www.bigtechnology.com/p/openai-chatgpt-search-is-about-20",
+          "source": "Big Technology, via The Neuron"
+        }
+      ]
+    },
+    {
+      "key": "read",
+      "title": "À lire / écouter",
+      "items": [
+        {
+          "title": "Tech Funding News : ce que la fermeture de Sequoia à Londres change pour les fondateurs européens",
+          "body": "Analyse du 5 novembre, avec un petit échantillon de sept deals européens dont cinq citaient l'équipe londonienne.",
+          "url": "https://techfundingnews.com/sequoia-closes-london-office-10b-new-funds/",
+          "source": "Tech Funding News"
+        },
+        {
+          "title": "Stratechery : « Google Earnings, Facebook Déjà Vu, The Agent Play »",
+          "body": "Lecture du 2 novembre sur les résultats de Google et sa stratégie d'agents, utile pour situer la distribution.",
+          "url": "https://stratechery.com/2026/google-earnings-facebook-deja-vu-the-agent-play/",
+          "source": "Stratechery"
+        },
+        {
+          "title": "SaaStr : 5 enseignements d'Anthropic à 17 Md$ de revenus trimestriels",
+          "body": "Billet du 3 novembre sur la croissance, la rétention nette et les engagements de calcul du S-1 amendé.",
+          "url": "https://www.saastr.com/5-interesting-learnings-from-anthropic-at-17-billion-in-quarterly-revenue-47-q-q-growth-900-nrr-and-895-billion-in-compute-commitments/",
+          "source": "SaaStr"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tech Funding News : Sequoia à Londres",
+      "url": "https://techfundingnews.com/sequoia-closes-london-office-10b-new-funds/"
+    },
+    {
+      "title": "TechCrunch : Sequoia hits rewind",
+      "url": "https://techcrunch.com/2026/11/04/sequoia-hits-rewind-undoing-20-years-of-expansion/"
+    },
+    {
+      "title": "Runtime Wire : Pliant",
+      "url": "https://runtimewire.com/article/pliant-80m-series-c-ai-agents-b2b-payments"
+    },
+    {
+      "title": "Behind Fintech Daily, 5 novembre",
+      "url": "https://behindfintech.substack.com/p/behind-fintech-daily-05-november"
+    },
+    {
+      "title": "Swedish Tech News : T-Unit",
+      "url": "https://www.swedishtechnews.com/t-unit-the-spotify-founders-new-startup-secures-eur50m-in-funding-from-lakestar-to-make-european-democracies-resilient/"
+    },
+    {
+      "title": "Tech.eu : Supa",
+      "url": "https://tech.eu/2026/11/04/supa-raises-ps21m-in-seed-funding-to-transform-uk-residential-block-management/"
+    },
+    {
+      "title": "Tech.eu : Station F",
+      "url": "https://tech.eu/2026/11/04/station-f-startups-raise-record-2b-as-campus-unveils-2026-future-40/"
+    },
+    {
+      "title": "Tech.eu : Revolut",
+      "url": "https://tech.eu/2026/11/04/revolut-confirms-115bn-valuation-after-completing-secondary-sale/"
+    },
+    {
+      "title": "Unite.AI : Sentra",
+      "url": "https://www.unite.ai/sentra-raises-150m-series-c-to-expand-agentic-data-security-platform/"
+    },
+    {
+      "title": "Yahoo Finance : Nooks",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nooks-secures-500-million-general-140000186.html"
+    },
+    {
+      "title": "The Neuron, 4 novembre",
+      "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-4-2026/"
+    },
+    {
+      "title": "AI Weekly, 5 novembre",
+      "url": "https://aiweekly.co/ai-news-today"
+    },
+    {
+      "title": "Larridin : Série A",
+      "url": "https://larridin.com/press-releases/larridin-raises-30-million-in-series-a-to-prove-ais-impact-across-the-human-and-agent-workforce"
+    }
+  ]
+}
