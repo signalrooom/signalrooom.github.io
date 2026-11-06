@@ -1,0 +1,286 @@
+{
+  "date": "2026-11-06",
+  "headline": "Le Nasdaq perd 5,5 % le 5 novembre sur la crainte d'un coup de frein aux data centers, pendant que Palo Alto négocie Clutch à environ 50 fois l'ARR et que Kabilio (Barcelone) lève 10 M€ sur la compta IA.",
+  "summary": "Journée dominée par le krach des valeurs IA et par la consolidation de la sécurité des agents. Côté Europe, peu de tours mais cohérents : compta IA (Kabilio), copilotes pour l'industrie (Syn2Core, Munich) et SAV (Claimlane), agents administratifs en santé (Granit, Paris).",
+  "sections": [
+    {
+      "key": "signals",
+      "title": "Ce qui se dessine",
+      "items": [
+        {
+          "title": "Expertise comptable IA : cinquième levée européenne en trois semaines",
+          "body": "Kabilio (Barcelone) lève 10 M€ le 5 novembre auprès de Picus Capital et Visionaries, avec près de 500 cabinets clients contre 100 il y a un an. Elle suit Dougs (50 M€, 15 oct.), Mika (6 M€, 19 oct.), Ravical (17 M$, 29 oct.) et Tallia (3 nov.) ; comme Ravical, elle outille les cabinets en place, mais lance aussi une offre directe aux PME (Kabilio Empresas), donc elle joue les deux modèles à la fois. À creuser : en France et en DACH, qui contrôle la distribution vers les cabinets (éditeurs historiques, réseaux, consolidateurs PE) et lesquels pourraient racheter ou s'allier à ces nouveaux entrants.",
+          "url": "https://tech.eu/2026/11/05/kabilio-raises-eur10m-to-expand-ai-accounting-platform-and-introduce-ai-agents/"
+        },
+        {
+          "title": "Sécurité des agents : place aux sorties, à des multiples élevés",
+          "body": "Le 5 novembre, TechCrunch rapporte que Palo Alto Networks négocie le rachat de Clutch Security pour 500 M$ en cash, soit environ 50 fois un ARR proche de 10 M$ ; Palo Alto discuterait aussi avec Beacon, et Sierra rachète Anon (agents navigateurs) le même jour. Cela suit Infisical (40 M$, 27 oct.), Upwind (400 M$, 28 oct.) et Sentra (150 M$, 4-5 nov.), ainsi que Cyera/Oasis (1 Md$) et Cisco/Astrix (environ 400 M$). À creuser : les pure players européens de l'identité et de l'accès des agents, désormais cibles crédibles pour les grands acteurs US, et le prix d'entrée en seed et Série A face à ces multiples.",
+          "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m"
+        },
+        {
+          "title": "Le risque politique des data centers passe des valeurs de niche au Nasdaq",
+          "body": "Le 4 novembre, Hut 8 perdait 23 % après la victoire démocrate au Congrès ; le 5, le Nasdaq recule de 5,5 % et l'indice des semi-conducteurs de plus de 12 %, Nvidia −9 %, sur la crainte de restrictions ou de moratoires sur les data centers. Le même jour, Business Insider rapporte que Thinking Machines boucle environ 5 Md$, et Box annonce un système qui réduit de 90 % les tokens consommés par ses agents. À creuser : les logiciels qui font baisser la facture de calcul (orchestration, inférence efficace, routage de modèles) et les acheteurs européens qui vont arbitrer sur le coût par tâche.",
+          "url": "https://www.foxbusiness.com/markets/stocks-nov-5-2026"
+        },
+        {
+          "title": "L'IA descend sur le terrain industriel et après-vente",
+          "body": "Le 5 novembre, Syn2Core (Munich) lève 4,5 M$ pour un copilote IA des opérateurs de l'automobile, Atmospheric AI (Londres) 10 M$ pour des jumeaux numériques des chaînes de matières premières, et Claimlane 5,6 M€ pour automatiser garanties et réparations. Ces tours prolongent Conlio (fret, 3 nov.) et Tendos (agents commerciaux pour l'industrie, 28 oct.). À creuser : la qualité et la maintenance en usine, les achats de matières et le SAV industriel, où les données métier restent peu exploitées."
+        }
+      ]
+    },
+    {
+      "key": "eu",
+      "title": "Levées Europe",
+      "intro": "Fenêtre courte (5-6 novembre) : les tours déjà traités hier (Pliant, T-Unit, AMRAX…) ne sont pas repris. Rien de daté du 6 novembre repéré à l'heure de l'édition.",
+      "items": [
+        {
+          "title": "Kabilio",
+          "amount": "10 M€",
+          "stage": "Seed (selon Specter)",
+          "country": "Espagne (Barcelone)",
+          "investors": "Picus Capital et Visionaries (co-leads), CDTI",
+          "body": "Plateforme IA pour cabinets comptables et leurs PME clientes : lecture des factures, écritures proposées, rapprochements bancaires ; 60 % de temps gagné revendiqué, près de 500 cabinets (100 il y a un an), 80 salariés, 14 M€ levés au total. Lance un agent comptable et une offre directe PME. Lien : Dougs, Mika, Ravical, Tallia, voir signal. Fit : très bon, software B2B, IA appliquée à un métier de services, ticket dans la cible, lead DACH (Picus) ; moins aligné car siège hors zone cœur.",
+          "fit": true,
+          "url": "https://tech.eu/2026/11/05/kabilio-raises-eur10m-to-expand-ai-accounting-platform-and-introduce-ai-agents/",
+          "source": "Tech.eu",
+          "announced": "2026-11-05"
+        },
+        {
+          "title": "Syn2Core",
+          "amount": "4,5 M$ (≈ 3,9 M€)",
+          "stage": "Seed",
+          "country": "Allemagne (Munich)",
+          "investors": "Bayern Kapital, Flex Capital, BackBone Ventures, Vanagon Ventures",
+          "body": "Copilote IA pour les opérateurs de production automobile, qui vise à réduire les erreurs humaines sur la ligne ; SaaS B2B, fondée en 2024, 5 salariés. Pas d'article de presse repéré. Lien : signal industrie, après Conlio et Tendos. Fit : DACH, digitalisation de l'industrie, seed avec un fonds régional bavarois ; ticket en bas de fourchette et équipe très jeune.",
+          "fit": true,
+          "source": "Specter",
+          "announced": "2026-11-05"
+        },
+        {
+          "title": "Claimlane",
+          "amount": "5,6 M€",
+          "stage": "Série A",
+          "country": "Danemark",
+          "investors": "Verb Ventures (lead), Skagerak Capital, Vendep Capital",
+          "body": "Plateforme de SAV pour marques et distributeurs : garanties, réparations, remplacements, remboursements et coordination fournisseurs, avec des agents IA par client en préparation ; clients Skechers, Black Diamond, tonies, Hummel, Amérique du Nord premier marché de nouveaux clients. Fit : software B2B de digitalisation des services, Série A et ticket compatibles ; hors zone cœur (Nordiques).",
+          "fit": true,
+          "url": "https://tech.eu/2026/11/05/claimlane-bags-eur56m-to-turn-product-claims-into-business-value/",
+          "source": "Tech.eu",
+          "announced": "2026-11-05"
+        },
+        {
+          "title": "Granit",
+          "amount": "6 M$ (≈ 5,2 M€)",
+          "stage": "Seed",
+          "country": "France (Paris)",
+          "investors": "Seedcamp (lead), Bpifrance, Kima Ventures, Cleo Ventures, Drysdale Ventures, OPRTRS Club, Rerail",
+          "body": "Agents IA sur mesure pour automatiser les tâches administratives et le cycle de facturation des établissements de santé ; plus de 50 connecteurs natifs revendiqués. Pas d'article de presse repéré. Lien : les « métiers de dossiers » (signal du 4 nov.). Fit : France, seed, IA appliquée aux services ; santé hors secteurs prioritaires et société très jeune (fondée en 2025).",
+          "fit": true,
+          "source": "Specter",
+          "announced": "2026-11-05"
+        },
+        {
+          "title": "Atmospheric AI",
+          "amount": "10 M$ (≈ 8,7 M€)",
+          "stage": "Seed",
+          "country": "Royaume-Uni (Londres)",
+          "investors": "DBL Partners (lead)",
+          "body": "Jumeaux numériques des chaînes d'approvisionnement en matières premières reliant coût, carbone et risque, pour les achats industriels ; 14 salariés. Pas d'article de presse repéré. Lien : signal industrie. Fit : data et industrie, ticket compatible ; Royaume-Uni et angle climat moins alignés.",
+          "source": "Specter",
+          "announced": "2026-11-05"
+        },
+        {
+          "title": "Green Voltis",
+          "amount": "13,5 M€",
+          "stage": "Non précisé",
+          "country": "Suède (Stockholm)",
+          "investors": "Non communiqués",
+          "body": "Optimiseur IA qui exploite et négocie le stockage par batteries sur les marchés européens de l'électricité. Fit : logiciel IA mais modèle proche de l'opérateur énergie, hors zone cœur.",
+          "url": "https://www.eu-startups.com/2026/11/stockholms-green-voltis-raises-e13-5-million-to-operate-and-trade-battery-storage-across-european-power-markets-using-ai/",
+          "source": "EU-Startups",
+          "announced": "2026-11-05"
+        },
+        {
+          "title": "Potential Sciences",
+          "amount": "Dizaines de millions de $ (non précisé)",
+          "stage": "Seed",
+          "country": "Royaume-Uni (Londres)",
+          "investors": "Fonds Sovereign AI du gouvernement britannique, Twin Path Ventures, Odyssey, Nauta Capital, rule30, Patrick Collison (business angel)…",
+          "body": "Infrastructure IA fondée sur la physique et la chimie quantique pour la découverte de médicaments, fondée en novembre 2025 par un ancien de Graphcore. Fit : faible, IA pour la pharma et ticket au delà de la cible.",
+          "url": "https://tech.eu/2026/11/05/uk-sovereign-ai-fund-and-stripe-ceo-back-potential-sciences-in-multi-million-dollar-raise/",
+          "source": "Tech.eu",
+          "announced": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "key": "us",
+      "title": "Grosses levées US",
+      "intro": "Peu de tours US datés de la fenêtre, éclipsés par le krach du 5 novembre. Le capital continue d'aller aux labs de modèles (Thinking Machines) et à l'infrastructure data, pendant que la sécurité des agents passe en phase de rachats. Le thème du coût du calcul, devenu politique aux US, peut favoriser les offres européennes d'efficacité et de souveraineté.",
+      "items": [
+        {
+          "title": "Thinking Machines Lab",
+          "amount": "Environ 5 Md$ (en cours, selon Business Insider)",
+          "stage": "Tour de croissance",
+          "country": "États-Unis (San Francisco)",
+          "investors": "Accel (lead) ; Nvidia en discussion pour environ 2,5 Md$",
+          "body": "Le lab de Mira Murati boucle un tour à 40 Md$ pré-money selon Business Insider, le jour où il sort Inkling 2 Small (MoE 594 Md de paramètres, 17 Md actifs) avec poids ouverts promis. Lien : signal data centers, l'argent continue d'affluer vers les labs malgré le krach.",
+          "url": "https://www.businessinsider.com/thinking-machines-lab-is-closing-5-billion-new-round-2026-11",
+          "source": "Business Insider, via AI Weekly",
+          "announced": "2026-11-05"
+        },
+        {
+          "title": "Ocient",
+          "amount": "100 M$",
+          "stage": "Non précisé",
+          "country": "États-Unis (Chicago)",
+          "investors": "Non communiqués",
+          "body": "Base de données et analytique à très grande échelle pour charges data et IA, positionnée sur l'efficacité énergétique. Lien : le coût du calcul devient un argument de vente.",
+          "url": "https://www.chicagobusiness.com/technology/ccb-data-analytics-startup-ocient-lands-100m-20261105/",
+          "source": "Crain's Chicago Business",
+          "announced": "2026-11-05"
+        },
+        {
+          "title": "Arena Analytics",
+          "amount": "4,5 M$",
+          "stage": "Non précisé",
+          "country": "États-Unis (Baltimore)",
+          "investors": "4 investisseurs (non détaillés)",
+          "body": "Analytique prédictive pour le recrutement et la rétention des salariés, 22,8 M$ levés au total. Petit tour, cité pour le thème RH data.",
+          "source": "Specter",
+          "announced": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "key": "vc",
+      "title": "VC & écosystème",
+      "items": [
+        {
+          "title": "Palo Alto Networks négocie Clutch Security pour 500 M$",
+          "body": "Environ 50 fois l'ARR, contre une valorisation de 85 M$ en Série A (Lightspeed, SignalFire) en janvier 2025 ; ce serait le septième rachat de Palo Alto cette année. Palo Alto discuterait aussi avec Beacon (contexte de données pour la détection des menaces).",
+          "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Flashpoint clôture Venture Growth Fund IV à 116 M$",
+          "body": "Final close le 5 novembre pour un fonds qui cible les applications IA verticales B2B bâties par des équipes européennes et israéliennes qui s'étendent aux US ; 10 sociétés en portefeuille, 15 à 20 visées.",
+          "url": "https://dealroom.co/news/169999-flashpoint-closes-116m-fourth-venture-growth-fund-for-european-israeli-a/",
+          "source": "Dealroom"
+        },
+        {
+          "title": "EIC : programme de travail 2027 à 1,8 Md€",
+          "body": "Le Conseil européen de l'innovation publie le 5 novembre son programme 2027, doté d'environ 1,8 Md€ pour les startups et la recherche de rupture.",
+          "url": "https://www.eu-startups.com/",
+          "source": "EU-Startups"
+        },
+        {
+          "title": "Sierra rachète Anon",
+          "body": "Annoncé le 5 novembre : Sierra intègre les agents navigateurs d'Anon pour que ses agents se connectent aux sites sans API (banque, santé, SaaS). Les leaders de l'agent client achètent les briques d'exécution.",
+          "url": "https://sierra.ai/blog/sierra-acquires-anon",
+          "source": "Sierra"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "IA & software",
+      "items": [
+        {
+          "title": "Krach des valeurs IA après les midterms",
+          "body": "Le 5 novembre, le Nasdaq perd 5,52 % (pire séance depuis avril 2025, en correction), le S&P 500 4,36 % et l'indice des semi-conducteurs plus de 12 % ; Nvidia −9,3 %, IREN, Applied Digital et Nebius plus de −14 %. En cause, la crainte que la victoire démocrate ralentisse et renchérisse les data centers. Pourquoi ça compte : les multiples privés de l'IA vont être questionnés, et les tours de croissance pourraient ralentir.",
+          "url": "https://www.foxbusiness.com/markets/stocks-nov-5-2026",
+          "source": "Fox Business"
+        },
+        {
+          "title": "OpenAI déploie Codex et ses modèles cyber chez JPMorgan",
+          "body": "Annoncé le 5 novembre par Greg Brockman ; la banque compterait environ 150 000 utilisateurs hebdomadaires de son LLM interne. Pourquoi ça compte : les labs vendent directement aux grands comptes sur le code et la sécurité, deux catégories où des startups B2B se positionnent.",
+          "url": "https://cryptobriefing.com/openai-jpmorgan-ai-cybersecurity-partnership/",
+          "source": "Crypto Briefing, via AI Weekly"
+        },
+        {
+          "title": "Box et Nvidia : des agents qui interrogent les métadonnées",
+          "body": "À BoxWorks le 5 novembre, Box lance Content Retrieval sur les modèles Nemotron de Nvidia : réponses 4 fois plus rapides et 90 % de tokens en moins revendiqués. Pourquoi ça compte : la couche contexte devient l'endroit où se gagnent coût et précision des agents, et les éditeurs installés s'y positionnent.",
+          "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Perplexity lance des « Teammates » persistants",
+          "body": "Agents à rôle permanent (tri de bugs, ops marketing), réservés à l'offre Max à 200 $ par mois. Pourquoi ça compte : le prix d'un « collègue IA » se fixe autour d'un abonnement premium, repère utile pour les modèles de pricing au résultat.",
+          "url": "https://www.digitaltrends.com/cool-tech/perplexitys-new-ai-coworkers-can-take-over-your-workload-but-they-dont-come-cheap/",
+          "source": "Digital Trends"
+        }
+      ]
+    },
+    {
+      "key": "read",
+      "title": "À lire / écouter",
+      "items": [
+        {
+          "title": "TechCrunch : Palo Alto Networks en discussion pour racheter Clutch pour 500 M$",
+          "body": "Pour les multiples de sortie (environ 50 fois l'ARR) et la liste des rachats récents en sécurité des agents.",
+          "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "METR : évaluation de l'accélération de la R&D IA chez Anthropic",
+          "body": "Publié le 5 novembre : METR estime que les scores internes de R&D IA progressent environ 1,9 fois plus vite depuis octobre 2025, dont environ 80 % attribués à l'outillage IA.",
+          "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+          "source": "METR"
+        },
+        {
+          "title": "20VC avec Erik Bernhardsson (Modal)",
+          "body": "Épisode du 2 novembre sur le marché de l'inférence, le coût du calcul et les limites du post-training : bon complément au signal sur le coût des data centers.",
+          "url": "https://www.thetwentyminutevc.com/",
+          "source": "20VC"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tech.eu : Kabilio raises €10M",
+      "url": "https://tech.eu/2026/11/05/kabilio-raises-eur10m-to-expand-ai-accounting-platform-and-introduce-ai-agents/"
+    },
+    {
+      "title": "Tech.eu : Claimlane bags €5.6M",
+      "url": "https://tech.eu/2026/11/05/claimlane-bags-eur56m-to-turn-product-claims-into-business-value/"
+    },
+    {
+      "title": "Tech.eu : Potential Sciences",
+      "url": "https://tech.eu/2026/11/05/uk-sovereign-ai-fund-and-stripe-ceo-back-potential-sciences-in-multi-million-dollar-raise/"
+    },
+    {
+      "title": "EU-Startups : Green Voltis raises €13.5M",
+      "url": "https://www.eu-startups.com/2026/11/stockholms-green-voltis-raises-e13-5-million-to-operate-and-trade-battery-storage-across-european-power-markets-using-ai/"
+    },
+    {
+      "title": "TechCrunch : Palo Alto Networks in talks to buy Clutch",
+      "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m"
+    },
+    {
+      "title": "Fox Business : marchés du 5 novembre 2026",
+      "url": "https://www.foxbusiness.com/markets/stocks-nov-5-2026"
+    },
+    {
+      "title": "Dealroom : Flashpoint closes $116M Fund IV",
+      "url": "https://dealroom.co/news/169999-flashpoint-closes-116m-fourth-venture-growth-fund-for-european-israeli-a/"
+    },
+    {
+      "title": "Tech Startups : Startup Funding News, November 5, 2026",
+      "url": "https://techstartups.com/2026/11/05/startup-funding-news-today-november-5-2026-bit-bio-sand-ai-sentra-pliant-more/"
+    },
+    {
+      "title": "AI Weekly : AI News Today",
+      "url": "https://aiweekly.co/ai-news-today"
+    },
+    {
+      "title": "Crain's Chicago Business : Ocient raises $100M",
+      "url": "https://www.chicagobusiness.com/technology/ccb-data-analytics-startup-ocient-lands-100m-20261105/"
+    },
+    {
+      "title": "METR : Anthropic AI R&D acceleration assessment",
+      "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+    }
+  ]
+}
