@@ -1,0 +1,224 @@
+{
+  "date": "2026-11-09",
+  "headline": "Week-end calme côté levées : Physicl (Paris) lève 10 M$ pour fabriquer les données d'entraînement de l'IA physique, pendant que les méga-valorisations IA se tassent (OpenAI à 1,25 T$, Anthropic en roadshow sous les 2 T$ espérés).",
+  "summary": "Peu de tours annoncés entre vendredi et lundi matin : l'essentiel des deals de la semaine dernière (Kabilio, Pliant, T-Unit…) était déjà dans les éditions précédentes. Le fait marquant est ailleurs : les labs lèvent et s'introduisent en bourse à des valorisations revues à la baisse, et l'outillage des agents (sécurité, packaging, frameworks) se standardise.",
+  "sections": [
+    {
+      "key": "signals",
+      "title": "Ce qui se dessine",
+      "items": [
+        {
+          "title": "IA physique : après les robots, la couche données",
+          "body": "Physicl (Paris) lève 10 M$ en seed le 6 novembre pour générer des cas limites en 3D destinés à entraîner robots et véhicules autonomes, avec Meta, Nvidia et AWS comme clients. Cela suit Tutor Intelligence (75 M$, 2 nov.), Marble Cognition (agents qui apprennent en observant, 2 nov.) et Syn2Core (copilote des opérateurs auto, 5 nov.) ; en Chine, les sociétés de « cerveaux » de robots ont capté 50,8 % du financement de l'IA incarnée au S1 2026 contre 12,8 % pour les fabricants de robots complets (Zhongtai, cité le 9 nov.). À creuser : les briques logicielles européennes autour du robot (données synthétiques, évaluation, validation sécurité) vendues aux industriels DACH plutôt qu'aux labs US."
+        },
+        {
+          "title": "Les labs lèvent moins cher que prévu, et ça va redescendre la chaîne",
+          "body": "Le 6 novembre, Bloomberg rapporte qu'OpenAI a réuni 11 Md$ à 1,25 T$ de valorisation, contre 30 Md$ à 1,4 T$ visés fin septembre ; le 8, Anthropic part en roadshow pour 80 à 100 Md$ sur une fourchette de 1,25 à 1,75 T$, loin des 2 T$ espérés un mois plus tôt. Entre-temps le Nasdaq a perdu 5,5 % le 5 novembre et Crusoe a cédé son chantier du Wyoming à Google (6 nov.). À creuser : comment les Séries A/B IA européennes en cours de levée sont repricées, et quelles boîtes ont une marge brute qui tient si le prix des API remonte."
+        },
+        {
+          "title": "Sécurité et outillage des agents : la couche se standardise",
+          "body": "OpenAI s'associe à Hacktron pour chasser ses propres vulnérabilités (7 nov.), quatre jours après le rachat de Fiddler et Dreadnode par CrowdStrike (environ 495 M$, 3 nov.) et les discussions Palo Alto / Clutch (5 nov.). Le même jour, Microsoft publie en open source APM, un gestionnaire de paquets pour agents avec politique de gouvernance, et Google passe son framework ADK en version stable. À creuser : ce qui reste à vendre quand les briques de base deviennent gratuites (gouvernance multi-outils, audit, conformité AI Act), et les éditeurs européens qui s'y positionnent."
+        },
+        {
+          "title": "Le risque plateforme, assumé par OpenAI en Europe",
+          "body": "Au Developer Day de Londres (article Tech.eu du 6 nov.), la responsable startups EMEA d'OpenAI se dit « catalyseur » des startups tout en reconnaissant une « tension » avec des clients comme Legora, face auquel OpenAI a lancé Astra for Law. Cela prolonge le S-1 d'Anthropic qui évoquait la concurrence avec les applicatifs (signal du 27 oct.). À creuser : en due diligence, demander quelle part de la valeur repose sur des données ou des workflows que le modèle ne voit pas."
+        }
+      ]
+    },
+    {
+      "key": "eu",
+      "title": "Levées Europe",
+      "intro": "Fenêtre très creuse (vendredi 6 au lundi 9 au matin) : seuls deux tours software ou assimilés ont une annonce datée dans la fenêtre. Les autres deals relayés par les récaps du week-end (Kabilio, Pliant, Granit, Conlio, VÆRIDION…) avaient été annoncés plus tôt et figuraient déjà dans les éditions précédentes.",
+      "items": [
+        {
+          "title": "Physicl",
+          "amount": "10 M$ (≈ 8,7 M€)",
+          "stage": "Seed",
+          "country": "France",
+          "investors": "Inovia Capital (lead), U.S. Venture Partners",
+          "body": "Génère des données d'entraînement 3D ciblées sur les cas limites où échouent robots, véhicules autonomes et vision 3D (produit Studio : 10 000 environnements, 100 000 objets). Clients : Meta, World Labs, Epic Games, AWS, Nvidia, TU Munich. Fondée par Alex de Vigan (ex-Nfinite). Lien : s'inscrit dans la vague IA physique (Tutor Intelligence, Marble Cognition, Syn2Core). Fit : software B2B européen, data et IA appliquée, siège Paris, seed ; seul bémol, une clientèle surtout composée de labs US plutôt que d'industriels européens.",
+          "fit": true,
+          "url": "https://thenextweb.com/news/physicl-10m-seed-physical-ai-training-data",
+          "source": "The Next Web",
+          "announced": "2026-11-06"
+        },
+        {
+          "title": "Resilience Care",
+          "amount": "Non communiqué",
+          "stage": "2e tour",
+          "country": "France",
+          "investors": "Un fonds américain (non nommé dans l'extrait)",
+          "body": "Télésurveillance des patients en oncologie (dispositif médical numérique) ; le tour sert l'internationalisation. Détails du tour réservés aux abonnés CFNews. Fit : moins aligné, healthtech réglementée plutôt que software B2B horizontal ou industriel.",
+          "fit": false,
+          "url": "https://www.cfnews.net/L-actualite/Capital-innovation/Operations/2nd-tour/Resilience-Care-s-internationalise-avec-un-fonds-americain-759228",
+          "source": "CFNews",
+          "announced": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "key": "us",
+      "title": "Grosses levées US",
+      "intro": "Aucun grand tour software US n'a été annoncé pour la première fois entre vendredi et lundi matin : les gros tickets de la semaine (Shield AI, Applied Compute, Traversal, Sentra, Nooks) étaient tombés entre le 2 et le 5 novembre. La seule actualité de financement du week-end concerne OpenAI, et elle va dans le sens d'un capital IA plus exigeant sur les prix, ce qui finira par peser sur les valorisations de l'applicatif européen.",
+      "items": [
+        {
+          "title": "OpenAI",
+          "amount": "11 Md$ réunis (tour visé autour de 20 Md$)",
+          "stage": "Tour privé en cours",
+          "country": "États-Unis",
+          "investors": "Non précisés par TechCrunch (SoftBank et MGX cités par d'autres sources)",
+          "body": "Selon Bloomberg, première tranche à 1,25 T$ de valorisation, en dessous des 30 Md$ à 1,4 T$ recherchés fin septembre ; clôture attendue dans les prochaines semaines, IPO attendue l'an prochain. Lien : prolonge le signal « le capital IA se tend » du 2 nov.",
+          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+          "source": "TechCrunch",
+          "announced": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "key": "vc",
+      "title": "VC & écosystème",
+      "items": [
+        {
+          "title": "Anthropic lance son roadshow : 80 à 100 Md$ sur 1,25 à 1,75 T$",
+          "body": "Ticker ANT, introduction visée avant Thanksgiving ; la fourchette est inférieure aux 2 T$ espérés en octobre et certains investisseurs attendent un prix entre 1,3 et 1,5 T$. Ce sera la référence de valorisation publique pour tous les labs, et donc pour les multiples de sortie du secteur.",
+          "url": "https://seekingalpha.com/article/4964841-wall-street-brunch-anthropic-ipo-goes-on-the-road",
+          "source": "Seeking Alpha"
+        },
+        {
+          "title": "Crusoe cède son projet de data center du Wyoming à Google",
+          "body": "Google reprend le chantier (17 Md$ d'investissement prévus) après des inquiétudes sur les coûts et le calendrier sous la gestion de Crusoe, valorisé 30,9 Md$. Un signe que les hyperscalers reprennent la main sur l'infrastructure quand les néo-clouds peinent à exécuter.",
+          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Octobre aux US : General Catalyst premier lead investor",
+          "body": "Crunchbase classe General Catalyst en tête des investisseurs leads d'octobre, un mois chargé pour les tours US ; même fonds qui co-menait les 100 M€ de Hypersonica en Europe le 2 novembre.",
+          "url": "https://news.crunchbase.com/venture/october-2026-lead-startup-investors/",
+          "source": "Crunchbase News"
+        },
+        {
+          "title": "French Tech : 22 M€ levés sur la semaine, 7 tours d'amorçage sur 8",
+          "body": "Le récap Maddyness du 6 novembre montre une semaine très légère côté France (ticket moyen 2,8 M€), dominée par la défense (Gallium Defense, AICE Power) et des agents IA (Granit, Shaarp).",
+          "url": "https://www.maddyness.com/2026/11/06/les-startups-francaises-ont-leve-22-millions-deuros-cette-semaine/",
+          "source": "Maddyness"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "IA & software",
+      "items": [
+        {
+          "title": "OpenAI fait auditer ses propres systèmes par Hacktron",
+          "body": "Partenariat du 7 novembre centré sur les interactions entre les services d'OpenAI et les plateformes tierces, avec accès étendu aux modèles frontière. Pour un investisseur B2B : la sécurité des intégrations agents devient un poste de dépense chez les labs eux-mêmes, donc un marché.",
+          "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-8-2026-openai-taps-hacktron-for-bug-hunts-muse-wonder-for-everyone-gin",
+          "source": "DEV Community (digest)"
+        },
+        {
+          "title": "Microsoft publie APM, un gestionnaire de paquets pour agents",
+          "body": "Open source (MIT), il déclare compétences, prompts, plugins et serveurs MCP dans un manifeste unique et les déploie sur neuf environnements (Copilot, Claude Code, Cursor…), avec lockfile, sécurité par défaut et politique de gouvernance d'entreprise. Pour un investisseur : la distribution et la gouvernance des agents se standardisent, ce qui réduit l'espace des startups d'outillage pur.",
+          "url": "https://github.com/microsoft/apm",
+          "source": "GitHub"
+        },
+        {
+          "title": "Google ADK 2.14 passe en version stable",
+          "body": "Le framework multi-agents de Google stabilise exécution, protocole A2A et évaluation, ajoute un connecteur Microsoft Teams et accélère de 23 % les workflows longs. Pour un investisseur : les grands éditeurs fournissent désormais gratuitement l'orchestration, la valeur se déplace vers les données et les workflows métier.",
+          "url": "https://github.com/google/adk-python",
+          "source": "GitHub"
+        },
+        {
+          "title": "OpenAI en Europe : « catalyseur » des startups, mais concurrent assumé",
+          "body": "Au Developer Day de Londres, OpenAI reconnaît la tension avec des clients comme Legora et présente Dots, un assistant capable d'agir de façon proactive. Pour un investisseur : chaque applicatif européen construit sur OpenAI doit montrer ce que le modèle ne peut pas reproduire.",
+          "url": "https://tech.eu/2026/11/06/openai-catalyst-for-startups-says-european-executive-amid-startup-application-layer-concerns/",
+          "source": "Tech.eu"
+        }
+      ]
+    },
+    {
+      "key": "read",
+      "title": "À lire / écouter",
+      "items": [
+        {
+          "title": "Stratechery : entretien avec Sasan Goodarzi (Intuit) sur la comptabilité et l'IA",
+          "body": "Le point de vue de l'éditeur établi au moment où cinq startups européennes de compta IA ont levé en trois semaines : utile pour comprendre la défense des acteurs historiques (5 nov.).",
+          "url": "https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/",
+          "source": "Stratechery"
+        },
+        {
+          "title": "Sharp Tech (vidéo) : les États-Unis votent sur les data centers",
+          "body": "Premier épisode vidéo de Ben Thompson et Andrew Sharp : conséquences du vote anti data centers pour les Big Tech et réponse de Google à l'IA (6 nov.).",
+          "url": "https://stratechery.com/2026/sharp-tech-on-video-the-u-s-votes-on-data-centers-implications-for-big-tech-googles-response-to-ai/",
+          "source": "Stratechery"
+        },
+        {
+          "title": "The Next Web : Physicl et le marché des données pour l'IA physique",
+          "body": "Bon résumé du problème des cas limites en robotique et de la façon dont un fondateur français repositionne une expertise 3D e-commerce vers l'IA physique (6 nov.).",
+          "url": "https://thenextweb.com/news/physicl-10m-seed-physical-ai-training-data",
+          "source": "The Next Web"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Next Web : Physicl lève 10 M$",
+      "url": "https://thenextweb.com/news/physicl-10m-seed-physical-ai-training-data"
+    },
+    {
+      "title": "CFNews : Resilience Care s'internationalise avec un fonds américain",
+      "url": "https://www.cfnews.net/L-actualite/Capital-innovation/Operations/2nd-tour/Resilience-Care-s-internationalise-avec-un-fonds-americain-759228"
+    },
+    {
+      "title": "Maddyness : les startups françaises ont levé 22 M€ cette semaine",
+      "url": "https://www.maddyness.com/2026/11/06/les-startups-francaises-ont-leve-22-millions-deuros-cette-semaine/"
+    },
+    {
+      "title": "TechCrunch : OpenAI lève 11 Md$ à 1,25 T$",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+    },
+    {
+      "title": "Seeking Alpha : Anthropic IPO Goes On The Road",
+      "url": "https://seekingalpha.com/article/4964841-wall-street-brunch-anthropic-ipo-goes-on-the-road"
+    },
+    {
+      "title": "TechCrunch : Crusoe cède son projet du Wyoming à Google",
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
+    },
+    {
+      "title": "Crunchbase News : 10 plus gros tours de la semaine",
+      "url": "https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline/"
+    },
+    {
+      "title": "Crunchbase News : leads d'octobre",
+      "url": "https://news.crunchbase.com/venture/october-2026-lead-startup-investors/"
+    },
+    {
+      "title": "Tech.eu : OpenAI « catalyst » for startups",
+      "url": "https://tech.eu/2026/11/06/openai-catalyst-for-startups-says-european-executive-amid-startup-application-layer-concerns/"
+    },
+    {
+      "title": "AI Daily Digest du 8 novembre (Hacktron, APM, ADK)",
+      "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-8-2026-openai-taps-hacktron-for-bug-hunts-muse-wonder-for-everyone-gin"
+    },
+    {
+      "title": "Microsoft APM",
+      "url": "https://github.com/microsoft/apm"
+    },
+    {
+      "title": "PYMNTS : CrowdStrike rachète Fiddler et Dreadnode",
+      "url": "https://www.pymnts.com/news/acquiring/2026/crowdstrike-to-acquire-2-firms-to-secure-enterprise-ai-agents/"
+    },
+    {
+      "title": "Market News du 9 novembre (H. Cuviliez)",
+      "url": "https://hervecuviliez.substack.com/p/market-news-monday-9-november-2026"
+    },
+    {
+      "title": "Stratechery : entretien Intuit",
+      "url": "https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/"
+    },
+    {
+      "title": "Stratechery : Sharp Tech on Video",
+      "url": "https://stratechery.com/2026/sharp-tech-on-video-the-u-s-votes-on-data-centers-implications-for-big-tech-googles-response-to-ai/"
+    }
+  ]
+}
