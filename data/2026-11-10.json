@@ -1,0 +1,239 @@
+{
+  "date": "2026-11-10",
+  "headline": "Nominal triple sa valorisation à 3 Md$ (240 M$, 9 nov.) avec une plateforme de données d'ingénierie pour la défense, le jour où Onodrim lève 300 M$ pour moderniser les sous-traitants européens de défense et où Anthropic retire sa fourchette d'IPO.",
+  "summary": "Lundi très creux en Europe côté software B2B : Light Frame (Suisse, 5,1 M$) est le seul tour vraiment dans la cible. Le fait marquant est ailleurs : le capital afflue vers la couche logicielle de l'industrie de défense, pendant que les labs IA se repricent avant l'IPO d'Anthropic.",
+  "sections": [
+    {
+      "key": "signals",
+      "title": "Ce qui se dessine",
+      "items": [
+        {
+          "title": "Défense : l'argent va à la couche logicielle de l'industrie",
+          "body": "Le 9 novembre, Nominal lève 240 M$ à 3 Md$ (Lightspeed, Insight) pour sa plateforme de données de test hardware, utilisée par cinq des sept plus gros industriels de défense US ; le même jour, Onodrim (Amsterdam) lève 300 M$ en Série A (Lux Capital) pour racheter et moderniser des sous-traitants européens de défense, et Marble Imaging (Brême) lève 6 M€. Cela prolonge le signal du 3 novembre (« la couche logicielle reste à prendre ») et Hypersonica (100 M€, 2 nov.). À creuser : les éditeurs européens de données de test, de qualité et de validation pour l'aéronautique, l'automobile et la défense DACH, et le software (MES, qualité, traçabilité) que les consolidateurs type Onodrim devront déployer dans leurs PME rachetées."
+        },
+        {
+          "title": "Anthropic hésite sur son prix, les labs se repricent",
+          "body": "Le 9 novembre, Anthropic envoie aux banques une fourchette de 70 à 80 $ par action (867 M d'actions, jusqu'à 69 Md$, environ 1,4 T$ de valorisation), puis la retire en annonçant un nouveau prix ; une semaine plus tôt on parlait de 1,5 T$, et de 2 T$ en octobre. OpenAI avait réuni 11 Md$ à 1,25 T$ au lieu des 30 Md$ visés (6 nov.). À creuser : les tours européens IA en cours de levée à des multiples calés sur ces références, et les startups dont la marge brute dépend du prix des API."
+        },
+        {
+          "title": "Les VCs européens s'installent à San Francisco",
+          "body": "Dans un entretien publié le 9 novembre par Tech.eu, Staffan Helgesson (Creandum, 750 M$ pour son Fund VIII) affirme qu'il « faut être à San Francisco pour gagner en Europe » et ouvre un bureau sur place, cinq jours après la fermeture du bureau londonien de Sequoia (4 nov.). À creuser : quelles startups européennes Seed à Série B ont besoin d'un accès US pour leur Série B, et quels co-investisseurs européens peuvent l'offrir."
+        },
+        {
+          "title": "L'IA vendue au résultat : la conversion après le ROI",
+          "body": "Coframe (25 M$ en Série A, 9 nov., Khosla) vend des agents qui testent et réécrivent sites et publicités, et met en avant 300 M$ de revenu incrémental généré pour ses clients (Dropbox, BCG, Block). Cela suit le signal « le ROI de l'IA devient un produit » du 2 novembre (Sierra, Ares Intelligence). À creuser : des équivalents européens sur l'e-commerce B2B et la génération de leads, et la question du pricing au résultat à poser en due diligence."
+        }
+      ]
+    },
+    {
+      "key": "eu",
+      "title": "Levées Europe",
+      "intro": "Fenêtre très creuse (lundi 9 et mardi 10 au matin) : deux tours software B2B seulement. Onodrim (300 M$, défense, rachat d'industriels) et Marble Imaging (6 M€, satellites) ne sont pas du software et sont traités dans les signaux et la rubrique VC ; Durcal et Memmora, repérés via Specter, sont B2C. Cleavr (8 M€), repris dans des agrégateurs, date du 6 octobre et est exclu.",
+      "items": [
+        {
+          "title": "Light Frame",
+          "amount": "5,1 M$ (≈ 4,4 M€)",
+          "stage": "Seed",
+          "country": "Suisse",
+          "investors": "Fortino Ventures (lead), Sidekick Partners, Tenity, Chameleon, Altair Capital, Rogue Venture Partners, New Stack Ventures, Studio Alpha",
+          "body": "Couche logicielle cloud de gestion de fortune branchée sur le core banking des banques privées, modulaire, avec une IA qui propose (opérations sur titres, réservations) et un humain qui valide ; partenariat avec Mambu. Lien : deuxième brique d'infrastructure financière B2B de la zone DACH en une semaine, après Pliant (80 M$, 5 nov.). Fit : software B2B européen pour la digitalisation des services financiers, siège DACH, seed.",
+          "fit": true,
+          "url": "https://techfundingnews.com/light-frame-5-1m-seed-wealth-management-infrastructure/",
+          "source": "Tech Funding News",
+          "announced": "2026-11-10"
+        },
+        {
+          "title": "Crowd Threat",
+          "amount": "1 M£ (≈ 1,1 M€)",
+          "stage": "Amorçage",
+          "country": "Royaume-Uni (Newcastle)",
+          "investors": "North East Accelerate Fund (Mercia Ventures), NPIF II – PXN Equity Finance (PXN Ventures)",
+          "body": "Renseignement sur les menaces sécuritaires (conflits, terrorisme, troubles) alimenté par 200 contributeurs dans 17 pays et vérifié par IA et humains, vendu aux gouvernements, sociétés de sécurité et entreprises ; un second produit d'alerte précoce sur les tensions sociales est prévu. Lien : écho à T-Unit (gestion de crise, 50 M€, 5 nov.) et au signal défense et résilience. Fit : moins aligné, tour très petit et hors France/DACH/Benelux, mais data et sécurité.",
+          "fit": false,
+          "url": "https://tech.eu/2026/11/09/former-british-army-intelligence-operators-crowd-threat-raises-ps1m-to-expand-global-threat-intelligence/",
+          "source": "Tech.eu",
+          "announced": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "key": "us",
+      "title": "Grosses levées US",
+      "intro": "Deux tours software notables le 9 novembre, et deux thèmes qui arriveront en Europe : le logiciel pour l'ingénierie hardware et la défense (Nominal triple sa valorisation en huit mois), et l'IA vendue sur un résultat mesuré (Coframe). Les méga-tours IA restent en pause avant l'IPO d'Anthropic.",
+      "items": [
+        {
+          "title": "Nominal",
+          "amount": "240 M$ (valorisation 3 Md$)",
+          "stage": "Série C",
+          "country": "États-Unis",
+          "investors": "Lightspeed (lead), Insight Partners (co-lead), Lux, Sequoia, General Catalyst, Founders Fund, Avenir, Salesforce Ventures, Lockheed Martin Ventures",
+          "body": "Plateforme qui relie les données de test et d'ingénierie hardware à leur contexte, avec un agent (Nominal Analyst) pour investiguer les anomalies ; déployable en cloud, sur site, isolé ou en edge. Plus de 80 clients dont Anduril, HII et cinq des sept plus gros industriels de défense US ; valorisation à 1 Md$ en mars. Lien : même jour qu'Onodrim en Europe.",
+          "url": "https://www.globenewswire.com/news-release/2026/11/09/3398456/0/en/nominal-raises-240m-at-a-3b-valuation-to-build-the-intelligence-platform-for-hardware-engineering.html",
+          "source": "GlobeNewswire",
+          "announced": "2026-11-09"
+        },
+        {
+          "title": "Coframe",
+          "amount": "25 M$ (35 M$ au total)",
+          "stage": "Série A",
+          "country": "États-Unis",
+          "investors": "Khosla Ventures et Hanabi Capital (co-leads), Antler, Nat Friedman",
+          "body": "Agents qui génèrent, testent et affinent des variantes de sites, landing pages et publicités, installés via un script ; 20 % de conversion en plus en moyenne revendiqués, clients Dropbox, BCG, Block. Lien : prolonge le signal « le ROI de l'IA devient un produit » (2 nov.).",
+          "url": "https://www.unite.ai/coframe-raises-25m-series-a-bringing-total-funding-to-35m/",
+          "source": "Unite.AI",
+          "announced": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "key": "vc",
+      "title": "VC & écosystème",
+      "items": [
+        {
+          "title": "Onodrim Industries : 300 M$ en Série A à 1,3 Md$",
+          "body": "Fondée par des anciens de Palantir, la société (Amsterdam, Londres, Vilnius, et bientôt Munich et Turin) prend le contrôle d'entreprises des chaînes d'approvisionnement de défense et leur apporte technologie et capital permanent. Tour mené par Lux Capital avec General Catalyst, Lakestar et Altimeter, après 45 M$ de seed cette année. Le modèle « roll-up + tech » quitte les services pour l'industrie.",
+          "url": "https://tech.eu/2026/11/09/onodrim-industries-hits-13b-valuation-with-300m-series-a-to-strengthen-european-defence/",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "Anthropic retire sa fourchette d'IPO",
+          "body": "Fourchette de 70 à 80 $ envoyée aux banques le 9 novembre puis retirée, nouveau prix annoncé prochainement ; cotation visée en fin de semaine prochaine selon le WSJ. La valorisation retenue servira de référence pour tous les multiples IA, cotés comme privés.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-retracts-reported-70-80-043206772.html",
+          "source": "Yahoo Finance"
+        },
+        {
+          "title": "Creandum ouvre un bureau à San Francisco",
+          "body": "Après la clôture de son Fund VIII à 750 M$, Creandum (Spotify, Lovable, Black Forest Labs) formalise sa présence à SF et défend un modèle transatlantique : due diligence des deux côtés, accès aux fondateurs qui lèvent aux US.",
+          "url": "https://tech.eu/2026/11/09/we-need-to-be-in-san-francisco-to-win-in-europe-says-spotify-and-lovable-backer/",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "Semaine européenne : 55+ deals et plus de 2,7 Md€",
+          "body": "Le récap Tech.eu du 9 novembre (semaine du 2 au 6) est tiré par Fal (1,3 Md$) et Return (835 M€) ; côté M&A, Mistral rachète SkipLabs (5e acquisition de l'année), Upwork rachète WorkMotion, Conrad Electronic rachète Hivebuy. Beaucoup de petits tours sur l'automatisation comptable et fiscale.",
+          "url": "https://tech.eu/2026/11/09/european-tech-weekly-recap-over-eur27b-invested-across-55-deals",
+          "source": "Tech.eu"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "IA & software",
+      "items": [
+        {
+          "title": "Google lance TPU 8tx (chiffrement matériel) et TPU 8i Max",
+          "body": "Annoncés le 9 novembre : le 8tx ajoute un chiffrement au niveau matériel pour les charges réglementées, le 8i Max double calcul et bande passante dans la même empreinte. Pour un investisseur B2B : l'inférence confidentielle devient une offre standard des clouds, ce qui lève un frein dans la banque, la santé et le public, et réduit la valeur des startups qui ne vendent que de l'isolation.",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+          "source": "Google"
+        },
+        {
+          "title": "ChatGPT Work en déploiement général",
+          "body": "Depuis le 6 novembre, l'agent multi-étapes d'OpenAI (tableurs, decks, apps web) est ouvert aux offres Pro, Enterprise et Edu dans une nouvelle app desktop avec Codex et un navigateur. Pour un investisseur B2B : les outils horizontaux de productivité « agentique » se font concurrencer frontalement ; la défense passe par les données métier et l'intégration aux systèmes de l'entreprise.",
+          "url": "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex",
+          "source": "OpenAI"
+        },
+        {
+          "title": "Cloudflare fait tourner les harness d'agents dans ses Durable Objects",
+          "body": "Références publiées le 9 novembre pour exécuter Codex, Exo et Nanocode avec un historique et des résultats d'outils persistants entre redémarrages. Pour un investisseur B2B : l'hébergement d'agents longs devient une commodité d'infrastructure, la valeur se déplace vers l'orchestration, l'observabilité et la gouvernance.",
+          "url": "https://developers.cloudflare.com/changelog/post/2026-11-09-codex-harness/",
+          "source": "Cloudflare"
+        },
+        {
+          "title": "Nvidia prend des participations dans des startups IA coréennes",
+          "body": "Annonce du 9 novembre : Upstage, Motif Technologies et RealWorld (LLM et « cerveaux » de robots), dans la continuité de ses prises de participation européennes (Pigment, Agile Robots). Nvidia s'impose comme co-investisseur stratégique récurrent, à surveiller dans les tables de capitalisation.",
+          "url": "https://dealroom.co/news/170694-nvidia-to-take-stakes-in-four-korean-ai-startups-building-llms-and-robot/",
+          "source": "Dealroom"
+        }
+      ]
+    },
+    {
+      "key": "read",
+      "title": "À lire / écouter",
+      "items": [
+        {
+          "title": "Tech.eu : « Il faut être à San Francisco pour gagner en Europe » (Creandum)",
+          "body": "Staffan Helgesson sur le modèle transatlantique, la discipline de sélection et le risque qu'un seul fonds raté rende une firme non pertinente. Utile pour comprendre comment les fonds européens se repositionnent face au retrait de Sequoia.",
+          "url": "https://tech.eu/2026/11/09/we-need-to-be-in-san-francisco-to-win-in-europe-says-spotify-and-lovable-backer/",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "Renaissance Capital : le S-1 d'Anthropic en neuf graphiques",
+          "body": "Revenus, coûts de calcul et marges en graphiques avant la fixation du prix : la meilleure base pour lire les débats de valorisation de la semaine.",
+          "url": "https://www.renaissancecapital.com/IPO-Center/News/122612/anthropic%E2%80%99s-s-1-in-nine-charts",
+          "source": "Renaissance Capital"
+        },
+        {
+          "title": "Nominal : l'annonce de la Série C",
+          "body": "Le billet de l'entreprise explique le positionnement « Hardware Intelligence Platform » et pourquoi les données de test sont le goulot d'étranglement de l'ingénierie de défense ; utile pour sourcer des équivalents européens.",
+          "url": "https://nominal.io/blog/series-c-news",
+          "source": "Nominal"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tech.eu : Onodrim Industries, 300 M$ en Série A",
+      "url": "https://tech.eu/2026/11/09/onodrim-industries-hits-13b-valuation-with-300m-series-a-to-strengthen-european-defence/"
+    },
+    {
+      "title": "Tech.eu : Crowd Threat lève 1 M£",
+      "url": "https://tech.eu/2026/11/09/former-british-army-intelligence-operators-crowd-threat-raises-ps1m-to-expand-global-threat-intelligence/"
+    },
+    {
+      "title": "Tech.eu : Marble Imaging lève 6 M€",
+      "url": "https://tech.eu/2026/11/09/satellite-sovereignty-takes-centre-stage-as-marble-imaging-raises-eur6m/"
+    },
+    {
+      "title": "Tech.eu : récap hebdo du 9 novembre",
+      "url": "https://tech.eu/2026/11/09/european-tech-weekly-recap-over-eur27b-invested-across-55-deals"
+    },
+    {
+      "title": "Tech.eu : entretien Creandum",
+      "url": "https://tech.eu/2026/11/09/we-need-to-be-in-san-francisco-to-win-in-europe-says-spotify-and-lovable-backer/"
+    },
+    {
+      "title": "Tech Funding News : Light Frame lève 5,1 M$",
+      "url": "https://techfundingnews.com/light-frame-5-1m-seed-wealth-management-infrastructure/"
+    },
+    {
+      "title": "GlobeNewswire : Nominal lève 240 M$ à 3 Md$",
+      "url": "https://www.globenewswire.com/news-release/2026/11/09/3398456/0/en/nominal-raises-240m-at-a-3b-valuation-to-build-the-intelligence-platform-for-hardware-engineering.html"
+    },
+    {
+      "title": "Unite.AI : Coframe lève 25 M$",
+      "url": "https://www.unite.ai/coframe-raises-25m-series-a-bringing-total-funding-to-35m/"
+    },
+    {
+      "title": "Yahoo Finance : Anthropic retire sa fourchette d'IPO",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-retracts-reported-70-80-043206772.html"
+    },
+    {
+      "title": "Google : TPU 8i Max et 8tx",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/"
+    },
+    {
+      "title": "OpenAI : ChatGPT Work et Codex",
+      "url": "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex"
+    },
+    {
+      "title": "Cloudflare : harness Codex sur Durable Objects",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-11-09-codex-harness/"
+    },
+    {
+      "title": "Dealroom : Nvidia investit dans des startups IA coréennes",
+      "url": "https://dealroom.co/news/170694-nvidia-to-take-stakes-in-four-korean-ai-startups-building-llms-and-robot/"
+    },
+    {
+      "title": "Renaissance Capital : le S-1 d'Anthropic en neuf graphiques",
+      "url": "https://www.renaissancecapital.com/IPO-Center/News/122612/anthropic%E2%80%99s-s-1-in-nine-charts"
+    },
+    {
+      "title": "Nominal : annonce de la Série C",
+      "url": "https://nominal.io/blog/series-c-news"
+    },
+    {
+      "title": "Specter : recherches funding_rounds du 9 au 10 novembre",
+      "url": "https://www.tryspecter.com/"
+    }
+  ]
+}
