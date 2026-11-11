@@ -1,0 +1,328 @@
+{
+  "date": "2026-11-11",
+  "headline": "SPARETECH (Munich) lève 20 M$ en Série B auprès d'Insight et Blume pour la donnée des pièces détachées industrielles, le jour où Sumary (25 M$) et Numina relancent la compta IA nordique et où Mercor lève 750 M$ à 20 Md$.",
+  "summary": "Journée du 10 novembre dense en software B2B européen : industrie (SPARETECH), billing énergie (triPica, 12,4 M€), sécurité du code IA (Heal.dev, 4 M€) et deux nouvelles levées sur l'expertise comptable automatisée. Côté capital, la BEI annonce plus de 10 Md€ pour les scale-ups européennes et redalpine boucle 250 M$.",
+  "sections": [
+    {
+      "key": "signals",
+      "title": "Ce qui se dessine",
+      "items": [
+        {
+          "title": "Compta IA : deux levées de plus à Copenhague, et le match outil contre cabinet se précise",
+          "body": "Le 10 novembre, Sumary (Copenhague) lève 25 M$ en seed mené par Singular pour préparer clôtures et TVA à la place des cabinets (Deloitte, Grant Thornton, Baker Tilly au UK), et Numina (Copenhague) lève 1,1 M€ pour une plateforme de compta agentique gratuite vendue en direct aux PME. Cela fait au moins sept tours européens en quatre semaines sur le sujet, après Dougs (50 M€, 15 oct.), Ravical (17 M$, 29 oct.) et Kabilio (10 M€, 5 nov.) ; Sumary et Ravical outillent les cabinets, Dougs et Numina les remplacent. À creuser : la paie et la déclaration sociale (mêmes cabinets, même dossier mensuel), et une question à poser aux fondateurs : quelle part du chiffre vient des cabinets du top 20 contre la longue traîne ?"
+        },
+        {
+          "title": "Industrie : l'argent va à la donnée d'exploitation, pas seulement aux robots",
+          "body": "Le 10 novembre, SPARETECH (Munich) lève 20 M$ pour normaliser les données de pièces détachées (Nestlé : 320 usines en moins d'un an), Path Robotics lève 300 M$ à 2,45 Md$ sur le soudage piloté par IA, et Siemens rachète Lauterbach (outils de débogage embarqué, selon Specter). La veille, Nominal levait 240 M$ sur les données de test hardware (9 nov.). À creuser : les couches de données maintenance et achats MRO dans l'industrie DACH et française (catalogues, master data, stocks multi-sites), un segment où SPARETECH a montré que les grands comptes signent vite."
+        },
+        {
+          "title": "Sécurité à l'ère du code et des agents IA : trois tours le même jour",
+          "body": "Le 10 novembre, Heal.dev (Paris) lève 4 M€ (Alven, Mango Capital) pour des agents qui reproduisent les bugs et failles du code généré par IA, Daylight lève 80 M$ en Série B (Goldman Sachs Alternatives) pour un MDR piloté par agents avec un revenu x40 en un an, et Dreeze (Israël) lève 33 M$ en seed pour restaurer des applications cloud entières. Cela prolonge Upwind (400 M$, 28 oct.), Sentra (150 M$, 4 nov.) et le rachat de Clutch par Palo Alto (environ 500 M$, 5 nov.). À creuser : les équipes européennes de test et de remédiation du code IA (QA agentique, AppSec pour le vibe coding), où les tickets restent seed et Série A."
+        },
+        {
+          "title": "Le financement des scale-ups européennes se réorganise",
+          "body": "Le 10 novembre, la BEI, sept États membres et 14 institutionnels (dont APG, PGGM, Santander, l'initiative Tibi) annoncent plus de 10 Md€ de fonds propres pour les scale-ups tech, avec des tickets moyens visés de 200 M€, et redalpine (Zurich) boucle 250 M$ pour du Seed et de la Série A (tickets de 1 à 15 M$). Cela suit Sequoia qui ferme Londres (4 nov.) et Creandum qui boucle 750 M$ (2 nov.). À creuser : les boîtes Série A et B qui deviennent éligibles aux gros tickets du Tech Champions Initiative, et les fonds early stage qui se positionnent pour leur fournir le deal flow."
+        }
+      ]
+    },
+    {
+      "key": "eu",
+      "title": "Levées Europe",
+      "intro": "Fenêtre du 10 novembre au matin du 11. Light Frame (Suisse, 5,1 M$) est déjà dans l'édition d'hier ; Sparxity (ex SpiNNcloud, Dresde, 80 M€) est exclu car c'est du hardware.",
+      "items": [
+        {
+          "title": "SPARETECH",
+          "amount": "20 M$ (≈ 17,3 M€)",
+          "stage": "Série B",
+          "country": "Allemagne (Munich)",
+          "investors": "Blume Equity et Insight Partners (co-leads), Headline",
+          "body": "Logiciel IA de gestion des pièces détachées industrielles : normalise les données articles, ajuste les stocks entre usines et permet de sourcer ou revendre les surplus dans un réseau de 15 000 fabricants et fournisseurs. Clients Nestlé, Porsche, VW, Bosch, Sanofi ; revenu x5 depuis début 2024. Lien : même logique de donnée industrielle que Nominal (240 M$, 9 nov.). Fit : excellent, software B2B DACH de digitalisation de l'industrie, Série B, montant de 2 à 20 M€, co-investisseurs tier 1.",
+          "fit": true,
+          "url": "https://www.prnewswire.com/news-releases/sparetech-raises-20m-series-b-to-help-manufacturers-cut-industrial-spare-parts-inventory-by-60-302935074.html",
+          "source": "PR Newswire",
+          "announced": "2026-11-10"
+        },
+        {
+          "title": "triPica",
+          "amount": "12,4 M€",
+          "stage": "Non précisé (premier tour institutionnel)",
+          "country": "France (Paris)",
+          "investors": "TiLT Capital Partners (groupe Siparex)",
+          "body": "Facturation et CRM SaaS pour fournisseurs d'énergie et opérateurs télécoms (85 salariés), qui veut s'étendre en Allemagne et en Italie avec la complexification des offres d'énergie (tarifs dynamiques, autoconsommation). Fit : très bon, SaaS B2B français, digitalisation d'un secteur de services, montant de 2 à 20 M€, expansion DACH ; tour mono-investisseur, donc peu de place à court terme.",
+          "fit": true,
+          "url": "https://dealroom.co/news/171080-tripica-raises-12-4m-to-modernise-energy-and-telecom-billing/",
+          "source": "Dealroom",
+          "announced": "2026-11-10"
+        },
+        {
+          "title": "Heal.dev",
+          "amount": "4 M€",
+          "stage": "Seed (non précisé)",
+          "country": "France",
+          "investors": "Mango Capital, Alven",
+          "body": "Agents IA qui trouvent et reproduisent les bugs et failles de sécurité que les outils classiques ratent, dans un contexte d'explosion du code généré par IA (fondée en 2023 dans l'automatisation de tests, puis pivot). Lien : troisième tour sécurité du 10 novembre avec Daylight et Dreeze. Fit : bon, cybersécurité et productivité des équipes tech, France ; ticket encore petit, à suivre pour la Série A.",
+          "fit": true,
+          "url": "https://www.maddyness.com/2026/11/10/cette-startup-traque-les-vulnerabilites-des-applications-en-pleine-explosion-du-code-genere-par-ia/",
+          "source": "Maddyness",
+          "announced": "2026-11-10"
+        },
+        {
+          "title": "Sumary",
+          "amount": "25 M$ (≈ 21,6 M€)",
+          "stage": "Seed",
+          "country": "Danemark (Copenhague)",
+          "investors": "Singular (lead), byFounders, Partech, Tenity ; angels de Qonto, Linear, Dust, Synthesia",
+          "body": "Plateforme IA qui prépare tenue de comptes, clôtures mensuelles, TVA et bilan pour revue par l'expert-comptable, branchée sur les logiciels existants ; la plupart des 20 plus grands cabinets nordiques clients, Deloitte, Grant Thornton et Baker Tilly au UK, clôture divisée par deux. Lien : sixième tour compta IA en Europe depuis le 15 octobre (Numina le septième le même jour), même modèle « outil pour cabinets » que Ravical. Fit : bon sur le secteur et le stade, mais nordique et seed déjà très gros.",
+          "fit": true,
+          "url": "https://tech.eu/2026/11/10/sumary-secures-25m-to-expand-its-accounting-software-across-europe",
+          "source": "Tech.eu",
+          "announced": "2026-11-10"
+        },
+        {
+          "title": "Hiverge",
+          "amount": "19,4 M$ (≈ 16,7 M€)",
+          "stage": "Série A",
+          "country": "Royaume-Uni (Cambridge)",
+          "investors": "Plural (selon Specter, lead non confirmé)",
+          "body": "Fondée par des anciens de Google DeepMind, Hiverge construit une « usine à algorithmes » : des modèles de synthèse de programmes qui découvrent des algorithmes d'optimisation sur mesure (allocation de ressources, planification). Seed de 5 M$ en septembre 2025. Pas encore d'article de presse sur ce tour. Fit : moyen, IA appliquée B2B à un stade compatible, mais britannique et encore très orientée recherche.",
+          "source": "Specter",
+          "announced": "2026-11-10"
+        },
+        {
+          "title": "Numina",
+          "amount": "1,1 M€",
+          "stage": "Pré-seed",
+          "country": "Danemark (Copenhague)",
+          "investors": "The Nordic Web, Nebular, Emblem, angels",
+          "body": "Plateforme de comptabilité agentique gratuite pour les PME européennes, qui court-circuite le cabinet. Lien : même jour et même ville que Sumary, avec le modèle inverse (remplacer le cabinet plutôt que l'outiller), comme Dougs. Fit : faible à ce stade, très précoce, mais utile comme marqueur de la verticale.",
+          "url": "https://oresundstartups.com/numina-raises-e1-1-million-to-build-a-free-accounting-platform-for-small-businesses-across-europe/",
+          "source": "Øresund Startup News",
+          "announced": "2026-11-10"
+        },
+        {
+          "title": "Mirakl : arrivée d'un co-CEO",
+          "body": "Le 10 novembre, Steve Stathis Tzikakis (ex PDG de Sitecore, 13 ans chez SAP) devient co-CEO aux côtés de Philippe Corrot et prend ventes, marketing, finance et RH ; Adrien Nussenbaum devient président du conseil. Mirakl est rentable depuis début 2026, avec 218 M$ d'ARR en 2025 (+23 %). Pas une levée, mais une réorganisation typique d'une scale-up qui prépare une prochaine étape (croissance externe ou IPO).",
+          "url": "https://www.maddyness.com/2026/11/10/mirakl-accueille-un-nouveau-pdg-aux-cotes-de-philippe-corrot/",
+          "source": "Maddyness",
+          "announced": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "key": "us",
+      "title": "Grosses levées US",
+      "intro": "Deux thèmes dominent le 10 novembre : l'évaluation et le post-training des modèles sur les données propres à chaque entreprise (Mercor à 20 Md$), et la sécurité opérée par des agents (Daylight, Dreeze). Le premier fait écho à Trajectory (2 nov.) et à la société de déploiement IA de Hg et Anthropic (3 nov.) : la valeur se déplace vers le contexte propre à chaque client, un thème qui devrait arriver vite en Europe via les intégrateurs.",
+      "items": [
+        {
+          "title": "Mercor",
+          "amount": "750 M$ (valorisation 20 Md$)",
+          "stage": "Série D",
+          "country": "États-Unis (San Francisco)",
+          "investors": "Benchmark, Felicis, General Catalyst, Nvidia, Salesforce, Zoom, Sapphire, Apollo, StepStone, XTX",
+          "body": "Le fournisseur d'experts humains pour l'entraînement des labs (plus de 2 Md$ de revenu annualisé en juin) se tourne vers les entreprises : benchmarks sur mesure pour chaque client, puis post-training des modèles sur ses standards. Le tour inclut une offre de rachat d'actions aux salariés.",
+          "url": "https://siliconangle.com/2026/11/10/mercor-raises-750m-at-20b-valuation-to-take-ai-agent-evaluation-to-enterprises/",
+          "source": "SiliconANGLE",
+          "announced": "2026-11-10"
+        },
+        {
+          "title": "Path Robotics",
+          "amount": "300 M$ (valorisation 2,45 Md$)",
+          "stage": "Série E",
+          "country": "États-Unis (Columbus)",
+          "investors": "Georgian (lead), Yamaha Motor Ventures, Navier",
+          "body": "Modèle IA Obsidian qui pilote des robots de soudage capables de corriger la soudure en temps réel, plus un robot quadrupède pour la construction navale. Lien : avec SPARETECH le même jour, l'automatisation industrielle reste l'un des rares segments où les gros tours s'enchaînent hors IA pure.",
+          "url": "https://siliconangle.com/2026/11/10/industrial-automation-startup-path-robotics-raises-300m-in-funding/",
+          "source": "SiliconANGLE",
+          "announced": "2026-11-10"
+        },
+        {
+          "title": "Daylight",
+          "amount": "80 M$ (120 M$ au total)",
+          "stage": "Série B",
+          "country": "États-Unis",
+          "investors": "Growth Equity at Goldman Sachs Alternatives (lead), Bain Capital Ventures, Craft Ventures, Vintage, Maple Capital",
+          "body": "Détection et réponse managées où des agents IA font l'essentiel du travail de SOC, avec des ingénieurs qui les configurent par client ; revenu x40 en un an, clients Miro, Lovable, LastPass, dLocal. Lien : même logique « service livré par agents » que Serval (30 oct.).",
+          "url": "https://siliconangle.com/2026/11/10/ai-driven-managed-security-startup-daylight-raises-80m-on-40-fold-revenue-growth/",
+          "source": "SiliconANGLE",
+          "announced": "2026-11-10"
+        },
+        {
+          "title": "Dreeze",
+          "amount": "33 M$",
+          "stage": "Seed",
+          "country": "Israël / États-Unis",
+          "investors": "Norwest et Bessemer (co-leads), Claltech",
+          "body": "Restaure des applications cloud entières (infrastructure, identités, secrets, dans l'ordre des dépendances) et pas seulement les données, avec tests de reprise automatisés hors production ; disponible sur AWS, Azure en accès anticipé.",
+          "url": "https://siliconangle.com/2026/11/10/dreeze-launches-with-33m-to-recover-entire-cloud-applications-not-just-their-data/",
+          "source": "SiliconANGLE",
+          "announced": "2026-11-10"
+        },
+        {
+          "title": "Operand",
+          "amount": "31 M$",
+          "stage": "Série A (selon Specter)",
+          "country": "États-Unis",
+          "investors": "Non communiqués",
+          "body": "Conseil assisté par IA pour les marques grand public (issue de Y Combinator), selon Specter et Signalbase. Encore un cas de « service livré par IA » financé comme du software.",
+          "source": "Specter",
+          "announced": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "key": "vc",
+      "title": "VC & écosystème",
+      "items": [
+        {
+          "title": "BEI : plus de 10 Md€ pour les scale-ups tech européennes",
+          "body": "Annoncé le 10 novembre en marge de l'Ecofin : 14 institutionnels (ABN AMRO, APG, BBVA, Santander, PGGM…) et l'initiative française Tibi visent plus de 8 Md€, et le fonds de fonds Tech Champions réunit environ 2 Md€ en premier closing (7 États et la BEI), avec un objectif de 80 Md€ mobilisés et des tickets moyens de 200 M€. La Commission ajoute 100 M€ à une facilité défense, spatial et cyber (objectif 1 Md€).",
+          "url": "https://news.europawire.eu/eib-group-joins-investors-and-eu-countries-to-direct-more-than-e10-billion-to-european-technology-scale-ups/eu-press-release/2026/11/10/11/52/09/186913/",
+          "source": "EuropaWire"
+        },
+        {
+          "title": "redalpine boucle RAC VIII à 250 M$, sursouscrit",
+          "body": "Le VC zurichois (Mistral AI, N26, Proxima Fusion) lève son plus gros fonds, environ 25 % au dessus du précédent, pour mener des Seed et Séries A en software et science (IA, robotique, fusion, biotech), tickets initiaux de 1 à 15 M$, une vingtaine de boîtes. LPs : Aviva Investors, Flexstone, KfW. Premières lignes : Enact Intelligence, Helical, Arlequin AI. Un acteur DACH de plus sur les tickets early stage de 1 à 15 M$.",
+          "url": "https://thenextweb.com/news/redalpine-rac-viii-250m-early-stage-fund",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Anthropic relance son IPO : 70 à 78 $ par action, environ 64 Md$",
+          "body": "Après avoir retiré sa première fourchette (70 à 80 $) le 9 novembre, Anthropic lance son roadshow le 10 avec 825 M d'actions à 70-78 $, soit environ 64 Md$ en haut de fourchette, plus 26 Md$ de placement privé auprès de sept grands fournisseurs. Pricing attendu le 18 novembre, ticker ANT sur le Nasdaq.",
+          "url": "https://siliconangle.com/2026/11/10/anthropic-launches-ipo-roadshow-with-64b-fundraising-goal/",
+          "source": "SiliconANGLE"
+        },
+        {
+          "title": "M&A : Siemens rachète Lauterbach",
+          "body": "Specter enregistre le 10 novembre le rachat par Siemens de Lauterbach (Höhenkirchen, outils de débogage et de trace pour logiciel embarqué), prix non communiqué. Une brique de plus dans le portefeuille logiciel industriel de Siemens après Altair et Dotmatics ; pas encore d'article de presse trouvé.",
+          "source": "Specter"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "IA & software",
+      "items": [
+        {
+          "title": "IBM et Microsoft lancent Imagine Enterprise, 6 000 agents métiers",
+          "body": "Annoncée le 10 novembre : une plateforme pour construire, exécuter et gouverner des agents par secteur (banque, assurance, retail d'abord, puis industrie, énergie, secteur public), avec plus de 6 000 agents préconstruits par IBM Consulting et des ingénieurs déployés chez le client. Pour un investisseur B2B : les grands intégrateurs packagent l'agent vertical, ce qui met la pression sur les startups d'agents génériques et valorise celles qui ont la donnée ou le workflow propriétaire.",
+          "url": "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/",
+          "source": "Microsoft"
+        },
+        {
+          "title": "Mercor passe du lab à l'entreprise",
+          "body": "En levant 750 M$ à 20 Md$ (10 nov.), Mercor annonce des benchmarks sur mesure et du post-training pour chaque entreprise cliente. Pourquoi ça compte : l'évaluation devient un produit vendu au DSI, pas seulement aux labs, et ouvre de la place pour des acteurs européens d'évaluation sectorielle (finance, santé, juridique) soumis à l'AI Act.",
+          "url": "https://siliconangle.com/2026/11/10/mercor-raises-750m-at-20b-valuation-to-take-ai-agent-evaluation-to-enterprises/",
+          "source": "SiliconANGLE"
+        },
+        {
+          "title": "ChatGPT ouvre des fiches entreprise et des agents de marque",
+          "body": "Le 10 novembre, OpenAI lance en bêta un Business Hub : profils vérifiés, agent dédié qui répond aux questions sur l'entreprise, et statistiques (vues, mentions, clics). Pourquoi ça compte : ChatGPT devient un canal d'acquisition à gérer comme le SEO, un nouveau terrain pour les outils de marketing B2B (visibilité dans les assistants IA).",
+          "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+          "source": "TechCrunch"
+        }
+      ]
+    },
+    {
+      "key": "read",
+      "title": "À lire / écouter",
+      "items": [
+        {
+          "title": "Stratechery : entretien avec le CEO d'Intuit sur la comptabilité et l'IA",
+          "body": "Publié le 5 novembre. Le point de vue de l'acteur établi sur l'automatisation comptable, à lire en miroir de la vague de levées européennes (Dougs, Ravical, Kabilio, Sumary, Numina).",
+          "url": "https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/",
+          "source": "Stratechery"
+        },
+        {
+          "title": "20VC : Erik Bernhardsson (Modal) sur la fin des marges software à 90 %",
+          "body": "Épisode de la semaine du 2 novembre : chaque couche de la pile IA capte moins de marge, Modal vise 40 à 60 % à terme, l'inférence seule est une commodité. Utile pour challenger les hypothèses de marge brute dans les dossiers IA.",
+          "url": "https://20vc.substack.com/p/20vc-newsletter-8th-november-2026",
+          "source": "20VC"
+        },
+        {
+          "title": "Tech.eu : récap européen de la semaine du 2 au 6 novembre",
+          "body": "Plus de 2,7 Md€ sur 55+ deals, pour avoir les ordres de grandeur avant le récap de cette semaine.",
+          "url": "https://tech.eu/2026/11/09/european-tech-weekly-recap-over-eur27b-invested-across-55-deals",
+          "source": "Tech.eu"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "PR Newswire : SPARETECH lève 20 M$ en Série B",
+      "url": "https://www.prnewswire.com/news-releases/sparetech-raises-20m-series-b-to-help-manufacturers-cut-industrial-spare-parts-inventory-by-60-302935074.html"
+    },
+    {
+      "title": "Dealroom : triPica lève 12,4 M€",
+      "url": "https://dealroom.co/news/171080-tripica-raises-12-4m-to-modernise-energy-and-telecom-billing/"
+    },
+    {
+      "title": "Maddyness : Heal.dev lève 4 M€",
+      "url": "https://www.maddyness.com/2026/11/10/cette-startup-traque-les-vulnerabilites-des-applications-en-pleine-explosion-du-code-genere-par-ia/"
+    },
+    {
+      "title": "Tech.eu : Sumary lève 25 M$",
+      "url": "https://tech.eu/2026/11/10/sumary-secures-25m-to-expand-its-accounting-software-across-europe"
+    },
+    {
+      "title": "Øresund Startup News : Numina lève 1,1 M€",
+      "url": "https://oresundstartups.com/numina-raises-e1-1-million-to-build-a-free-accounting-platform-for-small-businesses-across-europe/"
+    },
+    {
+      "title": "Maddyness : Mirakl nomme un co-CEO",
+      "url": "https://www.maddyness.com/2026/11/10/mirakl-accueille-un-nouveau-pdg-aux-cotes-de-philippe-corrot/"
+    },
+    {
+      "title": "Tech Startups : levées du 10 novembre",
+      "url": "https://techstartups.com/2026/11/10/startup-funding-news-today-november-10-2026-blackletter-nominal-project-omega-sumary-vessel-more/"
+    },
+    {
+      "title": "SiliconANGLE : Mercor lève 750 M$ à 20 Md$",
+      "url": "https://siliconangle.com/2026/11/10/mercor-raises-750m-at-20b-valuation-to-take-ai-agent-evaluation-to-enterprises/"
+    },
+    {
+      "title": "SiliconANGLE : Path Robotics lève 300 M$",
+      "url": "https://siliconangle.com/2026/11/10/industrial-automation-startup-path-robotics-raises-300m-in-funding/"
+    },
+    {
+      "title": "SiliconANGLE : Daylight lève 80 M$",
+      "url": "https://siliconangle.com/2026/11/10/ai-driven-managed-security-startup-daylight-raises-80m-on-40-fold-revenue-growth/"
+    },
+    {
+      "title": "SiliconANGLE : Dreeze lève 33 M$",
+      "url": "https://siliconangle.com/2026/11/10/dreeze-launches-with-33m-to-recover-entire-cloud-applications-not-just-their-data/"
+    },
+    {
+      "title": "SiliconANGLE : roadshow IPO d'Anthropic",
+      "url": "https://siliconangle.com/2026/11/10/anthropic-launches-ipo-roadshow-with-64b-fundraising-goal/"
+    },
+    {
+      "title": "EuropaWire : BEI, plus de 10 Md€ pour les scale-ups",
+      "url": "https://news.europawire.eu/eib-group-joins-investors-and-eu-countries-to-direct-more-than-e10-billion-to-european-technology-scale-ups/eu-press-release/2026/11/10/11/52/09/186913/"
+    },
+    {
+      "title": "The Next Web : redalpine RAC VIII à 250 M$",
+      "url": "https://thenextweb.com/news/redalpine-rac-viii-250m-early-stage-fund"
+    },
+    {
+      "title": "Microsoft : IBM et Microsoft lancent Imagine Enterprise",
+      "url": "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/"
+    },
+    {
+      "title": "TechCrunch : OpenAI lance les fiches entreprise",
+      "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/"
+    },
+    {
+      "title": "Stratechery : entretien avec le CEO d'Intuit",
+      "url": "https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/"
+    },
+    {
+      "title": "20VC : newsletter du 8 novembre",
+      "url": "https://20vc.substack.com/p/20vc-newsletter-8th-november-2026"
+    },
+    {
+      "title": "Tech.eu : récap européen du 9 novembre",
+      "url": "https://tech.eu/2026/11/09/european-tech-weekly-recap-over-eur27b-invested-across-55-deals"
+    }
+  ]
+}
