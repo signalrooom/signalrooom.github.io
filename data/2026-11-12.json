@@ -1,0 +1,281 @@
+{
+  "date": "2026-11-12",
+  "headline": "Nebuly (Turin) lève 21 M$ pour mesurer le ROI des agents IA en entreprise (12 nov.), le jour où Fractile et Agile Robots captent 1,2 Md$ de hardware européen et au lendemain des 100 M$ de Rox pour défier Salesforce.",
+  "summary": "Fenêtre courte (11 au 12 novembre) et 11 novembre férié en France et en Belgique : peu de tours software B2B européens, un seul fit net (Nebuly). Les gros chèques européens vont au hardware (puces, robots), tandis qu'aux US l'argent continue d'aller aux agents de vente et à la fiabilité des agents.",
+  "sections": [
+    {
+      "key": "signals",
+      "title": "Ce qui se dessine",
+      "items": [
+        {
+          "title": "Mesurer la valeur de l'IA devient une catégorie finançable",
+          "body": "Nebuly (Turin) lève 21 M$ le 12 novembre pour relier l'usage des agents (Claude, ChatGPT, Copilot) au temps gagné et au revenu influencé, avec Iveco, CNH et Zeiss comme clients. Cela suit Ares Intelligence (transformation IA au ROI, 30 oct.), Coframe vendu au résultat (9 nov.) et la chute de ServiceNow sur un marché qui exige du résultat plutôt que des sièges (29 oct.). À creuser : les outils qui donnent aux DAF une lecture financière de l'IA (FinOps IA, attribution, refacturation interne), en priorité chez les ETI industrielles européennes."
+        },
+        {
+          "title": "Fiabilité des agents : après la sécurité, la simulation avant production",
+          "body": "Plurai lève 13 M$ en seed le 11 novembre (Team8) pour simuler les systèmes d'une entreprise en jumeau numérique et tester ses agents avant déploiement, un jour après les 37 M$ de Bay (contrôle des actions des agents, 10 nov.) et dans la foulée de Mintive (identité des agents, 29 oct.) et du rachat de Clutch négocié par Palo Alto (5 nov.). Côté données, Edelbyte (San Francisco) réunit 70 M$ seed et Série A (Specter, 11 nov.) pour unifier la donnée servie aux agents. À creuser : des équivalents européens sur le test et l'évaluation d'agents dans les secteurs régulés (assurance, banque, santé), où l'AI Act rend la preuve de fiabilité obligatoire."
+        },
+        {
+          "title": "Le CRM agentique attaque Salesforce, et les agents négocient déjà",
+          "body": "Rox lève 100 M$ à 1,3 Md$ le 11 novembre (General Catalyst, March Capital) avec des agents qui préparent comptes et prospection, six jours après les 500 M$ de Nooks (5 nov.). Le même jour, Tano (Londres, 4 M$, Cherry Ventures) fait négocier des deals d'influence par des agents. À creuser : des CRM ou agents commerciaux européens verticaux (distribution B2B, industrie, services) que les acteurs US généralistes ne couvriront pas."
+        },
+        {
+          "title": "En Europe, les plus gros chèques de la fenêtre vont au hardware IA",
+          "body": "Fractile (Londres) confirme environ 720 M$ en Série C à une valorisation rapportée de 7 Md$ (12 nov.), Agile Robots (Munich) lève 500 M$ à 8,5 Md$ auprès de SoftBank et Nvidia (12 nov.), Tendrils (Cambridge) 30 M$ menés par Benchmark (11 nov.), après Sparxity/SpiNNcloud (Dresde, 10 nov.). En face, très peu de tours software B2B sur la même fenêtre (jour férié en France). À creuser : la couche logicielle au dessus de ces puces et robots (compilateurs, orchestration d'inférence, logiciel de pilotage de cellules robotisées), où les tickets Seed à Série B restent accessibles."
+        }
+      ]
+    },
+    {
+      "key": "eu",
+      "title": "Levées Europe",
+      "intro": "Fenêtre du 11 au 12 novembre, avec le 11 novembre férié en France et en Belgique : flux maigre et aucune levée software B2B vérifiée en France, DACH ou Benelux. Les gros tours hardware (Fractile, Agile Robots, Tendrils) sont traités dans VC & écosystème.",
+      "items": [
+        {
+          "title": "Nebuly",
+          "amount": "21 M$ (≈ 18 M€)",
+          "stage": "Série A",
+          "country": "Italie (Turin)",
+          "investors": "Planven (lead), Exor Ventures, Tenacity Capital, TGVG Capital, Fastweb+Vodafone, CDP Venture Capital",
+          "body": "Plateforme qui mesure le retour sur investissement des agents IA : relie l'usage des assistants internes et clients au temps gagné, au revenu influencé et aux signaux de churn, auditable par la finance, déployable on premise. Clients Oura, Iveco, CNH, Zeiss, Fastweb+Vodafone ; fonds pour accélérer les ventes en Europe et aux US. Lien : Ares Intelligence (ROI de l'IA, 30 oct.) et Coframe (vente au résultat, 9 nov.). Fit : très bon, software B2B data et IA appliquée, Série A dans la zone 2 à 15 M€, clientèle industrielle européenne ; seul bémol, siège italien hors zone cœur.",
+          "fit": true,
+          "url": "https://thenextweb.com/news/nebuly-21m-series-a-enterprise-ai-roi",
+          "source": "The Next Web",
+          "announced": "2026-11-12"
+        },
+        {
+          "title": "Tano",
+          "amount": "4 M$ (≈ 3,5 M€)",
+          "stage": "Seed",
+          "country": "Royaume-Uni (Londres)",
+          "investors": "Cherry Ventures",
+          "body": "Automatise le marketing d'influence et d'affiliation pour les marques DTC : sourcing de créateurs et négociation par agents IA (8 000 créateurs sourcés, 15 M$ de dépenses gérées). Lien : Rox (CRM agentique, 11 nov.). Fit : moyen, software B2B et agentique mais martech grand public, Royaume-Uni et seed sous la zone 2 à 15 M€.",
+          "url": "https://techfundingnews.com/tano-4m-seed-ai-creator-marketing-agents/",
+          "source": "Tech Funding News",
+          "announced": "2026-11-11"
+        },
+        {
+          "title": "sennder",
+          "amount": "228 M€ (73 M€ de capital + 155 M€ de lignes de financement)",
+          "stage": "Tour tardif (capital et dette)",
+          "country": "Allemagne (Berlin)",
+          "investors": "Scania et Poste Italiane (capital, investisseurs existants) ; Coface, BEI, cflox, Deutsche Bank (lignes de financement)",
+          "body": "Plateforme numérique de fret routier (sennOS) : finance l'intégration de l'activité européenne de C.H. Robinson ; EBITDA IFRS positif en octobre 2026 et environ 1 Md€ de revenu attendu sur l'année. Lien : Conlio (paperasse du fret, 3 nov.). Fit : faible, DACH et digitalisation des services, mais stade et montant très au-delà d'un ticket Seed à Série B ; référence utile sur la rentabilité des plateformes logistiques.",
+          "url": "https://www.trendingtopics.eu/sennder-deutsches-logistik-startup-erhaelt-228-mio-euro/",
+          "source": "Trending Topics",
+          "announced": "2026-11-11"
+        },
+        {
+          "title": "MISTT",
+          "amount": "6,7 M$ (≈ 5,8 M€)",
+          "stage": "Pre-seed",
+          "country": "Non précisé (société Ltd)",
+          "investors": "4 investisseurs (non détaillés par Specter)",
+          "body": "Couche de référence de données 4D qui unifie les flux de capteurs mer, air et espace pour la défense. Lien : la donnée logicielle de défense (Nominal 240 M$, Onodrim, 9 nov.). Fit : faible à moyen, infrastructure data mais défense et pre-seed trop tôt ; siège et investisseurs à confirmer.",
+          "source": "Specter",
+          "announced": "2026-11-11"
+        },
+        {
+          "title": "Inverto Earth",
+          "amount": "2,4 M$ (≈ 2,1 M€)",
+          "stage": "Seed",
+          "country": "Suisse (Berne)",
+          "investors": "7 investisseurs (non détaillés par Specter)",
+          "body": "Automatise la restauration de mangroves pour des projets de biodiversité et de crédits carbone, modèle SaaS et services. Fit : faible, DACH mais climat et services plus que software B2B, ticket sous la zone 2 à 15 M€.",
+          "source": "Specter",
+          "announced": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "key": "us",
+      "title": "Grosses levées US",
+      "intro": "Les tours de la fenêtre vont aux agents qui touchent le revenu (CRM de Rox) et à la couche qui rend les agents fiables (simulation, données unifiées, agents verticaux en assurance). Valorisations encore tendues (Rox à 1,3 Md$ huit mois après 1,2 Md$) ; la fiabilité des agents et le CRM agentique vertical sont les thèmes les plus susceptibles d'arriver vite en Europe.",
+      "items": [
+        {
+          "title": "Rox",
+          "amount": "100 M$ (valorisation 1,3 Md$)",
+          "stage": "Série B",
+          "country": "États-Unis (San Francisco)",
+          "investors": "General Catalyst et March Capital (co-leads), Sequoia, GV, Prosperity7",
+          "body": "CRM nativement IA : des agents recherchent les comptes, priorisent et rédigent la prospection. ARR multiplié par plus de 10 depuis la première année ; clients Ramp, New Relic, MongoDB, Trafigura. Lien : Nooks (500 M$, 5 nov.).",
+          "url": "https://fortune.com/2026/11/11/rox-series-b-100-million-funding-take-on-salesforce/",
+          "source": "Fortune",
+          "announced": "2026-11-11"
+        },
+        {
+          "title": "Edelbyte",
+          "amount": "70 M$ (25 M$ seed + 45 M$ Série A)",
+          "stage": "Seed et Série A",
+          "country": "États-Unis (San Francisco)",
+          "investors": "Non détaillés (Specter)",
+          "body": "Unifie les données pour la recherche, l'analytique et les charges IA, à destination des applications et agents gourmands en données. Pas encore d'article de presse repéré.",
+          "source": "Specter",
+          "announced": "2026-11-11"
+        },
+        {
+          "title": "Plurai",
+          "amount": "13 M$",
+          "stage": "Seed",
+          "country": "États-Unis / Israël",
+          "investors": "Team8 (lead), U&I, Velocity, Mercer",
+          "body": "Crée des jumeaux numériques des systèmes d'une entreprise pour simuler et évaluer les agents IA avant production, puis entraîne de petits modèles spécialisés. Lien : Bay (37 M$, 10 nov.).",
+          "url": "https://www.servicesmobiles.fr/plurai-mise-sur-la-simulation-pour-fiabiliser-enfin-les-agents-ia-116102",
+          "source": "ServicesMobiles",
+          "announced": "2026-11-11"
+        },
+        {
+          "title": "StitchStudio",
+          "amount": "8 M$ (11 M$ au total)",
+          "stage": "Tour non précisé",
+          "country": "États-Unis (Chicago)",
+          "investors": "5 investisseurs (non détaillés par Specter)",
+          "body": "Agents IA no code intégrés aux workflows d'assurance pour automatiser sinistres et souscription chez les assureurs et courtiers. Lien : i23 (courtier IA natif, 29 oct.) et Ancep (Creandum, 10 nov.).",
+          "source": "Specter",
+          "announced": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "key": "vc",
+      "title": "VC & écosystème",
+      "items": [
+        {
+          "title": "Fractile confirme environ 720 M$ en Série C, valorisation rapportée de 7 Md$",
+          "body": "Le fabricant londonien de puces d'inférence (DRAM empilée sur la logique, premier produit attendu en 2027) est co-mené par Thrive, Founders Fund, Lightspeed et Redpoint, avec CapitalG, BlackRock, DST, Balderton et la British Business Bank (12 nov.). Pourquoi ça compte : un pré-revenu valorisé 7 fois plus qu'en mai, signe que le capital tardif européen va d'abord aux puces.",
+          "url": "https://techfundingnews.com/fractile-720m-series-c-7b-valuation-ai-inference-chips",
+          "source": "Tech Funding News"
+        },
+        {
+          "title": "Agile Robots lève 500 M$ à 8,5 Md$ auprès de SoftBank et Nvidia",
+          "body": "Le roboticien munichois (3 500 salariés, issu du DLR) lève avec SoftBank, Nvidia, Hitachi et T.Capital (Deutsche Telekom) pour les US et une usine de robots humanoïdes en Bavière, en vue d'une possible IPO (12 nov.). Le tour visé en juin était de 800 M$. Lien : prise de participation de Nvidia révélée le 19 octobre.",
+          "url": "https://www.trendingtopics.eu/agile-robots-500-million-softbank-nvidia/",
+          "source": "Trending Topics"
+        },
+        {
+          "title": "Northzone monte un réseau d'investissement et de conseil avec des anciens de DeepL et ElevenLabs",
+          "body": "Northzone s'adjoint des opérateurs seniors de DeepL, ElevenLabs, Coinbase et Lovable pour sourcer et accompagner (11 nov.). Pourquoi ça compte : après Creandum à San Francisco, les VCs européens se battent sur l'accès aux opérateurs IA plutôt que sur le seul capital.",
+          "url": "https://tech.eu/2026/11/11/from-deepl-to-elevenlabs-northzone-taps-europe-s-tech-talent-for-new-investment-and-advisory-network/",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "Scale-ups européennes : 86/100 en solidité commerciale, 17/100 en préparation aux US",
+          "body": "Une étude relayée par Tech.eu le 12 novembre mesure l'écart entre la solidité commerciale des scale-ups européennes et leur capacité à attaquer le marché américain. Pourquoi ça compte : argument direct pour les fonds qui accompagnent l'internationalisation des Séries A et B.",
+          "url": "https://tech.eu/2026/11/12/european-scaleups-score-86100-for-commercial-strength-but-just-17100-for-us-readiness/",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "OpenAI rachète Odessia, agent de voyage IA",
+          "body": "Annoncé le 11 novembre : le fondateur Francis Davidson rejoint OpenAI et le service serait arrêté (détails divergents selon les sources). Pourquoi ça compte : les labs absorbent les agents verticaux grand public, ce qui pousse les start-ups d'agents vers le B2B et les données propriétaires.",
+          "url": "https://shorttermrentalz.com/news/openai-acquires-odessia-ai-travel-startup",
+          "source": "Short Term Rentalz"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "IA & software",
+      "items": [
+        {
+          "title": "IBM et Microsoft lancent Imagine Enterprise, agents sectoriels plus conseil",
+          "body": "Plateforme d'agents IA par industrie qui associe outils de gouvernance et services IBM, présentée le 10 novembre et couverte le 11. Pourquoi ça compte : les grands acteurs vendent l'agent avec le déploiement, comme Hg et Anthropic (3 nov.) ; les start-ups B2B devront prouver leur valeur face à des offres groupées.",
+          "url": "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/",
+          "source": "Microsoft"
+        },
+        {
+          "title": "Nscale envisagerait de repousser son IPO à 35 Md$",
+          "body": "Tech Funding News rapporte le 11 novembre que le néocloud britannique pèse un report, après le refus de Microsoft d'étendre son contrat texan (révélé par le FT le 5 nov.). Pourquoi ça compte : le risque politique et commercial des data centers remonte la chaîne, ce qui peut tendre les coûts de calcul des éditeurs IA.",
+          "url": "https://techfundingnews.com/nvidia-backed-nscale-weighs-delaying-35b-listing-as-microsoft-passes-on-texas-expansion/",
+          "source": "Tech Funding News"
+        },
+        {
+          "title": "Vers un frein de la tech mondiale avec la victoire démocrate aux US ?",
+          "body": "Maddyness (12 nov.) analyse l'effet des midterms sur la régulation et les data centers. Pourquoi ça compte : à suivre pour les éditeurs européens dont la feuille de route dépend du coût et de la disponibilité du calcul américain.",
+          "url": "https://www.maddyness.com/2026/11/12/vers-un-frein-de-la-tech-mondiale-avec-la-victoire-des-democrates-aux-us/",
+          "source": "Maddyness"
+        }
+      ]
+    },
+    {
+      "key": "read",
+      "title": "À lire / écouter",
+      "items": [
+        {
+          "title": "Stratechery : An Interview With Intuit CEO Sasan Goodarzi About Accounting and AI",
+          "body": "5 novembre. Comment Intuit traite désormais les experts-comptables comme clients face à l'IA : utile pour lire la vague compta IA (Dougs, Kabilio, Sumary, Blue J à 176 M$ le 10 nov.).",
+          "url": "https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/",
+          "source": "Stratechery"
+        },
+        {
+          "title": "Stratechery : AI on the Ballot",
+          "body": "4 novembre. Après les midterms, la permission politique devient la vraie contrainte du déploiement IA, au profit des hyperscalers et au détriment des néoclouds.",
+          "url": "https://stratechery.com/2026/ai-on-the-ballot/",
+          "source": "Stratechery"
+        },
+        {
+          "title": "Maddyness : Agents d'IA, pourquoi les entreprises peinent-elles encore à passer à l'échelle ?",
+          "body": "10 novembre. Le constat terrain qui explique pourquoi la mesure de valeur (Nebuly) et la fiabilité (Plurai) attirent du capital.",
+          "url": "https://www.maddyness.com/2026/11/10/agents-dia-pourquoi-les-entreprises-peinent-elles-encore-a-passer-a-lechelle/",
+          "source": "Maddyness"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Next Web : Nebuly raises $21M Series A to measure the ROI of enterprise AI",
+      "url": "https://thenextweb.com/news/nebuly-21m-series-a-enterprise-ai-roi"
+    },
+    {
+      "title": "Tech Funding News : Tano raises $4M from Cherry Ventures",
+      "url": "https://techfundingnews.com/tano-4m-seed-ai-creator-marketing-agents/"
+    },
+    {
+      "title": "Trending Topics : sennder erhält 228 Mio. Euro",
+      "url": "https://www.trendingtopics.eu/sennder-deutsches-logistik-startup-erhaelt-228-mio-euro/"
+    },
+    {
+      "title": "Fortune : Meet Rox, the $1.3 billion AI sales startup",
+      "url": "https://fortune.com/2026/11/11/rox-series-b-100-million-funding-take-on-salesforce/"
+    },
+    {
+      "title": "ServicesMobiles : Plurai mise sur la simulation pour fiabiliser les agents IA",
+      "url": "https://www.servicesmobiles.fr/plurai-mise-sur-la-simulation-pour-fiabiliser-enfin-les-agents-ia-116102"
+    },
+    {
+      "title": "Tech Funding News : Fractile $720M Series C",
+      "url": "https://techfundingnews.com/fractile-720m-series-c-7b-valuation-ai-inference-chips"
+    },
+    {
+      "title": "Trending Topics : Agile Robots Raises $500 Million From SoftBank and Nvidia",
+      "url": "https://www.trendingtopics.eu/agile-robots-500-million-softbank-nvidia/"
+    },
+    {
+      "title": "Tech.eu : Northzone taps Europe's tech talent",
+      "url": "https://tech.eu/2026/11/11/from-deepl-to-elevenlabs-northzone-taps-europe-s-tech-talent-for-new-investment-and-advisory-network/"
+    },
+    {
+      "title": "Tech.eu : European scaleups score 86/100 for commercial strength",
+      "url": "https://tech.eu/2026/11/12/european-scaleups-score-86100-for-commercial-strength-but-just-17100-for-us-readiness/"
+    },
+    {
+      "title": "Tech Startups : Startup Funding News Today, November 11, 2026",
+      "url": "https://techstartups.com/2026/11/11/startup-funding-news-today-november-11-2026-alta-mercor-path-robotics-clara-reflect-orbital-more"
+    },
+    {
+      "title": "Microsoft : IBM and Microsoft announce a new AI agent platform",
+      "url": "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation/"
+    },
+    {
+      "title": "CPA Practice Advisor : Blue J announces US$176 million Series E (10 nov.)",
+      "url": "https://www.cpapracticeadvisor.com/2026/11/10/blue-j-announces-us176-million-series-e-to-put-ai-agents-to-work-for-tax-professionals/193567/"
+    },
+    {
+      "title": "Maddyness : Vers un frein de la tech mondiale avec la victoire des démocrates aux US ?",
+      "url": "https://www.maddyness.com/2026/11/12/vers-un-frein-de-la-tech-mondiale-avec-la-victoire-des-democrates-aux-us/"
+    },
+    {
+      "title": "Stratechery : AI on the Ballot",
+      "url": "https://stratechery.com/2026/ai-on-the-ballot/"
+    }
+  ]
+}
