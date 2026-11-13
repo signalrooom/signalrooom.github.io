@@ -1,0 +1,342 @@
+{
+  "date": "2026-11-13",
+  "headline": "Jensen Huang quitte Nvidia (12 nov.) en pleine roadshow d'une IPO Anthropic six fois sursouscrite ; côté software, LangChain lève 300 M$ à 3 Md$, et en Europe Horus (Liège) cède 40 % sur une valorisation de 300 M€ pendant que SE3 Labs (Munich) lève 30 M$ auprès d'Accel.",
+  "summary": "Fenêtre du 12 au 13 novembre dominée par le choc de gouvernance chez Nvidia et la demande record pour l'IPO d'Anthropic. En Europe, peu de tours software B2B mais deux signaux nets : la compta pour PME et cabinets continue d'attirer le capital (Horus, Well), et Lakestar enchaîne les deals de logiciel de défense (SE3 Labs, UFORCE).",
+  "sections": [
+    {
+      "key": "signals",
+      "title": "Ce qui se dessine",
+      "items": [
+        {
+          "title": "Compta PME : après les challengers IA, l'argent va aussi aux éditeurs installés",
+          "body": "Le 12 novembre, Horus Software (Liège, 4 000 comptables utilisateurs, quasi autofinancé) cède 40 % à Verto Growth sur une valorisation de 300 M€ (Dealroom), en s'appuyant sur l'obligation belge de facture électronique B2B en vigueur depuis janvier 2026 ; le même jour, Well (Paris) lève 3,6 M€ en pré-seed mené par Speedinvest pour récupérer automatiquement les factures fournisseurs des TPE. Cela prolonge la série Dougs (50 M€, 15 oct.), Ravical (29 oct.), Kabilio (10 M€, 5 nov.), Sumary et Numina (10 nov.). À creuser : les éditeurs comptables régionaux bootstrappés (France, DACH, Benelux) que la facture électronique rend stratégiques, cibles de growth minoritaire ou de rachat par les challengers IA mieux financés."
+        },
+        {
+          "title": "Lakestar enchaîne trois deals de logiciel de défense en huit jours",
+          "body": "Le 12 novembre, Lakestar participe à la Série A de 30 M$ de SE3 Labs (Munich, IA spatiale pour drones et systèmes autonomes, lead Accel) et aux 700 M$ d'UFORCE (Londres, 6 Md$), après avoir mené les 50 M€ de T-Unit (gestion de crise, 4 nov.). Cela confirme le signal du 10 novembre (Nominal, Onodrim) : la valeur se déplace vers la couche logicielle des systèmes de défense. À creuser : la perception, la fusion de capteurs et l'aide à la décision vendables aussi à l'industrie civile (inspection, logistique, sécurité des sites), où un ticket Série A reste accessible."
+        },
+        {
+          "title": "Outillage des agents : la consolidation se fait au sommet, aux US",
+          "body": "Le 12 novembre, LangChain lève 300 M$ à environ 3 Md$ (CapitalG) et prévoit de doubler ses effectifs, Mirendil lève 1 Md$ en Série A (Kleiner Perkins, Clearlake) pour automatiser la recherche en IA, et Luminal 25 M$ pour compiler et servir les modèles. La veille, Databricks lançait un agent Genie qui tourne en continu (11 nov.). En Europe, Nebuly (21 M$, 12 nov.) et Plurai (13 M$, 11 nov.) occupent l'évaluation et la mesure. À creuser : les briques européennes d'observabilité, d'évaluation et de gouvernance d'agents pour secteurs régulés, qui deviendront des cibles naturelles pour LangChain et les plateformes data."
+        },
+        {
+          "title": "Choc de gouvernance chez Nvidia, appétit intact pour Anthropic",
+          "body": "Nvidia confirme le 12 novembre la démission de Jensen Huang (acceptée le 11) et nomme sa DAF Colette Kress directrice générale par intérim ; l'action perd plus de 11 % en pré-ouverture. Le même jour, Bloomberg rapporte que l'IPO d'Anthropic (environ 1,4 T$, jusqu'à 64,4 Md$ levés plus 26 Md$ en placement privé, Nvidia y prenant environ 10 Md$) est six fois sursouscrite, alors qu'une gouverneure de la Fed alerte sur une correction possible. À creuser : l'exposition des startups européennes aux engagements de calcul et au financement fournisseur de Nvidia, et ce qu'une IPO réussie changerait aux valorisations des tours IA en cours."
+        }
+      ]
+    },
+    {
+      "key": "eu",
+      "title": "Levées Europe",
+      "intro": "Fenêtre du 12 au 13 novembre : flux software B2B modeste en Europe, dominé par la défense et la compta. Les gros tours hardware et défense (UFORCE, Agile Robots, Fractile) sont dans VC & écosystème ou déjà couverts hier ; Nebuly, Tano et sennder figuraient dans l'édition du 12.",
+      "items": [
+        {
+          "title": "SE3 Labs",
+          "amount": "30 M$ (25,5 M€ selon FrenchWeb)",
+          "stage": "Série A",
+          "country": "Allemagne (Munich)",
+          "investors": "Accel (lead), Lakestar, Keen Venture Partners, Seedcamp",
+          "body": "IA spatiale (vision 3D et LLM) qui permet aux drones et systèmes autonomes de comprendre leur environnement et d'obéir à la voix ; Hensoldt partenaire stratégique, seed de 5,5 M$ en juin. Lien : troisième deal défense de Lakestar en huit jours (T-Unit le 4 nov., UFORCE le 12). Fit : software B2B européen en Série A, IA appliquée en DACH ; tour au dessus de 15 M€ et verticale défense.",
+          "fit": true,
+          "url": "https://www.thecodew.com/2026/11/venture-capital-watch-november-13.html",
+          "source": "FrenchWeb, Specter",
+          "announced": "2026-11-12"
+        },
+        {
+          "title": "Griffin",
+          "amount": "20 M$",
+          "stage": "Série B",
+          "country": "Royaume-Uni (Londres)",
+          "investors": "Octagon Partners (lead), Breega, Notion Capital, NordicNinja, A+ Ventures, MassMutual Ventures",
+          "body": "Banque agréée qui fournit l'infrastructure bancaire en API (comptes, paiements, conformité) aux fintechs et plateformes ; post-money de 100 M$ selon Specter. Fit : Série B, montant compatible, infrastructure B2B avec Breega et Notion comme co-investisseurs européens ; modèle bancaire régulé et siège UK, moins cœur de thèse.",
+          "fit": true,
+          "url": "https://tech.eu/2026/11/12/uk-banking-infrastructure-fintech-griffin-raises-20m/",
+          "source": "Tech.eu",
+          "announced": "2026-11-12"
+        },
+        {
+          "title": "Horus Software",
+          "amount": "Non communiqué (40 % du capital, valorisation 300 M€)",
+          "stage": "Growth (minoritaire)",
+          "country": "Belgique (Liège)",
+          "investors": "Verto Growth",
+          "body": "Logiciel de comptabilité et de facturation pour fiduciaires et PME, 4 000 comptables utilisateurs, vise la Flandre et le Luxembourg face à Exact Online et Yuki ; Specter affiche un montant de 332 M$ qui ressemble à une valorisation, non retenu. Lien : prolonge la vague compta (Dougs, Kabilio, Sumary) et Well le même jour. Fit : SaaS compta et compliance au Benelux, mais opération growth hors stade Seed à Série B.",
+          "url": "https://dealroom.co/news/172026-belgium-s-horus-raises-growth-round-at-300m-valuation-to-take-on-flander/",
+          "source": "Dealroom, De Tijd via ITdaily",
+          "announced": "2026-11-12"
+        },
+        {
+          "title": "Well",
+          "amount": "3,6 M€ (4 M$)",
+          "stage": "Pré-seed",
+          "country": "France",
+          "investors": "Speedinvest (lead), Kima Ventures, 199 Ventures, Purple Ventures, Relics Ventures, Source Ventures, OPRTRS Club",
+          "body": "Automatise la récupération des factures fournisseurs et les tâches finance des TPE et PME, avec un assistant IA sur WhatsApp. Lien : même jour que Horus, et suite de Dougs et Numina côté outil direct aux PME. Fit : France, productivité finance pour PME, mais encore au stade pré-seed.",
+          "url": "https://www.frenchweb.fr/breaking-news/well-lance-son-assistant-ia-sur-whatsapp-et-annonce-une-levee-de-3-6-millions-d-euros/311dda84-d953-4de4-8526-9db6d5b373e3",
+          "source": "FrenchWeb, Specter",
+          "announced": "2026-11-12"
+        },
+        {
+          "title": "Opdo",
+          "amount": "2,3 M$ (≈ 2 M€)",
+          "stage": "Pré-seed",
+          "country": "Allemagne (Berlin) et États-Unis",
+          "investors": "Angular Ventures (lead), Inflection, Tiny.vc",
+          "body": "IA qui automatise l'ingénierie optique, de la conception aux composants, en se branchant dans Zemax et CODE V et en bouclant sur les données de fabrication. Lien : même logique que SPARETECH (10 nov.), le logiciel qui digitalise un métier d'ingénieur industriel. Fit : digitalisation de l'industrie, DACH, mais très tôt et en partie US.",
+          "url": "https://tech.eu/2026/11/12/berlin-la-startup-opdo-raises-23m-to-automate-optical-engineering-with-ai/",
+          "source": "Tech.eu",
+          "announced": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "key": "us",
+      "title": "Grosses levées US",
+      "intro": "Les plus gros chèques vont à la couche outils et recherche de l'IA (Mirendil, LangChain, Luminal) et aux infrastructures de données financières (Databento) : le capital se concentre sur ceux qui équipent les agents plutôt que sur les applications. Pour l'Europe, la fenêtre se ferme sur les frameworks horizontaux, mais l'évaluation, la gouvernance et l'IA pour les MSP (Hatz AI) restent des angles exportables.",
+      "items": [
+        {
+          "title": "Mirendil",
+          "amount": "1 Md$ (valorisation rapportée autour de 5 Md$)",
+          "stage": "Série A",
+          "country": "États-Unis (San Francisco)",
+          "investors": "Kleiner Perkins et Clearlake Capital (leads), Battery Ventures, Doerr Capital, Google, M13, Pear VC",
+          "body": "Fondée par d'anciens d'Anthropic, construit des systèmes qui automatisent l'entraînement de modèles, le code et les expériences scientifiques ; 200 M$ en seed fin juin, soit cinq fois plus en moins de cinq mois.",
+          "url": "https://www.securities.io/mirendil-raises-1-billion-series-a-for-agent-led-ai-research-tools/",
+          "source": "Securities.io",
+          "announced": "2026-11-12"
+        },
+        {
+          "title": "LangChain",
+          "amount": "300 M$ (valorisation environ 3 Md$)",
+          "stage": "Série C",
+          "country": "États-Unis",
+          "investors": "CapitalG (lead), IVP, Sapphire Ventures, GIC, DFJ Growth",
+          "body": "Frameworks open source d'agents (LangChain, LangGraph, Deep Agents) et LangSmith pour évaluer et superviser les agents en production ; vise 850 salariés fin 2027. Lien : écho direct à Nebuly et Plurai (11 et 12 nov.).",
+          "url": "https://siliconangle.com/2026/11/12/ai-agent-tooling-provider-langchain-secures-300m-investment/",
+          "source": "SiliconANGLE",
+          "announced": "2026-11-12"
+        },
+        {
+          "title": "Imprint",
+          "amount": "130 M$ (valorisation environ 1,9 Md$)",
+          "stage": "Tour non précisé",
+          "country": "États-Unis",
+          "investors": "Khosla Ventures (lead), Hedosophia, Ribbit Capital, Thrive Capital",
+          "body": "Infrastructure de cartes co-marquées, crédit, fidélité et données client pour les marques grand public.",
+          "url": "https://techstartups.com/2026/11/12/startup-funding-news-today-november-12-2026-fractile-uforce-agile-robots-imprint-more/",
+          "source": "Tech Startups",
+          "announced": "2026-11-12"
+        },
+        {
+          "title": "Databento",
+          "amount": "100 M$ (valorisation 1,1 Md$)",
+          "stage": "Série C",
+          "country": "États-Unis (Salt Lake City)",
+          "investors": "Fifth Down Capital (lead), NEA, DRW VC, Tribe Capital, Hedosophia, Fitch Ventures",
+          "body": "Données de marché temps réel et historiques par API (futures, options, actions) ; deuxième tour en quatre mois après 97 M$ en juillet.",
+          "url": "https://infotechlead.com/tech/vc-funding-deals-firmly-mirendil-langchain-databento-99604",
+          "source": "InfotechLead",
+          "announced": "2026-11-12"
+        },
+        {
+          "title": "Luminal",
+          "amount": "25 M$",
+          "stage": "Série A",
+          "country": "États-Unis (San Francisco)",
+          "investors": "Standard Capital (lead), Felicis, Liquid 2 Ventures, Saga Ventures, Y Combinator",
+          "body": "Compile les modèles PyTorch en code natif optimisé et propose de l'inférence serverless, plus de 100 clients entreprises revendiqués.",
+          "source": "Specter",
+          "announced": "2026-11-12"
+        },
+        {
+          "title": "Hatz AI",
+          "amount": "24 M$",
+          "stage": "Série A",
+          "country": "États-Unis (New York)",
+          "investors": "Nadia Partners (lead), The Private Shares Fund, Vestigo Ventures",
+          "body": "Système d'exploitation IA qui permet aux MSP (infogérants) de revendre de l'IA en service à leurs clients PME ; canal de distribution transposable en Europe.",
+          "source": "Specter",
+          "announced": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "key": "vc",
+      "title": "VC & écosystème",
+      "items": [
+        {
+          "title": "Jensen Huang démissionne de Nvidia, Colette Kress directrice générale par intérim",
+          "body": "Démission acceptée le 11 novembre et confirmée le 12, quelques jours après la révélation d'une liaison avec une personne présentée comme une espionne présumée ; Harvey Jones devient le premier président du conseil. L'action perd plus de 11 % en pré-ouverture. Nvidia est aussi un investisseur majeur de l'écosystème (Agile Robots, Pigment, Anthropic).",
+          "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "IPO Anthropic : six fois sursouscrite",
+          "body": "Selon Bloomberg (12 nov.), les ordres représentent environ six fois les titres offerts pour une valorisation d'environ 1,4 T$ et jusqu'à 90,4 Md$ levés avec le placement privé ; cotation prévue le 19 novembre selon CNBC, ticker ANT. Le revenu annualisé atteint 81 Md$ fin octobre.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ai-trade-barometer-anthropic-ipo-231418743.html",
+          "source": "Yahoo Finance, Bloomberg"
+        },
+        {
+          "title": "UFORCE lève 700 M$ en Série A à 6 Md$",
+          "body": "Le spécialiste des drones et systèmes autonomes fondé en Ukraine et basé à Londres lève auprès de Valor Equity Partners et du UK National Wealth Fund (co-leads), avec Menlo, Lakestar et Hiro Capital ; tour précédent à environ 1 Md$ en mars.",
+          "url": "https://tech.eu/2026/11/12/ukrainian-defence-tech-uforce-raises-700m-series-a-at-6b-valuation/",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "Norwest boucle 4 Md$ pour son fonds 18",
+          "body": "Plus gros fonds de son histoire, avec Wells Fargo comme unique LP, pour investir aux US, en Inde et en Israël ; environ 18 Md$ sous gestion.",
+          "url": "https://www.thecodew.com/2026/11/venture-capital-watch-november-13.html",
+          "source": "The CODEW"
+        },
+        {
+          "title": "Europe : 6 Md€ levés en octobre, en baisse de 62 %",
+          "body": "Tech.eu compte 288 deals en octobre (contre 300 en septembre) pour environ 6 Md€, le Royaume-Uni en tête (2,6 Md€, 75 deals), dix tours au dessus de 100 M€ et 39 sorties.",
+          "url": "https://tech.eu/2026/11/12/european-tech-startups-raise-eur6b-in-october-as-healthtech-leads-investment/",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "EIC Scaling Club : 4 Md€ levés, mais 80 % via des tours avec co-investisseur public",
+          "body": "Les 120 deeptechs du club ont levé plus de 4 Md€ depuis leur entrée, avec un tour moyen de 60,6 M€ contre 39,7 M€ pour un groupe témoin ; le rapport pointe toujours le manque de capital de croissance.",
+          "url": "https://tech.eu/2026/11/12/eic-scaling-club-companies-raise-eur4b-outpacing-european-deeptech-peers/",
+          "source": "Tech.eu"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "IA & software",
+      "items": [
+        {
+          "title": "Databricks lance un agent Genie qui tourne en continu",
+          "body": "Annoncé le 11 novembre, l'agent travaille en arrière plan sur des tâches longues, avec une fonction Ontology qui relie collaborateurs, projets et données. Pourquoi ça compte : les plateformes data absorbent la couche agent, ce qui réduit l'espace des startups d'analytics conversationnel et pousse vers des usages verticaux.",
+          "url": "https://fortune.com/2026/11/11/databricks/",
+          "source": "Fortune"
+        },
+        {
+          "title": "CoreWeave finance sa croissance par les prépaiements clients",
+          "body": "La société attend environ 9 Md$ de prépaiements et dépôts sur trois mois et raccourcit ses contrats, malgré un chiffre d'affaires trimestriel en hausse de 168 % à 3,66 Md$ et une perte nette de 709 M$. Pourquoi ça compte : le coût et les conditions du calcul se durcissent, avec un impact sur la marge brute des startups d'IA appliquée.",
+          "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "United refuse que des agents IA réservent ses vols",
+          "body": "La compagnie accepte que les assistants affichent ses offres mais exige que le client finalise l'achat (données personnelles, erreurs, règles aériennes). Pourquoi ça compte : les grands comptes vont exiger autorisation et traçabilité avant d'ouvrir leurs canaux aux agents, ce qui valorise la couche d'identité et de contrôle.",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+          "source": "The Verge"
+        },
+        {
+          "title": "Google lance l'API Gemini Decisions",
+          "body": "Pensée pour des décisions rapides (oui ou non, choix multiples, scoring), jusqu'à 1 000 questions par requête, à partir de 0,10 $ le million de jetons en entrée. Pourquoi ça compte : la classification et le scoring à grande échelle deviennent une commodité, ce qui fragilise les SaaS dont la valeur repose sur ces seules tâches.",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+          "source": "Google"
+        }
+      ]
+    },
+    {
+      "key": "read",
+      "title": "À lire / écouter",
+      "items": [
+        {
+          "title": "Tech.eu : le rapport d'octobre sur le financement européen",
+          "body": "Les chiffres du mois (6 Md€, 288 deals, poids du Royaume-Uni) et le PDF téléchargeable, utiles pour situer le marché avant un comité.",
+          "url": "https://tech.eu/2026/11/12/european-tech-startups-raise-eur6b-in-october-as-healthtech-leads-investment/",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "Dealroom : Horus veut défier la Flandre",
+          "body": "Un cas d'école de growth minoritaire sur un éditeur comptable bootstrappé, porté par la facture électronique obligatoire.",
+          "url": "https://dealroom.co/news/172026-belgium-s-horus-raises-growth-round-at-300m-valuation-to-take-on-flander/",
+          "source": "Dealroom"
+        },
+        {
+          "title": "Stratechery : entretien avec Jensen Huang sur le calcul accéléré",
+          "body": "À relire à la lumière de son départ : la vision stratégique qu'il portait chez Nvidia et ce qui dépend désormais de sa succession.",
+          "url": "https://stratechery.com/2026/an-interview-with-nvidia-ceo-jensen-huang-about-accelerated-computing/",
+          "source": "Stratechery"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "TechCrunch : Nvidia's Jensen Huang resigns",
+      "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/"
+    },
+    {
+      "title": "Maddyness : Jensen Huang démissionne",
+      "url": "https://maddyness.com/2026/11/12/seisme-dans-la-tech-le-patron-de-nvidia-jensen-huang-demissionne"
+    },
+    {
+      "title": "Yahoo Finance : Anthropic IPO six fois sursouscrite",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ai-trade-barometer-anthropic-ipo-231418743.html"
+    },
+    {
+      "title": "CNBC : Anthropic price range, trading Nov. 19",
+      "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+    },
+    {
+      "title": "Dealroom : Horus raises growth round at €300M valuation",
+      "url": "https://dealroom.co/news/172026-belgium-s-horus-raises-growth-round-at-300m-valuation-to-take-on-flander/"
+    },
+    {
+      "title": "ITdaily : Horus Software sells 40 percent",
+      "url": "https://itdaily.com/news/business/horus-software-french-investor/"
+    },
+    {
+      "title": "The CODEW : Venture Capital Watch, 13 novembre",
+      "url": "https://www.thecodew.com/2026/11/venture-capital-watch-november-13.html"
+    },
+    {
+      "title": "Tech.eu : Griffin raises $20M",
+      "url": "https://tech.eu/2026/11/12/uk-banking-infrastructure-fintech-griffin-raises-20m/"
+    },
+    {
+      "title": "Tech.eu : Opdo raises $2.3M",
+      "url": "https://tech.eu/2026/11/12/berlin-la-startup-opdo-raises-23m-to-automate-optical-engineering-with-ai/"
+    },
+    {
+      "title": "Tech.eu : UFORCE raises $700M",
+      "url": "https://tech.eu/2026/11/12/ukrainian-defence-tech-uforce-raises-700m-series-a-at-6b-valuation/"
+    },
+    {
+      "title": "FrenchWeb : Well lève 3,6 M€",
+      "url": "https://www.frenchweb.fr/breaking-news/well-lance-son-assistant-ia-sur-whatsapp-et-annonce-une-levee-de-3-6-millions-d-euros/311dda84-d953-4de4-8526-9db6d5b373e3"
+    },
+    {
+      "title": "SiliconANGLE : LangChain secures $300M",
+      "url": "https://siliconangle.com/2026/11/12/ai-agent-tooling-provider-langchain-secures-300m-investment/"
+    },
+    {
+      "title": "Securities.io : Mirendil raises $1B Series A",
+      "url": "https://www.securities.io/mirendil-raises-1-billion-series-a-for-agent-led-ai-research-tools/"
+    },
+    {
+      "title": "InfotechLead : firmly, Mirendil, LangChain, Databento",
+      "url": "https://infotechlead.com/tech/vc-funding-deals-firmly-mirendil-langchain-databento-99604"
+    },
+    {
+      "title": "Tech Startups : funding news 12 novembre",
+      "url": "https://techstartups.com/2026/11/12/startup-funding-news-today-november-12-2026-fractile-uforce-agile-robots-imprint-more/"
+    },
+    {
+      "title": "Tech.eu : European tech startups raise €6B in October",
+      "url": "https://tech.eu/2026/11/12/european-tech-startups-raise-eur6b-in-october-as-healthtech-leads-investment/"
+    },
+    {
+      "title": "Tech.eu : EIC Scaling Club raises €4B",
+      "url": "https://tech.eu/2026/11/12/eic-scaling-club-companies-raise-eur4b-outpacing-european-deeptech-peers/"
+    },
+    {
+      "title": "The Neuron : AI news 12 novembre",
+      "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-12-2026/"
+    },
+    {
+      "title": "Fortune : Databricks Genie",
+      "url": "https://fortune.com/2026/11/11/databricks/"
+    },
+    {
+      "title": "TechCrunch : CoreWeave prepayments",
+      "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/"
+    }
+  ]
+}
