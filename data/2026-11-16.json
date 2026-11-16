@@ -1,0 +1,325 @@
+{
+  "date": "2026-11-16",
+  "headline": "Daisytuner (Darmstadt) lève 6 M€ pour faire tourner les modèles d'IA sur toutes les puces, quatre jours après les 25 M$ de Luminal, pendant qu'OpenAI ouvre un portefeuille à ses agents et que Plural boucle 1 Md€ pour les « moonshots » européens.",
+  "summary": "Week-end calme côté levées : en Europe, l'argent du jour va à la couche logicielle de l'inférence (Daisytuner) et à l'IA industrielle finlandaise (Intergrid, Stoa). Côté marché, la semaine sera dominée par les résultats de Nvidia (17 nov.) et le prix de l'IPO d'Anthropic (18 nov.).",
+  "sections": [
+    {
+      "key": "signals",
+      "title": "Ce qui se dessine",
+      "items": [
+        {
+          "title": "Sortir de la dépendance Nvidia : la couche compilateur se finance des deux côtés de l'Atlantique",
+          "body": "Daisytuner (Darmstadt) lève 6 M€ le 16 novembre pour un compilateur open source qui traduit le code PyTorch vers les GPU Nvidia, AMD et les nouveaux accélérateurs, quatre jours après les 25 M$ de Luminal (12 nov.) sur le même problème côté US. Entre-temps, Nvidia a perdu son patron (12 nov.) et publie ses résultats le 17, alors que Fractile et Tendrils levaient pour de nouvelles puces (11 et 12 nov.). À creuser : les briques d'inférence portables et déployables sur l'infrastructure du client (AMD, accélérateurs européens, on-prem) vendues aux industriels et aux acteurs régulés européens, et la question à poser : qui capte la marge quand le matériel se diversifie."
+        },
+        {
+          "title": "Les agents passent à la caisse, le B2B suivra",
+          "body": "OpenAI active le 13 novembre ChatGPT Wallet, qui laisse ses agents acheter avec un jeton par transaction (Amex, Mastercard, Visa), et Reuters rapporte le même jour qu'Amazon veut agréger les données produit du web pour servir les agents d'achat. Cela suit Pliant (80 M$, 4 nov.), qui ouvre ses rails de paiement B2B aux agents via MCP, Tano (11 nov.) qui fait négocier des deals par agents, et Mondrio (3,75 M$, 12 nov., Heartcore) sur la tarification B2B par agents. À creuser : la version B2B européenne, c'est à dire des catalogues et grilles de prix lisibles par des agents, des agents achats avec plafonds de dépense, et la conformité (authentification forte, mandats) des paiements initiés par agent."
+        },
+        {
+          "title": "Déployer l'IA chez le client devient un actif qu'on achète",
+          "body": "Le 13 novembre, PostScriptum (Peter Sarlin, fondateur de Silo AI) prend la majorité de Brillian, société finlandaise de déploiement de l'IA de bout en bout (Siemens, Storytel, Carnival), et Cohere finalise le rachat d'AISLE en faisant de Prague son hub de cybersécurité IA. Cela prolonge la société de déploiement financée par Hg et Anthropic (3 nov.), ProServal de Serval (30 oct.) et la mesure du ROI des agents par Nebuly (12 nov.). À creuser : les sociétés de services IA natives en France et DACH qui productisent leur savoir-faire (agents réutilisables, outils de mesure), avec la question clé de la part de revenu récurrent logiciel."
+        },
+        {
+          "title": "Industrie et énergie : Lifeline Ventures double la mise à Helsinki",
+          "body": "Le 16 novembre, Intergrid lève 23,5 M€ (Kvanted, Tesi, avec Lifeline Ventures au tour) pour piloter en autonomie l'énergie de plus de 100 sites industriels, et Stoa 3,5 M€ menés par Lifeline pour coordonner les chantiers, data centers compris. Cela suit SPARETECH (pièces détachées, 10 nov.) et Syn2Core (copilote d'atelier, 5 nov.), et côté US Torus (500 M$, 11 nov.) qui installe du calcul sur la capacité réseau inutilisée. À creuser : la flexibilité énergétique logicielle pour sites industriels en Allemagne et en France, et les outils de coordination de chantier pour la vague de construction de data centers."
+        }
+      ]
+    },
+    {
+      "key": "eu",
+      "title": "Levées Europe",
+      "intro": "Fenêtre du vendredi 13 au lundi 16 novembre : peu de tours software B2B, et aucun repéré par Specter sur la France, la DACH ou le Benelux après le 12. Exclus car annoncés avant la fenêtre : triPica et Heal.dev (10 nov., repris dans le récap Maddyness du 13), Mondrio (12 nov.), Well (12 nov., déjà couvert). Treat (Helsinki, 3 M€, 16 nov.) est un service de soins plus qu'un logiciel, non retenu.",
+      "items": [
+        {
+          "title": "Daisytuner",
+          "amount": "6 M€",
+          "stage": "Seed",
+          "country": "Allemagne (Darmstadt)",
+          "investors": "Elaia et LEA Ventures (co-leads), Amadeus APEX Technology Fund, Seedcamp",
+          "body": "Automatise l'optimisation des modèles d'IA : compilateur open source qui convertit PyTorch en code spécifique à chaque puce (Nvidia, AMD, nouveaux accélérateurs), plus Daisyflow, moteur d'inférence sur l'infrastructure du client (jusqu'à 18 % plus rapide que vLLM sur AMD Instinct selon la société). Lien : même problème que Luminal (25 M$, 12 nov.). Fit : software B2B européen, Seed, infrastructure IA, avec un lead français early stage ; Série A à surveiller.",
+          "fit": true,
+          "url": "https://www.eu-startups.com/2026/11/germanys-daisytuner-raises-e6-million-to-make-ai-models-run-faster-across-nvidia-amd-and-emerging-chips/",
+          "source": "EU-Startups, TechFlow",
+          "announced": "2026-11-16"
+        },
+        {
+          "title": "Intergrid",
+          "amount": "23,5 M€ (dont 2,7 M€ de Business Finland et un prêt Finnvera)",
+          "stage": "Non précisé",
+          "country": "Finlande (Helsinki)",
+          "investors": "Kvanted et Tesi (co-leads), True Ventures, Lifeline Ventures, First Fellow Partners",
+          "body": "Autopilot pilote en autonomie l'énergie des sites industriels (agroalimentaire, réseaux de chaleur, serres) : choix de la source la moins chère, ajustement en temps réel et trading sur les marchés de l'énergie et de la flexibilité, sur plus de 100 sites. Lien : IA appliquée aux opérations industrielles, après SPARETECH (10 nov.). Fit : software B2B de digitalisation de l'industrie, montant equity compatible ; siège nordique, hors zones prioritaires.",
+          "fit": true,
+          "url": "https://tech.eu/2026/11/16/intergrid-secures-eur235m-to-power-autonomous-industrial-energy-operations/",
+          "source": "Tech.eu",
+          "announced": "2026-11-16"
+        },
+        {
+          "title": "Incision",
+          "amount": "4 M€",
+          "stage": "Non précisé",
+          "country": "Pays-Bas (Amsterdam)",
+          "investors": "HERAN Partners (HealthTech Fund II)",
+          "body": "Logiciel qui aide les équipes de bloc opératoire et de stérilisation à préparer les interventions ; le tour finance l'expansion aux États-Unis et des partenariats medtech. Fit : Benelux et software B2B, mais verticale santé, moins centrale pour le software B2B généraliste et ticket modeste.",
+          "url": "https://europestartupjobs.com/europe-startup-daily-2026-11-13/",
+          "source": "Europe Startup Daily",
+          "announced": "2026-11-13"
+        },
+        {
+          "title": "Stoa",
+          "amount": "3,5 M€",
+          "stage": "Pré-seed",
+          "country": "Finlande (Helsinki)",
+          "investors": "Lifeline Ventures (lead), Illusian, Wave Ventures ; angels dont Pekka Lundmark et les cofondateurs de PlanGrid",
+          "body": "Plateforme IA qui relie plans, plannings et rapports qualité et sécurité pour suivre l'avancement des chantiers complexes, utilisée sur des dizaines de chantiers nordiques dont des data centers. Lien : deuxième deal Lifeline du jour avec Intergrid. Fit : IA appliquée à la construction, mais pré-seed et hors zones prioritaires, trop tôt.",
+          "url": "https://tech.eu/2026/11/16/backed-by-supercell-wolt-and-plangrid-founders-stoa-lands-eur35m-to-bring-ai-to-construction-sites/",
+          "source": "Tech.eu",
+          "announced": "2026-11-16"
+        },
+        {
+          "title": "ValkaAI",
+          "amount": "13 M€ (extension, après 12 M€ en février)",
+          "stage": "Pré-seed (extension)",
+          "country": "Tchéquie",
+          "investors": "Look AI Ventures, ff Venture Capital (Rockaway Ventures avait mené le premier closing)",
+          "body": "IA générative temps réel pour personnages numériques lors d'événements sportifs, d'esport et médias ; l'argent va à la recherche vidéo et audio. Fit : faible, média et divertissement, pré-seed, hors zones prioritaires.",
+          "url": "https://europestartupjobs.com/europe-startup-daily-2026-11-13/",
+          "source": "Europe Startup Daily",
+          "announced": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "key": "us",
+      "title": "Grosses levées US",
+      "intro": "Fenêtre creuse : les très gros tours de la semaine (Mirendil, LangChain, Mercor, Torus) ont été annoncés avant vendredi et figurent dans les éditions précédentes. Ce qui sort depuis confirme deux thèmes : l'IA physique appliquée à la fabrication, souvent par l'angle défense, et des labs qui lèvent sous leurs ambitions de valorisation initiales, ce qui finit par redescendre la chaîne vers les tours de croissance.",
+      "items": [
+        {
+          "title": "OpenAI",
+          "amount": "15 Md$ réunis selon Tech Funding News (11 Md$ rapportés le 6 nov.)",
+          "stage": "Tour privé en cours",
+          "country": "États-Unis",
+          "investors": "Non communiqués",
+          "body": "Valorisation de 1,25 T$, en dessous des 1,4 T$ visés fin septembre ; le tour grossit à quelques jours de l'IPO d'Anthropic (prix le 18 nov.). Chiffre rapporté, non confirmé par OpenAI.",
+          "url": "https://techfundingnews.com/openai-reportedly-raises-15b-at-1-25t-valuation-as-anthropic-ipo-approaches/",
+          "source": "Tech Funding News",
+          "announced": "2026-11-13"
+        },
+        {
+          "title": "Nidus",
+          "amount": "30 M$",
+          "stage": "Pré-seed et seed",
+          "country": "États-Unis",
+          "investors": "Kleiner Perkins, Costanoa (co-leads)",
+          "body": "Modèles de fondation robotiques pour automatiser la fabrication, avec un premier marché dans l'industrie de défense américaine. Lien : suit Path Robotics (300 M$, 10 nov.) et Nominal (9 nov.).",
+          "url": "https://www.upstartsmedia.com/p/nidus-ai-robotics-raises-30m",
+          "source": "Upstarts, via Techmeme",
+          "announced": "2026-11-14"
+        },
+        {
+          "title": "Tristar AI",
+          "amount": "12,4 M$",
+          "stage": "Non précisé",
+          "country": "États-Unis",
+          "investors": "Dont le fonds de capital-risque d'une ESN française (selon CFNews)",
+          "body": "Détection de défauts industriels par vision par ordinateur, quelques millions de dollars d'ARR et une croissance à trois chiffres selon CFNews. Lien : même famille que SPARETECH et Syn2Core en Europe, avec un VC corporate français à la table.",
+          "url": "https://www.cfnews.net/L-actualite/International/Operations/Capital-innovation/Le-VC-d-une-ESN-francaise-chez-Tristar-AI-760128",
+          "source": "CFNews, AlleyWatch",
+          "announced": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "key": "vc",
+      "title": "VC & écosystème",
+      "items": [
+        {
+          "title": "Plural lève 1 Md€ pour les « moonshots » européens",
+          "body": "Deux tiers pour un troisième fonds early stage, un tiers pour un fonds d'opportunités en suivi ; six partenaires (Londres, Paris, Tallinn), thèse énergie, infrastructure IA, défense et santé, avec des chèques qui peuvent monter à quelques centaines de millions. S'ajoute à Creandum (750 M$) et redalpine (250 M$) ce mois-ci.",
+          "url": "https://techcrunch.com/2026/11/15/helsing-backer-plural-raises-1-1b-to-fund-europes-next-moonshots/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Semaine clé : Nvidia le 17, Anthropic le 18",
+          "body": "Nvidia publie mardi ses premiers résultats sans Jensen Huang ; Anthropic fixe son prix mercredi (environ 825 M d'actions entre 70 et 78 $, soit 1,3 à 1,45 T$) pour une cotation jeudi sous le ticker ANT. Bloomberg rapporte le 13 que les ordres de Chine continentale et de Hong Kong sont écartés.",
+          "url": "https://finance.yahoo.com/markets/article/nvidias-first-post-jensen-earnings-and-anthropics-ipo-what-to-watch-this-week-110000732.html",
+          "source": "Yahoo Finance, Bloomberg"
+        },
+        {
+          "title": "Nscale : 5,5 Md$ de dette et un besoin de financement pour 2027",
+          "body": "L'amendement au S-1 (13 nov.) montre 5,5 Md$ de dette en septembre et des liens resserrés avec Nvidia ; le FT écrit que la société doit lever davantage pour ses engagements 2027, ce qui fragilise l'IPO du principal néocloud européen.",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/neocloud-nscale-reveals-5-5-billion-debt-and-closer-nvidia-ties-ahead-of-ipo",
+          "source": "Bloomberg, FT"
+        },
+        {
+          "title": "Bruxelles : cinq mesures pour les business angels",
+          "body": "Accréditation européenne commune des angels (base possible pour des incitations fiscales et le co-investissement transfrontalier), extension du réseau d'investisseurs de confiance de l'EIC aux angels, cartographie des schémas de co-investissement avec InvestEU, plateforme d'innovation et passerelles avec le crowdfunding (13 nov.).",
+          "url": "https://tech.eu/2026/11/13/european-commission-unveils-five-measures-to-boost-angel-investment-across-europe/",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "M&A software du 13 novembre",
+          "body": "PostScriptum prend la majorité de Brillian (déploiement IA, Finlande) ; Cohere finalise AISLE et fait de Prague son hub de cybersécurité IA ; Volaris (Constellation) intègre l'éditeur suisse Allocare ; smartTrade (TA Associates) signe sa deuxième acquisition. Plus tôt dans la semaine, saas.group rachetait Aplano (planning d'équipes, Berlin, 10 nov.), son 28e rachat.",
+          "url": "https://tech.eu/2026/11/13/peter-sarlins-postscriptum-acquires-majority-stake-in-brillian-to-accelerate-global-growth/",
+          "source": "Tech.eu, startupticker.ch, CFNews"
+        },
+        {
+          "title": "Les chiffres de la semaine",
+          "body": "Tech.eu compte plus de 60 deals et plus de 2,3 Md€ en Europe sur la semaine ; la French Tech lève 118,2 M€ en 8 tours (Maddyness), tirée par la santé (Resilience 48 M€, Orakl 30,7 M€). TSMC prépare un fonds de 500 M$ pour les startups de puces (Nikkei, 15 nov.).",
+          "url": "https://www.maddyness.com/2026/11/13/les-startups-francaises-ont-leve-118-millions-deuros-cette-semaine-2/",
+          "source": "Maddyness, Tech.eu"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "IA & software",
+      "items": [
+        {
+          "title": "ChatGPT Wallet : les agents d'OpenAI achètent pour l'utilisateur",
+          "body": "Lancé le 13 novembre pour une partie des abonnés Pro US, avec un jeton par transaction plutôt que le numéro de carte. Pour un investisseur B2B : la question de l'autorisation et du contrôle des dépenses d'agents arrive en entreprise, terrain des éditeurs de spend management et de paiement.",
+          "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
+          "source": "CNBC"
+        },
+        {
+          "title": "Amazon veut posséder la donnée produit du web",
+          "body": "Reuters rapporte le 13 novembre qu'Amazon prévoit d'agréger les données produit à l'échelle du web, en partie pour servir les agents d'achat. Pour le B2B : la donnée catalogue structurée devient une infrastructure, utile pour juger les éditeurs PIM et de tarification européens.",
+          "url": "https://www.reuters.com/business/media-telecom/amazons-plan-own-worlds-product-data-fight-ai-shopping-agents-2026-11-13/",
+          "source": "Reuters"
+        },
+        {
+          "title": "Dario Amodei : prévoir le calcul, « le dilemme le plus profond »",
+          "body": "Le patron d'Anthropic décrit le 13 novembre la prévision des besoins de calcul comme son principal risque business, à quelques jours de l'IPO. Pour un investisseur : les engagements de calcul pèsent sur les marges des labs, donc sur les prix d'API que paient les startups applicatives.",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/anthropic-ceo-calls-computing-power-deepest-business-dilemma",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "OpenAI dissout son équipe robotique autonome",
+          "body": "Annoncé le 13 novembre : les chercheurs rejoignent la recherche, le matériel passe dans la branche Applied, au motif que les modèles généralistes pilotent déjà des robots. Signal pour l'IA physique : la valeur se déplace vers la donnée et l'intégration métier, là où se positionnent Physicl ou Nidus.",
+          "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+          "source": "Fortune"
+        },
+        {
+          "title": "Panne Microsoft 365 de plus d'une journée",
+          "body": "Commencée jeudi 12 et résolue vendredi 13, attribuée à une mise à niveau réseau. Rappel du risque de concentration sur un fournisseur, argument de vente pour la résilience et le multi-cloud chez les clients européens.",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/microsoft-says-making-progress-fixing-one-of-its-longest-outages",
+          "source": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "key": "read",
+      "title": "À lire / écouter",
+      "items": [
+        {
+          "title": "Interconnects : l'IA open source sans Jensen",
+          "body": "Nathan Lambert (14 nov.) explique pourquoi le départ de Jensen Huang fragilise le financement des modèles ouverts américains ; utile pour évaluer les startups européennes construites sur des modèles ouverts.",
+          "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen",
+          "source": "Interconnects"
+        },
+        {
+          "title": "Dwarkesh Patel sur l'auto-amélioration récursive",
+          "body": "Essai du 13 novembre sur la possibilité que l'IA égale bientôt les meilleurs chercheurs ; éclaire la thèse derrière le milliard de Mirendil.",
+          "url": "https://www.dwarkesh.com/p/rsi",
+          "source": "Dwarkesh Podcast"
+        },
+        {
+          "title": "TechCrunch : le cimetière de l'IA",
+          "body": "Liste tenue à jour (14 nov.) des projets et startups IA qui n'ont pas tenu ; bon contrepoint aux méga-tours pour repérer les modèles économiques fragiles.",
+          "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+          "source": "TechCrunch"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "EU-Startups : Daisytuner lève 6 M€",
+      "url": "https://www.eu-startups.com/2026/11/germanys-daisytuner-raises-e6-million-to-make-ai-models-run-faster-across-nvidia-amd-and-emerging-chips/"
+    },
+    {
+      "title": "Tech.eu : Intergrid lève 23,5 M€",
+      "url": "https://tech.eu/2026/11/16/intergrid-secures-eur235m-to-power-autonomous-industrial-energy-operations/"
+    },
+    {
+      "title": "Tech.eu : Stoa lève 3,5 M€",
+      "url": "https://tech.eu/2026/11/16/backed-by-supercell-wolt-and-plangrid-founders-stoa-lands-eur35m-to-bring-ai-to-construction-sites/"
+    },
+    {
+      "title": "Tech.eu : Treat lève 3 M€",
+      "url": "https://tech.eu/2026/11/16/finnish-healthtech-treat-raises-eur3m-to-tackle-inefficiencies-in-private-healthcare/"
+    },
+    {
+      "title": "Europe Startup Daily, 13 novembre",
+      "url": "https://europestartupjobs.com/europe-startup-daily-2026-11-13/"
+    },
+    {
+      "title": "Tech.eu : PostScriptum prend la majorité de Brillian",
+      "url": "https://tech.eu/2026/11/13/peter-sarlins-postscriptum-acquires-majority-stake-in-brillian-to-accelerate-global-growth/"
+    },
+    {
+      "title": "Tech.eu : cinq mesures pour les business angels",
+      "url": "https://tech.eu/2026/11/13/european-commission-unveils-five-measures-to-boost-angel-investment-across-europe/"
+    },
+    {
+      "title": "Tech.eu : récap hebdomadaire du 13 novembre",
+      "url": "https://tech.eu/2026/11/13/defencetech-uforce-raises-700m-eic-scaling-club-companies-raise-4b-and-healthtech-leads-investment-in-october/"
+    },
+    {
+      "title": "Maddyness : la French Tech a levé 118 M€ cette semaine",
+      "url": "https://www.maddyness.com/2026/11/13/les-startups-francaises-ont-leve-118-millions-deuros-cette-semaine-2/"
+    },
+    {
+      "title": "TechCrunch : Plural lève 1,1 Md$",
+      "url": "https://techcrunch.com/2026/11/15/helsing-backer-plural-raises-1-1b-to-fund-europes-next-moonshots/"
+    },
+    {
+      "title": "Yahoo Finance : Nvidia et l'IPO d'Anthropic, la semaine à suivre",
+      "url": "https://finance.yahoo.com/markets/article/nvidias-first-post-jensen-earnings-and-anthropics-ipo-what-to-watch-this-week-110000732.html"
+    },
+    {
+      "title": "Bloomberg : la dette de Nscale",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/neocloud-nscale-reveals-5-5-billion-debt-and-closer-nvidia-ties-ahead-of-ipo"
+    },
+    {
+      "title": "startupticker.ch : Allocare rejoint Volaris",
+      "url": "https://www.startupticker.ch/index.php/en/news/luzerner-softwareanbieter-allocare-wird-teil-der-volaris-group"
+    },
+    {
+      "title": "CFNews : Tristar AI",
+      "url": "https://www.cfnews.net/L-actualite/International/Operations/Capital-innovation/Le-VC-d-une-ESN-francaise-chez-Tristar-AI-760128"
+    },
+    {
+      "title": "Upstarts : Nidus lève 30 M$",
+      "url": "https://www.upstartsmedia.com/p/nidus-ai-robotics-raises-30m"
+    },
+    {
+      "title": "Tech Funding News : OpenAI à 15 Md$",
+      "url": "https://techfundingnews.com/openai-reportedly-raises-15b-at-1-25t-valuation-as-anthropic-ipo-approaches/"
+    },
+    {
+      "title": "CNBC : ChatGPT Wallet",
+      "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html"
+    },
+    {
+      "title": "Reuters : Amazon et la donnée produit",
+      "url": "https://www.reuters.com/business/media-telecom/amazons-plan-own-worlds-product-data-fight-ai-shopping-agents-2026-11-13/"
+    },
+    {
+      "title": "Fortune : OpenAI dissout son équipe robotique",
+      "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/"
+    },
+    {
+      "title": "Crunchbase News : les 10 plus gros tours de la semaine",
+      "url": "https://news.crunchbase.com/venture/biggest-startup-funding-rounds-agentic-ai-infrastructure-mirendil-mercor/"
+    },
+    {
+      "title": "AlleyWatch : rapport hebdomadaire du 16 novembre",
+      "url": "https://www.alleywatch.com/2026/11/the-weekly-notable-startup-funding-report-11-16-26/"
+    },
+    {
+      "title": "Interconnects : open source AI without Jensen",
+      "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen"
+    }
+  ]
+}
