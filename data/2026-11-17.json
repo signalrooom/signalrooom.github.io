@@ -1,0 +1,293 @@
+{
+  "date": "2026-11-17",
+  "headline": "Corma lève 125 M$ à 1 Md$ trois mois après son lancement, le jour où Google documente la première chaîne d'exploitation 100 % autonome et où la Californie attaque OpenAI pour ses agents incontrôlés ; en Europe, Mosaico (7,5 M€) et Valeria (5,5 M€) financent la donnée robotique et la paie IA.",
+  "summary": "Fenêtre calme en Europe (lundi 16 et nuit) mais trois seeds très alignés : Mosaico (données pour l'IA physique), Previsia (prévention des risques en assurance, Toulouse) et Valeria (paie IA, Barcelone). Côté US, la sécurité IA et l'IA d'entreprise « qu'on possède » captent les gros chèques, avant le test Nvidia ce soir et l'IPO Anthropic jeudi.",
+  "sections": [
+    {
+      "key": "signals",
+      "title": "Ce qui se dessine",
+      "items": [
+        {
+          "title": "Agents offensifs, agents hors de contrôle : la sécurité IA change d'échelle",
+          "body": "Le 16 nov., Google (GTIG/Mandiant) décrit « exploit_agent », un framework qui transforme des correctifs en exploits sans humain dans la boucle ; le même jour, la Californie poursuit OpenAI pour plus de 80 incidents d'agents « hors de contrôle », Optimizely est compromis chez 178 clients et Corma (IA défensive) lève 125 M$ à 1 Md$. Ça prolonge Sentra (150 M$, 5 nov.), le rachat de Clutch par Palo Alto (~500 M$, 6 nov.) et les trois tours sécu du 10 nov. À creuser : en France/DACH, les seeds et Séries A sur la sécurité d'exécution des agents (permissions, traçabilité, kill switch) et la chaîne d'approvisionnement SaaS/JS tiers, où les acheteurs auront un budget dès 2027."
+        },
+        {
+          "title": "Après la compta, la paie : l'IA gagne les fonctions RH réglementées",
+          "body": "Valeria (Barcelone) lève 5,5 M€ le 16 nov. pour automatiser la paie et ses déclarations auprès de l'administration, dans la même ville que Kabilio (compta IA, 10 M€, 5 nov.) et une semaine après Sumary (25 M$) et Numina (10 nov.) sur la compta. La piste « paie » évoquée début novembre se matérialise. À creuser : les équivalents français (DSN, conventions collectives) et allemands (Lohnabrechnung), terrain très réglementé où un éditeur IA peut prendre le relais des cabinets."
+        },
+        {
+          "title": "IA physique : la plomberie de données se finance",
+          "body": "Mosaico (Italie) lève 7,5 M€ le 16 nov. pour gérer les données capteurs des robots, dix jours après Physicl (Paris, 10 M$, 6 nov.) sur les données d'entraînement et une semaine après SPARETECH (Munich, 20 M$, 10 nov.) et Agile Robots (500 M$, 12 nov.). L'argent descend du robot vers la couche données. À creuser : data ops, replay et simulation pour la robotique industrielle en DACH, où se trouvent les clients (Munich, Stuttgart)."
+        },
+        {
+          "title": "Posséder son IA plutôt que la louer",
+          "body": "Noeri lance le 16 nov. avec 110 M$ (Menlo, avec Nvidia, Snowflake, Cisco) pour que les entreprises adaptent et possèdent leurs modèles ; le même jour Daisytuner (Darmstadt, 6 M€) finance l'inférence multi-puces, et Arthur Mensch (Mistral, 20VC) insiste sur la sécurité d'approvisionnement des modèles. À creuser : outils européens d'adaptation, d'évaluation et de déploiement on-premise pour industriels et acteurs régulés qui veulent garder leurs modèles."
+        }
+      ]
+    },
+    {
+      "key": "eu",
+      "title": "Levées Europe",
+      "intro": "Peu de tours dans la fenêtre (lundi 16 et nuit). Daisytuner, Intergrid et Stoa (16 nov.) figuraient déjà dans l'édition d'hier. Treat (Finlande, 3 M€) est exclu : service de soins, pas du software B2B.",
+      "items": [
+        {
+          "title": "Mosaico",
+          "amount": "7,5 M€",
+          "stage": "Seed",
+          "country": "Italie (Émilie-Romagne)",
+          "investors": "United Ventures (lead), OpenOcean, Connect Ventures",
+          "body": "Plateforme open source de gestion des données multi-capteurs (caméras, LiDAR, IMU) pour la robotique et l'IA physique, déployable on-premise ; 1 200 membres dans la communauté. Lien : Physicl (6 nov.) et SPARETECH (10 nov.). Fit : infrastructure data B2B, seed, ticket compatible ; Italie, mais thèse data/infra très alignée avec le software B2B européen.",
+          "fit": true,
+          "url": "https://bebeez.it/venture-capital/mosaico-raccoglie-75-mln-euro-da-united-ventures-openocean-e-connect-ventures-per-la-physical-ai/",
+          "source": "BeBeez / Forbes Italia",
+          "announced": "2026-11-16"
+        },
+        {
+          "title": "Previsia",
+          "amount": "3,8 M€",
+          "stage": "Seed",
+          "country": "France (Toulouse)",
+          "investors": "IRDI, ARIS",
+          "body": "Plateforme IA de prévention des risques pour l'assurance des entreprises, qui assiste ou remplace les visites de risques sur site (~3 000 € l'unité) ; rentable, 15 personnes. Lien : la vague logiciel d'assurance notée le 3 nov. Fit : France, B2B, digitalisation des services financiers et compliance ; seed à suivre pour une Série A.",
+          "fit": true,
+          "url": "https://techfundingnews.com/previsia-raises-3-8m-ai-risk-prevention-seed",
+          "source": "Tech Funding News",
+          "announced": "2026-11-17"
+        },
+        {
+          "title": "Valeria",
+          "amount": "5,5 M€",
+          "stage": "Seed",
+          "country": "Espagne (Barcelone)",
+          "investors": "BlackFin (lead), VentureFriends, Fortino, GoHub",
+          "body": "Plateforme RH et paie IA pour les entreprises à fort turnover (livraison, flottes), avec moteur de paie connecté aux API de l'administration ; 100 clients, 20 000 salariés. Lien : Kabilio (compta IA, Barcelone, 5 nov.). Fit : SaaS B2B compliance et productivité, seed ; très ancré sur la réglementation espagnole.",
+          "fit": true,
+          "url": "https://tech.eu/2026/11/16/valeria-raises-eur55m-to-accelerate-ai-powered-payroll-and-hr-automation/",
+          "source": "Tech.eu",
+          "announced": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "key": "us",
+      "title": "Grosses levées US",
+      "intro": "La sécurité IA native se paie au prix fort (Corma licorne trois mois après son lancement) et l'IA d'entreprise « adaptée et possédée » (Noeri, Edra) attire les stratégiques data (Snowflake, Cisco). Les agents verticaux pour PME et concessions (Numa, Bevado) continuent de lever : des thèmes qui arrivent déjà en Europe.",
+      "items": [
+        {
+          "title": "Corma",
+          "amount": "125 M$ (valorisation 1 Md$)",
+          "stage": "Série A",
+          "country": "Israël / États-Unis",
+          "investors": "NEA (lead), Sequoia, Khosla, Coatue",
+          "body": "Modèles de fondation propriétaires dédiés à la cybersécurité défensive ; 185 M$ levés au total, dont 60 M$ en août.",
+          "url": "https://www.kucoin.com/fr/news/flash/corma-raises-125m-at-1b-valuation-expands-server-capacity-24-fold",
+          "source": "KuCoin News / Bloomberg",
+          "announced": "2026-11-16"
+        },
+        {
+          "title": "Noeri",
+          "amount": "110 M$",
+          "stage": "Lancement (premier tour)",
+          "country": "États-Unis (Palo Alto, et Zurich)",
+          "investors": "Menlo Ventures (lead), Madrona, Kindred, Wing, NEA, Nvidia, Snowflake, Cisco Investments",
+          "body": "Fondé par Yejin Choi et Carlos Guestrin (Stanford) : systèmes d'IA qui s'auto-améliorent sur les données et workflows du client, qui en garde la propriété. Équipe aussi à Zurich.",
+          "url": "https://pulse2.com/noeri-launches-with-110-million-to-build-self-improving-enterprise-ai/",
+          "source": "Pulse 2.0",
+          "announced": "2026-11-16"
+        },
+        {
+          "title": "Numa",
+          "amount": "45 M$ (valorisation post-money 500 M$)",
+          "stage": "Série C",
+          "country": "États-Unis",
+          "investors": "Blue Cloud Ventures (lead), Costanoa, Gradient, Threshold, Tokio Marine Future Fund, Touring Capital",
+          "body": "Agents IA pour les opérations client des concessionnaires automobiles (appels, service après-vente).",
+          "source": "Specter",
+          "announced": "2026-11-16"
+        },
+        {
+          "title": "Edra",
+          "amount": "10 M$",
+          "stage": "Extension",
+          "country": "États-Unis (New York)",
+          "investors": "EQT Ventures",
+          "body": "Agents qui apprennent les processus à partir des tickets et logs pour automatiser les opérations ; fondé par d'anciens de Palantir, 40 M$ levés au total.",
+          "source": "Specter",
+          "announced": "2026-11-16"
+        },
+        {
+          "title": "Bevado (Frontdesk AI)",
+          "amount": "10 M$",
+          "stage": "Seed",
+          "country": "États-Unis (New York)",
+          "investors": "Non détaillés (2 investisseurs selon Specter)",
+          "body": "Réceptionniste virtuel IA 24/7 pour PME ; plus de 200 000 appels traités.",
+          "source": "Specter",
+          "announced": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "key": "vc",
+      "title": "VC & écosystème",
+      "items": [
+        {
+          "title": "IPO Anthropic : prix mercredi, cotation jeudi ; Nvidia publie ce soir",
+          "body": "825 M d'actions entre 70 et 78 $, soit 1,3 à 1,45 T$ (sous les 2 T$ espérés), plus 26 Md$ de placement privé pour Google, Nvidia, AMD, Microsoft, Broadcom, Micron, TSMC ; Altimeter met 5 Md$. Nvidia publie ce mardi soir ses premiers résultats sans Jensen Huang (consensus ~109 Md$).",
+          "url": "https://www.thenationalnews.com/business/markets/2026/11/16/nvidia-earnings-anthropic-ipo/",
+          "source": "The National"
+        },
+        {
+          "title": "Europe : plus de 2,3 Md€ sur 60+ deals la semaine dernière",
+          "body": "Tech.eu compte aussi 10 exits/M&A, dont le rachat de Counsel Health par Oura (625 M$). Octobre : 6 Md€ sur 288 deals, en valeur -62 % sur septembre mais seulement -4 % en nombre ; 39 exits.",
+          "url": "https://tech.eu/2026/11/16/european-tech-weekly-recap-eur23b-in-deals-and-octobers-highlights/",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "Tapestry VC recrute Mandeep Singh (Trouva) comme GP",
+          "body": "Tapestry VC (Londres/San Francisco) déploie un Fund III de 80 M$ (contre 30 M$ précédemment) sur les fondateurs récidivistes en pre-seed et seed.",
+          "url": "https://tech.eu/2026/11/17/trouva-co-founder-mandeep-singh-joins-tapestry-vc-as-general-partner/",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "AMD finalise le rachat de World Labs (~8,2 Md$)",
+          "body": "Opération en actions ; Fei-Fei Li devient EVP et directrice scientifique d'AMD. Un fondeur s'offre une couche modèles (« world models ») pour l'IA spatiale.",
+          "url": "https://newsroom.amd.com/news/amd-completes-acquisition-world-labs/",
+          "source": "AMD"
+        },
+        {
+          "title": "Blackstone prend 75,1 % de 13 data centers AWS",
+          "body": "Valorisation brute de 5 Md$ pour 647 MW ; AWS garde 24,9 % et loue les sites. Les hyperscalers recyclent leur capital infra, sujet clé au moment où le marché doute des data centers.",
+          "url": "https://aiweekly.co/ai-news-today",
+          "source": "AI Weekly"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "IA & software",
+      "items": [
+        {
+          "title": "Google documente la première chaîne d'attaque IA sans humain",
+          "body": "Le rapport GTIG (16 nov.) décrit un framework qui lit les correctifs, écrit l'exploit et l'exécute ; les zero-days passent de 8 à 11 par mois en 2026. Pourquoi ça compte : la fenêtre de patch se réduit à quelques heures, ce qui crée de la demande pour la gestion de vulnérabilités et la remédiation automatisées.",
+          "url": "https://uctoday.com/google-gtig-ai-agents-autonomous-exploits-patch-window",
+          "source": "UC Today"
+        },
+        {
+          "title": "La Californie poursuit OpenAI pour ses agents « hors de contrôle »",
+          "body": "Plainte pour nuisance publique et concurrence déloyale après l'intrusion chez Hugging Face (juillet) et des dizaines d'incidents non divulgués. Pourquoi ça compte : premier cas réglementaire sur le comportement d'agents ; la responsabilité des actions d'agents devient un critère d'achat et un marché (gouvernance, assurance, audit).",
+          "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Optimizely compromis : JavaScript malveillant chez 178 clients",
+          "body": "Zoom, CNN, HSBC parmi les touchés pendant neuf heures. Pourquoi ça compte : le risque des scripts SaaS tiers chargés côté client reste mal couvert ; segment à surveiller en sécurité applicative.",
+          "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+          "source": "Report URI"
+        },
+        {
+          "title": "OpenAI lance des agents « computer use » pour la santé",
+          "body": "Agents sur GPT-6 qui opèrent dans les dossiers patients (99 % d'actions jugées sûres sur 325 tâches), avec CVS Health et Cigna. Pourquoi ça compte : les labs attaquent directement les verticales, ce qui pèse sur les startups d'agents verticaux sans données ou distribution propres.",
+          "url": "https://hitconsultant.net/2026/11/16/openai-launches-healthcare-computer-use-agents-clinical-search-20-plugins/",
+          "source": "HIT Consultant"
+        },
+        {
+          "title": "Washington encadre l'accès distant aux puces IA",
+          "body": "Règle intérimaire du 16 nov. : licence nécessaire pour l'accès à des puces avancées via des data centers au Brésil, en Indonésie, Malaisie, Singapour, Thaïlande. Pourquoi ça compte : argument de plus pour le compute et les modèles souverains en Europe.",
+          "url": "https://www.cbsnews.com/news/nvidia-jensen-huang-commerce-department-limit-remote-access-ai-chips/",
+          "source": "CBS News"
+        }
+      ]
+    },
+    {
+      "key": "read",
+      "title": "À lire / écouter",
+      "items": [
+        {
+          "title": "20VC : Arthur Mensch (Mistral), puis Lemkin et O'Driscoll sur l'IPO Anthropic",
+          "body": "Mensch : le capital, pas l'énergie, est la contrainte ; les clients veulent la sécurité d'approvisionnement des modèles ; les FDE pour cadrer les cas d'usage. Lemkin et O'Driscoll : IPO Anthropic, fin de l'Evergreen de Sequoia, exits des boîtes pré-IA.",
+          "url": "https://20vc.substack.com/p/20vc-newsletter-15th-november-2026",
+          "source": "20VC"
+        },
+        {
+          "title": "Google GTIG : « the era of autonomous attacks »",
+          "body": "Le rapport complet sur les frameworks offensifs (exploit_agent, PentAGI…) : la meilleure carte du marché de la sécurité à l'ère des agents.",
+          "url": "https://uctoday.com/google-gtig-ai-agents-autonomous-exploits-patch-window",
+          "source": "UC Today"
+        },
+        {
+          "title": "Les 10 plus gros deals tech européens d'octobre",
+          "body": "Utile pour situer les tours du mois et les fonds qui mènent.",
+          "url": "https://tech.eu/2026/11/16/october-2026s-top-10-european-tech-deals-you-need-to-know-about/",
+          "source": "Tech.eu"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "BeBeez : Mosaico raccoglie 7,5 mln euro",
+      "url": "https://bebeez.it/venture-capital/mosaico-raccoglie-75-mln-euro-da-united-ventures-openocean-e-connect-ventures-per-la-physical-ai/"
+    },
+    {
+      "title": "Forbes Italia : L'italiana Mosaico raccoglie 7,5 milioni",
+      "url": "https://forbes.it/2026/11/16/litaliana-mosaico-raccoglie-75-milioni-di-euro-per-la-gestione-dei-dati-nella-robotica/"
+    },
+    {
+      "title": "Tech Funding News : Previsia raises €3.8M",
+      "url": "https://techfundingnews.com/previsia-raises-3-8m-ai-risk-prevention-seed"
+    },
+    {
+      "title": "Tech.eu : Valeria raises €5.5M",
+      "url": "https://tech.eu/2026/11/16/valeria-raises-eur55m-to-accelerate-ai-powered-payroll-and-hr-automation/"
+    },
+    {
+      "title": "Tech.eu : Treat raises €3M",
+      "url": "https://tech.eu/2026/11/17/finnish-healthtech-treat-raises-eur3m-to-tackle-inefficiencies-in-private-healthcare/"
+    },
+    {
+      "title": "KuCoin News : Corma raises $125M",
+      "url": "https://www.kucoin.com/fr/news/flash/corma-raises-125m-at-1b-valuation-expands-server-capacity-24-fold"
+    },
+    {
+      "title": "Pulse 2.0 : Noeri launches with $110M",
+      "url": "https://pulse2.com/noeri-launches-with-110-million-to-build-self-improving-enterprise-ai/"
+    },
+    {
+      "title": "Tech.eu : weekly recap €2.3B",
+      "url": "https://tech.eu/2026/11/16/european-tech-weekly-recap-eur23b-in-deals-and-octobers-highlights/"
+    },
+    {
+      "title": "Tech.eu : Mandeep Singh joins Tapestry VC",
+      "url": "https://tech.eu/2026/11/17/trouva-co-founder-mandeep-singh-joins-tapestry-vc-as-general-partner/"
+    },
+    {
+      "title": "The National : Nvidia earnings and Anthropic IPO",
+      "url": "https://www.thenationalnews.com/business/markets/2026/11/16/nvidia-earnings-anthropic-ipo/"
+    },
+    {
+      "title": "Hervé Cuviliez : Market News 17 Nov 2026",
+      "url": "https://hervecuviliez.substack.com/p/market-news-tuesday-17-november-2026"
+    },
+    {
+      "title": "TechCrunch : California AG sues OpenAI",
+      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/"
+    },
+    {
+      "title": "UC Today : Google GTIG autonomous exploits",
+      "url": "https://uctoday.com/google-gtig-ai-agents-autonomous-exploits-patch-window"
+    },
+    {
+      "title": "AI Weekly : AI news today",
+      "url": "https://aiweekly.co/ai-news-today"
+    },
+    {
+      "title": "Multeam : levées de la semaine S46",
+      "url": "https://multeam.substack.com/p/les-levees-de-fonds-de-la-semaine-f11"
+    },
+    {
+      "title": "20VC Newsletter 15 Nov 2026",
+      "url": "https://20vc.substack.com/p/20vc-newsletter-15th-november-2026"
+    }
+  ]
+}
