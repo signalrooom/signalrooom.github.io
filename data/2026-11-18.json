@@ -1,0 +1,355 @@
+{
+  "date": "2026-11-18",
+  "headline": "Model ML (Londres) lève 250 M$ à 1,5 Md$ pour automatiser le travail des banquiers juniors, le jour où Remanence (Paris) sort de l'ombre avec 30 M$ pour faire progresser les modèles des entreprises et où Nvidia rassure avec 115,8 Md$ de revenus trimestriels.",
+  "summary": "Fenêtre du 17 nov. et de la nuit : l'IA « propriétaire » des entreprises (Remanence, modèles MAI de Microsoft) et l'automatisation des métiers financiers (Model ML) dominent, pendant qu'Orange Ventures remet 250 M€ sur les Séries A et B européennes. Côté marché, Nvidia dépasse les attentes et l'IPO d'Anthropic doit être pricée ce soir.",
+  "sections": [
+    {
+      "key": "signals",
+      "title": "Ce qui se dessine",
+      "items": [
+        {
+          "title": "Posséder son IA : le post-entraînement devient une catégorie",
+          "body": "Remanence (Paris) lève 30 M$ le 17 nov. pour transformer les traces d'exécution des agents en environnements d'entraînement de modèles open-weight ; le même jour, Microsoft lance MAI Licensed Weights (modèles personnalisables sur Azure) et revendique 96 % des performances de Claude Opus 5.5 en code pour environ 5 % du coût. Ça prolonge Noeri (110 M$, 16 nov.) et Daisytuner (6 M€, 16 nov.) : les entreprises veulent des modèles adaptés, moins chers, qu'elles contrôlent. À creuser : évaluation, post-entraînement et réduction du coût d'inférence pour industriels et acteurs régulés en France/DACH, et qui vend déjà ces outils aux DSI européennes."
+        },
+        {
+          "title": "Les métiers de dossier de la finance passent à l'agent",
+          "body": "Model ML lève 250 M$ en Série B le 17 nov. (General Atlantic, QED) pour produire modèles financiers, pitch decks et due diligences à la place des analystes juniors, un an après une Série A de 75 M$. La veille, Alecto (Londres, 20 M$, 16 nov.) finançait un cabinet de conveyancing IA, et la compta et la paie IA ont enchaîné les tours début novembre (Kabilio 5 nov., Sumary 10 nov., Valeria 16 nov.). À creuser : back-office M&A et private equity (data rooms, reporting LP, conformité) et conseil en France/DACH, où un spécialiste local peut battre un généraliste anglo-saxon."
+        },
+        {
+          "title": "La donnée multimodale pour l'IA physique attire les Séries B",
+          "body": "LanceDB (San Francisco) lève 57,5 M$ le 17 nov. pour son lakehouse multimodal (vidéo, modèles de monde, robotique), Asynchronics (Varsovie) 3,1 M$ le même jour sur la simulation de jumeaux numériques, et Genesis AI 500 M$ en Série A sur la robotique dextre. Ça suit Mosaico (7,5 M€, 16 nov.) et Physicl (10 M$, 6 nov.) : après le robot, la couche données et simulation se finance des deux côtés de l'Atlantique. À creuser : data ops, simulation et validation pour la robotique industrielle en DACH (Munich, Stuttgart), où sont les clients."
+        },
+        {
+          "title": "Le capital revient sur les Séries A et B européennes",
+          "body": "Orange Ventures annonce le 17 nov. 250 M€ supplémentaires, dont 200 M€ pour l'Europe, en Séries A et B jusqu'à 20 M€ par tour, ciblés sur l'IA appliquée et surtout la cybersécurité ; le même jour, Atomico publie son State of European Tech et Nvidia publie 115,8 Md$ de revenus, au-dessus des attentes. Après Plural (1 Md€, 15 nov.) et Creandum, les fonds européens rechargent. À creuser : quels corporates VC (Orange, et d'autres) peuvent co-investir sur des Séries A cyber ou IA appliquée, et sur quels deals la concurrence sur les tickets de 5 à 20 M€ va se tendre."
+        }
+      ]
+    },
+    {
+      "key": "eu",
+      "title": "Levées Europe",
+      "intro": "Fenêtre : 17 nov. et nuit du 18. Previsia (17 nov.) figurait déjà dans l'édition d'hier. Exclus : Isomorphic Labs (biotech), Genesis AI et Qluster (hardware), Treat (soins), Tiberius (aérospatial).",
+      "items": [
+        {
+          "title": "Remanence",
+          "amount": "30 M$ (≈ 25,5 M€)",
+          "stage": "Seed (sortie de stealth)",
+          "country": "France (Paris)",
+          "investors": "EQT Ventures et FirstMark (leads), Zero Prime, Emblem, Drysdale, Global Founders Capital, Yellow ; angels dont Philippe Corrot, Olivier Pomel, Romain Niccoli",
+          "body": "Se branche sur les modèles IA existants d'une entreprise et transforme leurs traces d'exécution en environnements d'entraînement, pour réentraîner en continu des modèles open-weight plus précis, plus rapides et moins chers. Fondée par Pierre-Louis Cedoz (ex-CTO de H Company, ex-DeepMind), Hamza Benchekroun (ex-InstaDeep) et Axel Moyal. Lien : Noeri (110 M$, 16 nov.) et MAI Licensed Weights de Microsoft (17 nov.). Fit : infrastructure IA B2B à Paris, software B2B européen ; tour seed déjà au-dessus des tickets 2-15 M€.",
+          "fit": true,
+          "url": "https://www.maddyness.com/2026/11/17/ia-des-anciens-de-h-company-lancent-leur-startup-avec-une-levee-de-fonds-de-30-millions-de-dollars/",
+          "source": "Maddyness",
+          "announced": "2026-11-17"
+        },
+        {
+          "title": "Fermat",
+          "amount": "8 M$ (≈ 7,3 M€)",
+          "stage": "Seed",
+          "country": "Espagne (Barcelone)",
+          "investors": "Kibo Ventures et Lunar Ventures (leads), PROfounders Capital, Masia Ventures, Blue Wire Capital, Common Magic, Betaworks, Dídac Lee",
+          "body": "Système d'exploitation IA pour les marques de mode et de luxe, du design jusqu'aux fiches techniques prêtes pour l'usine (lancement de Techpacks) ; plus de 350 clients dans 14 pays (ASOS, J.Crew, New Look, Tendam). Ouvre New York. Fit : SaaS B2B qui digitalise une chaîne industrielle, ticket compatible ; hors zone cœur et verticale mode moins centrale.",
+          "fit": true,
+          "url": "https://tech.eu/2026/11/17/fermat-raises-8m-to-bridge-the-gap-between-fashion-designers-and-manufacturers",
+          "source": "Tech.eu",
+          "announced": "2026-11-17"
+        },
+        {
+          "title": "MediPulse",
+          "amount": "2,6 M€",
+          "stage": "Pre-seed",
+          "country": "Allemagne (Munich)",
+          "investors": "Fortino Ventures (lead), HIC/Redstone, WENVEST, angels du secteur",
+          "body": "Plateforme IA qui automatise la gestion administrative et financière des cabinets médicaux et MVZ : connexion au logiciel de cabinet et aux comptes bancaires, rapprochement des transactions, recommandations ; environ 300 cabinets clients depuis janvier 2026. Lien : la vague compta IA pour PME (Kabilio, Sumary, Numina). Fit : SaaS B2B DACH, digitalisation des services ; pré-seed, encore très tôt.",
+          "fit": true,
+          "url": "https://startupvalley.news/de/arztpraxen-medipulse-finanzierung-ki/",
+          "source": "Startup Valley",
+          "announced": "2026-11-17"
+        },
+        {
+          "title": "Asynchronics",
+          "amount": "3,1 M$ (≈ 2,7 M€)",
+          "stage": "Seed",
+          "country": "Pologne (Varsovie)",
+          "investors": "b2venture (lead), Hard2beat, Heartfelt Capital, Movens Capital",
+          "body": "Éditeur de NeXosim, moteur de simulation en Rust pour les jumeaux numériques de systèmes cyber-physiques (spatial, fabricants d'équipements, intégrateurs). Lien : LanceDB et Mosaico sur la couche données de l'IA physique. Fit : infrastructure logicielle pour l'industrie, lead DACH ; hors zone cœur et encore petit.",
+          "source": "Specter",
+          "announced": "2026-11-17"
+        },
+        {
+          "title": "MountAIn",
+          "amount": "≈ 7 M€ (8 M$ selon Specter)",
+          "stage": "Seed",
+          "country": "France (Meylan, Isère)",
+          "investors": "360 Capital, Supernova Invest, Bpifrance",
+          "body": "IBEX, un « veilleur » IA embarqué sur site avec alertes par satellite, pour protéger infrastructures et actifs critiques. Fit : région Auvergne-Rhône-Alpes et IA appliquée à la sécurité, mais modèle OEM avec une forte part matérielle, moins aligné sur le software pur.",
+          "source": "Specter",
+          "announced": "2026-11-17"
+        },
+        {
+          "title": "CloudBackend",
+          "amount": "≈ 7,3 M$ selon Specter",
+          "stage": "Seed",
+          "country": "Suède (Linköping)",
+          "investors": "M2 Asset Management",
+          "body": "Base de données décentralisée en PaaS pour développeurs front-end. Fit : infrastructure data B2B, mais hors zone cœur, traction publique faible et couche web3 éloignée du software B2B classique.",
+          "source": "Specter",
+          "announced": "2026-11-18"
+        },
+        {
+          "title": "Sqwish",
+          "amount": "3 M$",
+          "stage": "Pre-seed",
+          "country": "Royaume-Uni (Cambridge)",
+          "investors": "4 investisseurs (non détaillés)",
+          "body": "Optimise en temps réel les interactions IA (messages commerciaux, contenus) par apprentissage par renforcement. Fit : IA appliquée B2B, mais très tôt, hors zone cœur.",
+          "source": "Specter",
+          "announced": "2026-11-17"
+        },
+        {
+          "title": "Model ML",
+          "amount": "250 M$ (valorisation 1,5 Md$)",
+          "stage": "Série B",
+          "country": "Royaume-Uni (Londres)",
+          "investors": "General Atlantic et QED Investors (co-leads)",
+          "body": "Agents IA qui produisent le travail des banquiers et consultants juniors (modèles financiers, pitch decks, rapports de due diligence) dans Excel et PowerPoint, sur base de modèles open source à environ 2 % du coût des modèles frontière. Lien : Alecto (16 nov.) et la vague compta IA. Fit : software B2B européen, mais tour et valorisation bien au-delà du Seed à Série B classique ; utile comme repère de valorisation.",
+          "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+          "source": "TechCrunch",
+          "announced": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "key": "us",
+      "title": "Grosses levées US",
+      "intro": "Pas de méga-tour software US le 17 nov. (Corma et Noeri datent du 16) : l'argent va à la couche données de l'IA (LanceDB), à la financiarisation du compute (Compute Desk, 45 M$ en seed) et aux agents verticaux. Les seeds à 20-45 M$ deviennent courants et risquent de gonfler les attentes des fondateurs européens.",
+      "items": [
+        {
+          "title": "LanceDB",
+          "amount": "57,5 M$ (98,5 M$ au total)",
+          "stage": "Série B",
+          "country": "États-Unis (San Francisco)",
+          "investors": "Bessemer et Innovation Endeavors (leads), Theory Ventures, Dimension, Swift Ventures, CRV, Y Combinator",
+          "body": "Lakehouse multimodal bâti sur le format open source Lance, pour la curation et le chargement de données d'entraînement (vidéo, modèles de monde, robotique) ; clients Runway, Netflix, Microsoft.",
+          "url": "https://siliconangle.com/2026/11/17/lancedb-raises-57-5m-to-accelerate-ai-model-training-with-multimodal-data-platform/",
+          "source": "SiliconANGLE",
+          "announced": "2026-11-17"
+        },
+        {
+          "title": "Compute Desk",
+          "amount": "45 M$",
+          "stage": "Seed",
+          "country": "États-Unis (San Francisco)",
+          "investors": "Lightspeed Venture Partners (lead)",
+          "body": "Prix, négociation et règlement de capacité de calcul pour les traders institutionnels et les acteurs de l'infrastructure IA : le compute devient une matière première négociable.",
+          "source": "Specter",
+          "announced": "2026-11-17"
+        },
+        {
+          "title": "Aevius Labs",
+          "amount": "22 M$",
+          "stage": "Seed",
+          "country": "États-Unis (Boston)",
+          "investors": "Insight Partners (lead)",
+          "body": "Unifie les données patients dans une plateforme d'aide à la décision clinique pilotée par IA ; société fondée en 2026.",
+          "source": "Specter",
+          "announced": "2026-11-17"
+        },
+        {
+          "title": "Valkryn",
+          "amount": "17 M$",
+          "stage": "Sortie de stealth",
+          "country": "États-Unis",
+          "investors": "Non communiqués",
+          "body": "« Battle Lab » : infrastructure de test pour drones et robots autonomes de défense.",
+          "url": "https://hervecuviliez.substack.com/p/market-news-wednesday-18-november",
+          "source": "Market News (Substack)",
+          "announced": "2026-11-17"
+        },
+        {
+          "title": "Pedestal AI",
+          "amount": "4,7 M$",
+          "stage": "Seed",
+          "country": "États-Unis",
+          "investors": "Eclipse (lead), RRE, Converge VC, Timescale VC, VitalStage",
+          "body": "Agents IA pour fiabiliser la livraison du dernier kilomètre (appels clients avant livraison, consignes) ; -20 % de livraisons ratées chez un client meubles.",
+          "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
+          "source": "TechCrunch",
+          "announced": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "key": "vc",
+      "title": "VC & écosystème",
+      "items": [
+        {
+          "title": "Orange Ventures : 250 M€ de plus, tickets jusqu'à 20 M€",
+          "body": "Annoncé le 17 nov. : 200 M€ pour l'Europe et 50 M€ pour l'Afrique et le Moyen-Orient, à investir de 2027 à 2032 en Séries A et B, avec des paris plus précoces sur l'IA appliquée et surtout la cybersécurité (appui d'Orange Cyberdefense). 40 participations actives, dont six licornes, et des sorties partielles sur Monzo et Airalo. Un acteur de plus sur les tickets de Séries A et B européennes.",
+          "url": "https://maddyness.com/2026/11/17/orange-ventures-se-dote-de-250-millions-deuros-supplementaires-pour-investir-dans-la-tech-europeenne",
+          "source": "Maddyness"
+        },
+        {
+          "title": "Atomico publie son State of European Tech 2026",
+          "body": "Publié le 17 nov. : message « build it, scale it, own it », pour que les champions européens restent européens, avec un appel aux institutionnels européens à devenir actionnaires de leur tech et EU Inc comme test à court terme. Selon MLQ, l'investissement européen viserait 81 Md$ en 2026 (+62 %).",
+          "url": "https://techcrunch.com/2026/11/17/stripe-backer-atomico-calls-for-europe-to-own-its-success-stories/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Isomorphic Labs (5 Md$) et Genesis AI (500 M$) : les méga-tours du jour",
+          "body": "Le 17 nov., Isomorphic Labs (Londres, IA pour la découverte de médicaments) lève 5 Md$ en Série C (Greenoaks, Sequoia, a16z, Alphabet) et Genesis AI 500 M$ en Série A à 3,5 Md$ (Khosla, Eclipse) pour ses robots dextres. Hors thèse software B2B, mais ils confirment que les plus gros chèques européens vont à la deeptech IA.",
+          "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Qonto obtient sa licence bancaire",
+          "body": "Annoncé le 17 nov. : la néobanque des PME pourra accorder des prêts, ce qui renforce sa position de plateforme financière des PME, terrain des start-up de compta et de gestion financière IA.",
+          "url": "https://maddyness.com/2026/11/17/qonto-obtient-sa-licence-bancaire-et-va-pouvoir-accorder-des-prets",
+          "source": "Maddyness"
+        },
+        {
+          "title": "M&A : PitchBook liste les éditeurs cotés les plus susceptibles d'être sortis de la cote",
+          "body": "Le 17 nov., Fortune relaie l'analyse PitchBook : avec des valorisations software déprimées, plus de take-private attendus en 2027 (BILL, Rapid7, First Advantage, Fastly sur la liste), après Varonis (6,3 Md$ par Proofpoint) et les discussions Silver Lake autour de Workday. Le risque principal reste le coût du financement.",
+          "url": "https://fortune.com/2026/11/17/software-companies-most-likely-go-private-2027-beyond-pitchbook/",
+          "source": "Fortune"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "IA & software",
+      "items": [
+        {
+          "title": "Nvidia : 115,8 Md$ de revenus et 130 Md$ attendus au prochain trimestre",
+          "body": "Publiés le 17 nov. au soir : data center à 107,6 Md$ (+110 % sur un an), prévision de 130 Md$ ± 3 %, croissance annuelle relevée à 75 %, 32 Md$ d'engagements auprès des neoclouds ; le board exclut le retour de Jensen Huang. Pourquoi ça compte : la demande d'infrastructure ne faiblit pas, ce qui soutient les valorisations de la couche infra et outillage IA.",
+          "url": "https://www.kiplinger.com/news/live/nvidia-earnings-live-updates-and-commentary-november-2026",
+          "source": "Kiplinger"
+        },
+        {
+          "title": "Microsoft lance sept modèles MAI et des poids personnalisables",
+          "body": "À Ignite le 17 nov. : MAI Code 2 revendique 96 % des performances de Claude Opus 5.5 en code pour environ 5 % du coût, plus des modèles cyber, voix et routage, et MAI Licensed Weights pour adapter les modèles sur ses données dans Azure. Pourquoi ça compte : la guerre des prix sur les tokens améliore les marges des éditeurs IA appliquée et pousse vers des modèles spécialisés et possédés.",
+          "url": "https://interestingengineering.com/ai-robotics/microsoft-seven-mai-models-launch",
+          "source": "Interesting Engineering"
+        },
+        {
+          "title": "IPO Anthropic : prix ce soir, cotation jeudi",
+          "body": "Fourchette de 70 à 78 $ par action pour 825 millions de titres, prix attendu au-dessus selon CNBC, cotation sur le Nasdaq (ANT) jeudi 19 nov. Pourquoi ça compte : la référence de valorisation de toute l'IA, et un test de l'appétit du public pour les labs après des mois de doute.",
+          "url": "https://hervecuviliez.substack.com/p/market-news-wednesday-18-november",
+          "source": "Market News (Substack)"
+        },
+        {
+          "title": "Les gérants allègent la tech malgré tout",
+          "body": "Selon l'enquête BofA de novembre relayée le 18 nov., la surpondération nette de la tech tombe de 37 % à 12 %, plus forte baisse mensuelle depuis 2006, et SemiAnalysis réduit de 28 % sa prévision de dépenses en accélérateurs IA pour 2028. Pourquoi ça compte : le marché public commence à douter du rythme des capex, ce qui peut ralentir les tours de croissance et les sorties en 2027.",
+          "url": "https://hervecuviliez.substack.com/p/market-news-wednesday-18-november",
+          "source": "Market News (Substack)"
+        }
+      ]
+    },
+    {
+      "key": "read",
+      "title": "À lire / écouter",
+      "items": [
+        {
+          "title": "Atomico, State of European Tech 2026",
+          "body": "Le rapport annuel de référence sur la tech européenne (17 nov.) : utile pour les chiffres de marché et pour l'argumentaire « own it » sur la souveraineté du capital.",
+          "url": "https://techcrunch.com/2026/11/17/stripe-backer-atomico-calls-for-europe-to-own-its-success-stories/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Quels éditeurs software vont sortir de la cote en 2027 (PitchBook)",
+          "body": "Une grille de lecture des sorties par LBO pour les SaaS matures à forte génération de cash, utile pour penser les exits des SaaS qui ne seront pas des licornes IA.",
+          "url": "https://fortune.com/2026/11/17/software-companies-most-likely-go-private-2027-beyond-pitchbook/",
+          "source": "Fortune"
+        },
+        {
+          "title": "Series A in 2026 : le capital va plus vite, mais vers moins de start-up",
+          "body": "Crunchbase (9 nov.) sur la concentration des Séries A aux US : 42 Md$ levés depuis le début de l'année, avec une barre plus haute pour passer le cap.",
+          "url": "https://news.crunchbase.com/sections/venture/",
+          "source": "Crunchbase News"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Maddyness : des anciens de H Company lancent Remanence avec 30 M$",
+      "url": "https://www.maddyness.com/2026/11/17/ia-des-anciens-de-h-company-lancent-leur-startup-avec-une-levee-de-fonds-de-30-millions-de-dollars/"
+    },
+    {
+      "title": "FrenchWeb : trois anciens de H Company lèvent 25,5 M€ pour Remanence",
+      "url": "https://www.frenchweb.fr/trois-anciens-de-h-company-levent-25-5-millions-d-euros-pour-remanence/900000050"
+    },
+    {
+      "title": "Tech.eu : Fermat raises $8M",
+      "url": "https://tech.eu/2026/11/17/fermat-raises-8m-to-bridge-the-gap-between-fashion-designers-and-manufacturers"
+    },
+    {
+      "title": "EU-Startups : Fermat raises €7.26 million",
+      "url": "https://www.eu-startups.com/2026/11/barcelona-based-fermat-raises-e7-26-million-for-its-ai-operating-system-for-fashion-and-luxury-brands/"
+    },
+    {
+      "title": "Startup Valley : MediPulse 2,6 M€",
+      "url": "https://startupvalley.news/de/arztpraxen-medipulse-finanzierung-ki/"
+    },
+    {
+      "title": "TechCrunch : Model ML raises $250M",
+      "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/"
+    },
+    {
+      "title": "Tech.eu : Model ML hits $1.5B valuation",
+      "url": "https://tech.eu/2026/11/17/model-ml-hits-15b-valuation-with-250m-raise-just-18-months-after-emerging-from-stealth/"
+    },
+    {
+      "title": "SiliconANGLE : LanceDB raises $57.5M",
+      "url": "https://siliconangle.com/2026/11/17/lancedb-raises-57-5m-to-accelerate-ai-model-training-with-multimodal-data-platform/"
+    },
+    {
+      "title": "TechCrunch : Pedestal AI raises $4.7M",
+      "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/"
+    },
+    {
+      "title": "TechCrunch : Genesis AI raises $500M",
+      "url": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/"
+    },
+    {
+      "title": "TechCrunch : Isomorphic Labs raises $5B",
+      "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/"
+    },
+    {
+      "title": "Maddyness : Orange Ventures 250 M€",
+      "url": "https://maddyness.com/2026/11/17/orange-ventures-se-dote-de-250-millions-deuros-supplementaires-pour-investir-dans-la-tech-europeenne"
+    },
+    {
+      "title": "Maddyness : Qonto obtient sa licence bancaire",
+      "url": "https://maddyness.com/2026/11/17/qonto-obtient-sa-licence-bancaire-et-va-pouvoir-accorder-des-prets"
+    },
+    {
+      "title": "TechCrunch : Atomico calls for Europe to own its success stories",
+      "url": "https://techcrunch.com/2026/11/17/stripe-backer-atomico-calls-for-europe-to-own-its-success-stories/"
+    },
+    {
+      "title": "Fortune : software companies most likely to go private (PitchBook)",
+      "url": "https://fortune.com/2026/11/17/software-companies-most-likely-go-private-2027-beyond-pitchbook/"
+    },
+    {
+      "title": "Kiplinger : Nvidia earnings live, November 2026",
+      "url": "https://www.kiplinger.com/news/live/nvidia-earnings-live-updates-and-commentary-november-2026"
+    },
+    {
+      "title": "Interesting Engineering : Microsoft MAI models launch",
+      "url": "https://interestingengineering.com/ai-robotics/microsoft-seven-mai-models-launch"
+    },
+    {
+      "title": "Market News, mercredi 18 novembre 2026",
+      "url": "https://hervecuviliez.substack.com/p/market-news-wednesday-18-november"
+    },
+    {
+      "title": "Tech Startups : funding news, 17 novembre 2026",
+      "url": "https://techstartups.com/2026/11/17/startup-funding-news-today-november-17-2026-alecto-galvanize-therapeutics-corma-noeri-nomad-more/"
+    },
+    {
+      "title": "Crunchbase News : Venture",
+      "url": "https://news.crunchbase.com/sections/venture/"
+    }
+  ]
+}
