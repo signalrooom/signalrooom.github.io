@@ -1,0 +1,271 @@
+{
+  "date": "2026-11-19",
+  "headline": "Palo Alto Networks rachète Applied Compute 4,5 Md$ en actions (18 nov.) pour sécuriser le post-entraînement des modèles open-weight, au lendemain des 30 M$ de Remanence sur ce créneau, pendant qu'Anthropic fixe son IPO à 83 $ et que Payhawk lève 280 M$ à 2 Md$.",
+  "summary": "Fenêtre calme en Europe : peu de levées software B2B, Smeetz (Lausanne, Série A) est le meilleur fit. Le fait marquant est la première grosse sortie sur la couche « posséder son IA » et la confirmation que la finance d'entreprise se consolide en plateformes.",
+  "sections": [
+    {
+      "key": "signals",
+      "title": "Ce qui se dessine",
+      "items": [
+        {
+          "title": "Post-entraînement des modèles ouverts : première sortie à 4,5 Md$",
+          "body": "Remanence (Paris) lève 30 M$ le 17 nov. pour transformer les traces d'agents en environnements d'entraînement de modèles open-weight, Microsoft lance le même jour MAI Licensed Weights, et le 18 nov. Palo Alto Networks rachète Applied Compute (post-entraînement et inférence de modèles open-weight, valorisée 3,25 Md$ récemment) pour 4,5 Md$ en actions. Un acteur cyber coté paie une prime pour sécuriser les modèles que les entreprises adaptent elles-mêmes, y compris en cloud souverain. À creuser : sourcer en Europe les briques post-entraînement, évaluation et gouvernance de modèles ouverts (cloud souverain, secteurs régulés), avant que les acquéreurs US ne s'y intéressent."
+        },
+        {
+          "title": "Dépenses, compta, banque : la finance d'entreprise se consolide en plateformes",
+          "body": "Pliant lève 80 M$ en Série C le 5 nov., Qonto obtient sa licence bancaire le 17 nov., et Payhawk lève 280 M$ à 2 Md$ le 18 nov. pour devenir un « Finance OS » (agents IA, paiements, contrôles), avec cash-flow positif au T3. En parallèle, la compta IA a enchaîné les levées (Kabilio 10 M€ le 6 nov., Sumary 25 M$ le 11 nov.). À creuser : les briques que ces plateformes voudront racheter plutôt que construire (comptes fournisseurs, rapprochement, trésorerie pour ETI) ; question à poser aux fondateurs : qui capte l'ETI, l'outil de dépenses ou l'outil comptable ?"
+        },
+        {
+          "title": "Juridique et conformité de la finance privée passent à l'IA",
+          "body": "Model ML lève 250 M$ le 17 nov. pour automatiser le travail d'analyste, NABU (Belgique) 1,1 M€ le 17 nov. sur la conformité KYC, puis Perry AI (Londres) 2,2 M$ le 18 nov. pour centraliser droits et obligations des fonds privés, et Disseqt AI 7,9 M$ le même jour pour tester et gouverner l'IA dans la finance et l'assurance. Le back-office réglementé de la finance devient un terrain d'agents spécialisés. À creuser : side letters, LPA, reporting AIFMD et SFDR des fonds européens, un marché où les cabinets d'avocats sont aussi clients."
+        },
+        {
+          "title": "Les marchés publics paient l'IA et la sécurité de l'IA",
+          "body": "Anthropic fixe son prix d'IPO à 83 $ le 18 nov., au-dessus de la fourchette de 70 à 78 $, soit environ 1,5 T$ de valorisation selon TechCrunch, avec une cotation au Nasdaq aujourd'hui. Le même soir, Palo Alto publie 39 % de croissance et gagne 8 % après la clôture malgré une acquisition payée en actions. À creuser : la fenêtre de sortie se rouvre pour la cyber IA ; lister les scale-ups européennes de sécurité des agents et des modèles qui pourraient être des cibles en 2027."
+        }
+      ]
+    },
+    {
+      "key": "eu",
+      "title": "Levées Europe",
+      "intro": "Fenêtre calme pour le software B2B européen : aucune levée française software B2B le 18 ou le 19 nov. (Stryx AI, 7,7 M€ le 19 nov., fait de l'anti-drones matériel, hors périmètre). CloudBackend (Suède, 6,6 M€) a déjà été traité hier.",
+      "items": [
+        {
+          "title": "Smeetz",
+          "amount": "6,55 M$ (≈ 5,6 M€)",
+          "stage": "Série A",
+          "country": "Suisse (Lausanne)",
+          "investors": "QBIT Capital (lead), DAA Ventures, NewOak, Banque cantonale de Zurich",
+          "body": "SaaS de commerce unifié avec IA pour les sites de visite (billetterie, tarification dynamique, données clients), plus de 100 sites clients, 72 salariés, 11,6 M$ levés au total. Fit : software B2B DACH en Série A, montant de ticket Seed à Série B, digitalisation d'un secteur de services ; verticale plus niche que l'infra ou la data.",
+          "fit": true,
+          "source": "Specter",
+          "announced": "2026-11-18"
+        },
+        {
+          "title": "Disseqt AI",
+          "amount": "7,9 M$ (≈ 6,8 M€)",
+          "stage": "Seed (non précisé)",
+          "country": "Irlande / États-Unis (siège à San Francisco)",
+          "investors": "Gresham House Ventures (lead), Delta Partners, Enterprise Ireland, Sure Valley Ventures, Rahul Dravid",
+          "body": "Couche d'assurance pour l'IA : tests continus et gouvernance en temps réel des modèles et agents dans la finance, l'assurance et la santé. Lien : même logique que le rachat d'Applied Compute par Palo Alto le même jour, sécuriser et gouverner les modèles en production. Fit : IA appliquée, compliance et cybersécurité, montant de Seed à Série B, mais siège aux États-Unis malgré des racines irlandaises.",
+          "source": "Specter",
+          "announced": "2026-11-18"
+        },
+        {
+          "title": "Perry AI",
+          "amount": "2,2 M$ (≈ 1,9 M€)",
+          "stage": "Seed",
+          "country": "Royaume-Uni (Londres)",
+          "investors": "Haatch (lead), Antler, Syncorp Ventures, Araya Ventures, business angels",
+          "body": "Plateforme juridique IA pour les fonds de PE, VC et dette privée et leurs avocats : centralise droits, obligations et engagements, automatise revue de documents et suivi de conformité ; expansion prévue aux États-Unis et en Asie. Lien : Model ML (250 M$, 17 nov.) sur les métiers de dossier de la finance. Fit : compliance B2B européenne, encore très tôt ; à suivre pour la Série A.",
+          "url": "https://tech.eu/2026/11/18/perry-ai-secures-22m-to-automate-legal-work-across-private-capital/",
+          "source": "Tech.eu",
+          "announced": "2026-11-18"
+        },
+        {
+          "title": "Payhawk",
+          "amount": "280 M$ (valorisation 2 Md$)",
+          "stage": "Série C",
+          "country": "Royaume-Uni / Bulgarie",
+          "investors": "Goldman Sachs Alternatives (lead), QED, Greenoaks, Lightspeed, Hedosophia, Bek Ventures, Inveready, Invus, Galdana Ventures, Cogito Capital",
+          "body": "Gestion des dépenses qui devient un « Finance OS » (agents IA, paiements, contrôles) : 33 pays, 77 % des clients utilisent ses agents chaque jour, cash-flow positif au T3, modèle par abonnement plutôt que par interchange ; plus de 515 M$ levés. Lien : Pliant (80 M$, 5 nov.) et Qonto (licence bancaire, 17 nov.). Fit : software B2B mais stade et montant hors cible ; utile comme référence de valorisation et acquéreur potentiel pour des briques finance IA.",
+          "url": "https://tech.eu/2026/11/18/goldman-sachs-leads-280m-funding-round-in-payhawk/",
+          "source": "Tech.eu",
+          "announced": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "key": "us",
+      "title": "Grosses levées US",
+      "intro": "Peu de méga-tours software dans la fenêtre : l'argent va à l'infrastructure autour des agents (canaux de communication, extraction de documents) et à l'IA physique appliquée aux infrastructures. Le fait marquant reste côté sortie, avec Applied Compute racheté 4,5 Md$, un signal que la couche « adapter et sécuriser ses propres modèles » se valorise vite et devrait arriver en Europe via la souveraineté.",
+      "items": [
+        {
+          "title": "BrightAI",
+          "amount": "97 M$",
+          "stage": "Non précisé",
+          "country": "États-Unis (Palo Alto)",
+          "investors": "Non communiqués",
+          "body": "Plateforme d'IA physique pour la surveillance proactive d'infrastructures critiques (réseaux électriques, eau, services de terrain) : 250 000 actifs suivis, 163 M$ levés au total. Lien : Nomadic (Munich, 6 M$, 17 nov.) sur l'inspection des réseaux électriques.",
+          "source": "Specter",
+          "announced": "2026-11-18"
+        },
+        {
+          "title": "Linq",
+          "amount": "90 M$",
+          "stage": "Série B",
+          "country": "États-Unis",
+          "investors": "a16z (lead), TQ Ventures, Mucker Capital, Abstract, Anthos, Left Lane Capital",
+          "body": "Infrastructure de messagerie et d'appels pour agents IA (iMessage, SMS, voix), plus d'un milliard de messages traités, clients dont DoorDash ; tour 4,5 fois plus gros que la Série A de 20 M$ bouclée 289 jours plus tôt.",
+          "url": "https://www.techbuzz.ai/articles/linq-raises-90m-from-a16z-to-put-ai-agents-in-your-texts",
+          "source": "TechBuzz",
+          "announced": "2026-11-18"
+        },
+        {
+          "title": "Unsiloed AI",
+          "amount": "7,5 M$",
+          "stage": "Seed",
+          "country": "États-Unis (San Francisco)",
+          "investors": "Felicis (lead), Y Combinator, Orange Collective, Uncorrelated Ventures, business angels",
+          "body": "Transforme des documents non structurés en données prêtes pour les LLM, plus de 10 millions de pages traitées. Catégorie de l'extraction documentaire pour agents, encore peu financée en Europe.",
+          "source": "Specter",
+          "announced": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "key": "vc",
+      "title": "VC & écosystème",
+      "items": [
+        {
+          "title": "Anthropic fixe son IPO à 83 $, au-dessus de la fourchette",
+          "body": "Prix annoncé le 18 nov. (fourchette initiale 70 à 78 $), environ 1,5 T$ de valorisation entièrement diluée selon TechCrunch, plus grosse introduction jamais réalisée selon CNBC, et placement privé de 26 Md$ (dont 10 Md$ chacun pour Nvidia et Google). Cotation au Nasdaq (ANT) ce jeudi. Pour les VCs, c'est la nouvelle référence de valorisation de l'IA et une vague de liquidité pour les fonds présents au capital.",
+          "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "M&A : Palo Alto Networks rachète Applied Compute pour 4,5 Md$",
+          "body": "Annoncé le 18 nov. avec des résultats du T1 solides : revenus de 3,44 Md$ (+39 %), ARR Next-Gen Security de 9,73 Md$ (+66 %), prévisions relevées. Paiement intégral en actions, un multiple d'environ 1,4 fois la dernière valorisation privée (3,25 Md$), et le CEO d'Applied Compute devient co-Chief AI Officer.",
+          "url": "https://www.calcalistech.com/ctechnews/article/8eqgzc6t6",
+          "source": "Calcalist"
+        },
+        {
+          "title": "Slush 2026 s'ouvre à Helsinki",
+          "body": "Le salon se tient les 18 et 19 nov. avec 10 % de participants en moins pour recentrer sur l'early stage ; le prix Slush 100 passe à 500 000 € sans prise de capital. Le président Stubb y a présenté le pari finlandais sur l'IA : data centers, quantique et énergie propre. Semaine propice aux annonces de fonds et de tours nordiques.",
+          "url": "https://complexdiscovery.com/stubb-tells-slush-that-finlands-ai-bet-runs-through-data-centers-quantum-and-clean-power/",
+          "source": "ComplexDiscovery"
+        },
+        {
+          "title": "France : plus de 6 500 nouveaux entrepreneurs tech en 2026",
+          "body": "Chiffre tiré du rapport Atomico et relayé par Maddyness le 18 nov. : un vivier de fondateurs qui continue de grossir malgré un financement plus concentré.",
+          "url": "https://www.maddyness.com/2026/11/18/la-france-a-vu-naitre-plus-de-6-500-nouveaux-entrepreneurs-de-la-tech-en-2026/",
+          "source": "Maddyness"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "IA & software",
+      "items": [
+        {
+          "title": "OpenAI baisse encore ses prix avec GPT-6.2",
+          "body": "Annoncé le 18 nov. : GPT-6.2 Astra coûte 20 % de moins que GPT-6 Astra (8 $ et 40 $ par million de tokens), et Sol approcherait Astra en code pour environ un cinquième du prix. Pourquoi ça compte : la baisse continue du coût d'inférence améliore les marges brutes des SaaS natifs IA, et rend les modèles « assez bons » et bon marché plus pertinents que le meilleur modèle.",
+          "url": "https://decrypt.co/383488/openai-gpt-6-2-astra-challenges-anthropic-price-but-not-every-benchmark",
+          "source": "Decrypt"
+        },
+        {
+          "title": "Google lance Gemini 4 Neon à 3 $ / 15 $",
+          "body": "Troisième de l'index Artificial Analysis avec un contexte d'un million de tokens, et des tâches agentiques gratuites dans Gemini dans six pays. Pourquoi ça compte : la guerre des prix entre les trois grands labs abaisse le coût des produits à base d'agents et met la pression sur les assistants payants.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+          "source": "Google"
+        },
+        {
+          "title": "OpenAI met ses modèles au service de la conception de puces AMD",
+          "body": "OpenAI revendique jusqu'à 14 % de gains en performance, consommation et surface sur l'IP GPU phare d'AMD, et une partie des modifications est déjà dans un design envoyé en fabrication. Pourquoi ça compte : l'IA entre dans les outils d'ingénierie industrielle (EDA, simulation), un terrain pour des éditeurs B2B spécialisés dans la transformation de l'industrie.",
+          "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+          "source": "OpenAI"
+        },
+        {
+          "title": "Nvidia recule malgré ses résultats, le financement circulaire inquiète",
+          "body": "L'action perd 2,5 % le 18 nov. malgré des prévisions relevées ; la directrice générale par intérim Colette Kress défend un programme de financement d'environ 500 Md$ avec Goldman, BlackRock et Apollo, et la SEC ouvre une enquête civile sur la communication aux investisseurs. Pourquoi ça compte : le risque de financement de l'infrastructure IA reste le principal point de fragilité des valorisations.",
+          "url": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-colette-kress-talks-earnings-china-transcript.html",
+          "source": "CNBC"
+        }
+      ]
+    },
+    {
+      "key": "read",
+      "title": "À lire / écouter",
+      "items": [
+        {
+          "title": "Anthropic IPO: the AI ecosystem's biggest test arrives (Global Corporate Venturing)",
+          "body": "Article du 18 nov. sur les liens circulaires entre Anthropic et ses actionnaires fournisseurs (Amazon, Google, Nvidia) et sur ce que l'IPO dira du corporate venture dans l'IA.",
+          "url": "https://globalventuring.com/corporate/information-technology/anthropic-ipo-ai-ecosystems-biggest-test/",
+          "source": "Global Corporate Venturing"
+        },
+        {
+          "title": "Anthropic IPO set to redraw VC power rankings (Financial Times)",
+          "body": "Analyse du 18 nov. : quels fonds, parfois peu connus comme Spark Capital, vont afficher les meilleurs rendements, et ce que ça change dans le classement des VCs.",
+          "url": "https://www.ft.com/content/a3430f0d-0080-4970-8eec-2c14c8438b3d",
+          "source": "Financial Times"
+        },
+        {
+          "title": "Machine Minds : Haomiao Huang (Matter Venture Partners)",
+          "body": "Épisode du 18 nov. : la robotique serait dans son moment « du mainframe au PC », et les robots actuels ne sont pas conçus pour l'IA. Utile pour juger les levées de données pour l'IA physique.",
+          "url": "https://machineminds.buzzsprout.com/2212148/episodes/20136906-taking-the-hard-out-of-hardtech-with-haomiao-huang",
+          "source": "Machine Minds"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tech.eu : Goldman Sachs leads $280M funding round in Payhawk",
+      "url": "https://tech.eu/2026/11/18/goldman-sachs-leads-280m-funding-round-in-payhawk/"
+    },
+    {
+      "title": "GlobeNewswire : communiqué Payhawk (18 nov.)",
+      "url": "https://www.globenewswire.com/news-release/2026/11/18/3405403/0/de/payhawk-sammelt-280-mio-us-dollar-bei-einer-bewertung-von-2-mrd-us-dollar-ein-und-entwickelt-sich-zum-globalen-finance-os-f%C3%BCr-das-ki-zeitalter.html"
+    },
+    {
+      "title": "Tech.eu : Perry AI secures $2.2M",
+      "url": "https://tech.eu/2026/11/18/perry-ai-secures-22m-to-automate-legal-work-across-private-capital/"
+    },
+    {
+      "title": "Calcalist : Palo Alto Networks jumps after earnings beat and $4.5B AI acquisition",
+      "url": "https://www.calcalistech.com/ctechnews/article/8eqgzc6t6"
+    },
+    {
+      "title": "TechCrunch : Anthropic reportedly prices IPO at $83 a share",
+      "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/"
+    },
+    {
+      "title": "CNBC : Anthropic IPO raises over $81 billion",
+      "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
+    },
+    {
+      "title": "Global Corporate Venturing : Anthropic IPO, the AI ecosystem's biggest test",
+      "url": "https://globalventuring.com/corporate/information-technology/anthropic-ipo-ai-ecosystems-biggest-test/"
+    },
+    {
+      "title": "TechBuzz : Linq raises $90M from a16z",
+      "url": "https://www.techbuzz.ai/articles/linq-raises-90m-from-a16z-to-put-ai-agents-in-your-texts"
+    },
+    {
+      "title": "Maddyness : Stryx AI lève 7,7 M€",
+      "url": "https://www.maddyness.com/2026/11/19/stryx-ai/"
+    },
+    {
+      "title": "Maddyness : 6 500 nouveaux entrepreneurs tech en France",
+      "url": "https://www.maddyness.com/2026/11/18/la-france-a-vu-naitre-plus-de-6-500-nouveaux-entrepreneurs-de-la-tech-en-2026/"
+    },
+    {
+      "title": "ComplexDiscovery : Stubb à Slush",
+      "url": "https://complexdiscovery.com/stubb-tells-slush-that-finlands-ai-bet-runs-through-data-centers-quantum-and-clean-power/"
+    },
+    {
+      "title": "Market News, 19 novembre 2026 (Hervé Cuviliez)",
+      "url": "https://hervecuviliez.substack.com/p/market-news-thursday-19-november"
+    },
+    {
+      "title": "ActuIA : veille du 18 novembre 2026",
+      "url": "https://www.actuia.com/veille/2026-11-18/"
+    },
+    {
+      "title": "Decrypt : GPT-6.2 Astra",
+      "url": "https://decrypt.co/383488/openai-gpt-6-2-astra-challenges-anthropic-price-but-not-every-benchmark"
+    },
+    {
+      "title": "Google : Gemini 4 Neon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+    },
+    {
+      "title": "OpenAI : Advancing chip design with our models",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models/"
+    },
+    {
+      "title": "CNBC : Colette Kress sur les résultats Nvidia",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-colette-kress-talks-earnings-china-transcript.html"
+    }
+  ]
+}
