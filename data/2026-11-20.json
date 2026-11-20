@@ -1,0 +1,311 @@
+{
+  "date": "2026-11-20",
+  "headline": "Anthropic clôture sa première séance à 97,17 $ (+17 %, environ 1 760 Md$ de valorisation) le 19 novembre, le jour où Deutsche Telekom met 100 M€ dans Mistral et où LATO (Varsovie) et noah (Anvers) lèvent pour confier les entretiens à des agents IA.",
+  "summary": "Fenêtre calme côté levées européennes : de petits tours Seed sur l'IA appliquée (entretiens par agents, optimisation produit pour les assistants IA, industrie). Le fait marquant est le lancement par OpenAI de ChatGPT for Accounting, qui met la pression sur la vague de levées en compta IA du mois.",
+  "sections": [
+    {
+      "key": "signals",
+      "title": "Ce qui se dessine",
+      "items": [
+        {
+          "title": "L'entretien qualitatif devient un travail d'agent",
+          "body": "Le 19 novembre, LATO (Varsovie, 4,28 M€) automatise les entretiens clients et experts pour la due diligence des fonds de PE, et noah (Anvers, 800 k€) fait mener par une IA les entretiens de salariés pour trouver les cas d'usage IA. Deux jours plus tôt, Model ML levait 250 M$ (17 nov.) pour automatiser le travail des banquiers juniors : le travail d'enquête de la finance et du conseil passe à l'agent. À creuser : les études de marché, le recrutement (pré-qualification), le conseil en stratégie et les études UX ; question à poser aux fondateurs : comment se défendre face aux panels d'experts établis (GLG, AlphaSights) qui ajoutent la même brique ?"
+        },
+        {
+          "title": "Compta IA : OpenAI entre sur le terrain des startups européennes",
+          "body": "OpenAI a lancé le 18 novembre (relayé le 19) ChatGPT for Accounting, avec des plugins QuickBooks, Xero, NetSuite, BILL, FreshBooks, Rillet et Campfire : rapprochement bancaire, clôture mensuelle, préparation d'audit. Cela arrive après un mois de levées européennes sur le sujet : Kabilio (5 nov.), Sumary 25 M$ (10 nov.), Valeria sur la paie (16 nov.), Payhawk 280 M$ (18 nov.). À creuser : les acteurs défendables sont ceux ancrés dans la réglementation et les outils locaux (facture électronique en France, DATEV, Exact, Pennylane), absents de la liste des partenaires d'OpenAI ; à vérifier dans chaque dossier compta IA."
+        },
+        {
+          "title": "IA physique : la simulation et l'usine logicielle se financent",
+          "body": "Le 19 novembre, Wallenberg Investments entre au capital d'Algoryx (Suède, simulation physique et données synthétiques pour entraîner les IA de robots et d'engins) et Vetaion (Munich) lève environ 6,3 M$ pour automatiser la fabrication d'armoires électriques. Cela suit Physicl (6 nov.), Mosaico (16 nov.) et BrightAI 97 M$ (18 nov.). À creuser : les éditeurs de simulation et de jumeaux numériques pour l'industrie DACH, et la couche logiciel des sous-traitants industriels."
+        },
+        {
+          "title": "Anthropic réussit son entrée en bourse, Mistral attire les télécoms",
+          "body": "Anthropic a clôturé sa première séance à 97,17 $ le 19 novembre, plus de 17 % au-dessus du prix d'IPO de 83 $, pour environ 1 760 Md$ de valorisation. Le même jour, Deutsche Telekom investit 100 M€ dans Mistral via T.Capital, et Fortune rappelle que les Séries A américaines ont atteint 42 Md$ à fin octobre (+60 % sur un an), pour un nombre de tours stable. À creuser : l'effet de cette fenêtre de sortie sur les valorisations de l'IA appliquée européenne en Série A/B, et quels industriels européens suivent Deutsche Telekom comme investisseurs stratégiques."
+        }
+      ]
+    },
+    {
+      "key": "eu",
+      "title": "Levées Europe",
+      "intro": "Fenêtre du 19 au 20 novembre : peu de tours, surtout du Seed sur l'IA appliquée. Aucune levée annoncée le 20 au moment de la rédaction.",
+      "items": [
+        {
+          "title": "LATO",
+          "amount": "4,28 M€ (4,7 M$)",
+          "stage": "Seed",
+          "country": "Pologne (Varsovie)",
+          "investors": "Air Street Capital et Axiom Partners (co-leads), Y Combinator, Montis VC, Inception Fund, Paul Graham",
+          "body": "Agents IA qui mènent les entretiens clients et experts pour la due diligence commerciale des fonds de private equity. Lien : même jour que noah, et dans la lignée de Model ML (17 nov.). Fit : IA appliquée B2B aux services financiers, Seed avec un lead spécialiste IA ; hors zone cœur et ticket encore petit, mais une Série A pourrait entrer dans la cible.",
+          "fit": true,
+          "url": "https://tech.eu/2026/11/19/lato-secures-47m-to-automate-customer-and-expert-interviews-with-ai/",
+          "source": "Tech.eu",
+          "announced": "2026-11-19"
+        },
+        {
+          "title": "Vetaion",
+          "amount": "6,3 M$ (≈ 5,4 M€)",
+          "stage": "Pré-seed",
+          "country": "Allemagne (Munich)",
+          "investors": "UVC Partners et Visionaries Tomorrow (leads), 2100 Ventures, Viessmann Generations Group",
+          "body": "Fabrication d'armoires électriques pilotée par IA, avec une production numérisée et automatisée, pour les constructeurs de machines. Lien : signal IA physique (Algoryx le même jour). Fit : digitalisation de l'industrie en DACH avec des co-investisseurs industriels ; modèle en partie manufacturier, à vérifier la part logicielle.",
+          "fit": true,
+          "source": "Specter",
+          "announced": "2026-11-19"
+        },
+        {
+          "title": "Wilgot",
+          "amount": "3 M$ (≈ 2,6 M€)",
+          "stage": "Seed",
+          "country": "Suède (Stockholm)",
+          "investors": "Industrifonden (lead), Luminar Ventures, Foundry Ventures, Ventures Together, Inovexus, business angels (Voyado, inriver)",
+          "body": "Optimise les fiches produits des marques pour qu'elles soient recommandées par les assistants IA (référencement dans ChatGPT et équivalents). Fit : SaaS B2B IA, Seed, mais martech et Nordics, moins aligné.",
+          "url": "https://tech.eu/2026/11/19/wilgot-raises-3m-in-seed-funding-to-help-brands-get-recommended-by-ai/",
+          "source": "Tech.eu",
+          "announced": "2026-11-19"
+        },
+        {
+          "title": "noah",
+          "amount": "800 k€",
+          "stage": "Seed",
+          "country": "Belgique (Anvers)",
+          "investors": "Non communiqué",
+          "body": "Entretiens de salariés menés par une IA pour faire émerger et prioriser les cas d'usage IA en entreprise. Lien : même mécanique que LATO, le même jour. Fit : Benelux et IA appliquée, mais tour très petit ; à suivre pour un prochain tour.",
+          "url": "https://tech.eu/2026/11/19/noah-raises-eur800k-to-help-companies-unlock-their-ai-potential/",
+          "source": "Tech.eu",
+          "announced": "2026-11-19"
+        },
+        {
+          "title": "Algoryx",
+          "amount": "Non communiqué (participation minoritaire)",
+          "stage": "Minoritaire",
+          "country": "Suède (Umeå)",
+          "investors": "Wallenberg Investments",
+          "body": "Simulation physique et données synthétiques pour entraîner les IA qui pilotent robots et engins lourds ; spin-off de l'université d'Umeå fondée en 2007, fondateurs et salariés restent majoritaires. Fit : logiciel industriel cœur de sujet, mais opération de type croissance hors Seed à Série B classique.",
+          "url": "https://tech.eu/2026/11/19/wallenberg-investments-takes-minority-stake-in-swedish-deeptech-algoryx/",
+          "source": "Tech.eu",
+          "announced": "2026-11-19"
+        },
+        {
+          "title": "IntelliProve",
+          "amount": "2,7 M€",
+          "stage": "Seed",
+          "country": "Belgique (Gand)",
+          "investors": "Miles Ahead (lead), Wit-Gele Kruis, imec.istart, business angels",
+          "body": "Mesure des signes vitaux par caméra (rPPG), du smartphone vers les robots humanoïdes et d'assistance. Fit : logiciel B2B au Benelux, mais santé, hors software B2B européen classique.",
+          "url": "https://tech.eu/2026/11/19/intelliprove-raises-eur27m-to-bring-health-monitoring-from-smartphones-to-humanoid-robots/",
+          "source": "Tech.eu",
+          "announced": "2026-11-19"
+        },
+        {
+          "title": "Mistral AI",
+          "amount": "100 M€",
+          "stage": "Extension de Série D",
+          "country": "France (Paris)",
+          "investors": "Deutsche Telekom (T.Capital)",
+          "body": "Deutsche Telekom rejoint la Série D de 3 Md€ du champion français des modèles. Lien : signal Anthropic et appétit des stratégiques pour l'IA souveraine. Fit : hors stade et hors ticket, à lire comme signal d'écosystème.",
+          "url": "https://www.boursorama.com/bourse/actualites/ia-deutsche-telekom-investit-100-millions-d-euros-dans-mistral-9bb40ab2255e5bf908fff916eca0de4d",
+          "source": "Boursorama",
+          "announced": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "key": "us",
+      "title": "Grosses levées US",
+      "intro": "Fenêtre pauvre en méga-tours US : la plupart des gros tours repris le 19 (Linq, BrightAI, Pulley, Boltz) avaient été annoncés le 18. Ceux du 19 vont à la sécurité des agents, aux agents grand public et à l'approvisionnement B2B. La tendance de fond vient de Fortune : les Séries A américaines grossissent (42 Md$ à fin octobre, +60 %) sans que leur nombre augmente, un mouvement qui arrive en Europe avec des Séries A plus chères et plus sélectives.",
+      "items": [
+        {
+          "title": "Everful",
+          "amount": "48,5 M$",
+          "stage": "Série A",
+          "country": "États-Unis (Elk Grove, Californie)",
+          "investors": "January Capital et Vertex Ventures Southeast Asia & India (leads)",
+          "body": "Approvisionnement de gros et fulfillment pour détaillants, piloté par IA. Lien : l'IA applicative gagne les achats et la chaîne d'approvisionnement.",
+          "source": "Specter",
+          "announced": "2026-11-19"
+        },
+        {
+          "title": "Voyage Labs",
+          "amount": "12 M$",
+          "stage": "Seed",
+          "country": "États-Unis (Menlo Park)",
+          "investors": "Kleiner Perkins (lead), SignalFire, SV Angel",
+          "body": "Agent IA personnel qui planifie et réserve voyages et sorties. Lien : après le rachat d'Odessia par OpenAI (12 nov.), les agents de voyage restent une catégorie chaude.",
+          "url": "https://fortune.com/2026/11/19/series-a-funding-skyrocketed-2026-founders-arent-getting-more-chances/",
+          "source": "Fortune Term Sheet",
+          "announced": "2026-11-19"
+        },
+        {
+          "title": "Vero Security",
+          "amount": "11 M$",
+          "stage": "Seed",
+          "country": "États-Unis / Israël (New York, Tel Aviv)",
+          "investors": "TLV Partners (lead), GTM Capital, Maple Capital",
+          "body": "Application des politiques de sécurité de l'entreprise aux outils et agents IA. Lien : la sécurité des agents continue de se financer après Clutch, Anon et Applied Compute.",
+          "url": "https://fortune.com/2026/11/19/series-a-funding-skyrocketed-2026-founders-arent-getting-more-chances/",
+          "source": "Fortune Term Sheet",
+          "announced": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "key": "vc",
+      "title": "VC & écosystème",
+      "items": [
+        {
+          "title": "Anthropic : +17 % pour sa première séance",
+          "body": "Introduite à 83 $, l'action ANT a clôturé à 97,17 $ le 19 novembre, pour une valorisation d'environ 1 760 Md$ selon CNN, après une levée d'environ 81 Md$, la plus grosse IPO américaine. Pour les VCs, c'est la preuve qu'une fenêtre de sortie existe pour l'IA à très grande échelle.",
+          "url": "https://www.bnnbloomberg.ca/business/company-news/2026/11/19/anthropic-set-to-begin-trading-as-a-us15-trillion-company-in-the-biggest-ipo-on-record/",
+          "source": "BNN Bloomberg"
+        },
+        {
+          "title": "Deutsche Telekom investit 100 M€ dans Mistral",
+          "body": "Le 19 novembre, l'opérateur allemand complète la Série D de 3 Md€ de Mistral via son fonds T.Capital. Un stratégique allemand dans le champion français : l'axe franco-allemand de l'IA se concrétise au capital.",
+          "url": "https://www.boursorama.com/bourse/actualites/ia-deutsche-telekom-investit-100-millions-d-euros-dans-mistral-9bb40ab2255e5bf908fff916eca0de4d",
+          "source": "Boursorama"
+        },
+        {
+          "title": "Séries A américaines : +60 % en montant, pas en nombre",
+          "body": "Les startups US ont levé 42 Md$ en Série A jusqu'à fin octobre 2026 (Crunchbase), mais le nombre de tours d'au moins 1 M$ reste autour de 1 200 par an. Les investisseurs demandent plus d'ARR avant la Série A, environ 1 M$ dès un bon seed selon un VC cité.",
+          "url": "https://fortune.com/2026/11/19/series-a-funding-skyrocketed-2026-founders-arent-getting-more-chances/",
+          "source": "Fortune"
+        },
+        {
+          "title": "EU Inc : les fondateurs demandent de retirer le texte",
+          "body": "Le 19 novembre, le collectif EU-INC demande à Ursula von der Leyen de retirer et de redéposer la proposition de « 28e régime », pendant qu'à Slush plus de 35 fondateurs (100 Md€ de valeur cumulée) réclament des réformes politiques.",
+          "url": "https://tech.eu/2026/11/19/eu-inc-calls-on-von-der-leyen-to-withdraw-and-re-table-eu-inc-proposal/",
+          "source": "Tech.eu"
+        },
+        {
+          "title": "Software : les 10 éditeurs européens les plus financés au S1 2026",
+          "body": "Tech.eu publie le classement des sociétés software européennes ayant levé le plus au premier semestre, utile pour situer les gros acteurs et les catégories qui captent le capital.",
+          "url": "https://tech.eu/2026/11/19/software-europes-10-most-funded-companies-in-h1-2026/",
+          "source": "Tech.eu"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "title": "IA & software",
+      "items": [
+        {
+          "title": "OpenAI lance ChatGPT for Accounting",
+          "body": "Lancé le 18 novembre pour les offres Work et Business : traitement des factures, rapprochement bancaire, clôture mensuelle, préparation d'audit, avec validation humaine des écritures. Plugins QuickBooks, Xero, NetSuite, BILL, FreshBooks, Rillet et Campfire. Pourquoi ça compte : le risque plateforme devient concret pour toutes les startups de compta IA financées ce mois-ci.",
+          "url": "https://dataconomy.com/2026/11/19/openai-launches-chatgpt-for-accounting-with-finance",
+          "source": "Dataconomy"
+        },
+        {
+          "title": "Apple préparerait son propre agent qui pilote le Mac",
+          "body": "Selon Bloomberg (19 nov.), une offre d'emploi d'Apple décrit une IA agentique « capable d'utiliser un ordinateur » ; macOS 27.3 avertira contre l'accès complet donné aux agents tiers. Pourquoi ça compte : les agents de bureau deviennent une fonction de l'OS, ce qui réduit l'espace des startups horizontales et pousse vers le vertical.",
+          "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Google lance Gemini 4 Neon",
+          "body": "Nouveau modèle à 3 $ par million de tokens en entrée et 15 $ en sortie, avec un contexte d'un million de tokens (19 nov.). Pourquoi ça compte : la baisse et la segmentation des prix des modèles améliorent les marges brutes des applications IA B2B.",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-19-2026/",
+          "source": "The Neuron"
+        },
+        {
+          "title": "Nvidia cesse ses livraisons de puces avancées vers la Chine",
+          "body": "La directrice générale par intérim Colette Kress indique qu'aucune autre livraison Hopper sous licence n'est prévue, malgré l'accord américain ; la Chine pesait 2,4 Md$ sur le trimestre. Pourquoi ça compte : la géopolitique du calcul reste un facteur de prix et de disponibilité pour toute la chaîne IA.",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-19-2026/",
+          "source": "The Neuron"
+        },
+        {
+          "title": "OpenAI étend son programme cybersécurité Daybreak à l'OTAN et aux gouvernements européens",
+          "body": "Annonce du 19 novembre. Pourquoi ça compte : les labs se positionnent directement sur la cyber souveraine européenne, un marché où les éditeurs européens comptaient sur leur avantage local.",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-19-2026/",
+          "source": "The Neuron"
+        }
+      ]
+    },
+    {
+      "key": "read",
+      "title": "À lire / écouter",
+      "items": [
+        {
+          "title": "20VC : Arthur Mensch (Mistral), puis Rory O'Driscoll et Jason Lemkin",
+          "body": "Newsletter du 15 novembre : la capacité plus que l'énergie comme contrainte du calcul, l'inférence vendue comme une commodité, la possible cotation de Mistral en Europe, et le constat que le SaaS non IA souffre.",
+          "url": "https://20vc.substack.com/p/20vc-newsletter-15th-november-2026",
+          "source": "20VC"
+        },
+        {
+          "title": "Fortune Term Sheet : les Séries A explosent, pas les chances des fondateurs",
+          "body": "Lecture utile pour comprendre pourquoi les Séries A grossissent sans se multiplier, et ce que cela implique pour les seeds en Europe.",
+          "url": "https://fortune.com/2026/11/19/series-a-funding-skyrocketed-2026-founders-arent-getting-more-chances/",
+          "source": "Fortune"
+        },
+        {
+          "title": "Tech.eu : les 10 éditeurs software européens les plus financés au S1 2026",
+          "body": "Panorama rapide des gagnants du capital dans le software européen.",
+          "url": "https://tech.eu/2026/11/19/software-europes-10-most-funded-companies-in-h1-2026/",
+          "source": "Tech.eu"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tech.eu : LATO lève 4,7 M$",
+      "url": "https://tech.eu/2026/11/19/lato-secures-47m-to-automate-customer-and-expert-interviews-with-ai/"
+    },
+    {
+      "title": "Tech.eu : Wilgot lève 3 M$",
+      "url": "https://tech.eu/2026/11/19/wilgot-raises-3m-in-seed-funding-to-help-brands-get-recommended-by-ai/"
+    },
+    {
+      "title": "Tech.eu : noah lève 800 k€",
+      "url": "https://tech.eu/2026/11/19/noah-raises-eur800k-to-help-companies-unlock-their-ai-potential/"
+    },
+    {
+      "title": "Tech.eu : Wallenberg entre au capital d'Algoryx",
+      "url": "https://tech.eu/2026/11/19/wallenberg-investments-takes-minority-stake-in-swedish-deeptech-algoryx/"
+    },
+    {
+      "title": "Tech.eu : IntelliProve lève 2,7 M€",
+      "url": "https://tech.eu/2026/11/19/intelliprove-raises-eur27m-to-bring-health-monitoring-from-smartphones-to-humanoid-robots/"
+    },
+    {
+      "title": "Boursorama : Deutsche Telekom investit 100 M€ dans Mistral",
+      "url": "https://www.boursorama.com/bourse/actualites/ia-deutsche-telekom-investit-100-millions-d-euros-dans-mistral-9bb40ab2255e5bf908fff916eca0de4d"
+    },
+    {
+      "title": "BNN Bloomberg : Anthropic clôture à 97,17 $",
+      "url": "https://www.bnnbloomberg.ca/business/company-news/2026/11/19/anthropic-set-to-begin-trading-as-a-us15-trillion-company-in-the-biggest-ipo-on-record/"
+    },
+    {
+      "title": "CNN : Anthropic valorisée 1 760 Md$",
+      "url": "https://www.cnn.com/2026/11/19/business/live-news/anthropic-ipo"
+    },
+    {
+      "title": "Fortune Term Sheet du 19 novembre",
+      "url": "https://fortune.com/2026/11/19/series-a-funding-skyrocketed-2026-founders-arent-getting-more-chances/"
+    },
+    {
+      "title": "Dataconomy : ChatGPT for Accounting",
+      "url": "https://dataconomy.com/2026/11/19/openai-launches-chatgpt-for-accounting-with-finance"
+    },
+    {
+      "title": "TechCrunch : Apple et son agent pour Mac",
+      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac"
+    },
+    {
+      "title": "The Neuron : l'IA du 19 novembre",
+      "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-19-2026/"
+    },
+    {
+      "title": "Tech.eu : EU-INC demande le retrait du texte",
+      "url": "https://tech.eu/2026/11/19/eu-inc-calls-on-von-der-leyen-to-withdraw-and-re-table-eu-inc-proposal/"
+    },
+    {
+      "title": "Tech.eu : les 10 éditeurs software les plus financés au S1 2026",
+      "url": "https://tech.eu/2026/11/19/software-europes-10-most-funded-companies-in-h1-2026/"
+    },
+    {
+      "title": "20VC Newsletter du 15 novembre",
+      "url": "https://20vc.substack.com/p/20vc-newsletter-15th-november-2026"
+    }
+  ]
+}
